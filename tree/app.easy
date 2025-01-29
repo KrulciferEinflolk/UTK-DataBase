@@ -381,6 +381,51 @@
                                     "_type": "String",
                                     "value_": "Home"
                                 }
+                            },
+                            {
+                                "_id_": 848,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 849,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 850,
+                                        "_type": "String",
+                                        "value_": "@drawable\/item2_icon"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 851,
+                                    "_type": "String",
+                                    "value_": "Discover"
+                                },
+                                "action": {
+                                    "_id_": 852,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 853,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 854,
+                                            "_type": "String",
+                                            "value_": "@id\/main"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 855,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 869,
+                                            "_type": "String",
+                                            "value_": "Discover"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 857,
+                                    "_type": "String",
+                                    "value_": "Discover"
+                                }
                             }
                         ],
                         "elementType_": "Menu.Element"
