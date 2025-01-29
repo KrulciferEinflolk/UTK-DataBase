@@ -295,6 +295,49 @@
                 }
             },
             {
+                "_id_": 602,
+                "_type": "MenuResource",
+                "name": {
+                    "_id_": 607,
+                    "_type": "String",
+                    "value_": "menu"
+                },
+                "menu": {
+                    "_id_": 604,
+                    "_type": "Menu",
+                    "items": {
+                        "_id_": 606,
+                        "_type": "List",
+                        "list_": [
+                            {
+                                "_id_": 609,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 615,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 617,
+                                        "_type": "String",
+                                        "value_": "@drawable\/app_icon"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 611,
+                                    "_type": "String",
+                                    "value_": "Home"
+                                },
+                                "id": {
+                                    "_id_": 613,
+                                    "_type": "String",
+                                    "value_": "Home"
+                                }
+                            }
+                        ],
+                        "elementType_": "Menu.Element"
+                    }
+                }
+            },
+            {
                 "_id_": 586,
                 "_type": "Fragment",
                 "layout": {
@@ -321,6 +364,11 @@
                                     "_id_": 597,
                                     "_type": "String",
                                     "value_": "Hello"
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 600,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
