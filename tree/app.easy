@@ -92,6 +92,43 @@
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/main"
                                                                             }
+                                                                        },
+                                                                        "onResult": {
+                                                                            "_id_": 734,
+                                                                            "_type": "Sequence",
+                                                                            "list_": [
+                                                                                {
+                                                                                    "_id_": 735,
+                                                                                    "_type": "ScopeVariable",
+                                                                                    "name": {
+                                                                                        "_id_": 736,
+                                                                                        "_type": "String",
+                                                                                        "value_": "result"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "_id_": 738,
+                                                                                    "_type": "Fragment.Set",
+                                                                                    "container": {
+                                                                                        "_id_": 740,
+                                                                                        "_type": "View.Reference",
+                                                                                        "ref": {
+                                                                                            "_id_": 742,
+                                                                                            "_type": "String",
+                                                                                            "value_": "@id\/main"
+                                                                                        }
+                                                                                    },
+                                                                                    "fragment": {
+                                                                                        "_id_": 744,
+                                                                                        "_type": "Fragment.Reference",
+                                                                                        "name": {
+                                                                                            "_id_": 747,
+                                                                                            "_type": "String",
+                                                                                            "value_": "Home"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
                                                                         }
                                                                     }
                                                                 ]
@@ -400,6 +437,15 @@
                     "_id_": 588,
                     "_type": "String",
                     "value_": "Home"
+                }
+            },
+            {
+                "_id_": 730,
+                "_type": "Fragment",
+                "name": {
+                    "_id_": 732,
+                    "_type": "String",
+                    "value_": "Discover"
                 }
             }
         ]
