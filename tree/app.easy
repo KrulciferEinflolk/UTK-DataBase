@@ -308,6 +308,25 @@
                                         "value_": "Home"
                                     }
                                 }
+                            },
+                            {
+                                "_id_": 879,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 882,
+                                    "_type": "Sequence",
+                                    "list_": []
+                                },
+                                "id": {
+                                    "_id_": 884,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 880,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                }
                             }
                         ]
                     }
