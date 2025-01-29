@@ -98,15 +98,6 @@
                                                                             "_type": "Sequence",
                                                                             "list_": [
                                                                                 {
-                                                                                    "_id_": 735,
-                                                                                    "_type": "ScopeVariable",
-                                                                                    "name": {
-                                                                                        "_id_": 736,
-                                                                                        "_type": "String",
-                                                                                        "value_": "result"
-                                                                                    }
-                                                                                },
-                                                                                {
                                                                                     "_id_": 738,
                                                                                     "_type": "Fragment.Set",
                                                                                     "container": {
@@ -127,6 +118,22 @@
                                                                                             "value_": "Home"
                                                                                         }
                                                                                     }
+                                                                                },
+                                                                                {
+                                                                                    "_id_": 749,
+                                                                                    "_type": "ActionList",
+                                                                                    "list_": [
+                                                                                        {
+                                                                                            "_id_": 751,
+                                                                                            "_type": "Fragment.Reference",
+                                                                                            "name": {
+                                                                                                "_id_": 754,
+                                                                                                "_type": "String",
+                                                                                                "value_": "Home"
+                                                                                            }
+                                                                                        }
+                                                                                    ],
+                                                                                    "elementType_": "Action"
                                                                                 }
                                                                             ]
                                                                         }
