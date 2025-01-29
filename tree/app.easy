@@ -318,13 +318,35 @@
                                     "ref": {
                                         "_id_": 617,
                                         "_type": "String",
-                                        "value_": "@drawable\/app_icon"
+                                        "value_": "@drawable\/item1_icon"
                                     }
                                 },
                                 "title": {
                                     "_id_": 611,
                                     "_type": "String",
                                     "value_": "Home"
+                                },
+                                "action": {
+                                    "_id_": 719,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 721,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 723,
+                                            "_type": "String",
+                                            "value_": "@id\/main"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 725,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 728,
+                                            "_type": "String",
+                                            "value_": "Home"
+                                        }
+                                    }
                                 },
                                 "id": {
                                     "_id_": 613,
