@@ -338,20 +338,20 @@
                                 }
                             },
                             {
-                                "_id_": 879,
+                                "_id_": 905,
                                 "_type": "Button",
                                 "onClick": {
-                                    "_id_": 882,
+                                    "_id_": 908,
                                     "_type": "Sequence",
                                     "list_": []
                                 },
                                 "id": {
-                                    "_id_": 884,
+                                    "_id_": 910,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "android:text": {
-                                    "_id_": 880,
+                                    "_id_": 906,
                                     "_type": "String",
                                     "value_": "Hello"
                                 }
