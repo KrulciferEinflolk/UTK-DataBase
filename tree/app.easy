@@ -293,6 +293,44 @@
                     "_id_": 13,
                     "_type": "Activity.Launcher"
                 }
+            },
+            {
+                "_id_": 586,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 590,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 594,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 592,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 596,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 599,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 597,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 588,
+                    "_type": "String",
+                    "value_": "Home"
+                }
             }
         ]
     },
