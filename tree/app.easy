@@ -20,15 +20,6 @@
                 "contentView": {
                     "_id_": 6,
                     "_type": "WebView",
-                    "includeApi": {
-                        "_id_": 7,
-                        "_type": "WebView.Api",
-                        "webView": {
-                            "_id_": 8,
-                            "_type": "Boolean",
-                            "value_": true
-                        }
-                    },
                     "id": {
                         "_id_": 9,
                         "_type": "String",
