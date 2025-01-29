@@ -92,27 +92,27 @@
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/main"
                                                                             }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_id_": 779,
+                                                                        "_type": "Fragment.Set",
+                                                                        "container": {
+                                                                            "_id_": 780,
+                                                                            "_type": "View.Reference",
+                                                                            "ref": {
+                                                                                "_id_": 781,
+                                                                                "_type": "String",
+                                                                                "value_": "@id\/main"
+                                                                            }
                                                                         },
-                                                                        "replacements": {
-                                                                            "_id_": 768,
-                                                                            "_type": "Fragment.Set",
-                                                                            "container": {
-                                                                                "_id_": 770,
-                                                                                "_type": "View.Reference",
-                                                                                "ref": {
-                                                                                    "_id_": 772,
-                                                                                    "_type": "String",
-                                                                                    "value_": "@id\/main"
-                                                                                }
-                                                                            },
-                                                                            "fragment": {
-                                                                                "_id_": 774,
-                                                                                "_type": "Fragment.Reference",
-                                                                                "name": {
-                                                                                    "_id_": 778,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Home"
-                                                                                }
+                                                                        "fragment": {
+                                                                            "_id_": 782,
+                                                                            "_type": "Fragment.Reference",
+                                                                            "name": {
+                                                                                "_id_": 783,
+                                                                                "_type": "String",
+                                                                                "value_": "Home"
                                                                             }
                                                                         }
                                                                     }
