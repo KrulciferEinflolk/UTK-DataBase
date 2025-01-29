@@ -282,6 +282,34 @@
                             "_type": "String",
                             "value_": "main.html"
                         }
+                    },
+                    "onUpdate": {
+                        "_id_": 826,
+                        "_type": "Sequence",
+                        "list_": [
+                            {
+                                "_id_": 838,
+                                "_type": "Fragment.Set",
+                                "container": {
+                                    "_id_": 840,
+                                    "_type": "View.Reference",
+                                    "ref": {
+                                        "_id_": 842,
+                                        "_type": "String",
+                                        "value_": "@id\/main"
+                                    }
+                                },
+                                "fragment": {
+                                    "_id_": 844,
+                                    "_type": "Fragment.Reference",
+                                    "name": {
+                                        "_id_": 847,
+                                        "_type": "String",
+                                        "value_": "Home"
+                                    }
+                                }
+                            }
+                        ]
                     }
                 },
                 "name": {
