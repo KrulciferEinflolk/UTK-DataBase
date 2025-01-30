@@ -30,6 +30,11 @@
                         "_type": "String",
                         "value_": "main"
                     },
+                    "clearOnDetach": {
+                        "_id_": 2528,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
                     "interfaces": {
                         "_id_": 110,
                         "_type": "List",
@@ -146,25 +151,32 @@
                                                             }
                                                         },
                                                         {
-                                                            "_id_": 2487,
-                                                            "_type": "Fragment.Set",
-                                                            "container": {
-                                                                "_id_": 2489,
-                                                                "_type": "View.Reference",
-                                                                "ref": {
-                                                                    "_id_": 2491,
+                                                            "_id_": 2507,
+                                                            "_type": "ExecuteLater",
+                                                            "single": {
+                                                                "_id_": 2514,
+                                                                "_type": "Boolean",
+                                                                "value_": true
+                                                            },
+                                                            "delay": {
+                                                                "_id_": 2508,
+                                                                "_type": "Expression",
+                                                                "text": {
+                                                                    "_id_": 2509,
                                                                     "_type": "String",
-                                                                    "value_": "@id\/main"
+                                                                    "value_": "0"
                                                                 }
                                                             },
-                                                            "fragment": {
-                                                                "_id_": 2493,
-                                                                "_type": "Fragment.Reference",
-                                                                "name": {
-                                                                    "_id_": 2496,
-                                                                    "_type": "String",
-                                                                    "value_": "Page1"
-                                                                }
+                                                            "action": {
+                                                                "_id_": 2511,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 2524,
+                                                                        "_type": "WebView.BackButtonLogic",
+                                                                        "value_": "fireEvent"
+                                                                    }
+                                                                ]
                                                             }
                                                         }
                                                     ]
@@ -306,6 +318,11 @@
                     "_id_": 12,
                     "_type": "String",
                     "value_": "Main"
+                },
+                "pauseWebViews": {
+                    "_id_": 2536,
+                    "_type": "Boolean",
+                    "value_": true
                 },
                 "launcher": {
                     "_id_": 13,
