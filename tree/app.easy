@@ -13,6 +13,10 @@
                     "_type": "Activity.Features",
                     "list_": []
                 },
+                "theme": {
+                    "_id_": 5,
+                    "_type": "Theme.DayNight"
+                },
                 "contentView": {
                     "_id_": 6,
                     "_type": "WebView",
@@ -1077,34 +1081,34 @@
             ]
         }
     },
-    "theme": {
-        "_id_": 2234,
-        "_type": "Theme.Material.DayNight",
-        "statusBarMatchingActivity": {
-            "_id_": 2235,
-            "_type": "Boolean",
-            "value_": true
-        },
-        "colorPrimary": {
-            "_id_": 2236,
-            "_type": "ColorReference",
-            "ref": {
-                "_id_": 2237,
-                "_type": "String",
-                "value_": "@color\/primary"
-            }
-        }
-    },
     "packaging": {
         "_id_": 17,
         "_type": "App.Packaging",
         "icon": {
-            "_id_": 1745,
-            "_type": "DrawableReference",
-            "ref": {
-                "_id_": 1746,
-                "_type": "String",
-                "value_": "@drawable\/app_icon1"
+            "_id_": 18,
+            "_type": "AdaptiveIcon",
+            "background": {
+                "_id_": 19,
+                "_type": "Color",
+                "color_": -1
+            },
+            "foreground": {
+                "_id_": 20,
+                "_type": "DrawableReference",
+                "ref": {
+                    "_id_": 21,
+                    "_type": "String",
+                    "value_": "@drawable\/app_icon"
+                }
+            },
+            "legacyIcon": {
+                "_id_": 22,
+                "_type": "MipmapReference",
+                "ref": {
+                    "_id_": 23,
+                    "_type": "String",
+                    "value_": "@mipmap\/app_icon"
+                }
             }
         },
         "targetSdk": {
@@ -1113,9 +1117,9 @@
             "value_": 34
         },
         "label": {
-            "_id_": 1988,
+            "_id_": 25,
             "_type": "String",
-            "value_": "UTK DataBase"
+            "value_": "Google Sign In"
         },
         "versionName": {
             "_id_": 26,
@@ -1137,9 +1141,9 @@
             "_type": "App.Permissions"
         },
         "packageName": {
-            "_id_": 1989,
+            "_id_": 30,
             "_type": "String",
-            "value_": "utk.database"
+            "value_": "com.aaappps.google.signin"
         }
     },
     "_abVer": 234
