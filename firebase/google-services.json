@@ -4,14 +4,14 @@
 
     "project_number": "28414486642",
     "project_id": "sign-in-3692d",
-    "storage_bucket": "sign-in-3692d.appspot.com"
+    "storage_bucket": "utk.database"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:28414486642:android:c9f1632a2f626596257aeb",
         "android_client_info": {
-          "package_name": "com.aaappps.google.signin"
+          "package_name": "utk.database"
         }
       },
       "oauth_client": [
@@ -19,7 +19,7 @@
           "client_id": "28414486642-s299adrp9s9dbguilhs1cs4k28i5fk62.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.aaappps.google.signin",
+            "package_name": "utk.database",
             "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
           }
         },
