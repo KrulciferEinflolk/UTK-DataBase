@@ -25,6 +25,11 @@
                             "value_": true
                         }
                     },
+                    "backButton": {
+                        "_id_": 2776,
+                        "_type": "WebView.BackButtonLogic",
+                        "value_": "fireEvent"
+                    },
                     "id": {
                         "_id_": 9,
                         "_type": "String",
@@ -285,9 +290,81 @@
                     "_type": "String",
                     "value_": "Main"
                 },
+                "pauseWebViews": {
+                    "_id_": 2775,
+                    "_type": "Boolean",
+                    "value_": true
+                },
                 "launcher": {
                     "_id_": 13,
                     "_type": "Activity.Launcher"
+                }
+            },
+            {
+                "_id_": 2753,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 2755,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "contentView": {
+                    "_id_": 2757,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 2761,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 2759,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 2764,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 2767,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 2769,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                },
+                                "android:textSize": {
+                                    "_id_": 2771,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 2773,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 2772,
+                                        "_type": "Float",
+                                        "value_": 50
+                                    }
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 2768,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                },
+                                "android:textColor": {
+                                    "_id_": 2770,
+                                    "_type": "Color",
+                                    "color_": -65536
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 2762,
+                    "_type": "String",
+                    "value_": "Auth"
                 }
             },
             {
