@@ -30,11 +30,6 @@
                         "_type": "String",
                         "value_": "main"
                     },
-                    "clearOnDetach": {
-                        "_id_": 2528,
-                        "_type": "Boolean",
-                        "value_": true
-                    },
                     "interfaces": {
                         "_id_": 110,
                         "_type": "List",
