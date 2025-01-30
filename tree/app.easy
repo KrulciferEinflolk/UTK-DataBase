@@ -25,11 +25,6 @@
                             "value_": true
                         }
                     },
-                    "backButton": {
-                        "_id_": 2776,
-                        "_type": "WebView.BackButtonLogic",
-                        "value_": "fireEvent"
-                    },
                     "id": {
                         "_id_": 9,
                         "_type": "String",
@@ -268,8 +263,45 @@
                                                     "_type": "WebView.DataType",
                                                     "value_": "String"
                                                 }
+                                            },
+                                            {
+                                                "_id_": 2786,
+                                                "_type": "WebView.InterfaceMethod",
+                                                "name": {
+                                                    "_id_": 2788,
+                                                    "_type": "String",
+                                                    "value_": "Home"
+                                                },
+                                                "body": {
+                                                    "_id_": 2790,
+                                                    "_type": "Sequence",
+                                                    "list_": []
+                                                },
+                                                "parameters": {
+                                                    "_id_": 2792,
+                                                    "_type": "List",
+                                                    "list_": []
+                                                }
                                             }
                                         ]
+                                    }
+                                }
+                            },
+                            {
+                                "_id_": 2778,
+                                "_type": "WebView.Interface",
+                                "name": {
+                                    "_id_": 2780,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "object": {
+                                    "_id_": 2782,
+                                    "_type": "WebView.InterfaceObject",
+                                    "methods": {
+                                        "_id_": 2784,
+                                        "_type": "List",
+                                        "list_": []
                                     }
                                 }
                             }
