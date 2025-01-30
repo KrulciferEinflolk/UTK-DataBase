@@ -290,11 +290,6 @@
                     "_type": "String",
                     "value_": "Main"
                 },
-                "pauseWebViews": {
-                    "_id_": 2536,
-                    "_type": "Boolean",
-                    "value_": true
-                },
                 "launcher": {
                     "_id_": 13,
                     "_type": "Activity.Launcher"
