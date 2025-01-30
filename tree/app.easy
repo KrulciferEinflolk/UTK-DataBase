@@ -144,6 +144,28 @@
                                                                     }
                                                                 ]
                                                             }
+                                                        },
+                                                        {
+                                                            "_id_": 2487,
+                                                            "_type": "Fragment.Set",
+                                                            "container": {
+                                                                "_id_": 2489,
+                                                                "_type": "View.Reference",
+                                                                "ref": {
+                                                                    "_id_": 2491,
+                                                                    "_type": "String",
+                                                                    "value_": "@id\/main"
+                                                                }
+                                                            },
+                                                            "fragment": {
+                                                                "_id_": 2493,
+                                                                "_type": "Fragment.Reference",
+                                                                "name": {
+                                                                    "_id_": 2496,
+                                                                    "_type": "String",
+                                                                    "value_": "Page1"
+                                                                }
+                                                            }
                                                         }
                                                     ]
                                                 },
@@ -926,7 +948,27 @@
                     "views": {
                         "_id_": 1439,
                         "_type": "ViewList",
-                        "list_": []
+                        "list_": [
+                            {
+                                "_id_": 2498,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 2501,
+                                    "_type": "Sequence",
+                                    "list_": []
+                                },
+                                "id": {
+                                    "_id_": 2503,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 2499,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                }
+                            }
+                        ]
                     }
                 },
                 "name": {
