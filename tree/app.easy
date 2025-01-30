@@ -89,28 +89,6 @@
                                                                                 "value_": "@id\/main"
                                                                             }
                                                                         }
-                                                                    },
-                                                                    {
-                                                                        "_id_": 2239,
-                                                                        "_type": "Fragment.Set",
-                                                                        "container": {
-                                                                            "_id_": 2241,
-                                                                            "_type": "View.Reference",
-                                                                            "ref": {
-                                                                                "_id_": 2243,
-                                                                                "_type": "String",
-                                                                                "value_": "@id\/main"
-                                                                            }
-                                                                        },
-                                                                        "fragment": {
-                                                                            "_id_": 2245,
-                                                                            "_type": "Fragment.Reference",
-                                                                            "name": {
-                                                                                "_id_": 2248,
-                                                                                "_type": "String",
-                                                                                "value_": "Page1"
-                                                                            }
-                                                                        }
                                                                     }
                                                                 ]
                                                             },
