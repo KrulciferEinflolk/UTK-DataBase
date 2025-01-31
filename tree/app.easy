@@ -729,70 +729,55 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 4428,
-                                "_type": "FrameLayout",
+                                "_id_": 4475,
+                                "_type": "ListView",
                                 "id": {
-                                    "_id_": 4432,
+                                    "_id_": 4476,
                                     "_type": "String",
-                                    "value_": "UserInfo"
+                                    "value_": ""
                                 },
                                 "views": {
-                                    "_id_": 4430,
+                                    "_id_": 4477,
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 4446,
-                                            "_type": "ListView",
-                                            "id": {
-                                                "_id_": 4450,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "views": {
-                                                "_id_": 4448,
-                                                "_type": "ViewList",
+                                            "_id_": 4478,
+                                            "_type": "TextView",
+                                            "onInit": {
+                                                "_id_": 4479,
+                                                "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 4452,
-                                                        "_type": "TextView",
-                                                        "onInit": {
-                                                            "_id_": 4459,
-                                                            "_type": "Sequence",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 4460,
-                                                                    "_type": "ScopeVariable",
-                                                                    "name": {
-                                                                        "_id_": 4461,
-                                                                        "_type": "String",
-                                                                        "value_": "view"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "_id_": 4468,
-                                                                    "_type": "Firebase.Database.GetKey",
-                                                                    "ref": {
-                                                                        "_id_": 4474,
-                                                                        "_type": "Firebase.Auth.UserDisplayName"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "id": {
-                                                            "_id_": 4455,
+                                                        "_id_": 4480,
+                                                        "_type": "ScopeVariable",
+                                                        "name": {
+                                                            "_id_": 4481,
                                                             "_type": "String",
-                                                            "value_": ""
+                                                            "value_": "view"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 4482,
+                                                        "_type": "Firebase.Database.GetKey",
+                                                        "ref": {
+                                                            "_id_": 4483,
+                                                            "_type": "Firebase.Auth.UserDisplayName"
                                                         }
                                                     }
                                                 ]
                                             },
-                                            "android:cacheColorHint": {
-                                                "_id_": 4457,
-                                                "_type": "Color",
-                                                "color_": -1440938181
+                                            "id": {
+                                                "_id_": 4484,
+                                                "_type": "String",
+                                                "value_": ""
                                             }
                                         }
                                     ]
+                                },
+                                "android:cacheColorHint": {
+                                    "_id_": 4485,
+                                    "_type": "Color",
+                                    "color_": -1440938181
                                 }
                             },
                             {
