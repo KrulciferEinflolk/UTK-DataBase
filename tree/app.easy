@@ -729,22 +729,99 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 4335,
-                                "_type": "CheckBox",
+                                "_id_": 4428,
+                                "_type": "FrameLayout",
+                                "id": {
+                                    "_id_": 4432,
+                                    "_type": "String",
+                                    "value_": "UserInfo"
+                                },
+                                "views": {
+                                    "_id_": 4430,
+                                    "_type": "ViewList",
+                                    "list_": [
+                                        {
+                                            "_id_": 4446,
+                                            "_type": "ListView",
+                                            "id": {
+                                                "_id_": 4450,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "views": {
+                                                "_id_": 4448,
+                                                "_type": "ViewList",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 4452,
+                                                        "_type": "TextView",
+                                                        "onInit": {
+                                                            "_id_": 4459,
+                                                            "_type": "Sequence",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 4460,
+                                                                    "_type": "ScopeVariable",
+                                                                    "name": {
+                                                                        "_id_": 4461,
+                                                                        "_type": "String",
+                                                                        "value_": "view"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 4468,
+                                                                    "_type": "Firebase.Database.GetKey",
+                                                                    "ref": {
+                                                                        "_id_": 4474,
+                                                                        "_type": "Firebase.Auth.UserDisplayName"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": {
+                                                            "_id_": 4455,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "android:cacheColorHint": {
+                                                "_id_": 4457,
+                                                "_type": "Color",
+                                                "color_": -1440938181
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "_id_": 4415,
+                                "_type": "Button",
                                 "onClick": {
-                                    "_id_": 4338,
+                                    "_id_": 4416,
                                     "_type": "Sequence",
-                                    "list_": []
+                                    "list_": [
+                                        {
+                                            "_id_": 4417,
+                                            "_type": "Activity.StartOwn",
+                                            "activity": {
+                                                "_id_": 4418,
+                                                "_type": "String",
+                                                "value_": "Main"
+                                            }
+                                        }
+                                    ]
                                 },
                                 "id": {
-                                    "_id_": 4340,
+                                    "_id_": 4419,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "android:text": {
-                                    "_id_": 4336,
+                                    "_id_": 4420,
                                     "_type": "String",
-                                    "value_": "Hello"
+                                    "value_": "Iniciar sesion con Google"
                                 }
                             }
                         ]
@@ -779,20 +856,6 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 4378,
-                                            "_type": "FragmentContainerView",
-                                            "id": {
-                                                "_id_": 4382,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "views": {
-                                                "_id_": 4380,
-                                                "_type": "ViewList",
-                                                "list_": []
-                                            }
-                                        },
-                                        {
                                             "_id_": 4356,
                                             "_type": "Activity.StartOwn",
                                             "activity": {
@@ -811,7 +874,7 @@
                                 "android:text": {
                                     "_id_": 2499,
                                     "_type": "String",
-                                    "value_": "Hello"
+                                    "value_": "Iniciar sesion con Google"
                                 }
                             }
                         ]
