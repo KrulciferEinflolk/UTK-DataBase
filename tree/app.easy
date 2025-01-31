@@ -391,6 +391,10 @@
                                     "_id_": 1236,
                                     "_type": "String",
                                     "value_": "settings"
+                                },
+                                "titleValue": {
+                                    "_id_": 5235,
+                                    "_type": "Firebase.Auth.UserDisplayName"
                                 }
                             }
                         ],
