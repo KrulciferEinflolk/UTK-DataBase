@@ -1,41 +1,42 @@
 {
   "project_info": {
-    "project_number": "384292343771",
+    "project_number": "520498954536",
+    "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
     "project_id": "aaaa-c966f",
     "storage_bucket": "aaaa-c966f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:384292343771:android:c9f1632a2f626596257aeb",
+        "mobilesdk_app_id": "1:520498954536:android:960a158b3e95c64335d01d",
         "android_client_info": {
           "package_name": "utk.database"
         }
       },
       "oauth_client": [
         {
-          "client_id": "384292343771-nvefblbdqli164nhn64i469qs2r2e9ee.apps.googleusercontent.com",
+          "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "utk.database",
+            "package_name": "com.aaappps.google.signin",
             "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
           }
         },
         {
-          "client_id": "384292343771-nvefblbdqli164nhn64i469qs2r2e9ee.apps.googleusercontent.com",
+          "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDL51svvEkFK5RgNdqCk27ITT0BQmeJrPE"
+          "current_key": "AIzaSyDGMesQiAQ-UX_mkvF12yFimlSWS01S55w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "384292343771-nvefblbdqli164nhn64i469qs2r2e9ee.apps.googleusercontent.com",
+              "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
               "client_type": 3
             }
           ]
