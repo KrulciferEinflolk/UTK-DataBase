@@ -730,6 +730,11 @@
                                         {
                                             "_id_": 4726,
                                             "_type": "ShowToast",
+                                            "displayLonger": {
+                                                "_id_": 4952,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
                                             "message": {
                                                 "_id_": 4730,
                                                 "_type": "Firebase.Auth.UserDisplayName"
