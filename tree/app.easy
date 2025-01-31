@@ -321,11 +321,6 @@
                     "_id_": 12,
                     "_type": "String",
                     "value_": "Main"
-                },
-                "pauseWebViews": {
-                    "_id_": 2775,
-                    "_type": "Boolean",
-                    "value_": true
                 }
             },
             {
@@ -764,265 +759,6 @@
             {
                 "_id_": 1354,
                 "_type": "Fragment",
-                "onCreate": {
-                    "_id_": 3067,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 3068,
-                            "_type": "ScopeVariable",
-                            "name": {
-                                "_id_": 3069,
-                                "_type": "String",
-                                "value_": "fragment"
-                            }
-                        },
-                        {
-                            "_id_": 3073,
-                            "_type": "Button",
-                            "onClick": {
-                                "_id_": 3076,
-                                "_type": "Sequence",
-                                "list_": [
-                                    {
-                                        "_id_": 3097,
-                                        "_type": "ListView.AdapterData"
-                                    },
-                                    {
-                                        "_id_": 3101,
-                                        "_type": "Firebase.Auth.SignIn",
-                                        "onSignedIn": {
-                                            "_id_": 3103,
-                                            "_type": "Sequence",
-                                            "list_": [
-                                                {
-                                                    "_id_": 3109,
-                                                    "_type": "WebView.Execute",
-                                                    "code": {
-                                                        "_id_": 3111,
-                                                        "_type": "InlineScript",
-                                                        "code": {
-                                                            "_id_": 3113,
-                                                            "_type": "String",
-                                                            "value_": "update()"
-                                                        }
-                                                    },
-                                                    "webView": {
-                                                        "_id_": 3115,
-                                                        "_type": "View.Reference",
-                                                        "ref": {
-                                                            "_id_": 3117,
-                                                            "_type": "String",
-                                                            "value_": "@id\/main"
-                                                        }
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            },
-                            "id": {
-                                "_id_": 3078,
-                                "_type": "String",
-                                "value_": ""
-                            }
-                        },
-                        {
-                            "_id_": 3070,
-                            "_type": "ScopeVariable",
-                            "name": {
-                                "_id_": 3071,
-                                "_type": "String",
-                                "value_": "savedState"
-                            }
-                        },
-                        {
-                            "_id_": 3141,
-                            "_type": "Firebase.Auth.UserDisplayName"
-                        }
-                    ]
-                },
-                "onViewCreated": {
-                    "_id_": 1355,
-                    "_type": "WebView",
-                    "includeApi": {
-                        "_id_": 1356,
-                        "_type": "WebView.Api",
-                        "webView": {
-                            "_id_": 1357,
-                            "_type": "Boolean",
-                            "value_": true
-                        }
-                    },
-                    "id": {
-                        "_id_": 1358,
-                        "_type": "String",
-                        "value_": "main"
-                    },
-                    "interfaces": {
-                        "_id_": 1359,
-                        "_type": "List",
-                        "list_": [
-                            {
-                                "_id_": 1360,
-                                "_type": "WebView.Interface",
-                                "name": {
-                                    "_id_": 1361,
-                                    "_type": "String",
-                                    "value_": "user"
-                                },
-                                "object": {
-                                    "_id_": 1362,
-                                    "_type": "WebView.InterfaceObject",
-                                    "methods": {
-                                        "_id_": 1363,
-                                        "_type": "List",
-                                        "list_": [
-                                            {
-                                                "_id_": 1364,
-                                                "_type": "WebView.InterfaceMethod",
-                                                "name": {
-                                                    "_id_": 1366,
-                                                    "_type": "String",
-                                                    "value_": "SignIn"
-                                                },
-                                                "body": {
-                                                    "_id_": 1367,
-                                                    "_type": "Sequence",
-                                                    "list_": [
-                                                        {
-                                                            "_id_": 1368,
-                                                            "_type": "Firebase.Auth.SignIn",
-                                                            "onSignedIn": {
-                                                                "_id_": 1369,
-                                                                "_type": "Sequence",
-                                                                "list_": [
-                                                                    {
-                                                                        "_id_": 1370,
-                                                                        "_type": "WebView.Execute",
-                                                                        "code": {
-                                                                            "_id_": 1371,
-                                                                            "_type": "InlineScript",
-                                                                            "code": {
-                                                                                "_id_": 1372,
-                                                                                "_type": "String",
-                                                                                "value_": "update()"
-                                                                            }
-                                                                        },
-                                                                        "webView": {
-                                                                            "_id_": 1373,
-                                                                            "_type": "View.Reference",
-                                                                            "ref": {
-                                                                                "_id_": 1374,
-                                                                                "_type": "String",
-                                                                                "value_": "@id\/main"
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            },
-                                                            "onFailed": {
-                                                                "_id_": 1375,
-                                                                "_type": "Sequence",
-                                                                "list_": [
-                                                                    {
-                                                                        "_id_": 1376,
-                                                                        "_type": "ScopeVariable",
-                                                                        "name": {
-                                                                            "_id_": 1377,
-                                                                            "_type": "String",
-                                                                            "value_": "exception"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "_id_": 1378,
-                                                                        "_type": "WebView.DispatchEvent",
-                                                                        "data": {
-                                                                            "_id_": 1379,
-                                                                            "_type": "AnObject",
-                                                                            "fields": {
-                                                                                "_id_": 1380,
-                                                                                "_type": "List",
-                                                                                "list_": [
-                                                                                    {
-                                                                                        "_id_": 1381,
-                                                                                        "_type": "KeyValue",
-                                                                                        "value": {
-                                                                                            "_id_": 1382,
-                                                                                            "_type": "Expression",
-                                                                                            "text": {
-                                                                                                "_id_": 1383,
-                                                                                                "_type": "String",
-                                                                                                "value_": "exception.getMessage()"
-                                                                                            }
-                                                                                        },
-                                                                                        "key": {
-                                                                                            "_id_": 1384,
-                                                                                            "_type": "String",
-                                                                                            "value_": "Message"
-                                                                                        }
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        },
-                                                                        "name": {
-                                                                            "_id_": 1385,
-                                                                            "_type": "String",
-                                                                            "value_": "SignInError"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": {
-                                                    "_id_": 1386,
-                                                    "_type": "List",
-                                                    "list_": []
-                                                }
-                                            },
-                                            {
-                                                "_id_": 1387,
-                                                "_type": "WebView.InterfaceMethod",
-                                                "name": {
-                                                    "_id_": 1388,
-                                                    "_type": "String",
-                                                    "value_": "SignOut"
-                                                },
-                                                "body": {
-                                                    "_id_": 1389,
-                                                    "_type": "Sequence",
-                                                    "list_": [
-                                                        {
-                                                            "_id_": 1390,
-                                                            "_type": "Firebase.Auth.SignOut"
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": {
-                                                    "_id_": 1391,
-                                                    "_type": "List",
-                                                    "list_": []
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            }
-                        ]
-                    },
-                    "url": {
-                        "_id_": 1392,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 1393,
-                            "_type": "String",
-                            "value_": "main.html"
-                        }
-                    }
-                },
                 "name": {
                     "_id_": 1394,
                     "_type": "String",
@@ -1052,39 +788,321 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 3182,
-                                            "_type": "ListView.AdapterData"
-                                        },
-                                        {
-                                            "_id_": 3221,
-                                            "_type": "Firebase.Auth.SignIn",
-                                            "onSignedIn": {
-                                                "_id_": 3222,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 3223,
-                                                        "_type": "WebView.Execute",
-                                                        "code": {
-                                                            "_id_": 3224,
-                                                            "_type": "InlineScript",
-                                                            "code": {
-                                                                "_id_": 3225,
+                                            "_id_": 3554,
+                                            "_type": "FragmentContainerView",
+                                            "onInit": {
+                                                "_id_": 3578,
+                                                "_type": "WebView",
+                                                "includeApi": {
+                                                    "_id_": 3585,
+                                                    "_type": "WebView.Api",
+                                                    "webView": {
+                                                        "_id_": 3586,
+                                                        "_type": "Boolean",
+                                                        "value_": true
+                                                    }
+                                                },
+                                                "id": {
+                                                    "_id_": 3580,
+                                                    "_type": "String",
+                                                    "value_": "main"
+                                                },
+                                                "interfaces": {
+                                                    "_id_": 3587,
+                                                    "_type": "List",
+                                                    "list_": [
+                                                        {
+                                                            "_id_": 3588,
+                                                            "_type": "WebView.Interface",
+                                                            "name": {
+                                                                "_id_": 3589,
                                                                 "_type": "String",
-                                                                "value_": "update()"
+                                                                "value_": "user"
+                                                            },
+                                                            "object": {
+                                                                "_id_": 3590,
+                                                                "_type": "WebView.InterfaceObject",
+                                                                "methods": {
+                                                                    "_id_": 3591,
+                                                                    "_type": "List",
+                                                                    "list_": [
+                                                                        {
+                                                                            "_id_": 3592,
+                                                                            "_type": "WebView.InterfaceMethod",
+                                                                            "name": {
+                                                                                "_id_": 3593,
+                                                                                "_type": "String",
+                                                                                "value_": "signIn"
+                                                                            },
+                                                                            "body": {
+                                                                                "_id_": 3594,
+                                                                                "_type": "Sequence",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 3595,
+                                                                                        "_type": "Firebase.Auth.SignIn",
+                                                                                        "onSignedIn": {
+                                                                                            "_id_": 3596,
+                                                                                            "_type": "Sequence",
+                                                                                            "list_": [
+                                                                                                {
+                                                                                                    "_id_": 3597,
+                                                                                                    "_type": "WebView.Execute",
+                                                                                                    "code": {
+                                                                                                        "_id_": 3598,
+                                                                                                        "_type": "InlineScript",
+                                                                                                        "code": {
+                                                                                                            "_id_": 3599,
+                                                                                                            "_type": "String",
+                                                                                                            "value_": "update()"
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "webView": {
+                                                                                                        "_id_": 3600,
+                                                                                                        "_type": "View.Reference",
+                                                                                                        "ref": {
+                                                                                                            "_id_": 3601,
+                                                                                                            "_type": "String",
+                                                                                                            "value_": "@id\/main"
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        "onFailed": {
+                                                                                            "_id_": 3602,
+                                                                                            "_type": "Sequence",
+                                                                                            "list_": [
+                                                                                                {
+                                                                                                    "_id_": 3603,
+                                                                                                    "_type": "ScopeVariable",
+                                                                                                    "name": {
+                                                                                                        "_id_": 3604,
+                                                                                                        "_type": "String",
+                                                                                                        "value_": "exception"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "_id_": 3605,
+                                                                                                    "_type": "WebView.DispatchEvent",
+                                                                                                    "data": {
+                                                                                                        "_id_": 3606,
+                                                                                                        "_type": "AnObject",
+                                                                                                        "fields": {
+                                                                                                            "_id_": 3607,
+                                                                                                            "_type": "List",
+                                                                                                            "list_": [
+                                                                                                                {
+                                                                                                                    "_id_": 3608,
+                                                                                                                    "_type": "KeyValue",
+                                                                                                                    "value": {
+                                                                                                                        "_id_": 3609,
+                                                                                                                        "_type": "Expression",
+                                                                                                                        "text": {
+                                                                                                                            "_id_": 3610,
+                                                                                                                            "_type": "String",
+                                                                                                                            "value_": "exception.getMessage()"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "key": {
+                                                                                                                        "_id_": 3611,
+                                                                                                                        "_type": "String",
+                                                                                                                        "value_": "message"
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "name": {
+                                                                                                        "_id_": 3612,
+                                                                                                        "_type": "String",
+                                                                                                        "value_": "SignInError"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "parameters": {
+                                                                                "_id_": 3613,
+                                                                                "_type": "List",
+                                                                                "list_": []
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_id_": 3614,
+                                                                            "_type": "WebView.InterfaceMethod",
+                                                                            "name": {
+                                                                                "_id_": 3615,
+                                                                                "_type": "String",
+                                                                                "value_": "signOut"
+                                                                            },
+                                                                            "body": {
+                                                                                "_id_": 3616,
+                                                                                "_type": "Sequence",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 3617,
+                                                                                        "_type": "Firebase.Auth.SignOut"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "parameters": {
+                                                                                "_id_": 3618,
+                                                                                "_type": "List",
+                                                                                "list_": []
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_id_": 3619,
+                                                                            "_type": "WebView.InterfaceMethod",
+                                                                            "name": {
+                                                                                "_id_": 3620,
+                                                                                "_type": "String",
+                                                                                "value_": "getId"
+                                                                            },
+                                                                            "body": {
+                                                                                "_id_": 3621,
+                                                                                "_type": "Sequence",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 3622,
+                                                                                        "_type": "Firebase.Auth.UserId"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "parameters": {
+                                                                                "_id_": 3623,
+                                                                                "_type": "List",
+                                                                                "list_": []
+                                                                            },
+                                                                            "returnType": {
+                                                                                "_id_": 3624,
+                                                                                "_type": "WebView.DataType",
+                                                                                "value_": "String"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_id_": 3625,
+                                                                            "_type": "WebView.InterfaceMethod",
+                                                                            "name": {
+                                                                                "_id_": 3626,
+                                                                                "_type": "String",
+                                                                                "value_": "getEmail"
+                                                                            },
+                                                                            "body": {
+                                                                                "_id_": 3627,
+                                                                                "_type": "Sequence",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 3628,
+                                                                                        "_type": "Firebase.Auth.UserEmail"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "parameters": {
+                                                                                "_id_": 3629,
+                                                                                "_type": "List",
+                                                                                "list_": []
+                                                                            },
+                                                                            "returnType": {
+                                                                                "_id_": 3630,
+                                                                                "_type": "WebView.DataType",
+                                                                                "value_": "String"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_id_": 3631,
+                                                                            "_type": "WebView.InterfaceMethod",
+                                                                            "name": {
+                                                                                "_id_": 3632,
+                                                                                "_type": "String",
+                                                                                "value_": "getName"
+                                                                            },
+                                                                            "body": {
+                                                                                "_id_": 3633,
+                                                                                "_type": "Sequence",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 3634,
+                                                                                        "_type": "Firebase.Auth.UserDisplayName"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "parameters": {
+                                                                                "_id_": 3635,
+                                                                                "_type": "List",
+                                                                                "list_": []
+                                                                            },
+                                                                            "returnType": {
+                                                                                "_id_": 3636,
+                                                                                "_type": "WebView.DataType",
+                                                                                "value_": "String"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_id_": 3637,
+                                                                            "_type": "WebView.InterfaceMethod",
+                                                                            "name": {
+                                                                                "_id_": 3638,
+                                                                                "_type": "String",
+                                                                                "value_": "Home"
+                                                                            },
+                                                                            "body": {
+                                                                                "_id_": 3639,
+                                                                                "_type": "Sequence",
+                                                                                "list_": []
+                                                                            },
+                                                                            "parameters": {
+                                                                                "_id_": 3640,
+                                                                                "_type": "List",
+                                                                                "list_": []
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
                                                             }
                                                         },
-                                                        "webView": {
-                                                            "_id_": 3226,
-                                                            "_type": "View.Reference",
-                                                            "ref": {
-                                                                "_id_": 3227,
+                                                        {
+                                                            "_id_": 3641,
+                                                            "_type": "WebView.Interface",
+                                                            "name": {
+                                                                "_id_": 3642,
                                                                 "_type": "String",
-                                                                "value_": "@id\/main"
+                                                                "value_": ""
+                                                            },
+                                                            "object": {
+                                                                "_id_": 3643,
+                                                                "_type": "WebView.InterfaceObject",
+                                                                "methods": {
+                                                                    "_id_": 3644,
+                                                                    "_type": "List",
+                                                                    "list_": []
+                                                                }
                                                             }
                                                         }
+                                                    ]
+                                                },
+                                                "url": {
+                                                    "_id_": 3582,
+                                                    "_type": "URL",
+                                                    "url": {
+                                                        "_id_": 3584,
+                                                        "_type": "String",
+                                                        "value_": "main.html"
                                                     }
-                                                ]
+                                                }
+                                            },
+                                            "id": {
+                                                "_id_": 3558,
+                                                "_type": "String",
+                                                "value_": "main"
+                                            },
+                                            "views": {
+                                                "_id_": 3556,
+                                                "_type": "ViewList",
+                                                "list_": []
                                             }
                                         }
                                     ]
