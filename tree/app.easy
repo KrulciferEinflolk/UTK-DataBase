@@ -679,61 +679,6 @@
             {
                 "_id_": 1354,
                 "_type": "Fragment",
-                "onCreate": {
-                    "_id_": 4996,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 4997,
-                            "_type": "ScopeVariable",
-                            "name": {
-                                "_id_": 4998,
-                                "_type": "String",
-                                "value_": "fragment"
-                            }
-                        },
-                        {
-                            "_id_": 5002,
-                            "_type": "View.SetBackground",
-                            "view": {
-                                "_id_": 5004,
-                                "_type": "View.Reference",
-                                "ref": {
-                                    "_id_": 5006,
-                                    "_type": "String",
-                                    "value_": "@id\/content"
-                                }
-                            },
-                            "drawable": {
-                                "_id_": 5012,
-                                "_type": "View.SetBackgroundColor",
-                                "view": {
-                                    "_id_": 5014,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 5016,
-                                        "_type": "String",
-                                        "value_": "@id\/content"
-                                    }
-                                },
-                                "color": {
-                                    "_id_": 5018,
-                                    "_type": "Color",
-                                    "color_": -10395295
-                                }
-                            }
-                        },
-                        {
-                            "_id_": 4999,
-                            "_type": "ScopeVariable",
-                            "name": {
-                                "_id_": 5000,
-                                "_type": "String",
-                                "value_": "savedState"
-                            }
-                        }
-                    ]
-                },
                 "layout": {
                     "_id_": 4322,
                     "_type": "RelativeLayout",
@@ -785,18 +730,14 @@
                                         {
                                             "_id_": 4726,
                                             "_type": "ShowToast",
+                                            "displayLonger": {
+                                                "_id_": 5023,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
                                             "message": {
                                                 "_id_": 4730,
                                                 "_type": "Firebase.Auth.UserDisplayName"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 4949,
-                                            "_type": "Activity.ActionBar.SetTitle",
-                                            "title": {
-                                                "_id_": 4951,
-                                                "_type": "String",
-                                                "value_": ""
                                             }
                                         }
                                     ]
@@ -810,6 +751,11 @@
                                     "_id_": 4499,
                                     "_type": "String",
                                     "value_": "Comprobar"
+                                },
+                                "android:layout_centerVertical": {
+                                    "_id_": 5020,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
