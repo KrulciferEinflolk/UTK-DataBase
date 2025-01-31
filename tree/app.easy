@@ -263,25 +263,6 @@
                                                     "_type": "WebView.DataType",
                                                     "value_": "String"
                                                 }
-                                            },
-                                            {
-                                                "_id_": 2786,
-                                                "_type": "WebView.InterfaceMethod",
-                                                "name": {
-                                                    "_id_": 2788,
-                                                    "_type": "String",
-                                                    "value_": "Home"
-                                                },
-                                                "body": {
-                                                    "_id_": 2790,
-                                                    "_type": "Sequence",
-                                                    "list_": []
-                                                },
-                                                "parameters": {
-                                                    "_id_": 2792,
-                                                    "_type": "List",
-                                                    "list_": []
-                                                }
                                             }
                                         ]
                                     }
