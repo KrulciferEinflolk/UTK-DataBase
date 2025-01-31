@@ -411,7 +411,7 @@
                                         "ref": {
                                             "_id_": 4318,
                                             "_type": "String",
-                                            "value_": "@id\/main"
+                                            "value_": "@id\/content"
                                         }
                                     },
                                     "fragment": {
