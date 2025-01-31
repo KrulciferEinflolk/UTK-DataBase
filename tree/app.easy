@@ -935,6 +935,15 @@
                                 }
                             }
                         ]
+                    },
+                    "android:background": {
+                        "_id_": 5435,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 5436,
+                            "_type": "String",
+                            "value_": "@drawable\/background"
+                        }
                     }
                 },
                 "name": {
