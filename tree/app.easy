@@ -767,12 +767,26 @@
                                 "id": {
                                     "_id_": 4419,
                                     "_type": "String",
-                                    "value_": ""
+                                    "value_": "login"
                                 },
                                 "android:text": {
                                     "_id_": 4420,
                                     "_type": "String",
                                     "value_": "Iniciar sesion con Google"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 5127,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 5128,
+                                        "_type": "DimensionUnit",
+                                        "value_": "px"
+                                    },
+                                    "value": {
+                                        "_id_": 5129,
+                                        "_type": "Float",
+                                        "value_": 200
+                                    }
                                 }
                             },
                             {
@@ -830,17 +844,26 @@
                                 "id": {
                                     "_id_": 4503,
                                     "_type": "String",
-                                    "value_": ""
+                                    "value_": "valid"
                                 },
                                 "android:text": {
                                     "_id_": 4499,
                                     "_type": "String",
                                     "value_": "Comprobar"
                                 },
-                                "android:layout_centerVertical": {
-                                    "_id_": 5020,
-                                    "_type": "Boolean",
-                                    "value_": true
+                                "android:layout_marginTop": {
+                                    "_id_": 5124,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 5125,
+                                        "_type": "DimensionUnit",
+                                        "value_": "px"
+                                    },
+                                    "value": {
+                                        "_id_": 5126,
+                                        "_type": "Float",
+                                        "value_": 200
+                                    }
                                 }
                             },
                             {
@@ -873,7 +896,7 @@
                                 "id": {
                                     "_id_": 5097,
                                     "_type": "String",
-                                    "value_": ""
+                                    "value_": "logout"
                                 },
                                 "android:text": {
                                     "_id_": 5093,
@@ -891,7 +914,7 @@
                                     "value": {
                                         "_id_": 5123,
                                         "_type": "Float",
-                                        "value_": 100
+                                        "value_": 200
                                     }
                                 }
                             }
