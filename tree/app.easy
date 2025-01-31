@@ -728,16 +728,46 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 4726,
-                                            "_type": "ShowToast",
-                                            "displayLonger": {
-                                                "_id_": 5023,
-                                                "_type": "Boolean",
-                                                "value_": true
+                                            "_id_": 5043,
+                                            "_type": "Firebase.Auth.SignIn",
+                                            "onSignedIn": {
+                                                "_id_": 5045,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 5055,
+                                                        "_type": "ShowToast",
+                                                        "displayLonger": {
+                                                            "_id_": 5056,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "message": {
+                                                            "_id_": 5057,
+                                                            "_type": "Firebase.Auth.UserDisplayName"
+                                                        }
+                                                    }
+                                                ]
                                             },
-                                            "message": {
-                                                "_id_": 4730,
-                                                "_type": "Firebase.Auth.UserDisplayName"
+                                            "onFailed": {
+                                                "_id_": 5047,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 5051,
+                                                        "_type": "ShowToast",
+                                                        "displayLonger": {
+                                                            "_id_": 5054,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "message": {
+                                                            "_id_": 5053,
+                                                            "_type": "String",
+                                                            "value_": "No tienes usuario, ¡inicia sesión! "
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         }
                                     ]
