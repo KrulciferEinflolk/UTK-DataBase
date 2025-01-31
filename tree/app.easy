@@ -855,6 +855,95 @@
                 }
             },
             {
+                "_id_": 1436,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 1437,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 1438,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 1439,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "android:background": {
+                        "_id_": 5433,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 5434,
+                            "_type": "String",
+                            "value_": "@drawable\/background"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 1440,
+                    "_type": "String",
+                    "value_": "Page1"
+                }
+            },
+            {
+                "_id_": 1446,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 1447,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 1448,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 1449,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 1450,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 1451,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 1452,
+                                    "_type": "String",
+                                    "value_": "Page 2"
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 1453,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                }
+                            },
+                            {
+                                "_id_": 1454,
+                                "_type": "EditText",
+                                "id": {
+                                    "_id_": 1455,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 1456,
+                                    "_type": "String",
+                                    "value_": "ingresa numero de Sever"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 1457,
+                    "_type": "String",
+                    "value_": "Page2"
+                }
+            },
+            {
                 "_id_": 1354,
                 "_type": "Fragment",
                 "layout": {
@@ -1101,86 +1190,6 @@
                 }
             },
             {
-                "_id_": 1436,
-                "_type": "Fragment",
-                "layout": {
-                    "_id_": 1437,
-                    "_type": "RelativeLayout",
-                    "id": {
-                        "_id_": 1438,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "views": {
-                        "_id_": 1439,
-                        "_type": "ViewList",
-                        "list_": []
-                    }
-                },
-                "name": {
-                    "_id_": 1440,
-                    "_type": "String",
-                    "value_": "Page1"
-                }
-            },
-            {
-                "_id_": 1446,
-                "_type": "Fragment",
-                "layout": {
-                    "_id_": 1447,
-                    "_type": "RelativeLayout",
-                    "id": {
-                        "_id_": 1448,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "views": {
-                        "_id_": 1449,
-                        "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 1450,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 1451,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 1452,
-                                    "_type": "String",
-                                    "value_": "Page 2"
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 1453,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                }
-                            },
-                            {
-                                "_id_": 1454,
-                                "_type": "EditText",
-                                "id": {
-                                    "_id_": 1455,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 1456,
-                                    "_type": "String",
-                                    "value_": "ingresa numero de Sever"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "name": {
-                    "_id_": 1457,
-                    "_type": "String",
-                    "value_": "Page2"
-                }
-            },
-            {
                 "_id_": 1470,
                 "_type": "ColorResource",
                 "color": {
@@ -1226,7 +1235,7 @@
                     "color": {
                         "_id_": 5215,
                         "_type": "Color",
-                        "color_": -7697782
+                        "color_": -13695166
                     }
                 },
                 "name": {
