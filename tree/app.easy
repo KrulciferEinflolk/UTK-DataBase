@@ -1032,39 +1032,84 @@
             {
                 "_id_": 1436,
                 "_type": "Fragment",
-                "layout": {
-                    "_id_": 1437,
-                    "_type": "RelativeLayout",
-                    "id": {
-                        "_id_": 1438,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "views": {
-                        "_id_": 1439,
-                        "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 2498,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 2501,
-                                    "_type": "Sequence",
-                                    "list_": []
-                                },
-                                "id": {
-                                    "_id_": 2503,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 2499,
-                                    "_type": "String",
-                                    "value_": "Hello"
-                                }
+                "onCreate": {
+                    "_id_": 3142,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 3143,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 3144,
+                                "_type": "String",
+                                "value_": "fragment"
                             }
-                        ]
-                    }
+                        },
+                        {
+                            "_id_": 3145,
+                            "_type": "Button",
+                            "onClick": {
+                                "_id_": 3146,
+                                "_type": "Sequence",
+                                "list_": [
+                                    {
+                                        "_id_": 3147,
+                                        "_type": "ListView.AdapterData"
+                                    },
+                                    {
+                                        "_id_": 3148,
+                                        "_type": "Firebase.Auth.SignIn",
+                                        "onSignedIn": {
+                                            "_id_": 3149,
+                                            "_type": "Sequence",
+                                            "list_": [
+                                                {
+                                                    "_id_": 3150,
+                                                    "_type": "WebView.Execute",
+                                                    "code": {
+                                                        "_id_": 3151,
+                                                        "_type": "InlineScript",
+                                                        "code": {
+                                                            "_id_": 3152,
+                                                            "_type": "String",
+                                                            "value_": "update()"
+                                                        }
+                                                    },
+                                                    "webView": {
+                                                        "_id_": 3153,
+                                                        "_type": "View.Reference",
+                                                        "ref": {
+                                                            "_id_": 3154,
+                                                            "_type": "String",
+                                                            "value_": "@id\/main"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "id": {
+                                "_id_": 3155,
+                                "_type": "String",
+                                "value_": ""
+                            }
+                        },
+                        {
+                            "_id_": 3156,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 3157,
+                                "_type": "String",
+                                "value_": "savedState"
+                            }
+                        },
+                        {
+                            "_id_": 3158,
+                            "_type": "Firebase.Auth.UserDisplayName"
+                        }
+                    ]
                 },
                 "name": {
                     "_id_": 1440,
