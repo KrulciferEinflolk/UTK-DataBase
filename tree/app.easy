@@ -440,6 +440,107 @@
                                                     "_type": "String",
                                                     "value_": "login"
                                                 }
+                                            },
+                                            {
+                                                "_id_": 5390,
+                                                "_type": "Menu.Item",
+                                                "title": {
+                                                    "_id_": 5392,
+                                                    "_type": "String",
+                                                    "value_": "Cerrar sesión"
+                                                },
+                                                "action": {
+                                                    "_id_": 5396,
+                                                    "_type": "Sequence",
+                                                    "list_": [
+                                                        {
+                                                            "_id_": 5397,
+                                                            "_type": "Firebase.Auth.SignOut"
+                                                        },
+                                                        {
+                                                            "_id_": 5399,
+                                                            "_type": "ShowToast",
+                                                            "displayLonger": {
+                                                                "_id_": 5400,
+                                                                "_type": "Boolean",
+                                                                "value_": true
+                                                            },
+                                                            "message": {
+                                                                "_id_": 5401,
+                                                                "_type": "String",
+                                                                "value_": "Sesión cerrada con exito. "
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "id": {
+                                                    "_id_": 5394,
+                                                    "_type": "String",
+                                                    "value_": "logout"
+                                                }
+                                            },
+                                            {
+                                                "_id_": 5406,
+                                                "_type": "Menu.Item",
+                                                "title": {
+                                                    "_id_": 5408,
+                                                    "_type": "String",
+                                                    "value_": "Validar"
+                                                },
+                                                "action": {
+                                                    "_id_": 5412,
+                                                    "_type": "Sequence",
+                                                    "list_": [
+                                                        {
+                                                            "_id_": 5413,
+                                                            "_type": "Firebase.Auth.SignIn",
+                                                            "onSignedIn": {
+                                                                "_id_": 5414,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 5415,
+                                                                        "_type": "ShowToast",
+                                                                        "displayLonger": {
+                                                                            "_id_": 5416,
+                                                                            "_type": "Boolean",
+                                                                            "value_": true
+                                                                        },
+                                                                        "message": {
+                                                                            "_id_": 5417,
+                                                                            "_type": "Firebase.Auth.UserDisplayName"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "onFailed": {
+                                                                "_id_": 5418,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 5419,
+                                                                        "_type": "ShowToast",
+                                                                        "displayLonger": {
+                                                                            "_id_": 5420,
+                                                                            "_type": "Boolean",
+                                                                            "value_": true
+                                                                        },
+                                                                        "message": {
+                                                                            "_id_": 5421,
+                                                                            "_type": "String",
+                                                                            "value_": "No tienes usuario, ¡inicia sesión! "
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "id": {
+                                                    "_id_": 5410,
+                                                    "_type": "String",
+                                                    "value_": "valid"
+                                                }
                                             }
                                         ],
                                         "elementType_": "Menu.Element"
@@ -463,28 +564,6 @@
                                     "_id_": 1235,
                                     "_type": "Menu.ShowAsAction",
                                     "value_": "always"
-                                },
-                                "action": {
-                                    "_id_": 4316,
-                                    "_type": "Fragment.Set",
-                                    "container": {
-                                        "_id_": 4317,
-                                        "_type": "View.Reference",
-                                        "ref": {
-                                            "_id_": 4318,
-                                            "_type": "String",
-                                            "value_": "@id\/content"
-                                        }
-                                    },
-                                    "fragment": {
-                                        "_id_": 4319,
-                                        "_type": "Fragment.Reference",
-                                        "name": {
-                                            "_id_": 4320,
-                                            "_type": "String",
-                                            "value_": "config"
-                                        }
-                                    }
                                 },
                                 "id": {
                                     "_id_": 1236,
