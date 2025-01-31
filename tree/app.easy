@@ -286,24 +286,6 @@
                                         ]
                                     }
                                 }
-                            },
-                            {
-                                "_id_": 2778,
-                                "_type": "WebView.Interface",
-                                "name": {
-                                    "_id_": 2780,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "object": {
-                                    "_id_": 2782,
-                                    "_type": "WebView.InterfaceObject",
-                                    "methods": {
-                                        "_id_": 2784,
-                                        "_type": "List",
-                                        "list_": []
-                                    }
-                                }
                             }
                         ]
                     },
@@ -729,58 +711,6 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 4475,
-                                "_type": "ListView",
-                                "id": {
-                                    "_id_": 4476,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "views": {
-                                    "_id_": 4477,
-                                    "_type": "ViewList",
-                                    "list_": [
-                                        {
-                                            "_id_": 4478,
-                                            "_type": "TextView",
-                                            "onInit": {
-                                                "_id_": 4479,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 4480,
-                                                        "_type": "ScopeVariable",
-                                                        "name": {
-                                                            "_id_": 4481,
-                                                            "_type": "String",
-                                                            "value_": "view"
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 4482,
-                                                        "_type": "Firebase.Database.GetKey",
-                                                        "ref": {
-                                                            "_id_": 4483,
-                                                            "_type": "Firebase.Auth.UserDisplayName"
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "id": {
-                                                "_id_": 4484,
-                                                "_type": "String",
-                                                "value_": ""
-                                            }
-                                        }
-                                    ]
-                                },
-                                "android:cacheColorHint": {
-                                    "_id_": 4485,
-                                    "_type": "Color",
-                                    "color_": -1440938181
-                                }
-                            },
-                            {
                                 "_id_": 4415,
                                 "_type": "Button",
                                 "onClick": {
@@ -807,6 +737,43 @@
                                     "_id_": 4420,
                                     "_type": "String",
                                     "value_": "Iniciar sesion con Google"
+                                }
+                            },
+                            {
+                                "_id_": 4498,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 4501,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 4505,
+                                            "_type": "Firebase.Database.GetKey",
+                                            "ref": {
+                                                "_id_": 4507,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 4509,
+                                                    "_type": "String",
+                                                    "value_": "getName"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 4511,
+                                            "_type": "Firebase.Auth.UserDisplayName"
+                                        }
+                                    ]
+                                },
+                                "id": {
+                                    "_id_": 4503,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 4499,
+                                    "_type": "String",
+                                    "value_": "Comprobar"
                                 }
                             }
                         ]
