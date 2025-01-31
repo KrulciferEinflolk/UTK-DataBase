@@ -1095,6 +1095,15 @@
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
+                                        },
+                                        {
+                                            "_id_": 4356,
+                                            "_type": "Activity.StartOwn",
+                                            "activity": {
+                                                "_id_": 4360,
+                                                "_type": "String",
+                                                "value_": "Main"
+                                            }
                                         }
                                     ]
                                 },
