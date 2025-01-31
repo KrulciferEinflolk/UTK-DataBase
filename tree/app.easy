@@ -726,7 +726,16 @@
                                 "onClick": {
                                     "_id_": 4501,
                                     "_type": "Sequence",
-                                    "list_": []
+                                    "list_": [
+                                        {
+                                            "_id_": 4726,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 4730,
+                                                "_type": "Firebase.Auth.UserDisplayName"
+                                            }
+                                        }
+                                    ]
                                 },
                                 "id": {
                                     "_id_": 4503,
