@@ -779,6 +779,20 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
+                                            "_id_": 4378,
+                                            "_type": "FragmentContainerView",
+                                            "id": {
+                                                "_id_": 4382,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "views": {
+                                                "_id_": 4380,
+                                                "_type": "ViewList",
+                                                "list_": []
+                                            }
+                                        },
+                                        {
                                             "_id_": 4356,
                                             "_type": "Activity.StartOwn",
                                             "activity": {
