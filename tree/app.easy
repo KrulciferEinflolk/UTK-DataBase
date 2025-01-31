@@ -842,6 +842,30 @@
                                     "_type": "Boolean",
                                     "value_": true
                                 }
+                            },
+                            {
+                                "_id_": 5092,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 5095,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 5099,
+                                            "_type": "Firebase.Auth.SignOut"
+                                        }
+                                    ]
+                                },
+                                "id": {
+                                    "_id_": 5097,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 5093,
+                                    "_type": "String",
+                                    "value_": "Cerrar sesión"
+                                }
                             }
                         ]
                     }
