@@ -927,37 +927,7 @@
                     "views": {
                         "_id_": 1439,
                         "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 2498,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 2501,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 4356,
-                                            "_type": "Activity.StartOwn",
-                                            "activity": {
-                                                "_id_": 4360,
-                                                "_type": "String",
-                                                "value_": "Main"
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 2503,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 2499,
-                                    "_type": "String",
-                                    "value_": "Iniciar sesion con Google"
-                                }
-                            }
-                        ]
+                        "list_": []
                     }
                 },
                 "name": {
