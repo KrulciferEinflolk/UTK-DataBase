@@ -773,20 +773,6 @@
                                     "_id_": 4420,
                                     "_type": "String",
                                     "value_": "Iniciar sesion con Google"
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 5127,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 5128,
-                                        "_type": "DimensionUnit",
-                                        "value_": "px"
-                                    },
-                                    "value": {
-                                        "_id_": 5129,
-                                        "_type": "Float",
-                                        "value_": 200
-                                    }
                                 }
                             },
                             {
@@ -914,7 +900,7 @@
                                     "value": {
                                         "_id_": 5123,
                                         "_type": "Float",
-                                        "value_": 200
+                                        "value_": 400
                                     }
                                 }
                             }
