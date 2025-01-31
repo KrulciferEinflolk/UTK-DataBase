@@ -895,12 +895,12 @@
                                     "unit": {
                                         "_id_": 5117,
                                         "_type": "DimensionUnit",
-                                        "value_": "dp"
+                                        "value_": "px"
                                     },
                                     "value": {
                                         "_id_": 5118,
                                         "_type": "Float",
-                                        "value_": 10
+                                        "value_": 110
                                     }
                                 }
                             }
