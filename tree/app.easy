@@ -679,35 +679,6 @@
             {
                 "_id_": 1354,
                 "_type": "Fragment",
-                "onCreate": {
-                    "_id_": 5161,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 5167,
-                            "_type": "ViewGroup",
-                            "id": {
-                                "_id_": 5171,
-                                "_type": "String",
-                                "value_": ""
-                            },
-                            "views": {
-                                "_id_": 5169,
-                                "_type": "ViewList",
-                                "list_": []
-                            },
-                            "android:background": {
-                                "_id_": 5183,
-                                "_type": "DrawableReference",
-                                "ref": {
-                                    "_id_": 5185,
-                                    "_type": "String",
-                                    "value_": "@drawable\/background"
-                                }
-                            }
-                        }
-                    ]
-                },
                 "layout": {
                     "_id_": 4322,
                     "_type": "RelativeLayout",
@@ -934,6 +905,15 @@
                                 }
                             }
                         ]
+                    },
+                    "android:background": {
+                        "_id_": 5227,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 5229,
+                            "_type": "String",
+                            "value_": "@drawable\/background"
+                        }
                     }
                 },
                 "name": {
