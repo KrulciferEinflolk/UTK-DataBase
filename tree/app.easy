@@ -1312,7 +1312,7 @@
         "versionName": {
             "_id_": 26,
             "_type": "String",
-            "value_": "v1"
+            "value_": "v1.1"
         },
         "versionCode": {
             "_id_": 27,
