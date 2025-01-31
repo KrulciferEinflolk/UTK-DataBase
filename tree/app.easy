@@ -326,77 +326,6 @@
                     "_id_": 2775,
                     "_type": "Boolean",
                     "value_": true
-                },
-                "launcher": {
-                    "_id_": 13,
-                    "_type": "Activity.Launcher"
-                }
-            },
-            {
-                "_id_": 2753,
-                "_type": "Activity",
-                "features": {
-                    "_id_": 2755,
-                    "_type": "Activity.Features",
-                    "list_": []
-                },
-                "contentView": {
-                    "_id_": 2757,
-                    "_type": "RelativeLayout",
-                    "id": {
-                        "_id_": 2761,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "views": {
-                        "_id_": 2759,
-                        "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 2764,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 2767,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 2769,
-                                    "_type": "String",
-                                    "value_": "Hello"
-                                },
-                                "android:textSize": {
-                                    "_id_": 2771,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 2773,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 2772,
-                                        "_type": "Float",
-                                        "value_": 50
-                                    }
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 2768,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                },
-                                "android:textColor": {
-                                    "_id_": 2770,
-                                    "_type": "Color",
-                                    "color_": -65536
-                                }
-                            }
-                        ]
-                    }
-                },
-                "name": {
-                    "_id_": 2762,
-                    "_type": "String",
-                    "value_": "Auth"
                 }
             },
             {
@@ -606,6 +535,10 @@
                     "_id_": 1261,
                     "_type": "String",
                     "value_": "Home"
+                },
+                "launcher": {
+                    "_id_": 3065,
+                    "_type": "Activity.Launcher"
                 }
             },
             {
@@ -831,6 +764,85 @@
             {
                 "_id_": 1354,
                 "_type": "Fragment",
+                "onCreate": {
+                    "_id_": 3067,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 3068,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 3069,
+                                "_type": "String",
+                                "value_": "fragment"
+                            }
+                        },
+                        {
+                            "_id_": 3073,
+                            "_type": "Button",
+                            "onClick": {
+                                "_id_": 3076,
+                                "_type": "Sequence",
+                                "list_": [
+                                    {
+                                        "_id_": 3097,
+                                        "_type": "ListView.AdapterData"
+                                    },
+                                    {
+                                        "_id_": 3101,
+                                        "_type": "Firebase.Auth.SignIn",
+                                        "onSignedIn": {
+                                            "_id_": 3103,
+                                            "_type": "Sequence",
+                                            "list_": [
+                                                {
+                                                    "_id_": 3109,
+                                                    "_type": "WebView.Execute",
+                                                    "code": {
+                                                        "_id_": 3111,
+                                                        "_type": "InlineScript",
+                                                        "code": {
+                                                            "_id_": 3113,
+                                                            "_type": "String",
+                                                            "value_": "update()"
+                                                        }
+                                                    },
+                                                    "webView": {
+                                                        "_id_": 3115,
+                                                        "_type": "View.Reference",
+                                                        "ref": {
+                                                            "_id_": 3117,
+                                                            "_type": "String",
+                                                            "value_": "@id\/main"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "id": {
+                                "_id_": 3078,
+                                "_type": "String",
+                                "value_": ""
+                            }
+                        },
+                        {
+                            "_id_": 3070,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 3071,
+                                "_type": "String",
+                                "value_": "savedState"
+                            }
+                        },
+                        {
+                            "_id_": 3141,
+                            "_type": "Firebase.Auth.UserDisplayName"
+                        }
+                    ]
+                },
                 "onViewCreated": {
                     "_id_": 1355,
                     "_type": "WebView",
@@ -870,10 +882,6 @@
                                             {
                                                 "_id_": 1364,
                                                 "_type": "WebView.InterfaceMethod",
-                                                "debug": {
-                                                    "_id_": 1365,
-                                                    "_type": "Debug"
-                                                },
                                                 "name": {
                                                     "_id_": 1366,
                                                     "_type": "String",
