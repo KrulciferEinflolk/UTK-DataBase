@@ -747,17 +747,8 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 4505,
-                                            "_type": "Firebase.Database.GetKey",
-                                            "ref": {
-                                                "_id_": 4507,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 4509,
-                                                    "_type": "String",
-                                                    "value_": "getName"
-                                                }
-                                            }
+                                            "_id_": 4511,
+                                            "_type": "Firebase.Auth.UserDisplayName"
                                         }
                                     ]
                                 },
