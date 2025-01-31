@@ -346,6 +346,105 @@
                             {
                                 "_id_": 1231,
                                 "_type": "Menu.Item",
+                                "subMenu": {
+                                    "_id_": 5344,
+                                    "_type": "Menu",
+                                    "items": {
+                                        "_id_": 5346,
+                                        "_type": "List",
+                                        "list_": [
+                                            {
+                                                "_id_": 5354,
+                                                "_type": "Menu.Group"
+                                            },
+                                            {
+                                                "_id_": 5348,
+                                                "_type": "Menu.Item",
+                                                "title": {
+                                                    "_id_": 5360,
+                                                    "_type": "String",
+                                                    "value_": "iniciar sesión"
+                                                },
+                                                "action": {
+                                                    "_id_": 5362,
+                                                    "_type": "Sequence",
+                                                    "list_": [
+                                                        {
+                                                            "_id_": 5363,
+                                                            "_type": "Firebase.Auth.SignIn",
+                                                            "onSignedIn": {
+                                                                "_id_": 5364,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 5365,
+                                                                        "_type": "ShowToast",
+                                                                        "displayLonger": {
+                                                                            "_id_": 5366,
+                                                                            "_type": "Boolean",
+                                                                            "value_": true
+                                                                        },
+                                                                        "message": {
+                                                                            "_id_": 5367,
+                                                                            "_type": "String",
+                                                                            "value_": "¡Registro exitoso! "
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "onFailed": {
+                                                                "_id_": 5368,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 5369,
+                                                                        "_type": "ShowToast",
+                                                                        "displayLonger": {
+                                                                            "_id_": 5370,
+                                                                            "_type": "Boolean",
+                                                                            "value_": true
+                                                                        },
+                                                                        "message": {
+                                                                            "_id_": 5371,
+                                                                            "_type": "String",
+                                                                            "value_": "¡Vuelve a intentarlo! "
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "onCanceled": {
+                                                                "_id_": 5372,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 5373,
+                                                                        "_type": "ShowToast",
+                                                                        "displayLonger": {
+                                                                            "_id_": 5374,
+                                                                            "_type": "Boolean",
+                                                                            "value_": true
+                                                                        },
+                                                                        "message": {
+                                                                            "_id_": 5375,
+                                                                            "_type": "String",
+                                                                            "value_": "Intenta de nuevo:("
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "id": {
+                                                    "_id_": 5352,
+                                                    "_type": "String",
+                                                    "value_": "login"
+                                                }
+                                            }
+                                        ],
+                                        "elementType_": "Menu.Element"
+                                    }
+                                },
                                 "icon": {
                                     "_id_": 1232,
                                     "_type": "DrawableReference",
@@ -391,10 +490,6 @@
                                     "_id_": 1236,
                                     "_type": "String",
                                     "value_": "settings"
-                                },
-                                "titleValue": {
-                                    "_id_": 5235,
-                                    "_type": "Firebase.Auth.UserDisplayName"
                                 }
                             }
                         ],
