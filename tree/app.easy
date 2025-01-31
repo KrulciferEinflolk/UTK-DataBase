@@ -758,10 +758,6 @@
                                                     "value_": "getName"
                                                 }
                                             }
-                                        },
-                                        {
-                                            "_id_": 4511,
-                                            "_type": "Firebase.Auth.UserDisplayName"
                                         }
                                     ]
                                 },
