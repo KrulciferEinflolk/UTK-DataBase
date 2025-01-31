@@ -699,12 +699,17 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 4417,
-                                            "_type": "Activity.StartOwn",
-                                            "activity": {
-                                                "_id_": 4418,
-                                                "_type": "String",
-                                                "value_": "Main"
+                                            "_id_": 5062,
+                                            "_type": "Firebase.Auth.SignIn",
+                                            "onSignedIn": {
+                                                "_id_": 5064,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "onFailed": {
+                                                "_id_": 5066,
+                                                "_type": "Sequence",
+                                                "list_": []
                                             }
                                         }
                                     ]
