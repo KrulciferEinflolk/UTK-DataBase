@@ -1,7 +1,7 @@
 {
   "project_info": {
     "project_number": "520498954536",
-    "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
+    "client_id": "520498954536-9amdqo1lrsv8q9hr5f0cg4qbq8c8v16d.apps.googleusercontent.com",
     "project_id": "aaaa-c966f",
     "storage_bucket": "aaaa-c966f.firebasestorage.app"
   },
@@ -15,15 +15,15 @@
       },
       "oauth_client": [
         {
-          "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
+          "client_id": "520498954536-9amdqo1lrsv8q9hr5f0cg4qbq8c8v16d.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.aaappps.google.signin",
+            "package_name": "utk.database",
             "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
           }
         },
         {
-          "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
+          "client_id": "520498954536-9amdqo1lrsv8q9hr5f0cg4qbq8c8v16d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -36,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "firebase_url": "https://aaaa-c966f-default-rtdb.firebaseio.com",
+              "client_id": "520498954536-9amdqo1lrsv8q9hr5f0cg4qbq8c8v16d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
