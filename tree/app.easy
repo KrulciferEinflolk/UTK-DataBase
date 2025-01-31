@@ -853,6 +853,20 @@
                                         {
                                             "_id_": 5099,
                                             "_type": "Firebase.Auth.SignOut"
+                                        },
+                                        {
+                                            "_id_": 5104,
+                                            "_type": "ShowToast",
+                                            "displayLonger": {
+                                                "_id_": 5105,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "message": {
+                                                "_id_": 5106,
+                                                "_type": "String",
+                                                "value_": "Sesión cerrada con exito. "
+                                            }
                                         }
                                     ]
                                 },
