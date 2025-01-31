@@ -880,27 +880,18 @@
                                     "_type": "String",
                                     "value_": "Cerrar sesión"
                                 },
-                                "android:layout_alignBottom": {
-                                    "_id_": 5101,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 5103,
-                                        "_type": "String",
-                                        "value_": "@id\/content"
-                                    }
-                                },
-                                "android:paddingTop": {
-                                    "_id_": 5116,
+                                "android:layout_marginTop": {
+                                    "_id_": 5121,
                                     "_type": "Dimension",
                                     "unit": {
-                                        "_id_": 5117,
+                                        "_id_": 5122,
                                         "_type": "DimensionUnit",
                                         "value_": "px"
                                     },
                                     "value": {
-                                        "_id_": 5118,
+                                        "_id_": 5123,
                                         "_type": "Float",
-                                        "value_": 110
+                                        "value_": 100
                                     }
                                 }
                             }
