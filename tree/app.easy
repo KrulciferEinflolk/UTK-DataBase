@@ -704,12 +704,62 @@
                                             "onSignedIn": {
                                                 "_id_": 5064,
                                                 "_type": "Sequence",
-                                                "list_": []
+                                                "list_": [
+                                                    {
+                                                        "_id_": 5075,
+                                                        "_type": "ShowToast",
+                                                        "displayLonger": {
+                                                            "_id_": 5076,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "message": {
+                                                            "_id_": 5077,
+                                                            "_type": "String",
+                                                            "value_": "¡Registro exitoso! "
+                                                        }
+                                                    }
+                                                ]
                                             },
                                             "onFailed": {
                                                 "_id_": 5066,
                                                 "_type": "Sequence",
-                                                "list_": []
+                                                "list_": [
+                                                    {
+                                                        "_id_": 5069,
+                                                        "_type": "ShowToast",
+                                                        "displayLonger": {
+                                                            "_id_": 5070,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "message": {
+                                                            "_id_": 5071,
+                                                            "_type": "String",
+                                                            "value_": "¡Vuelve a intentarlo! "
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "onCanceled": {
+                                                "_id_": 5084,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 5085,
+                                                        "_type": "ShowToast",
+                                                        "displayLonger": {
+                                                            "_id_": 5086,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "message": {
+                                                            "_id_": 5087,
+                                                            "_type": "String",
+                                                            "value_": "Intenta de nuevo:("
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         }
                                     ]
