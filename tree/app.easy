@@ -865,6 +865,15 @@
                                     "_id_": 5093,
                                     "_type": "String",
                                     "value_": "Cerrar sesión"
+                                },
+                                "android:layout_alignBottom": {
+                                    "_id_": 5101,
+                                    "_type": "View.Reference",
+                                    "ref": {
+                                        "_id_": 5103,
+                                        "_type": "String",
+                                        "value_": "@id\/content"
+                                    }
                                 }
                             }
                         ]
