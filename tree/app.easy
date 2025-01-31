@@ -321,10 +321,6 @@
                     "_id_": 12,
                     "_type": "String",
                     "value_": "Main"
-                },
-                "launcher": {
-                    "_id_": 3930,
-                    "_type": "Activity.Launcher"
                 }
             },
             {
@@ -387,6 +383,62 @@
                             {
                                 "_id_": 1231,
                                 "_type": "Menu.Item",
+                                "subMenu": {
+                                    "_id_": 4281,
+                                    "_type": "Menu",
+                                    "items": {
+                                        "_id_": 4283,
+                                        "_type": "List",
+                                        "list_": [
+                                            {
+                                                "_id_": 4294,
+                                                "_type": "Menu.Item",
+                                                "icon": {
+                                                    "_id_": 4295,
+                                                    "_type": "DrawableReference",
+                                                    "ref": {
+                                                        "_id_": 4296,
+                                                        "_type": "String",
+                                                        "value_": "@drawable\/settings"
+                                                    }
+                                                },
+                                                "title": {
+                                                    "_id_": 4297,
+                                                    "_type": "String",
+                                                    "value_": "Item 1"
+                                                },
+                                                "action": {
+                                                    "_id_": 4298,
+                                                    "_type": "Fragment.Set",
+                                                    "container": {
+                                                        "_id_": 4299,
+                                                        "_type": "View.Reference",
+                                                        "ref": {
+                                                            "_id_": 4300,
+                                                            "_type": "String",
+                                                            "value_": "@id\/content"
+                                                        }
+                                                    },
+                                                    "fragment": {
+                                                        "_id_": 4301,
+                                                        "_type": "Fragment.Reference",
+                                                        "name": {
+                                                            "_id_": 4302,
+                                                            "_type": "String",
+                                                            "value_": "config"
+                                                        }
+                                                    }
+                                                },
+                                                "id": {
+                                                    "_id_": 4303,
+                                                    "_type": "String",
+                                                    "value_": "Sextings"
+                                                }
+                                            }
+                                        ],
+                                        "elementType_": "Menu.Element"
+                                    }
+                                },
                                 "icon": {
                                     "_id_": 1232,
                                     "_type": "DrawableReference",
@@ -534,6 +586,10 @@
                     "_id_": 1261,
                     "_type": "String",
                     "value_": "Home"
+                },
+                "launcher": {
+                    "_id_": 4315,
+                    "_type": "Activity.Launcher"
                 }
             },
             {
@@ -552,46 +608,46 @@
                         "_type": "List",
                         "list_": [
                             {
-                                "_id_": 1310,
+                                "_id_": 4215,
                                 "_type": "Menu.Item",
                                 "icon": {
-                                    "_id_": 1311,
+                                    "_id_": 4216,
                                     "_type": "DrawableReference",
                                     "ref": {
-                                        "_id_": 1312,
+                                        "_id_": 4217,
                                         "_type": "String",
                                         "value_": "@drawable\/item1_icon"
                                     }
                                 },
                                 "title": {
-                                    "_id_": 1313,
+                                    "_id_": 4218,
                                     "_type": "String",
                                     "value_": "Item 1"
                                 },
                                 "action": {
-                                    "_id_": 1314,
+                                    "_id_": 4219,
                                     "_type": "Fragment.Set",
                                     "container": {
-                                        "_id_": 1315,
+                                        "_id_": 4220,
                                         "_type": "View.Reference",
                                         "ref": {
-                                            "_id_": 1316,
+                                            "_id_": 4221,
                                             "_type": "String",
                                             "value_": "@id\/content"
                                         }
                                     },
                                     "fragment": {
-                                        "_id_": 1317,
+                                        "_id_": 4222,
                                         "_type": "Fragment.Reference",
                                         "name": {
-                                            "_id_": 1318,
+                                            "_id_": 4223,
                                             "_type": "String",
                                             "value_": "Page1"
                                         }
                                     }
                                 },
                                 "id": {
-                                    "_id_": 1319,
+                                    "_id_": 4224,
                                     "_type": "String",
                                     "value_": "Home"
                                 }
@@ -639,6 +695,51 @@
                                     "_id_": 1329,
                                     "_type": "String",
                                     "value_": "Discover"
+                                }
+                            },
+                            {
+                                "_id_": 1310,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 1311,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 1312,
+                                        "_type": "String",
+                                        "value_": "@drawable\/settings"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 1313,
+                                    "_type": "String",
+                                    "value_": "Item 1"
+                                },
+                                "action": {
+                                    "_id_": 1314,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 1315,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 1316,
+                                            "_type": "String",
+                                            "value_": "@id\/content"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 1317,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 4235,
+                                            "_type": "String",
+                                            "value_": "config"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 1319,
+                                    "_type": "String",
+                                    "value_": "Sextings"
                                 }
                             }
                         ],
