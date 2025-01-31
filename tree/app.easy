@@ -321,6 +321,10 @@
                     "_id_": 12,
                     "_type": "String",
                     "value_": "Main"
+                },
+                "launcher": {
+                    "_id_": 3930,
+                    "_type": "Activity.Launcher"
                 }
             },
             {
@@ -530,10 +534,6 @@
                     "_id_": 1261,
                     "_type": "String",
                     "value_": "Home"
-                },
-                "launcher": {
-                    "_id_": 3065,
-                    "_type": "Activity.Launcher"
                 }
             },
             {
