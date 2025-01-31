@@ -880,6 +880,11 @@
                                     "_type": "String",
                                     "value_": "Cerrar sesión"
                                 },
+                                "android:scaleY": {
+                                    "_id_": 5110,
+                                    "_type": "Float",
+                                    "value_": 10.5
+                                },
                                 "android:layout_alignBottom": {
                                     "_id_": 5101,
                                     "_type": "View.Reference",
