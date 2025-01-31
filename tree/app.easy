@@ -507,8 +507,8 @@
                                                                             "value_": true
                                                                         },
                                                                         "message": {
-                                                                            "_id_": 5417,
-                                                                            "_type": "Firebase.Auth.UserDisplayName"
+                                                                            "_id_": 5432,
+                                                                            "_type": "Firebase.Auth.UserEmail"
                                                                         }
                                                                     }
                                                                 ]
