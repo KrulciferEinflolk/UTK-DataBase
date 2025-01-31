@@ -679,6 +679,35 @@
             {
                 "_id_": 1354,
                 "_type": "Fragment",
+                "onCreate": {
+                    "_id_": 5161,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 5167,
+                            "_type": "ViewGroup",
+                            "id": {
+                                "_id_": 5171,
+                                "_type": "String",
+                                "value_": ""
+                            },
+                            "views": {
+                                "_id_": 5169,
+                                "_type": "ViewList",
+                                "list_": []
+                            },
+                            "android:background": {
+                                "_id_": 5183,
+                                "_type": "DrawableReference",
+                                "ref": {
+                                    "_id_": 5185,
+                                    "_type": "String",
+                                    "value_": ""
+                                }
+                            }
+                        }
+                    ]
+                },
                 "layout": {
                     "_id_": 4322,
                     "_type": "RelativeLayout",
@@ -1028,6 +1057,24 @@
                     "_id_": 1480,
                     "_type": "String",
                     "value_": "primary"
+                }
+            },
+            {
+                "_id_": 5210,
+                "_type": "DrawableResource",
+                "drawable": {
+                    "_id_": 5212,
+                    "_type": "ShapeDrawable.Rectangle",
+                    "color": {
+                        "_id_": 5215,
+                        "_type": "Color",
+                        "color_": -7697782
+                    }
+                },
+                "name": {
+                    "_id_": 5213,
+                    "_type": "String",
+                    "value_": "Background"
                 }
             }
         ]
