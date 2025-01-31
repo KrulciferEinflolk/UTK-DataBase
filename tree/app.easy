@@ -702,7 +702,7 @@
                                 "ref": {
                                     "_id_": 5185,
                                     "_type": "String",
-                                    "value_": ""
+                                    "value_": "@drawable\/background"
                                 }
                             }
                         }
@@ -1074,7 +1074,7 @@
                 "name": {
                     "_id_": 5213,
                     "_type": "String",
-                    "value_": "Background"
+                    "value_": "background"
                 }
             }
         ]
