@@ -754,8 +754,13 @@
                         "url": {
                             "_id_": 8585,
                             "_type": "String",
-                            "value_": "https:\/\/www.googleapis.com\/drive\/v3\/files\n"
+                            "value_": "https:\/\/www.googleapis.com\/drive\/v3\/files"
                         }
+                    },
+                    "allowAppsToHandleURLs": {
+                        "_id_": 9053,
+                        "_type": "Boolean",
+                        "value_": true
                     }
                 },
                 "launchMode": {
