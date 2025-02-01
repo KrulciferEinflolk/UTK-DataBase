@@ -1030,10 +1030,29 @@
                                                 "_type": "View.SpecialDimension",
                                                 "value_": "match_parent"
                                             },
+                                            "android:layout_height": {
+                                                "_id_": 6798,
+                                                "_type": "View.SpecialDimension",
+                                                "value_": "wrap_content"
+                                            },
                                             "android:text": {
                                                 "_id_": 6482,
                                                 "_type": "String",
                                                 "value_": "Hello"
+                                            },
+                                            "app:layout_constraintHeight_max": {
+                                                "_id_": 6800,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6801,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6802,
+                                                    "_type": "Float",
+                                                    "value_": 50
+                                                }
                                             },
                                             "android:layout_marginBottom": {
                                                 "_id_": 6483,
@@ -1048,11 +1067,6 @@
                                                     "_type": "Float",
                                                     "value_": 1
                                                 }
-                                            },
-                                            "app:layout_constraintHeight_percent": {
-                                                "_id_": 6486,
-                                                "_type": "Float",
-                                                "value_": 20
                                             }
                                         },
                                         {
