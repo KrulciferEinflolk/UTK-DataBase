@@ -718,8 +718,28 @@
                     "includeApi": {
                         "_id_": 9594,
                         "_type": "WebView.Api",
+                        "fileProvider": {
+                            "_id_": 9635,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "activity": {
+                            "_id_": 9633,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
                         "webChromeClient": {
                             "_id_": 9628,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "network": {
+                            "_id_": 9632,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "download": {
+                            "_id_": 9634,
                             "_type": "Boolean",
                             "value_": true
                         },
@@ -735,6 +755,11 @@
                         },
                         "files": {
                             "_id_": 9630,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "viewPager": {
+                            "_id_": 9631,
                             "_type": "Boolean",
                             "value_": true
                         }
