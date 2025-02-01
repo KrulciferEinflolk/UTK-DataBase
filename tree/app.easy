@@ -727,6 +727,20 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
+                                            "_id_": 10243,
+                                            "_type": "Intent.OwnActivity",
+                                            "activity": {
+                                                "_id_": 10246,
+                                                "_type": "String",
+                                                "value_": "Drive"
+                                            },
+                                            "action": {
+                                                "_id_": 10263,
+                                                "_type": "String",
+                                                "value_": "ACTION_PICK"
+                                            }
+                                        },
+                                        {
                                             "_id_": 10216,
                                             "_type": "Intent.Filter",
                                             "elements": {
@@ -748,20 +762,6 @@
                                                         }
                                                     }
                                                 ]
-                                            }
-                                        },
-                                        {
-                                            "_id_": 10243,
-                                            "_type": "Intent.OwnActivity",
-                                            "activity": {
-                                                "_id_": 10246,
-                                                "_type": "String",
-                                                "value_": "Drive"
-                                            },
-                                            "action": {
-                                                "_id_": 10262,
-                                                "_type": "String",
-                                                "value_": "ACTION_MAIN"
                                             }
                                         }
                                     ]
