@@ -992,6 +992,20 @@
                                                 "_type": "String",
                                                 "value_": "20sp"
                                             },
+                                            "android:layout_margin": {
+                                                "_id_": 6006,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6007,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6008,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
                                             "android:paddingTop": {
                                                 "_id_": 5758,
                                                 "_type": "Dimension",
