@@ -992,20 +992,6 @@
                                                 "_type": "String",
                                                 "value_": "20sp"
                                             },
-                                            "android:paddingTop": {
-                                                "_id_": 5758,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 5759,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 5760,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            },
                                             "android:autoLink": {
                                                 "_id_": 5761,
                                                 "_type": "TextView.AutoLink",
