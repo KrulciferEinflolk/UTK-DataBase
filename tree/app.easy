@@ -708,80 +708,89 @@
                     "list_": []
                 },
                 "contentView": {
-                    "_id_": 8580,
-                    "_type": "WebView",
-                    "allowExternalURLs": {
-                        "_id_": 8588,
-                        "_type": "Boolean",
-                        "value_": true
-                    },
-                    "includeApi": {
-                        "_id_": 9594,
-                        "_type": "WebView.Api",
-                        "fileProvider": {
-                            "_id_": 9635,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "activity": {
-                            "_id_": 9633,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "webChromeClient": {
-                            "_id_": 9628,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "network": {
-                            "_id_": 9632,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "download": {
-                            "_id_": 9634,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "webView": {
-                            "_id_": 9629,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "webViewClient": {
-                            "_id_": 9627,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "files": {
-                            "_id_": 9630,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "viewPager": {
-                            "_id_": 9631,
-                            "_type": "Boolean",
-                            "value_": true
-                        }
-                    },
+                    "_id_": 9650,
+                    "_type": "LinearLayout",
                     "id": {
-                        "_id_": 8582,
+                        "_id_": 9654,
                         "_type": "String",
-                        "value_": "drive"
+                        "value_": ""
                     },
-                    "url": {
-                        "_id_": 9604,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 9605,
-                            "_type": "String",
-                            "value_": "https:\/\/drive.google.com\/drive\/"
-                        }
-                    },
-                    "allowAppsToHandleURLs": {
-                        "_id_": 9053,
-                        "_type": "Boolean",
-                        "value_": true
+                    "views": {
+                        "_id_": 9652,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 9656,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 9659,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 9682,
+                                            "_type": "DocumentFile.Open",
+                                            "allowMultiple": {
+                                                "_id_": 9683,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "onResult": {
+                                                "_id_": 9685,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 9687,
+                                                        "_type": "Files.CopyAsset",
+                                                        "from": {
+                                                            "_id_": 9689,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 9691,
+                                                                "_type": "String",
+                                                                "value_": "\/\/emulated\/0\/"
+                                                            }
+                                                        },
+                                                        "to": {
+                                                            "_id_": 9693,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 9695,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                "id": {
+                                    "_id_": 9661,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 9657,
+                                    "_type": "String",
+                                    "value_": "Subir archivo"
+                                }
+                            },
+                            {
+                                "_id_": 9670,
+                                "_type": "SearchView",
+                                "id": {
+                                    "_id_": 9674,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "views": {
+                                    "_id_": 9672,
+                                    "_type": "ViewList",
+                                    "list_": []
+                                }
+                            }
+                        ]
                     }
                 },
                 "launchMode": {
