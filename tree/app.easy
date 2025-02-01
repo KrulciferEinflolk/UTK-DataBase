@@ -727,15 +727,6 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 9735,
-                                            "_type": "URL",
-                                            "url": {
-                                                "_id_": 9736,
-                                                "_type": "String",
-                                                "value_": "\/storage\/emulated\/0\/"
-                                            }
-                                        },
-                                        {
                                             "_id_": 9742,
                                             "_type": "Activity.Start",
                                             "showChooser": {
@@ -749,7 +740,20 @@
                                                 "action": {
                                                     "_id_": 10162,
                                                     "_type": "String",
-                                                    "value_": "ACTION_OPEN_DOCUMENT_ONE"
+                                                    "value_": "ACTION_OPEN_DOCUMENT_TREE"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 10180,
+                                            "_type": "Firebase.Database.QueryListAdapter",
+                                            "query": {
+                                                "_id_": 10185,
+                                                "_type": "Intent",
+                                                "action": {
+                                                    "_id_": 10186,
+                                                    "_type": "String",
+                                                    "value_": "ACTION_OPEN_DOCUMENT_TREE"
                                                 }
                                             }
                                         }
