@@ -750,7 +750,7 @@
                         "url": {
                             "_id_": 9605,
                             "_type": "String",
-                            "value_": "https:\/\/drive.google.com\/?authuser=0\/"
+                            "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive\/"
                         }
                     },
                     "allowAppsToHandleURLs": {
