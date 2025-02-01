@@ -1035,11 +1035,6 @@
                                                 "_type": "String",
                                                 "value_": "Hello"
                                             },
-                                            "android:scaleY": {
-                                                "_id_": 6733,
-                                                "_type": "Float",
-                                                "value_": 10
-                                            },
                                             "android:layout_marginBottom": {
                                                 "_id_": 6402,
                                                 "_type": "Dimension",
@@ -1307,13 +1302,9 @@
                                         }
                                     },
                                     "color": {
-                                        "_id_": 5783,
-                                        "_type": "ColorReference",
-                                        "ref": {
-                                            "_id_": 5784,
-                                            "_type": "String",
-                                            "value_": "@color\/primary"
-                                        }
+                                        "_id_": 6736,
+                                        "_type": "Color",
+                                        "color_": -9475159
                                     }
                                 },
                                 "android:padding": {
