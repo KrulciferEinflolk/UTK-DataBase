@@ -739,30 +739,6 @@
                                                 "_type": "String",
                                                 "value_": "ACTION_OPEN_DOCUMENT_TREE"
                                             }
-                                        },
-                                        {
-                                            "_id_": 10216,
-                                            "_type": "Intent.Filter",
-                                            "elements": {
-                                                "_id_": 10217,
-                                                "_type": "List",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 10222,
-                                                        "_type": "Intent.Filter.Data",
-                                                        "path": {
-                                                            "_id_": 10233,
-                                                            "_type": "String",
-                                                            "value_": "\/storage\/emulated\/0\/download"
-                                                        },
-                                                        "pathPattern": {
-                                                            "_id_": 10223,
-                                                            "_type": "String",
-                                                            "value_": "\/storage\/emulated\/0\/"
-                                                        }
-                                                    }
-                                                ]
-                                            }
                                         }
                                     ]
                                 },
