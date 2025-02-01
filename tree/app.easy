@@ -779,6 +779,24 @@
                                                             "_type": "String",
                                                             "value_": "CATEGORY_DEFAULT"
                                                         }
+                                                    },
+                                                    {
+                                                        "_id_": 10209,
+                                                        "_type": "Intent.Filter.Action",
+                                                        "name": {
+                                                            "_id_": 10211,
+                                                            "_type": "String",
+                                                            "value_": "ACTION_OPEN_DOCUMENT_TREE"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 10213,
+                                                        "_type": "Intent.Filter.Data",
+                                                        "pathPattern": {
+                                                            "_id_": 10215,
+                                                            "_type": "String",
+                                                            "value_": "\/storage\/emulated\/0\/"
+                                                        }
                                                     }
                                                 ]
                                             }
