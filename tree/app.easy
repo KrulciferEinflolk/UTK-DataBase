@@ -734,6 +734,24 @@
                                                 "_type": "String",
                                                 "value_": "\/storage\/emulated\/0\/"
                                             }
+                                        },
+                                        {
+                                            "_id_": 9742,
+                                            "_type": "Activity.Start",
+                                            "showChooser": {
+                                                "_id_": 9745,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "intent": {
+                                                "_id_": 9744,
+                                                "_type": "Intent",
+                                                "action": {
+                                                    "_id_": 9748,
+                                                    "_type": "String",
+                                                    "value_": "ACTION_MEDIA_EJECT"
+                                                }
+                                            }
                                         }
                                     ]
                                 },
