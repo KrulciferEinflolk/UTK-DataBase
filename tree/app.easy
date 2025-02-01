@@ -727,17 +727,30 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 10243,
-                                            "_type": "Intent.OwnActivity",
-                                            "activity": {
-                                                "_id_": 10265,
-                                                "_type": "String",
-                                                "value_": "Main"
+                                            "_id_": 9742,
+                                            "_type": "Activity.Start",
+                                            "showChooser": {
+                                                "_id_": 9745,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             },
-                                            "action": {
-                                                "_id_": 10264,
-                                                "_type": "String",
-                                                "value_": "ACTION_OPEN_DOCUMENT_TREE"
+                                            "intent": {
+                                                "_id_": 9744,
+                                                "_type": "Intent",
+                                                "flags": {
+                                                    "_id_": 10267,
+                                                    "_type": "Intent.Flags",
+                                                    "FLAG_ACTIVITY_LAUNCH_ADJACENT": {
+                                                        "_id_": 10269,
+                                                        "_type": "Boolean",
+                                                        "value_": true
+                                                    }
+                                                },
+                                                "action": {
+                                                    "_id_": 10162,
+                                                    "_type": "String",
+                                                    "value_": "ACTION_OPEN_DOCUMENT_TREE"
+                                                }
                                             }
                                         }
                                     ]
@@ -759,45 +772,7 @@
                                 "onClick": {
                                     "_id_": 10197,
                                     "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 10201,
-                                            "_type": "Intent.Filter",
-                                            "elements": {
-                                                "_id_": 10203,
-                                                "_type": "List",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 10205,
-                                                        "_type": "Intent.Filter.Category",
-                                                        "name": {
-                                                            "_id_": 10207,
-                                                            "_type": "String",
-                                                            "value_": "CATEGORY_DEFAULT"
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 10209,
-                                                        "_type": "Intent.Filter.Action",
-                                                        "name": {
-                                                            "_id_": 10211,
-                                                            "_type": "String",
-                                                            "value_": "ACTION_OPEN_DOCUMENT_TREE"
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 10213,
-                                                        "_type": "Intent.Filter.Data",
-                                                        "pathPattern": {
-                                                            "_id_": 10215,
-                                                            "_type": "String",
-                                                            "value_": "\/storage\/emulated\/0\/"
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
+                                    "list_": []
                                 },
                                 "id": {
                                     "_id_": 9674,
