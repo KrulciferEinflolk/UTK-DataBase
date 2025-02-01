@@ -716,7 +716,7 @@
                         "value_": true
                     },
                     "includeApi": {
-                        "_id_": 8587,
+                        "_id_": 9581,
                         "_type": "WebView.Api"
                     },
                     "webViewClient": {
@@ -727,22 +727,27 @@
                             "_type": "Sequence",
                             "list_": [
                                 {
-                                    "_id_": 9488,
-                                    "_type": "WebView.LoadURL",
-                                    "viewId": {
-                                        "_id_": 9490,
-                                        "_type": "View.Reference",
-                                        "ref": {
-                                            "_id_": 9492,
-                                            "_type": "String",
-                                            "value_": "@id\/content"
+                                    "_id_": 9574,
+                                    "_type": "WebView",
+                                    "includeApi": {
+                                        "_id_": 9578,
+                                        "_type": "WebView.Api",
+                                        "webViewClient": {
+                                            "_id_": 9579,
+                                            "_type": "Boolean",
+                                            "value_": true
                                         }
                                     },
+                                    "id": {
+                                        "_id_": 9576,
+                                        "_type": "String",
+                                        "value_": ""
+                                    },
                                     "url": {
-                                        "_id_": 9494,
+                                        "_id_": 9582,
                                         "_type": "URL",
                                         "url": {
-                                            "_id_": 9495,
+                                            "_id_": 9583,
                                             "_type": "String",
                                             "value_": "https:\/\/drive.google.com\/?authuser=0"
                                         }
