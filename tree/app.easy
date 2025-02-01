@@ -727,27 +727,12 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
-                                            "_id_": 9682,
-                                            "_type": "DocumentFile.Open",
-                                            "allowMultiple": {
-                                                "_id_": 9683,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "onResult": {
-                                                "_id_": 9685,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 9703,
-                                                        "_type": "DocumentFile.FromUri",
-                                                        "uri": {
-                                                            "_id_": 9705,
-                                                            "_type": "String",
-                                                            "value_": "\/storage\/emulated\/0\/"
-                                                        }
-                                                    }
-                                                ]
+                                            "_id_": 9735,
+                                            "_type": "URL",
+                                            "url": {
+                                                "_id_": 9736,
+                                                "_type": "String",
+                                                "value_": "\/storage\/emulated\/0\/"
                                             }
                                         }
                                     ]
