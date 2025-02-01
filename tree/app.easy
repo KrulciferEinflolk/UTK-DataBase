@@ -749,6 +749,20 @@
                                                     }
                                                 ]
                                             }
+                                        },
+                                        {
+                                            "_id_": 10243,
+                                            "_type": "Intent.OwnActivity",
+                                            "activity": {
+                                                "_id_": 10246,
+                                                "_type": "String",
+                                                "value_": "Drive"
+                                            },
+                                            "action": {
+                                                "_id_": 10262,
+                                                "_type": "String",
+                                                "value_": "ACTION_MAIN"
+                                            }
                                         }
                                     ]
                                 },
