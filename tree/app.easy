@@ -725,7 +725,13 @@
                         "trustedDomains": {
                             "_id_": 9476,
                             "_type": "List",
-                            "list_": []
+                            "list_": [
+                                {
+                                    "_id_": 9478,
+                                    "_type": "String",
+                                    "value_": "https:\/\/drive.google.com\/?authuser=0"
+                                }
+                            ]
                         }
                     },
                     "id": {
@@ -763,7 +769,7 @@
                         "url": {
                             "_id_": 8585,
                             "_type": "String",
-                            "value_": "https:\/\/drive.google.com\/?"
+                            "value_": "https:\/\/drive.google.com\/?authuser=0"
                         }
                     },
                     "allowAppsToHandleURLs": {
