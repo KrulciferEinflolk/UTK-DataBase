@@ -735,9 +735,9 @@
                                                 "value_": "Drive"
                                             },
                                             "action": {
-                                                "_id_": 10263,
+                                                "_id_": 10264,
                                                 "_type": "String",
-                                                "value_": "ACTION_PICK"
+                                                "value_": "ACTION_OPEN_DOCUMENT_TREE"
                                             }
                                         },
                                         {
