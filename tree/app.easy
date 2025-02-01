@@ -956,70 +956,557 @@
                 "_id_": 1354,
                 "_type": "Fragment",
                 "layout": {
-                    "_id_": 4322,
-                    "_type": "RelativeLayout",
+                    "_id_": 5649,
+                    "_type": "FrameLayout",
                     "id": {
-                        "_id_": 4326,
+                        "_id_": 5653,
                         "_type": "String",
                         "value_": ""
                     },
                     "views": {
-                        "_id_": 5451,
+                        "_id_": 5651,
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 5466,
-                                "_type": "ListView",
-                                "emptyView": {
-                                    "_id_": 5644,
-                                    "_type": "TextView",
-                                    "id": {
-                                        "_id_": 5647,
-                                        "_type": "String",
-                                        "value_": ""
-                                    },
-                                    "android:text": {
-                                        "_id_": 5645,
-                                        "_type": "String",
-                                        "value_": "Hello"
-                                    }
-                                },
+                                "_id_": 5750,
+                                "_type": "LinearLayout",
                                 "id": {
-                                    "_id_": 5470,
+                                    "_id_": 5751,
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "android:divider": {
-                                    "_id_": 5472,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 5474,
-                                        "_type": "String",
-                                        "value_": "@drawable\/divisor"
+                                "views": {
+                                    "_id_": 5752,
+                                    "_type": "ViewList",
+                                    "list_": [
+                                        {
+                                            "_id_": 5753,
+                                            "_type": "LayoutReference",
+                                            "ref": {
+                                                "_id_": 5754,
+                                                "_type": "String",
+                                                "value_": "@layout\/badge"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 5755,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 5756,
+                                                "_type": "String",
+                                                "value_": "text"
+                                            },
+                                            "android:textSize": {
+                                                "_id_": 5757,
+                                                "_type": "String",
+                                                "value_": "20sp"
+                                            },
+                                            "android:paddingTop": {
+                                                "_id_": 5758,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5759,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5760,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
+                                            "android:autoLink": {
+                                                "_id_": 5761,
+                                                "_type": "TextView.AutoLink",
+                                                "value_": "all"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 5762,
+                                            "_type": "ImageView",
+                                            "id": {
+                                                "_id_": 5763,
+                                                "_type": "String",
+                                                "value_": "image"
+                                            },
+                                            "imageValue": {
+                                                "_id_": 5764,
+                                                "_type": "Field.Get",
+                                                "name": {
+                                                    "_id_": 5765,
+                                                    "_type": "String",
+                                                    "value_": "bitmap"
+                                                },
+                                                "object": {
+                                                    "_id_": 5766,
+                                                    "_type": "ListView.AdapterData"
+                                                }
+                                            },
+                                            "android:layout_width": {
+                                                "_id_": 5767,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5768,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5769,
+                                                    "_type": "Float",
+                                                    "value_": 200
+                                                }
+                                            },
+                                            "android:layout_height": {
+                                                "_id_": 5770,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5771,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5772,
+                                                    "_type": "Float",
+                                                    "value_": 200
+                                                }
+                                            },
+                                            "android:scaleType": {
+                                                "_id_": 5773,
+                                                "_type": "ImageView.ScaleType",
+                                                "value_": "fitCenter"
+                                            },
+                                            "android:layout_gravity": {
+                                                "_id_": 5774,
+                                                "_type": "Gravity",
+                                                "value_": "right"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 5775,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 5776,
+                                                "_type": "String",
+                                                "value_": "timeText"
+                                            },
+                                            "android:layout_gravity": {
+                                                "_id_": 5777,
+                                                "_type": "Gravity",
+                                                "value_": "right"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "android:background": {
+                                    "_id_": 5778,
+                                    "_type": "ShapeDrawable.Rectangle",
+                                    "corners": {
+                                        "_id_": 5779,
+                                        "_type": "ShapeDrawable.Corners",
+                                        "radius": {
+                                            "_id_": 5780,
+                                            "_type": "Dimension",
+                                            "unit": {
+                                                "_id_": 5781,
+                                                "_type": "DimensionUnit",
+                                                "value_": "dp"
+                                            },
+                                            "value": {
+                                                "_id_": 5782,
+                                                "_type": "Float",
+                                                "value_": 10
+                                            }
+                                        }
+                                    },
+                                    "color": {
+                                        "_id_": 5783,
+                                        "_type": "ColorReference",
+                                        "ref": {
+                                            "_id_": 5784,
+                                            "_type": "String",
+                                            "value_": "@color\/primary"
+                                        }
                                     }
+                                },
+                                "android:padding": {
+                                    "_id_": 5785,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 5786,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 5787,
+                                        "_type": "Float",
+                                        "value_": 10
+                                    }
+                                },
+                                "android:gravity": {
+                                    "_id_": 5788,
+                                    "_type": "Gravity",
+                                    "value_": "left"
+                                },
+                                "android:orientation": {
+                                    "_id_": 5789,
+                                    "_type": "Orientation",
+                                    "value_": "vertical"
                                 }
                             }
                         ]
                     },
-                    "android:background": {
-                        "_id_": 5227,
-                        "_type": "DrawableReference",
-                        "ref": {
-                            "_id_": 5229,
-                            "_type": "String",
-                            "value_": "@drawable\/background"
+                    "android:padding": {
+                        "_id_": 5654,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 5655,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 5656,
+                            "_type": "Float",
+                            "value_": 10
                         }
-                    },
-                    "android:layout_row": {
-                        "_id_": 5462,
-                        "_type": "Integer",
-                        "value_": 10
                     }
                 },
                 "name": {
                     "_id_": 1394,
                     "_type": "String",
                     "value_": "config"
+                }
+            },
+            {
+                "_id_": 5830,
+                "_type": "LayoutResource",
+                "view": {
+                    "_id_": 5831,
+                    "_type": "LinearLayout",
+                    "id": {
+                        "_id_": 5832,
+                        "_type": "String",
+                        "value_": "badge"
+                    },
+                    "views": {
+                        "_id_": 5833,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 5834,
+                                "_type": "ClipToOutline",
+                                "onClick": {
+                                    "_id_": 5835,
+                                    "_type": "Call",
+                                    "name": {
+                                        "_id_": 5836,
+                                        "_type": "String",
+                                        "value_": "pickPic"
+                                    },
+                                    "arguments": {
+                                        "_id_": 5837,
+                                        "_type": "List",
+                                        "list_": [
+                                            {
+                                                "_id_": 5838,
+                                                "_type": "Call",
+                                                "name": {
+                                                    "_id_": 5839,
+                                                    "_type": "String",
+                                                    "value_": "picPath"
+                                                },
+                                                "thisObject": {
+                                                    "_id_": 5840,
+                                                    "_type": "Variable.Get",
+                                                    "name": {
+                                                        "_id_": 5841,
+                                                        "_type": "String",
+                                                        "value_": "badgeControl"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "elementType_": "Action"
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 5842,
+                                    "_type": "String",
+                                    "value_": "icon"
+                                },
+                                "views": {
+                                    "_id_": 5843,
+                                    "_type": "ViewList",
+                                    "list_": [
+                                        {
+                                            "_id_": 5844,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 5845,
+                                                "_type": "String",
+                                                "value_": "letter"
+                                            },
+                                            "android:background": {
+                                                "_id_": 5846,
+                                                "_type": "Color",
+                                                "color_": -5550000
+                                            },
+                                            "android:layout_width": {
+                                                "_id_": 5847,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5848,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5849,
+                                                    "_type": "Float",
+                                                    "value_": 48
+                                                }
+                                            },
+                                            "android:textStyle": {
+                                                "_id_": 5850,
+                                                "_type": "TextView.TextStyle",
+                                                "value_": "bold"
+                                            },
+                                            "android:layout_height": {
+                                                "_id_": 5851,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5852,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5853,
+                                                    "_type": "Float",
+                                                    "value_": 48
+                                                }
+                                            },
+                                            "android:text": {
+                                                "_id_": 5854,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:gravity": {
+                                                "_id_": 5855,
+                                                "_type": "Gravity",
+                                                "value_": "center"
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 5856,
+                                                "_type": "Color",
+                                                "color_": -1
+                                            }
+                                        },
+                                        {
+                                            "_id_": 5857,
+                                            "_type": "ImageView",
+                                            "id": {
+                                                "_id_": 5858,
+                                                "_type": "String",
+                                                "value_": "pic"
+                                            },
+                                            "android:background": {
+                                                "_id_": 5859,
+                                                "_type": "Color",
+                                                "color_": 50331647
+                                            },
+                                            "android:layout_width": {
+                                                "_id_": 5860,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5861,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5862,
+                                                    "_type": "Float",
+                                                    "value_": 48
+                                                }
+                                            },
+                                            "android:layout_height": {
+                                                "_id_": 5863,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 5864,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 5865,
+                                                    "_type": "Float",
+                                                    "value_": 48
+                                                }
+                                            },
+                                            "android:scaleType": {
+                                                "_id_": 5866,
+                                                "_type": "ImageView.ScaleType",
+                                                "value_": "fitXY"
+                                            },
+                                            "android:layout_weight": {
+                                                "_id_": 5867,
+                                                "_type": "Integer",
+                                                "value_": 0
+                                            },
+                                            "android:visibility": {
+                                                "_id_": 5868,
+                                                "_type": "View.Visibility",
+                                                "value_": "invisible"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "android:background": {
+                                    "_id_": 5869,
+                                    "_type": "ShapeDrawable.Oval",
+                                    "color": {
+                                        "_id_": 5870,
+                                        "_type": "Color",
+                                        "color_": 16777215
+                                    },
+                                    "width": {
+                                        "_id_": 5871,
+                                        "_type": "Dimension",
+                                        "unit": {
+                                            "_id_": 5872,
+                                            "_type": "DimensionUnit",
+                                            "value_": "dp"
+                                        },
+                                        "value": {
+                                            "_id_": 5873,
+                                            "_type": "Float",
+                                            "value_": 48
+                                        }
+                                    },
+                                    "height": {
+                                        "_id_": 5874,
+                                        "_type": "Dimension",
+                                        "unit": {
+                                            "_id_": 5875,
+                                            "_type": "DimensionUnit",
+                                            "value_": "dp"
+                                        },
+                                        "value": {
+                                            "_id_": 5876,
+                                            "_type": "Float",
+                                            "value_": 48
+                                        }
+                                    }
+                                },
+                                "android:layout_width": {
+                                    "_id_": 5877,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 5878,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 5879,
+                                        "_type": "Float",
+                                        "value_": 48
+                                    }
+                                },
+                                "android:layout_height": {
+                                    "_id_": 5880,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 5881,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 5882,
+                                        "_type": "Float",
+                                        "value_": 48
+                                    }
+                                }
+                            },
+                            {
+                                "_id_": 5883,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 5884,
+                                    "_type": "String",
+                                    "value_": "title"
+                                },
+                                "android:layout_height": {
+                                    "_id_": 5885,
+                                    "_type": "View.SpecialDimension",
+                                    "value_": "wrap_content"
+                                },
+                                "android:layout_marginLeft": {
+                                    "_id_": 5886,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 5887,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 5888,
+                                        "_type": "Float",
+                                        "value_": 10
+                                    }
+                                },
+                                "android:text": {
+                                    "_id_": 5889,
+                                    "_type": "String",
+                                    "value_": "hello"
+                                },
+                                "android:layout_gravity": {
+                                    "_id_": 5890,
+                                    "_type": "Gravity",
+                                    "value_": "center_vertical"
+                                }
+                            }
+                        ]
+                    },
+                    "android:layout_height": {
+                        "_id_": 5891,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 5892,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 5893,
+                            "_type": "Float",
+                            "value_": 64
+                        }
+                    },
+                    "android:padding": {
+                        "_id_": 5894,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 5895,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 5896,
+                            "_type": "Float",
+                            "value_": 8
+                        }
+                    },
+                    "android:gravity": {
+                        "_id_": 5897,
+                        "_type": "Gravity",
+                        "value_": "left"
+                    },
+                    "android:orientation": {
+                        "_id_": 5898,
+                        "_type": "Orientation",
+                        "value_": "horizontal"
+                    }
+                },
+                "name": {
+                    "_id_": 5899,
+                    "_type": "String",
+                    "value_": "badge"
                 }
             },
             {
