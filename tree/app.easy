@@ -1110,6 +1110,30 @@
                                                     "value_": 1
                                                 }
                                             },
+                                            "android:paddingHorizontal": {
+                                                "_id_": 7075,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 7076,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 7077,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 7073,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 7068,
+                                                "_type": "Color",
+                                                "color_": -1
+                                            },
                                             "android:fontFamily": {
                                                 "_id_": 7054,
                                                 "_type": "String",
