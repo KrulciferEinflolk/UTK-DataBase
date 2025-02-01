@@ -984,26 +984,6 @@
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "customAttributes": {
-                                    "_id_": 5637,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 5639,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5642,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5640,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        }
-                                    ]
-                                },
                                 "android:divider": {
                                     "_id_": 5472,
                                     "_type": "DrawableReference",
