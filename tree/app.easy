@@ -749,7 +749,7 @@
                                         "ref": {
                                             "_id_": 9492,
                                             "_type": "String",
-                                            "value_": "@id\/content"
+                                            "value_": "@id\/drive"
                                         }
                                     },
                                     "url": {
