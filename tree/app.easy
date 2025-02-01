@@ -1035,6 +1035,11 @@
                                                 "_type": "String",
                                                 "value_": "Hello"
                                             },
+                                            "android:scaleY": {
+                                                "_id_": 6733,
+                                                "_type": "Float",
+                                                "value_": 10
+                                            },
                                             "android:layout_marginBottom": {
                                                 "_id_": 6402,
                                                 "_type": "Dimension",
