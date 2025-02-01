@@ -992,20 +992,6 @@
                                                 "_type": "String",
                                                 "value_": "20sp"
                                             },
-                                            "android:layout_margin": {
-                                                "_id_": 6006,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 6007,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 6008,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            },
                                             "android:paddingTop": {
                                                 "_id_": 5758,
                                                 "_type": "Dimension",
@@ -1027,6 +1013,118 @@
                                             }
                                         },
                                         {
+                                            "_id_": 6048,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 6049,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 6050,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_margin": {
+                                                "_id_": 6051,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6052,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6053,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 6036,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 6037,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 6038,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_margin": {
+                                                "_id_": 6039,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6040,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6041,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 6024,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 6025,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 6026,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_margin": {
+                                                "_id_": 6027,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6028,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6029,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 6012,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 6013,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 6014,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_margin": {
+                                                "_id_": 6015,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6016,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6017,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        },
+                                        {
                                             "_id_": 5999,
                                             "_type": "TextView",
                                             "id": {
@@ -1038,76 +1136,20 @@
                                                 "_id_": 6001,
                                                 "_type": "String",
                                                 "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5993,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5994,
-                                                "_type": "String",
-                                                "value_": ""
                                             },
-                                            "android:text": {
-                                                "_id_": 5995,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5987,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5988,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5989,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5981,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5982,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5983,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5975,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5976,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5977,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5971,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5974,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5972,
-                                                "_type": "String",
-                                                "value_": "Hello"
+                                            "android:layout_margin": {
+                                                "_id_": 6009,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6010,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6011,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
                                             }
                                         }
                                     ]
