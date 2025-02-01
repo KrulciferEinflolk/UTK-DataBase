@@ -739,25 +739,12 @@
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 9687,
-                                                        "_type": "Files.CopyAsset",
-                                                        "from": {
-                                                            "_id_": 9689,
-                                                            "_type": "Expression",
-                                                            "text": {
-                                                                "_id_": 9691,
-                                                                "_type": "String",
-                                                                "value_": "\/\/emulated\/0\/"
-                                                            }
-                                                        },
-                                                        "to": {
-                                                            "_id_": 9693,
-                                                            "_type": "Expression",
-                                                            "text": {
-                                                                "_id_": 9695,
-                                                                "_type": "String",
-                                                                "value_": ""
-                                                            }
+                                                        "_id_": 9703,
+                                                        "_type": "DocumentFile.FromUri",
+                                                        "uri": {
+                                                            "_id_": 9705,
+                                                            "_type": "String",
+                                                            "value_": "\/storage\/emulated\/0\/"
                                                         }
                                                     }
                                                 ]
