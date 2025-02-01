@@ -1311,20 +1311,6 @@
                                         }
                                     }
                                 },
-                                "android:padding": {
-                                    "_id_": 5785,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 5786,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 5787,
-                                        "_type": "Float",
-                                        "value_": 10
-                                    }
-                                },
                                 "android:gravity": {
                                     "_id_": 5788,
                                     "_type": "Gravity",
