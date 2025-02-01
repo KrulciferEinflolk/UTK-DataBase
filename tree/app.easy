@@ -747,9 +747,9 @@
                                                 "_id_": 9744,
                                                 "_type": "Intent",
                                                 "action": {
-                                                    "_id_": 9756,
+                                                    "_id_": 9757,
                                                     "_type": "String",
-                                                    "value_": "ACTION_OPEN_DOCUMENT_TREE"
+                                                    "value_": "ACTION_OPEN_DOCUMENT"
                                                 }
                                             }
                                         }
