@@ -717,7 +717,25 @@
                             "action": {
                                 "_id_": 7735,
                                 "_type": "Sequence",
-                                "list_": []
+                                "list_": [
+                                    {
+                                        "_id_": 8148,
+                                        "_type": "Content.Read",
+                                        "uri": {
+                                            "_id_": 8150,
+                                            "_type": "Expression",
+                                            "text": {
+                                                "_id_": 8152,
+                                                "_type": "String",
+                                                "value_": ""
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "_id_": 8154,
+                                        "_type": "AppWidget.Manager"
+                                    }
+                                ]
                             }
                         }
                     ]
