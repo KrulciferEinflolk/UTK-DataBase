@@ -1189,15 +1189,6 @@
                                             }
                                         }
                                     ]
-                                },
-                                "android:divider": {
-                                    "_id_": 5472,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 5474,
-                                        "_type": "String",
-                                        "value_": "@drawable\/divisor"
-                                    }
                                 }
                             }
                         ]
