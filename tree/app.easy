@@ -1011,6 +1011,20 @@
                                                 "_type": "TextView.AutoLink",
                                                 "value_": "all"
                                             }
+                                        },
+                                        {
+                                            "_id_": 5971,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 5974,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 5972,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
                                         }
                                     ]
                                 },
