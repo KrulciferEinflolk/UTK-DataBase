@@ -700,6 +700,88 @@
                 }
             },
             {
+                "_id_": 7683,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 7685,
+                    "_type": "Activity.Features",
+                    "list_": [
+                        {
+                            "_id_": 7731,
+                            "_type": "Sequence",
+                            "list_": []
+                        },
+                        {
+                            "_id_": 7733,
+                            "_type": "Activity.OnStart",
+                            "action": {
+                                "_id_": 7735,
+                                "_type": "Sequence",
+                                "list_": []
+                            }
+                        }
+                    ]
+                },
+                "contentView": {
+                    "_id_": 7687,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 7691,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 7689,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 7694,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 7697,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 7699,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                },
+                                "android:textSize": {
+                                    "_id_": 7701,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 7703,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 7702,
+                                        "_type": "Float",
+                                        "value_": 50
+                                    }
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 7698,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                },
+                                "android:textColor": {
+                                    "_id_": 7700,
+                                    "_type": "Color",
+                                    "color_": -65536
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 7692,
+                    "_type": "String",
+                    "value_": "Drive"
+                }
+            },
+            {
                 "_id_": 1306,
                 "_type": "MenuResource",
                 "name": {
@@ -884,6 +966,82 @@
                     "_id_": 1440,
                     "_type": "String",
                     "value_": "Page1"
+                },
+                "onCreateView": {
+                    "_id_": 7623,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 7635,
+                            "_type": "CheckValue",
+                            "onTrue": {
+                                "_id_": 7706,
+                                "_type": "Activity.SetContentView",
+                                "view": {
+                                    "_id_": 7708,
+                                    "_type": "RelativeLayout",
+                                    "id": {
+                                        "_id_": 7712,
+                                        "_type": "String",
+                                        "value_": ""
+                                    },
+                                    "views": {
+                                        "_id_": 7710,
+                                        "_type": "ViewList",
+                                        "list_": [
+                                            {
+                                                "_id_": 7724,
+                                                "_type": "TextView",
+                                                "id": {
+                                                    "_id_": 7727,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                },
+                                                "android:text": {
+                                                    "_id_": 7725,
+                                                    "_type": "String",
+                                                    "value_": "Cuenta ligada"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "onFalse": {
+                                "_id_": 7662,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 7665,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 7679,
+                                            "_type": "Activity.StartOwn",
+                                            "activity": {
+                                                "_id_": 7704,
+                                                "_type": "String",
+                                                "value_": "Drive"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "id": {
+                                    "_id_": 7667,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 7663,
+                                    "_type": "String",
+                                    "value_": "Sincronizar Drive"
+                                }
+                            },
+                            "value": {
+                                "_id_": 7641,
+                                "_type": "Firebase.Auth.IsSignedIn"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -1052,6 +1210,11 @@
                                                     "_type": "Float",
                                                     "value_": 10
                                                 }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 7243,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             },
                                             "android:fontFamily": {
                                                 "_id_": 6910,
