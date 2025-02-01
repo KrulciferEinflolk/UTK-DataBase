@@ -1013,70 +1013,36 @@
                                             }
                                         },
                                         {
-                                            "_id_": 6818,
-                                            "_type": "ConstraintLayout.Layer",
-                                            "referencedViews": {
-                                                "_id_": 6820,
-                                                "_type": "List",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 6824,
-                                                        "_type": "View.Reference",
-                                                        "ref": {
-                                                            "_id_": 6826,
-                                                            "_type": "String",
-                                                            "value_": "@id\/user"
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "id": {
-                                                "_id_": 6822,
-                                                "_type": "String",
-                                                "value_": ""
-                                            }
-                                        },
-                                        {
-                                            "_id_": 6738,
+                                            "_id_": 6906,
                                             "_type": "TextView",
                                             "id": {
-                                                "_id_": 6741,
-                                                "_type": "String",
-                                                "value_": "user"
-                                            },
-                                            "onAttachedToWindow": {
-                                                "_id_": 6775,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 6779,
-                                                        "_type": "Firebase.Auth.SignIn",
-                                                        "onSignedIn": {
-                                                            "_id_": 6781,
-                                                            "_type": "Sequence",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 6828,
-                                                                    "_type": "Firebase.Auth.UserDisplayName"
-                                                                }
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "textValue": {
-                                                "_id_": 6771,
-                                                "_type": "Firebase.Auth.SignIn",
-                                                "onSignedIn": {
-                                                    "_id_": 6773,
-                                                    "_type": "Sequence",
-                                                    "list_": []
-                                                }
-                                            },
-                                            "android:text": {
-                                                "_id_": 6769,
+                                                "_id_": 6909,
                                                 "_type": "String",
                                                 "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 6907,
+                                                "_type": "String",
+                                                "value_": "Configuración"
+                                            },
+                                            "android:textSize": {
+                                                "_id_": 6911,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6913,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6912,
+                                                    "_type": "Float",
+                                                    "value_": 20
+                                                }
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 6910,
+                                                "_type": "String",
+                                                "value_": "monospace"
                                             }
                                         },
                                         {
@@ -1343,15 +1309,6 @@
                                                     "_type": "Float",
                                                     "value_": 1
                                                 }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 6759,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 6762,
-                                                "_type": "String",
-                                                "value_": ""
                                             }
                                         }
                                     ]
