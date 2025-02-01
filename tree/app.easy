@@ -1302,27 +1302,13 @@
                                         }
                                     },
                                     "color": {
-                                        "_id_": 5783,
+                                        "_id_": 6416,
                                         "_type": "ColorReference",
                                         "ref": {
-                                            "_id_": 5784,
+                                            "_id_": 6418,
                                             "_type": "String",
                                             "value_": "@color\/primary"
                                         }
-                                    }
-                                },
-                                "android:padding": {
-                                    "_id_": 5785,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 5786,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 5787,
-                                        "_type": "Float",
-                                        "value_": 10
                                     }
                                 },
                                 "android:gravity": {
