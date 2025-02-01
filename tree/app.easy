@@ -980,15 +980,6 @@
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 5753,
-                                            "_type": "LayoutReference",
-                                            "ref": {
-                                                "_id_": 5754,
-                                                "_type": "String",
-                                                "value_": "@layout\/badge"
-                                            }
-                                        },
-                                        {
                                             "_id_": 5755,
                                             "_type": "TextView",
                                             "id": {
@@ -1019,80 +1010,6 @@
                                                 "_id_": 5761,
                                                 "_type": "TextView.AutoLink",
                                                 "value_": "all"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5762,
-                                            "_type": "ImageView",
-                                            "id": {
-                                                "_id_": 5763,
-                                                "_type": "String",
-                                                "value_": "image"
-                                            },
-                                            "imageValue": {
-                                                "_id_": 5764,
-                                                "_type": "Field.Get",
-                                                "name": {
-                                                    "_id_": 5765,
-                                                    "_type": "String",
-                                                    "value_": "bitmap"
-                                                },
-                                                "object": {
-                                                    "_id_": 5766,
-                                                    "_type": "ListView.AdapterData"
-                                                }
-                                            },
-                                            "android:layout_width": {
-                                                "_id_": 5767,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 5768,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 5769,
-                                                    "_type": "Float",
-                                                    "value_": 200
-                                                }
-                                            },
-                                            "android:layout_height": {
-                                                "_id_": 5770,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 5771,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 5772,
-                                                    "_type": "Float",
-                                                    "value_": 200
-                                                }
-                                            },
-                                            "android:scaleType": {
-                                                "_id_": 5773,
-                                                "_type": "ImageView.ScaleType",
-                                                "value_": "fitCenter"
-                                            },
-                                            "android:layout_gravity": {
-                                                "_id_": 5774,
-                                                "_type": "Gravity",
-                                                "value_": "right"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5775,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 5776,
-                                                "_type": "String",
-                                                "value_": "timeText"
-                                            },
-                                            "android:layout_gravity": {
-                                                "_id_": 5777,
-                                                "_type": "Gravity",
-                                                "value_": "right"
                                             }
                                         }
                                     ]
