@@ -970,6 +970,20 @@
                             {
                                 "_id_": 5466,
                                 "_type": "ListView",
+                                "emptyView": {
+                                    "_id_": 5626,
+                                    "_type": "TextView",
+                                    "id": {
+                                        "_id_": 5629,
+                                        "_type": "String",
+                                        "value_": ""
+                                    },
+                                    "android:text": {
+                                        "_id_": 5627,
+                                        "_type": "String",
+                                        "value_": "Hello"
+                                    }
+                                },
                                 "id": {
                                     "_id_": 5470,
                                     "_type": "String",
