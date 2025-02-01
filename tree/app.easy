@@ -1013,6 +1013,30 @@
                                             }
                                         },
                                         {
+                                            "_id_": 6818,
+                                            "_type": "ConstraintLayout.Layer",
+                                            "referencedViews": {
+                                                "_id_": 6820,
+                                                "_type": "List",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 6824,
+                                                        "_type": "View.Reference",
+                                                        "ref": {
+                                                            "_id_": 6826,
+                                                            "_type": "String",
+                                                            "value_": "@id\/user"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "id": {
+                                                "_id_": 6822,
+                                                "_type": "String",
+                                                "value_": ""
+                                            }
+                                        },
+                                        {
                                             "_id_": 6738,
                                             "_type": "TextView",
                                             "id": {
@@ -1032,22 +1056,8 @@
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 6787,
-                                                                    "_type": "TextView",
-                                                                    "id": {
-                                                                        "_id_": 6790,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "textValue": {
-                                                                        "_id_": 6804,
-                                                                        "_type": "Firebase.Auth.UserDisplayName"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 6810,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    }
+                                                                    "_id_": 6828,
+                                                                    "_type": "Firebase.Auth.UserDisplayName"
                                                                 }
                                                             ]
                                                         }
