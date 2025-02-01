@@ -1013,6 +1013,82 @@
                                             }
                                         },
                                         {
+                                            "_id_": 6301,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 6302,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 6303,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:layout_width": {
+                                                "_id_": 6304,
+                                                "_type": "View.SpecialDimension",
+                                                "value_": "match_parent"
+                                            },
+                                            "android:text": {
+                                                "_id_": 6305,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_marginBottom": {
+                                                "_id_": 6306,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6307,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6308,
+                                                    "_type": "Float",
+                                                    "value_": 2
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 6285,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 6286,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 6287,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:layout_width": {
+                                                "_id_": 6288,
+                                                "_type": "View.SpecialDimension",
+                                                "value_": "match_parent"
+                                            },
+                                            "android:text": {
+                                                "_id_": 6289,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_marginBottom": {
+                                                "_id_": 6290,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6291,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6292,
+                                                    "_type": "Float",
+                                                    "value_": 2
+                                                }
+                                            }
+                                        },
+                                        {
                                             "_id_": 6269,
                                             "_type": "Button",
                                             "onClick": {
@@ -1046,83 +1122,7 @@
                                                 "value": {
                                                     "_id_": 6276,
                                                     "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 6253,
-                                            "_type": "Button",
-                                            "onClick": {
-                                                "_id_": 6254,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 6255,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:layout_width": {
-                                                "_id_": 6256,
-                                                "_type": "View.SpecialDimension",
-                                                "value_": "match_parent"
-                                            },
-                                            "android:text": {
-                                                "_id_": 6257,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            },
-                                            "android:layout_marginBottom": {
-                                                "_id_": 6258,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 6259,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 6260,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 6229,
-                                            "_type": "Button",
-                                            "onClick": {
-                                                "_id_": 6230,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 6231,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:layout_width": {
-                                                "_id_": 6232,
-                                                "_type": "View.SpecialDimension",
-                                                "value_": "match_parent"
-                                            },
-                                            "android:text": {
-                                                "_id_": 6233,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            },
-                                            "android:layout_marginBottom": {
-                                                "_id_": 6234,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 6235,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 6236,
-                                                    "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 2
                                                 }
                                             }
                                         }
