@@ -717,7 +717,27 @@
                     },
                     "includeApi": {
                         "_id_": 9594,
-                        "_type": "WebView.Api"
+                        "_type": "WebView.Api",
+                        "webChromeClient": {
+                            "_id_": 9628,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "webView": {
+                            "_id_": 9629,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "webViewClient": {
+                            "_id_": 9627,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "files": {
+                            "_id_": 9630,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
                     },
                     "id": {
                         "_id_": 8582,
