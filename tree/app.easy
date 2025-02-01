@@ -754,7 +754,7 @@
                         "url": {
                             "_id_": 8585,
                             "_type": "String",
-                            "value_": "https:\/\/drive.google.com\/?authuser=0"
+                            "value_": "https:\/\/drive.google.com\/?"
                         }
                     },
                     "allowAppsToHandleURLs": {
