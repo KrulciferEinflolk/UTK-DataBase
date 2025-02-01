@@ -730,9 +730,9 @@
                                             "_id_": 10243,
                                             "_type": "Intent.OwnActivity",
                                             "activity": {
-                                                "_id_": 10246,
+                                                "_id_": 10265,
                                                 "_type": "String",
-                                                "value_": "Drive"
+                                                "value_": "Main"
                                             },
                                             "action": {
                                                 "_id_": 10264,
