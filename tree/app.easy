@@ -708,84 +708,30 @@
                     "list_": []
                 },
                 "contentView": {
-                    "_id_": 9650,
-                    "_type": "LinearLayout",
-                    "id": {
-                        "_id_": 9654,
-                        "_type": "String",
-                        "value_": ""
+                    "_id_": 10675,
+                    "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 10676,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 10677,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
                     },
-                    "views": {
-                        "_id_": 9652,
-                        "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 9656,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 9659,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 9742,
-                                            "_type": "Activity.Start",
-                                            "showChooser": {
-                                                "_id_": 9745,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "intent": {
-                                                "_id_": 9744,
-                                                "_type": "Intent",
-                                                "flags": {
-                                                    "_id_": 10267,
-                                                    "_type": "Intent.Flags",
-                                                    "FLAG_ACTIVITY_LAUNCH_ADJACENT": {
-                                                        "_id_": 10269,
-                                                        "_type": "Boolean",
-                                                        "value_": true
-                                                    }
-                                                },
-                                                "action": {
-                                                    "_id_": 10162,
-                                                    "_type": "String",
-                                                    "value_": "ACTION_OPEN_DOCUMENT_TREE"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 9661,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 9657,
-                                    "_type": "String",
-                                    "value_": "Subir archivo"
-                                }
-                            },
-                            {
-                                "_id_": 9670,
-                                "_type": "SearchView",
-                                "onClick": {
-                                    "_id_": 10197,
-                                    "_type": "Sequence",
-                                    "list_": []
-                                },
-                                "id": {
-                                    "_id_": 9674,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "views": {
-                                    "_id_": 9672,
-                                    "_type": "ViewList",
-                                    "list_": []
-                                }
-                            }
-                        ]
+                    "id": {
+                        "_id_": 10678,
+                        "_type": "String",
+                        "value_": "main"
+                    },
+                    "url": {
+                        "_id_": 10729,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 10730,
+                            "_type": "String",
+                            "value_": "main.html"
+                        }
                     }
                 },
                 "launchMode": {
