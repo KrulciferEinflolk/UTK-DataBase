@@ -720,57 +720,32 @@
                         "_type": "WebView.Api"
                     },
                     "webViewClient": {
-                        "_id_": 9472,
-                        "_type": "WebView.WebViewClient",
-                        "shouldOverrideUrlLoading": {
-                            "_id_": 9480,
-                            "_type": "Sequence",
-                            "list_": [
-                                {
-                                    "_id_": 9488,
-                                    "_type": "WebView.LoadURL",
-                                    "viewId": {
-                                        "_id_": 9490,
-                                        "_type": "View.Reference",
-                                        "ref": {
-                                            "_id_": 9492,
-                                            "_type": "String",
-                                            "value_": "@id\/content"
-                                        }
-                                    },
+                        "_id_": 9606,
+                        "_type": "Sequence",
+                        "list_": [
+                            {
+                                "_id_": 9607,
+                                "_type": "WebView.LoadURL",
+                                "viewId": {
+                                    "_id_": 9608,
+                                    "_type": "View.Reference",
+                                    "ref": {
+                                        "_id_": 9609,
+                                        "_type": "String",
+                                        "value_": "@id\/content"
+                                    }
+                                },
+                                "url": {
+                                    "_id_": 9610,
+                                    "_type": "URL",
                                     "url": {
-                                        "_id_": 9494,
-                                        "_type": "URL",
-                                        "url": {
-                                            "_id_": 9495,
-                                            "_type": "String",
-                                            "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
-                                        }
+                                        "_id_": 9611,
+                                        "_type": "String",
+                                        "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
                                     }
                                 }
-                            ]
-                        },
-                        "shouldOverrideKeyEvent": {
-                            "_id_": 9596,
-                            "_type": "Sequence",
-                            "list_": [
-                                {
-                                    "_id_": 9602,
-                                    "_type": "Firebase.Auth.IsSignedIn"
-                                }
-                            ]
-                        },
-                        "trustedDomains": {
-                            "_id_": 9476,
-                            "_type": "List",
-                            "list_": [
-                                {
-                                    "_id_": 9478,
-                                    "_type": "String",
-                                    "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
-                                }
-                            ]
-                        }
+                            }
+                        ]
                     },
                     "id": {
                         "_id_": 8582,
