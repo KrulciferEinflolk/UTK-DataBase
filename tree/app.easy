@@ -964,219 +964,29 @@
                         "value_": ""
                     },
                     "views": {
-                        "_id_": 4324,
+                        "_id_": 5451,
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 4415,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 4416,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 5062,
-                                            "_type": "Firebase.Auth.SignIn",
-                                            "onSignedIn": {
-                                                "_id_": 5064,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 5075,
-                                                        "_type": "ShowToast",
-                                                        "displayLonger": {
-                                                            "_id_": 5076,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "message": {
-                                                            "_id_": 5077,
-                                                            "_type": "String",
-                                                            "value_": "¡Registro exitoso! "
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "onFailed": {
-                                                "_id_": 5066,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 5069,
-                                                        "_type": "ShowToast",
-                                                        "displayLonger": {
-                                                            "_id_": 5070,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "message": {
-                                                            "_id_": 5071,
-                                                            "_type": "String",
-                                                            "value_": "¡Vuelve a intentarlo! "
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "onCanceled": {
-                                                "_id_": 5084,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 5085,
-                                                        "_type": "ShowToast",
-                                                        "displayLonger": {
-                                                            "_id_": 5086,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "message": {
-                                                            "_id_": 5087,
-                                                            "_type": "String",
-                                                            "value_": "Intenta de nuevo:("
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                },
+                                "_id_": 5466,
+                                "_type": "ListView",
                                 "id": {
-                                    "_id_": 4419,
+                                    "_id_": 5470,
                                     "_type": "String",
-                                    "value_": "login"
+                                    "value_": ""
                                 },
-                                "android:text": {
-                                    "_id_": 4420,
-                                    "_type": "String",
-                                    "value_": "Iniciar sesion con Google"
-                                }
-                            },
-                            {
-                                "_id_": 4498,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 4501,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 5043,
-                                            "_type": "Firebase.Auth.SignIn",
-                                            "onSignedIn": {
-                                                "_id_": 5045,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 5055,
-                                                        "_type": "ShowToast",
-                                                        "displayLonger": {
-                                                            "_id_": 5056,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "message": {
-                                                            "_id_": 5057,
-                                                            "_type": "Firebase.Auth.UserDisplayName"
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "onFailed": {
-                                                "_id_": 5047,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 5051,
-                                                        "_type": "ShowToast",
-                                                        "displayLonger": {
-                                                            "_id_": 5054,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "message": {
-                                                            "_id_": 5053,
-                                                            "_type": "String",
-                                                            "value_": "No tienes usuario, ¡inicia sesión! "
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
+                                "views": {
+                                    "_id_": 5468,
+                                    "_type": "ViewList",
+                                    "list_": []
                                 },
-                                "id": {
-                                    "_id_": 4503,
-                                    "_type": "String",
-                                    "value_": "valid"
-                                },
-                                "android:text": {
-                                    "_id_": 4499,
-                                    "_type": "String",
-                                    "value_": "Comprobar"
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 5124,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 5125,
-                                        "_type": "DimensionUnit",
-                                        "value_": "px"
-                                    },
-                                    "value": {
-                                        "_id_": 5126,
-                                        "_type": "Float",
-                                        "value_": 200
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 5092,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 5095,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 5099,
-                                            "_type": "Firebase.Auth.SignOut"
-                                        },
-                                        {
-                                            "_id_": 5104,
-                                            "_type": "ShowToast",
-                                            "displayLonger": {
-                                                "_id_": 5105,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "message": {
-                                                "_id_": 5106,
-                                                "_type": "String",
-                                                "value_": "Sesión cerrada con exito. "
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 5097,
-                                    "_type": "String",
-                                    "value_": "logout"
-                                },
-                                "android:text": {
-                                    "_id_": 5093,
-                                    "_type": "String",
-                                    "value_": "Cerrar sesión"
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 5121,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 5122,
-                                        "_type": "DimensionUnit",
-                                        "value_": "px"
-                                    },
-                                    "value": {
-                                        "_id_": 5123,
-                                        "_type": "Float",
-                                        "value_": 400
+                                "android:divider": {
+                                    "_id_": 5472,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 5474,
+                                        "_type": "String",
+                                        "value_": ""
                                     }
                                 }
                             }
@@ -1190,6 +1000,11 @@
                             "_type": "String",
                             "value_": "@drawable\/background"
                         }
+                    },
+                    "android:layout_row": {
+                        "_id_": 5462,
+                        "_type": "Integer",
+                        "value_": 100
                     }
                 },
                 "name": {
@@ -1251,6 +1066,24 @@
                     "_id_": 5213,
                     "_type": "String",
                     "value_": "background"
+                }
+            },
+            {
+                "_id_": 5476,
+                "_type": "DrawableResource",
+                "drawable": {
+                    "_id_": 5499,
+                    "_type": "ShapeDrawable.Line",
+                    "color": {
+                        "_id_": 5501,
+                        "_type": "Color",
+                        "color_": -16777216
+                    }
+                },
+                "name": {
+                    "_id_": 5479,
+                    "_type": "String",
+                    "value_": "divisor"
                 }
             }
         ]
