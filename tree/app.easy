@@ -719,6 +719,15 @@
                         "_id_": 8587,
                         "_type": "WebView.Api"
                     },
+                    "webViewClient": {
+                        "_id_": 9472,
+                        "_type": "WebView.WebViewClient",
+                        "trustedDomains": {
+                            "_id_": 9476,
+                            "_type": "List",
+                            "list_": []
+                        }
+                    },
                     "id": {
                         "_id_": 8582,
                         "_type": "String",
