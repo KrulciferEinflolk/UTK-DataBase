@@ -754,7 +754,7 @@
                         "url": {
                             "_id_": 8585,
                             "_type": "String",
-                            "value_": "https:\/\/www.googleapis.com\/drive\/v3\/files"
+                            "value_": "https:\/\/drive.google.com\/?authuser=0"
                         }
                     },
                     "allowAppsToHandleURLs": {
@@ -1087,20 +1087,6 @@
                                         {
                                             "_id_": 5755,
                                             "_type": "TextView",
-                                            "onInit": {
-                                                "_id_": 8614,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 8618,
-                                                        "_type": "Return",
-                                                        "value": {
-                                                            "_id_": 8626,
-                                                            "_type": "Firebase.Auth.UserDisplayName"
-                                                        }
-                                                    }
-                                                ]
-                                            },
                                             "id": {
                                                 "_id_": 5756,
                                                 "_type": "String",
