@@ -777,6 +777,15 @@
                         "_type": "String",
                         "value_": "drive"
                     },
+                    "url": {
+                        "_id_": 9604,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 9605,
+                            "_type": "String",
+                            "value_": "https:\/\/drive.google.com"
+                        }
+                    },
                     "allowAppsToHandleURLs": {
                         "_id_": 9053,
                         "_type": "Boolean",
