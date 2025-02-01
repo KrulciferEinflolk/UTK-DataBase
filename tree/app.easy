@@ -719,34 +719,6 @@
                         "_id_": 9594,
                         "_type": "WebView.Api"
                     },
-                    "webViewClient": {
-                        "_id_": 9606,
-                        "_type": "Sequence",
-                        "list_": [
-                            {
-                                "_id_": 9607,
-                                "_type": "WebView.LoadURL",
-                                "viewId": {
-                                    "_id_": 9608,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 9609,
-                                        "_type": "String",
-                                        "value_": "@id\/content"
-                                    }
-                                },
-                                "url": {
-                                    "_id_": 9610,
-                                    "_type": "URL",
-                                    "url": {
-                                        "_id_": 9611,
-                                        "_type": "String",
-                                        "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
-                                    }
-                                }
-                            }
-                        ]
-                    },
                     "id": {
                         "_id_": 8582,
                         "_type": "String",
