@@ -1039,20 +1039,6 @@
                                                         }
                                                     }
                                                 ]
-                                            },
-                                            "android:paddingTop": {
-                                                "_id_": 6188,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 6189,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 6190,
-                                                    "_type": "Float",
-                                                    "value_": 1
-                                                }
                                             }
                                         },
                                         {
@@ -1082,63 +1068,6 @@
                                                         }
                                                     }
                                                 ]
-                                            },
-                                            "android:paddingTop": {
-                                                "_id_": 6170,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 6171,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 6172,
-                                                    "_type": "Float",
-                                                    "value_": 1
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 6128,
-                                            "_type": "ActionMenuView",
-                                            "id": {
-                                                "_id_": 6129,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "views": {
-                                                "_id_": 6130,
-                                                "_type": "ViewList",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 6131,
-                                                        "_type": "TextView",
-                                                        "id": {
-                                                            "_id_": 6132,
-                                                            "_type": "String",
-                                                            "value_": ""
-                                                        },
-                                                        "android:text": {
-                                                            "_id_": 6133,
-                                                            "_type": "String",
-                                                            "value_": "Hello"
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "android:paddingTop": {
-                                                "_id_": 6134,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 6135,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 6136,
-                                                    "_type": "Float",
-                                                    "value_": 1
-                                                }
                                             }
                                         }
                                     ]
