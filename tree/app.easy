@@ -1080,7 +1080,21 @@
                                             "android:text": {
                                                 "_id_": 6401,
                                                 "_type": "String",
-                                                "value_": "Hello"
+                                                "value_": "Rellenar() "
+                                            },
+                                            "android:textSize": {
+                                                "_id_": 6920,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 6922,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 6921,
+                                                    "_type": "Float",
+                                                    "value_": 20
+                                                }
                                             },
                                             "android:layout_marginBottom": {
                                                 "_id_": 6402,
@@ -1095,6 +1109,11 @@
                                                     "_type": "Float",
                                                     "value_": 1
                                                 }
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 6919,
+                                                "_type": "String",
+                                                "value_": "comic_sans_ms"
                                             }
                                         },
                                         {
