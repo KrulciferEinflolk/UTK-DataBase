@@ -705,92 +705,57 @@
                 "features": {
                     "_id_": 7685,
                     "_type": "Activity.Features",
-                    "list_": [
-                        {
-                            "_id_": 7731,
-                            "_type": "Sequence",
-                            "list_": []
-                        },
-                        {
-                            "_id_": 7733,
-                            "_type": "Activity.OnStart",
-                            "action": {
-                                "_id_": 7735,
-                                "_type": "Sequence",
-                                "list_": [
-                                    {
-                                        "_id_": 8148,
-                                        "_type": "Content.Read",
-                                        "uri": {
-                                            "_id_": 8150,
-                                            "_type": "Expression",
-                                            "text": {
-                                                "_id_": 8152,
-                                                "_type": "String",
-                                                "value_": ""
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "_id_": 8154,
-                                        "_type": "AppWidget.Manager"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "list_": []
                 },
                 "contentView": {
-                    "_id_": 7687,
-                    "_type": "RelativeLayout",
-                    "id": {
-                        "_id_": 7691,
-                        "_type": "String",
-                        "value_": ""
+                    "_id_": 8580,
+                    "_type": "WebView",
+                    "allowExternalURLs": {
+                        "_id_": 8588,
+                        "_type": "Boolean",
+                        "value_": true
                     },
-                    "views": {
-                        "_id_": 7689,
-                        "_type": "ViewList",
+                    "includeApi": {
+                        "_id_": 8587,
+                        "_type": "WebView.Api"
+                    },
+                    "id": {
+                        "_id_": 8582,
+                        "_type": "String",
+                        "value_": "drive"
+                    },
+                    "interfaces": {
+                        "_id_": 8590,
+                        "_type": "List",
                         "list_": [
                             {
-                                "_id_": 7694,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 7697,
+                                "_id_": 8592,
+                                "_type": "WebView.Interface",
+                                "name": {
+                                    "_id_": 8594,
                                     "_type": "String",
-                                    "value_": ""
+                                    "value_": "databaseuser"
                                 },
-                                "android:text": {
-                                    "_id_": 7699,
-                                    "_type": "String",
-                                    "value_": "Hello"
-                                },
-                                "android:textSize": {
-                                    "_id_": 7701,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 7703,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 7702,
-                                        "_type": "Float",
-                                        "value_": 50
+                                "object": {
+                                    "_id_": 8596,
+                                    "_type": "WebView.InterfaceObject",
+                                    "methods": {
+                                        "_id_": 8598,
+                                        "_type": "List",
+                                        "list_": []
                                     }
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 7698,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                },
-                                "android:textColor": {
-                                    "_id_": 7700,
-                                    "_type": "Color",
-                                    "color_": -65536
                                 }
                             }
                         ]
+                    },
+                    "url": {
+                        "_id_": 8584,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 8585,
+                            "_type": "String",
+                            "value_": "https:\/\/www.googleapis.com\/drive\/v3\/files\n"
+                        }
                     }
                 },
                 "name": {
@@ -1158,6 +1123,20 @@
                                         {
                                             "_id_": 5755,
                                             "_type": "TextView",
+                                            "onInit": {
+                                                "_id_": 8614,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 8618,
+                                                        "_type": "Return",
+                                                        "value": {
+                                                            "_id_": 8626,
+                                                            "_type": "Firebase.Auth.UserDisplayName"
+                                                        }
+                                                    }
+                                                ]
+                                            },
                                             "id": {
                                                 "_id_": 5756,
                                                 "_type": "String",
