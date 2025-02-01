@@ -1031,9 +1031,9 @@
                                                 "value_": "match_parent"
                                             },
                                             "android:layout_height": {
-                                                "_id_": 6419,
+                                                "_id_": 6420,
                                                 "_type": "View.SpecialDimension",
-                                                "value_": "wrap_content"
+                                                "value_": "match_parent"
                                             },
                                             "android:text": {
                                                 "_id_": 6401,
