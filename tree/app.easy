@@ -720,32 +720,36 @@
                         "_type": "WebView.Api"
                     },
                     "webChromeClient": {
-                        "_id_": 9498,
-                        "_type": "Sequence",
-                        "list_": [
-                            {
-                                "_id_": 9499,
-                                "_type": "WebView.LoadURL",
-                                "viewId": {
-                                    "_id_": 9500,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 9501,
-                                        "_type": "String",
-                                        "value_": "@id\/content"
-                                    }
-                                },
-                                "url": {
-                                    "_id_": 9502,
-                                    "_type": "URL",
+                        "_id_": 9509,
+                        "_type": "WebView.WebViewClient",
+                        "shouldOverrideUrlLoading": {
+                            "_id_": 9510,
+                            "_type": "Sequence",
+                            "list_": [
+                                {
+                                    "_id_": 9511,
+                                    "_type": "WebView.LoadURL",
+                                    "viewId": {
+                                        "_id_": 9512,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 9513,
+                                            "_type": "String",
+                                            "value_": "@id\/content"
+                                        }
+                                    },
                                     "url": {
-                                        "_id_": 9503,
-                                        "_type": "String",
-                                        "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
+                                        "_id_": 9514,
+                                        "_type": "URL",
+                                        "url": {
+                                            "_id_": 9515,
+                                            "_type": "String",
+                                            "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
+                                        }
                                     }
                                 }
-                            }
-                        ]
+                            ]
+                        }
                     },
                     "id": {
                         "_id_": 8582,
