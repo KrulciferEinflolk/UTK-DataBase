@@ -971,12 +971,17 @@
                                 "_id_": 5466,
                                 "_type": "ListView",
                                 "emptyView": {
-                                    "_id_": 5622,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 5624,
+                                    "_id_": 5644,
+                                    "_type": "TextView",
+                                    "id": {
+                                        "_id_": 5647,
                                         "_type": "String",
-                                        "value_": "@id\/content"
+                                        "value_": ""
+                                    },
+                                    "android:text": {
+                                        "_id_": 5645,
+                                        "_type": "String",
+                                        "value_": "Hello"
                                     }
                                 },
                                 "id": {
