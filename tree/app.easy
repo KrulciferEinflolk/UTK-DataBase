@@ -975,220 +975,14 @@
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "views": {
-                                    "_id_": 5468,
-                                    "_type": "ViewList",
-                                    "list_": [
-                                        {
-                                            "_id_": 5556,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5557,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5558,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5559,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5597,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5598,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5599,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5600,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5589,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5590,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5591,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5592,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5581,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5582,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5583,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5584,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5573,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5574,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5575,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5576,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5565,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5566,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5567,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5568,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5534,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5535,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5536,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5537,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5526,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5527,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5528,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5529,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5518,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5519,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5520,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5521,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5510,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5511,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5512,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5513,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 5504,
-                                            "_type": "CheckBox",
-                                            "onClick": {
-                                                "_id_": 5507,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 5509,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 5505,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            }
-                                        }
-                                    ]
+                                "android:divider": {
+                                    "_id_": 5472,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 5474,
+                                        "_type": "String",
+                                        "value_": "@drawable\/divisor"
+                                    }
                                 }
                             }
                         ]
@@ -1201,6 +995,11 @@
                             "_type": "String",
                             "value_": "@drawable\/background"
                         }
+                    },
+                    "android:layout_row": {
+                        "_id_": 5462,
+                        "_type": "Integer",
+                        "value_": 10
                     }
                 },
                 "name": {
