@@ -1026,7 +1026,7 @@
                                             "unit": {
                                                 "_id_": 5781,
                                                 "_type": "DimensionUnit",
-                                                "value_": "px"
+                                                "value_": "dp"
                                             },
                                             "value": {
                                                 "_id_": 5782,
