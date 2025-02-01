@@ -727,20 +727,6 @@
                             "_type": "Sequence",
                             "list_": [
                                 {
-                                    "_id_": 9517,
-                                    "_type": "FragmentContainerView",
-                                    "id": {
-                                        "_id_": 9521,
-                                        "_type": "String",
-                                        "value_": ""
-                                    },
-                                    "views": {
-                                        "_id_": 9519,
-                                        "_type": "ViewList",
-                                        "list_": []
-                                    }
-                                },
-                                {
                                     "_id_": 9488,
                                     "_type": "WebView.LoadURL",
                                     "viewId": {
@@ -749,7 +735,7 @@
                                         "ref": {
                                             "_id_": 9492,
                                             "_type": "String",
-                                            "value_": "@id\/drive"
+                                            "value_": "@id\/content"
                                         }
                                     },
                                     "url": {
