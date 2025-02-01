@@ -607,7 +607,7 @@
                                 "adSize": {
                                     "_id_": 1244,
                                     "_type": "AdMob.AdSize",
-                                    "value_": "LARGE_BANNER"
+                                    "value_": "FULL_BANNER"
                                 },
                                 "android:layout_width": {
                                     "_id_": 1245,
