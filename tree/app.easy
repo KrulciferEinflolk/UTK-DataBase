@@ -758,7 +758,7 @@
                                         "url": {
                                             "_id_": 9495,
                                             "_type": "String",
-                                            "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
+                                            "value_": "https:\/\/drive.google.com\/?authuser=0"
                                         }
                                     }
                                 }
@@ -771,7 +771,7 @@
                                 {
                                     "_id_": 9478,
                                     "_type": "String",
-                                    "value_": "https:\/\/drive.google.com\/drive\/u\/0\/my-drive"
+                                    "value_": "https:\/\/drive.google.com\/?authuser=0"
                                 }
                             ]
                         }
