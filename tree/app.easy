@@ -1013,6 +1013,63 @@
                                             }
                                         },
                                         {
+                                            "_id_": 6738,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 6741,
+                                                "_type": "String",
+                                                "value_": "user"
+                                            },
+                                            "onAttachedToWindow": {
+                                                "_id_": 6775,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 6779,
+                                                        "_type": "Firebase.Auth.SignIn",
+                                                        "onSignedIn": {
+                                                            "_id_": 6781,
+                                                            "_type": "Sequence",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 6787,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 6790,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "textValue": {
+                                                                        "_id_": 6804,
+                                                                        "_type": "Firebase.Auth.UserDisplayName"
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 6810,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "textValue": {
+                                                "_id_": 6771,
+                                                "_type": "Firebase.Auth.SignIn",
+                                                "onSignedIn": {
+                                                    "_id_": 6773,
+                                                    "_type": "Sequence",
+                                                    "list_": []
+                                                }
+                                            },
+                                            "android:text": {
+                                                "_id_": 6769,
+                                                "_type": "String",
+                                                "value_": ""
+                                            }
+                                        },
+                                        {
                                             "_id_": 6397,
                                             "_type": "Button",
                                             "onClick": {
@@ -1276,6 +1333,15 @@
                                                     "_type": "Float",
                                                     "value_": 1
                                                 }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 6759,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 6762,
+                                                "_type": "String",
+                                                "value_": ""
                                             }
                                         }
                                     ]
