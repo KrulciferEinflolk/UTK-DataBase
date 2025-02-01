@@ -743,19 +743,6 @@
                                                     "value_": "ACTION_OPEN_DOCUMENT_TREE"
                                                 }
                                             }
-                                        },
-                                        {
-                                            "_id_": 10180,
-                                            "_type": "Firebase.Database.QueryListAdapter",
-                                            "query": {
-                                                "_id_": 10185,
-                                                "_type": "Intent",
-                                                "action": {
-                                                    "_id_": 10186,
-                                                    "_type": "String",
-                                                    "value_": "ACTION_OPEN_DOCUMENT_TREE"
-                                                }
-                                            }
                                         }
                                     ]
                                 },
@@ -773,6 +760,31 @@
                             {
                                 "_id_": 9670,
                                 "_type": "SearchView",
+                                "onClick": {
+                                    "_id_": 10197,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 10201,
+                                            "_type": "Intent.Filter",
+                                            "elements": {
+                                                "_id_": 10203,
+                                                "_type": "List",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 10205,
+                                                        "_type": "Intent.Filter.Category",
+                                                        "name": {
+                                                            "_id_": 10207,
+                                                            "_type": "String",
+                                                            "value_": "CATEGORY_DEFAULT"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
                                 "id": {
                                     "_id_": 9674,
                                     "_type": "String",
