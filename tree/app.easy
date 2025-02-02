@@ -807,7 +807,7 @@
                                                 "value": {
                                                     "_id_": 13275,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 40
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
