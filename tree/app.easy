@@ -820,134 +820,125 @@
                                                 "_type": "String",
                                                 "value_": "courier"
                                             }
-                                        },
+                                        }
+                                    ]
+                                },
+                                "onUpdate": {
+                                    "_id_": 13886,
+                                    "_type": "Sequence",
+                                    "list_": [
                                         {
-                                            "_id_": 11988,
-                                            "_type": "EditText",
-                                            "id": {
-                                                "_id_": 11991,
+                                            "_id_": 13887,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 13888,
                                                 "_type": "String",
-                                                "value_": "carpeta"
+                                                "value_": "id_carpeta"
                                             },
-                                            "onTextChange": {
-                                                "_id_": 13848,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 13860,
-                                                        "_type": "Variable.Set",
-                                                        "name": {
-                                                            "_id_": 13867,
-                                                            "_type": "String",
-                                                            "value_": "id_carpeta"
-                                                        },
-                                                        "value": {
-                                                            "_id_": 13864,
-                                                            "_type": "Expression",
-                                                            "text": {
-                                                                "_id_": 13866,
-                                                                "_type": "String",
-                                                                "value_": ""
-                                                            }
-                                                        }
+                                            "value": {
+                                                "_id_": 13895,
+                                                "_type": "EditText",
+                                                "id": {
+                                                    "_id_": 13896,
+                                                    "_type": "String",
+                                                    "value_": "carpeta"
+                                                },
+                                                "android:background": {
+                                                    "_id_": 13897,
+                                                    "_type": "Color",
+                                                    "color_": -1
+                                                },
+                                                "android:layout_width": {
+                                                    "_id_": 13898,
+                                                    "_type": "View.SpecialDimension",
+                                                    "value_": "wrap_content"
+                                                },
+                                                "android:maxLength": {
+                                                    "_id_": 13899,
+                                                    "_type": "Integer",
+                                                    "value_": 34
+                                                },
+                                                "android:text": {
+                                                    "_id_": 13900,
+                                                    "_type": "String",
+                                                    "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                                                },
+                                                "android:layout_marginHorizontal": {
+                                                    "_id_": 13901,
+                                                    "_type": "Dimension",
+                                                    "unit": {
+                                                        "_id_": 13902,
+                                                        "_type": "DimensionUnit",
+                                                        "value_": "dp"
+                                                    },
+                                                    "value": {
+                                                        "_id_": 13903,
+                                                        "_type": "Float",
+                                                        "value_": 38
                                                     }
-                                                ]
-                                            },
-                                            "android:background": {
-                                                "_id_": 12017,
-                                                "_type": "Color",
-                                                "color_": -1
-                                            },
-                                            "android:layout_width": {
-                                                "_id_": 12092,
-                                                "_type": "View.SpecialDimension",
-                                                "value_": "wrap_content"
-                                            },
-                                            "android:maxLength": {
-                                                "_id_": 12026,
-                                                "_type": "Integer",
-                                                "value_": 34
-                                            },
-                                            "android:text": {
-                                                "_id_": 12018,
-                                                "_type": "String",
-                                                "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-                                            },
-                                            "android:layout_marginHorizontal": {
-                                                "_id_": 12865,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 12866,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
                                                 },
-                                                "value": {
-                                                    "_id_": 12867,
-                                                    "_type": "Float",
-                                                    "value_": 38
-                                                }
-                                            },
-                                            "android:paddingVertical": {
-                                                "_id_": 12107,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 12108,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
+                                                "android:paddingVertical": {
+                                                    "_id_": 13904,
+                                                    "_type": "Dimension",
+                                                    "unit": {
+                                                        "_id_": 13905,
+                                                        "_type": "DimensionUnit",
+                                                        "value_": "dp"
+                                                    },
+                                                    "value": {
+                                                        "_id_": 13906,
+                                                        "_type": "Float",
+                                                        "value_": 10
+                                                    }
                                                 },
-                                                "value": {
-                                                    "_id_": 12109,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            },
-                                            "android:paddingHorizontal": {
-                                                "_id_": 12111,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 12112,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
+                                                "android:paddingHorizontal": {
+                                                    "_id_": 13907,
+                                                    "_type": "Dimension",
+                                                    "unit": {
+                                                        "_id_": 13908,
+                                                        "_type": "DimensionUnit",
+                                                        "value_": "dp"
+                                                    },
+                                                    "value": {
+                                                        "_id_": 13909,
+                                                        "_type": "Float",
+                                                        "value_": 10
+                                                    }
                                                 },
-                                                "value": {
-                                                    "_id_": 12113,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            },
-                                            "android:includeFontPadding": {
-                                                "_id_": 12097,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "android:layout_marginVertical": {
-                                                "_id_": 12874,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 12875,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
+                                                "android:includeFontPadding": {
+                                                    "_id_": 13910,
+                                                    "_type": "Boolean",
+                                                    "value_": true
                                                 },
-                                                "value": {
-                                                    "_id_": 12876,
-                                                    "_type": "Float",
-                                                    "value_": 80
+                                                "android:layout_marginVertical": {
+                                                    "_id_": 13911,
+                                                    "_type": "Dimension",
+                                                    "unit": {
+                                                        "_id_": 13912,
+                                                        "_type": "DimensionUnit",
+                                                        "value_": "dp"
+                                                    },
+                                                    "value": {
+                                                        "_id_": 13913,
+                                                        "_type": "Float",
+                                                        "value_": 80
+                                                    }
+                                                },
+                                                "android:layout_centerHorizontal": {
+                                                    "_id_": 13914,
+                                                    "_type": "Boolean",
+                                                    "value_": true
+                                                },
+                                                "android:textColor": {
+                                                    "_id_": 13915,
+                                                    "_type": "Color",
+                                                    "color_": -16777216
+                                                },
+                                                "android:fontFamily": {
+                                                    "_id_": 13916,
+                                                    "_type": "String",
+                                                    "value_": "biome-ligth"
                                                 }
-                                            },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 12868,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "android:textColor": {
-                                                "_id_": 12077,
-                                                "_type": "Color",
-                                                "color_": -16777216
-                                            },
-                                            "android:fontFamily": {
-                                                "_id_": 12121,
-                                                "_type": "String",
-                                                "value_": "biome-ligth"
                                             }
                                         }
                                     ]
