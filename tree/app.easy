@@ -1754,15 +1754,6 @@
                                     "value_": "id_carpeta"
                                 }
                             }
-                        },
-                        {
-                            "_id_": 13984,
-                            "_type": "DocumentFile.Create",
-                            "mimeType": {
-                                "_id_": 13985,
-                                "_type": "String",
-                                "value_": "variables.js"
-                            }
                         }
                     ]
                 },
@@ -1770,6 +1761,11 @@
                     "_id_": 13844,
                     "_type": "String",
                     "value_": "id_carpeta"
+                },
+                "persist": {
+                    "_id_": 14837,
+                    "_type": "Boolean",
+                    "value_": true
                 }
             }
         ]
