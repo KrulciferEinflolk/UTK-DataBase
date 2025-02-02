@@ -797,19 +797,10 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
-                                            "app:layout_constraintCircleRadius": {
-                                                "_id_": 12491,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 12492,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 12493,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
+                                            "android:hint": {
+                                                "_id_": 12494,
+                                                "_type": "String",
+                                                "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
                                             "android:paddingVertical": {
                                                 "_id_": 12107,
