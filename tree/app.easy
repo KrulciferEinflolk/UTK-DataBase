@@ -777,10 +777,6 @@
                                                 "_type": "String",
                                                 "value_": ""
                                             },
-                                            "android:background": {
-                                                "_id_": 11928,
-                                                "_type": "CheckedTextView.MultipleChoiceIndicator"
-                                            },
                                             "android:text": {
                                                 "_id_": 11918,
                                                 "_type": "String",
