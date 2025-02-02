@@ -778,12 +778,12 @@
                                                 "value_": ""
                                             },
                                             "style": {
-                                                "_id_": 12065,
-                                                "_type": "StyleReference",
-                                                "ref": {
-                                                    "_id_": 12067,
-                                                    "_type": "String",
-                                                    "value_": "@style\/input"
+                                                "_id_": 12069,
+                                                "_type": "Theme",
+                                                "android:textColor": {
+                                                    "_id_": 12071,
+                                                    "_type": "Color",
+                                                    "color_": -16777216
                                                 }
                                             },
                                             "android:background": {
