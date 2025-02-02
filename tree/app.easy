@@ -1754,20 +1754,6 @@
                                     "value_": "id_carpeta"
                                 }
                             }
-                        },
-                        {
-                            "_id_": 15238,
-                            "_type": "ShareAsset",
-                            "file": {
-                                "_id_": 15240,
-                                "_type": "String",
-                                "value_": "java"
-                            },
-                            "provider": {
-                                "_id_": 15242,
-                                "_type": "String",
-                                "value_": ""
-                            }
                         }
                     ]
                 },
