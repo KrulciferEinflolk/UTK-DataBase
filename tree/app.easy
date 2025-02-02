@@ -797,18 +797,18 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
-                                            "android:padding": {
-                                                "_id_": 12103,
+                                            "android:paddingVertical": {
+                                                "_id_": 12107,
                                                 "_type": "Dimension",
                                                 "unit": {
-                                                    "_id_": 12104,
+                                                    "_id_": 12108,
                                                     "_type": "DimensionUnit",
                                                     "value_": "dp"
                                                 },
                                                 "value": {
-                                                    "_id_": 12105,
+                                                    "_id_": 12109,
                                                     "_type": "Float",
-                                                    "value_": 5
+                                                    "value_": 10
                                                 }
                                             },
                                             "android:includeFontPadding": {
