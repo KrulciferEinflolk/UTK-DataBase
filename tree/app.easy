@@ -787,6 +787,11 @@
                                                 "_type": "Integer",
                                                 "value_": 34
                                             },
+                                            "android:textColorHint": {
+                                                "_id_": 12028,
+                                                "_type": "Color",
+                                                "color_": -16777216
+                                            },
                                             "android:text": {
                                                 "_id_": 12018,
                                                 "_type": "String",
