@@ -758,37 +758,46 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 11957,
-                                "_type": "LinearLayout",
+                                "_id_": 11969,
+                                "_type": "RelativeLayout",
                                 "id": {
-                                    "_id_": 11961,
+                                    "_id_": 11973,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "views": {
-                                    "_id_": 11959,
+                                    "_id_": 11971,
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 11962,
+                                            "_id_": 11988,
                                             "_type": "EditText",
                                             "id": {
-                                                "_id_": 11963,
+                                                "_id_": 11991,
                                                 "_type": "String",
                                                 "value_": ""
                                             }
                                         }
                                     ]
                                 },
-                                "android:background": {
-                                    "_id_": 11966,
-                                    "_type": "Color",
-                                    "color_": -1
+                                "style": {
+                                    "_id_": 11980,
+                                    "_type": "Style",
+                                    "android:background": {
+                                        "_id_": 11986,
+                                        "_type": "Color",
+                                        "color_": -1
+                                    },
+                                    "android:scaleX": {
+                                        "_id_": 11992,
+                                        "_type": "Float",
+                                        "value_": 10
+                                    }
                                 },
-                                "android:scaleX": {
-                                    "_id_": 11967,
-                                    "_type": "Float",
-                                    "value_": 10
+                                "android:gravity": {
+                                    "_id_": 11974,
+                                    "_type": "Gravity",
+                                    "value_": "fill"
                                 }
                             }
                         ]
