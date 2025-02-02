@@ -770,20 +770,25 @@
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 11917,
+                                            "_id_": 11941,
                                             "_type": "EditText",
                                             "id": {
-                                                "_id_": 11920,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 11918,
+                                                "_id_": 11944,
                                                 "_type": "String",
                                                 "value_": ""
                                             }
                                         }
                                     ]
+                                },
+                                "android:background": {
+                                    "_id_": 11950,
+                                    "_type": "Color",
+                                    "color_": -1
+                                },
+                                "android:scaleX": {
+                                    "_id_": 11951,
+                                    "_type": "Float",
+                                    "value_": 10
                                 }
                             }
                         ]
