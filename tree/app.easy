@@ -778,36 +778,14 @@
                                                 "value_": ""
                                             },
                                             "android:background": {
-                                                "_id_": 12009,
-                                                "_type": "ShapeDrawable.Rectangle",
-                                                "width": {
-                                                    "_id_": 12010,
-                                                    "_type": "Dimension",
-                                                    "unit": {
-                                                        "_id_": 12011,
-                                                        "_type": "DimensionUnit",
-                                                        "value_": "dp"
-                                                    },
-                                                    "value": {
-                                                        "_id_": 12012,
-                                                        "_type": "Float",
-                                                        "value_": 20
-                                                    }
-                                                },
-                                                "height": {
-                                                    "_id_": 12013,
-                                                    "_type": "Dimension",
-                                                    "unit": {
-                                                        "_id_": 12014,
-                                                        "_type": "DimensionUnit",
-                                                        "value_": "dp"
-                                                    },
-                                                    "value": {
-                                                        "_id_": 12015,
-                                                        "_type": "Float",
-                                                        "value_": 5
-                                                    }
-                                                }
+                                                "_id_": 12017,
+                                                "_type": "Color",
+                                                "color_": -1
+                                            },
+                                            "android:text": {
+                                                "_id_": 12018,
+                                                "_type": "String",
+                                                "value_": "hi"
                                             }
                                         }
                                     ]
