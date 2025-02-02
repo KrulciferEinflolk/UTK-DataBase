@@ -962,6 +962,39 @@
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
+                                                        "_id_": 15538,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 15539,
+                                                            "_type": "String",
+                                                            "value_": "directorio"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 15540,
+                                                            "_type": "Sequence",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 15541,
+                                                                    "_type": "Variable.Get",
+                                                                    "name": {
+                                                                        "_id_": 15542,
+                                                                        "_type": "String",
+                                                                        "value_": "path"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 15543,
+                                                                    "_type": "Variable.Get",
+                                                                    "name": {
+                                                                        "_id_": 15544,
+                                                                        "_type": "String",
+                                                                        "value_": "id_carpeta"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
                                                         "_id_": 15400,
                                                         "_type": "ShowToast",
                                                         "message": {
@@ -985,25 +1018,6 @@
                                                 "_id_": 15239,
                                                 "_type": "String",
                                                 "value_": "Hello"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 15429,
-                                            "_type": "TextView",
-                                            "id": {
-                                                "_id_": 15432,
-                                                "_type": "String",
-                                                "value_": "path"
-                                            },
-                                            "android:text": {
-                                                "_id_": 15430,
-                                                "_type": "String",
-                                                "value_": "https:\/\/drive.google.com\/drive\/folders\/"
-                                            },
-                                            "android:visibility": {
-                                                "_id_": 15433,
-                                                "_type": "View.Visibility",
-                                                "value_": "gone"
                                             }
                                         }
                                     ]
@@ -1821,20 +1835,20 @@
                 }
             },
             {
-                "_id_": 15269,
+                "_id_": 15504,
                 "_type": "Variable",
                 "init": {
-                    "_id_": 15454,
+                    "_id_": 15505,
                     "_type": "String",
                     "value_": "https:\/\/drive.google.com\/drive\/folders\/"
                 },
                 "name": {
-                    "_id_": 15271,
+                    "_id_": 15506,
                     "_type": "String",
                     "value_": "path"
                 },
                 "persist": {
-                    "_id_": 15417,
+                    "_id_": 15507,
                     "_type": "Boolean",
                     "value_": true
                 }
@@ -1850,26 +1864,36 @@
                         "_type": "Sequence",
                         "list_": [
                             {
-                                "_id_": 15493,
-                                "_type": "Variable.Get",
+                                "_id_": 15521,
+                                "_type": "Variable.Set",
                                 "name": {
-                                    "_id_": 15498,
+                                    "_id_": 15537,
                                     "_type": "String",
-                                    "value_": "path"
-                                }
-                            },
-                            {
-                                "_id_": 15503,
-                                "_type": "Integer",
-                                "value_": 0
-                            },
-                            {
-                                "_id_": 15490,
-                                "_type": "Variable.Get",
-                                "name": {
-                                    "_id_": 15500,
-                                    "_type": "String",
-                                    "value_": "id_carpeta"
+                                    "value_": "directorio"
+                                },
+                                "value": {
+                                    "_id_": 15528,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 15529,
+                                            "_type": "Variable.Get",
+                                            "name": {
+                                                "_id_": 15530,
+                                                "_type": "String",
+                                                "value_": "path"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 15531,
+                                            "_type": "Variable.Get",
+                                            "name": {
+                                                "_id_": 15532,
+                                                "_type": "String",
+                                                "value_": "id_carpeta"
+                                            }
+                                        }
+                                    ]
                                 }
                             }
                         ]
