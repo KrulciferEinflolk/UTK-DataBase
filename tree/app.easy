@@ -811,8 +811,27 @@
                                                     "value_": 10
                                                 }
                                             },
+                                            "android:paddingHorizontal": {
+                                                "_id_": 12111,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 12112,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 12113,
+                                                    "_type": "Float",
+                                                    "value_": 5
+                                                }
+                                            },
                                             "android:includeFontPadding": {
                                                 "_id_": 12097,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 12114,
                                                 "_type": "Boolean",
                                                 "value_": true
                                             },
