@@ -968,7 +968,7 @@
                                                             "_id_": 15415,
                                                             "_type": "Variable.Get",
                                                             "name": {
-                                                                "_id_": 15478,
+                                                                "_id_": 15501,
                                                                 "_type": "String",
                                                                 "value_": "directorio"
                                                             }
@@ -1857,6 +1857,11 @@
                                     "_type": "String",
                                     "value_": "path"
                                 }
+                            },
+                            {
+                                "_id_": 15503,
+                                "_type": "Integer",
+                                "value_": 0
                             },
                             {
                                 "_id_": 15490,
