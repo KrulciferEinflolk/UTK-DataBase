@@ -1864,20 +1864,10 @@
                         }
                     }
                 },
-                "onChange": {
-                    "_id_": 15322,
-                    "_type": "Sequence",
-                    "list_": []
-                },
                 "name": {
                     "_id_": 15320,
                     "_type": "String",
                     "value_": "directorio"
-                },
-                "persist": {
-                    "_id_": 15455,
-                    "_type": "Boolean",
-                    "value_": true
                 }
             }
         ]
