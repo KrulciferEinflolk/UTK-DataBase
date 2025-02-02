@@ -1,5 +1,4 @@
-</body>
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,9 +10,9 @@
     <h1>Data Base</h1>
 
     <label for="folderId">ID de la Carpeta:</label>
-    <input type="text" id="folderId" value="1oIJXHztrl_dmP9n9PSBbNnbONdHa491X">
+    <input type="text" id="folderId" value="Ingresar ID de la carpeta">
     
-    <button type="button" onclick="abrirCarpeta()">Subir Archivos</button>
+    <button type="button" onclick="abrirCarpeta()">Buscar Archivos</button>
 
     <script>
         // Constante para la URL base
@@ -26,6 +25,9 @@
 
             // Construir la URL completa
             var fullUrl = BASE_URL + folderId;
+
+            // Abrir en una nueva pestaña
+            window.open(fullUrl, "_blank");
         }
 
         // Función para actualizar el ID de la carpeta desde una app externa
