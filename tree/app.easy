@@ -827,7 +827,7 @@
                                             "id": {
                                                 "_id_": 11991,
                                                 "_type": "String",
-                                                "value_": ""
+                                                "value_": "carpeta"
                                             },
                                             "android:background": {
                                                 "_id_": 12017,
@@ -924,6 +924,48 @@
                                                 "_id_": 12121,
                                                 "_type": "String",
                                                 "value_": "biome-ligth"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 13285,
+                                            "_type": "Button",
+                                            "id": {
+                                                "_id_": 13290,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "onUpdate": {
+                                                "_id_": 13373,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 13383,
+                                                        "_type": "LocalVariable.Get",
+                                                        "name": {
+                                                            "_id_": 13386,
+                                                            "_type": "String",
+                                                            "value_": "view"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 13393,
+                                                        "_type": "Service.Start",
+                                                        "intent": {
+                                                            "_id_": 13395,
+                                                            "_type": "Intent",
+                                                            "category": {
+                                                                "_id_": 13401,
+                                                                "_type": "String",
+                                                                "value_": "CATEGORY_APP_FILES"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "android:text": {
+                                                "_id_": 13286,
+                                                "_type": "String",
+                                                "value_": "Buscar"
                                             }
                                         }
                                     ]
