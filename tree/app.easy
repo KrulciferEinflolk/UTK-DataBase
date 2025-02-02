@@ -770,6 +770,44 @@
                                     "_type": "ViewList",
                                     "list_": [
                                         {
+                                            "_id_": 12878,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 12881,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 12879,
+                                                "_type": "String",
+                                                "value_": "Buscar Carpetas"
+                                            },
+                                            "android:textSize": {
+                                                "_id_": 12886,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 12888,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 12887,
+                                                    "_type": "Float",
+                                                    "value_": 25
+                                                }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 12889,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 12885,
+                                                "_type": "String",
+                                                "value_": "modern_love_caps"
+                                            }
+                                        },
+                                        {
                                             "_id_": 11988,
                                             "_type": "EditText",
                                             "id": {
@@ -843,6 +881,20 @@
                                                 "_id_": 12097,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 12874,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 12875,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 12876,
+                                                    "_type": "Float",
+                                                    "value_": 20
+                                                }
                                             },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 12868,
