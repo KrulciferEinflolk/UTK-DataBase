@@ -723,6 +723,25 @@
                                     "_type": "String",
                                     "value_": "Sincronizar Drive"
                                 }
+                            },
+                            {
+                                "_id_": 11892,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 11895,
+                                    "_type": "Sequence",
+                                    "list_": []
+                                },
+                                "id": {
+                                    "_id_": 11897,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 11893,
+                                    "_type": "String",
+                                    "value_": ""
+                                }
                             }
                         ]
                     },
@@ -758,25 +777,6 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 1450,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 1451,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 1452,
-                                    "_type": "String",
-                                    "value_": "Page 2"
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 1453,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                }
-                            },
-                            {
                                 "_id_": 1454,
                                 "_type": "EditText",
                                 "id": {
@@ -788,6 +788,29 @@
                                     "_id_": 1456,
                                     "_type": "String",
                                     "value_": "ingresa numero de Sever"
+                                }
+                            },
+                            {
+                                "_id_": 11903,
+                                "_type": "CheckedTextView",
+                                "id": {
+                                    "_id_": 11909,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:checkMark": {
+                                    "_id_": 11906,
+                                    "_type": "CheckedTextView.SingleChoiceIndicator"
+                                },
+                                "android:text": {
+                                    "_id_": 11904,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                },
+                                "android:gravity": {
+                                    "_id_": 11907,
+                                    "_type": "Gravity",
+                                    "value_": "center_vertical"
                                 }
                             }
                         ]
