@@ -842,12 +842,16 @@
                                                             "value_": "id_carpeta"
                                                         },
                                                         "value": {
-                                                            "_id_": 13864,
-                                                            "_type": "Expression",
-                                                            "text": {
-                                                                "_id_": 13866,
-                                                                "_type": "String",
-                                                                "value_": ""
+                                                            "_id_": 13972,
+                                                            "_type": "TextView.GetText",
+                                                            "view": {
+                                                                "_id_": 13974,
+                                                                "_type": "View.Reference",
+                                                                "ref": {
+                                                                    "_id_": 13976,
+                                                                    "_type": "String",
+                                                                    "value_": "@id\/carpeta"
+                                                                }
                                                             }
                                                         }
                                                     }
