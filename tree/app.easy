@@ -1847,21 +1847,6 @@
             "_type": "String",
             "value_": "v1.1"
         },
-        "queries": {
-            "_id_": 13443,
-            "_type": "List",
-            "list_": [
-                {
-                    "_id_": 13445,
-                    "_type": "App.PackageQuery",
-                    "name": {
-                        "_id_": 13447,
-                        "_type": "String",
-                        "value_": "Google drive"
-                    }
-                }
-            ]
-        },
         "versionCode": {
             "_id_": 27,
             "_type": "Integer",
