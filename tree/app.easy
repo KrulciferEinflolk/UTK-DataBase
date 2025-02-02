@@ -830,11 +830,6 @@
                                                 "_type": "Boolean",
                                                 "value_": true
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 12114,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
                                             "android:textColor": {
                                                 "_id_": 12077,
                                                 "_type": "Color",
@@ -847,6 +842,11 @@
                                     "_id_": 11974,
                                     "_type": "Gravity",
                                     "value_": "fill"
+                                },
+                                "android:layout_centerHorizontal": {
+                                    "_id_": 12115,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
