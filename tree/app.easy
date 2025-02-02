@@ -829,6 +829,30 @@
                                                 "_type": "String",
                                                 "value_": "carpeta"
                                             },
+                                            "onTextChange": {
+                                                "_id_": 13848,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 13860,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 13867,
+                                                            "_type": "String",
+                                                            "value_": "id_carpeta"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 13864,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 13866,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
                                             "android:background": {
                                                 "_id_": 12017,
                                                 "_type": "Color",
@@ -924,71 +948,6 @@
                                                 "_id_": 12121,
                                                 "_type": "String",
                                                 "value_": "biome-ligth"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 13285,
-                                            "_type": "Button",
-                                            "id": {
-                                                "_id_": 13290,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "onUpdate": {
-                                                "_id_": 13373,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 13383,
-                                                        "_type": "LocalVariable.Get",
-                                                        "name": {
-                                                            "_id_": 13386,
-                                                            "_type": "String",
-                                                            "value_": "view"
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 13403,
-                                                        "_type": "Spinner.SetSelection",
-                                                        "position": {
-                                                            "_id_": 13427,
-                                                            "_type": "Activity.Start",
-                                                            "intent": {
-                                                                "_id_": 13429,
-                                                                "_type": "Intent"
-                                                            },
-                                                            "onResult": {
-                                                                "_id_": 13431,
-                                                                "_type": "Sequence",
-                                                                "list_": [
-                                                                    {
-                                                                        "_id_": 13434,
-                                                                        "_type": "Activity.StartOwn",
-                                                                        "activity": {
-                                                                            "_id_": 13435,
-                                                                            "_type": "String",
-                                                                            "value_": "Drive"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        },
-                                                        "spinner": {
-                                                            "_id_": 13407,
-                                                            "_type": "View.Reference",
-                                                            "ref": {
-                                                                "_id_": 13409,
-                                                                "_type": "String",
-                                                                "value_": "@id\/carpeta"
-                                                            }
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            "android:text": {
-                                                "_id_": 13286,
-                                                "_type": "String",
-                                                "value_": "Buscar"
                                             }
                                         }
                                     ]
@@ -1766,6 +1725,34 @@
                         "color_": -16777216
                     }
                 }
+            },
+            {
+                "_id_": 13842,
+                "_type": "Variable",
+                "onChange": {
+                    "_id_": 13846,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 13869,
+                            "_type": "ShowToast",
+                            "message": {
+                                "_id_": 13873,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 13876,
+                                    "_type": "String",
+                                    "value_": "id_carpeta"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "name": {
+                    "_id_": 13844,
+                    "_type": "String",
+                    "value_": "id_carpeta"
+                }
             }
         ]
     },
@@ -1859,6 +1846,21 @@
             "_id_": 26,
             "_type": "String",
             "value_": "v1.1"
+        },
+        "queries": {
+            "_id_": 13443,
+            "_type": "List",
+            "list_": [
+                {
+                    "_id_": 13445,
+                    "_type": "App.PackageQuery",
+                    "name": {
+                        "_id_": 13447,
+                        "_type": "String",
+                        "value_": "Google drive"
+                    }
+                }
+            ]
         },
         "versionCode": {
             "_id_": 27,
