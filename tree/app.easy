@@ -780,6 +780,11 @@
                                         }
                                     ]
                                 },
+                                "android:background": {
+                                    "_id_": 11998,
+                                    "_type": "Color",
+                                    "color_": -1
+                                },
                                 "android:gravity": {
                                     "_id_": 11974,
                                     "_type": "Gravity",
