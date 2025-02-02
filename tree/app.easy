@@ -951,12 +951,26 @@
                                                         "_id_": 13403,
                                                         "_type": "Spinner.SetSelection",
                                                         "position": {
-                                                            "_id_": 13404,
-                                                            "_type": "Expression",
-                                                            "text": {
-                                                                "_id_": 13405,
-                                                                "_type": "String",
-                                                                "value_": "0"
+                                                            "_id_": 13427,
+                                                            "_type": "Activity.Start",
+                                                            "intent": {
+                                                                "_id_": 13429,
+                                                                "_type": "Intent"
+                                                            },
+                                                            "onResult": {
+                                                                "_id_": 13431,
+                                                                "_type": "Sequence",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 13434,
+                                                                        "_type": "Activity.StartOwn",
+                                                                        "activity": {
+                                                                            "_id_": 13435,
+                                                                            "_type": "String",
+                                                                            "value_": "Drive"
+                                                                        }
+                                                                    }
+                                                                ]
                                                             }
                                                         },
                                                         "spinner": {
