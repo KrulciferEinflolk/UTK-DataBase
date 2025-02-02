@@ -797,19 +797,24 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
-                                            "android:drawablePadding": {
-                                                "_id_": 12094,
+                                            "android:padding": {
+                                                "_id_": 12103,
                                                 "_type": "Dimension",
                                                 "unit": {
-                                                    "_id_": 12095,
+                                                    "_id_": 12104,
                                                     "_type": "DimensionUnit",
                                                     "value_": "dp"
                                                 },
                                                 "value": {
-                                                    "_id_": 12096,
+                                                    "_id_": 12105,
                                                     "_type": "Float",
                                                     "value_": 5
                                                 }
+                                            },
+                                            "android:includeFontPadding": {
+                                                "_id_": 12097,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             },
                                             "android:textColor": {
                                                 "_id_": 12077,
