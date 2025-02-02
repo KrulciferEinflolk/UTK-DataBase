@@ -836,7 +836,7 @@
                                                 "value": {
                                                     "_id_": 12113,
                                                     "_type": "Float",
-                                                    "value_": 5
+                                                    "value_": 50
                                                 }
                                             },
                                             "android:includeFontPadding": {
@@ -858,11 +858,6 @@
                                                 "_id_": 12121,
                                                 "_type": "String",
                                                 "value_": "biome-ligth"
-                                            },
-                                            "app:layout_constraintGuide_percent": {
-                                                "_id_": 12872,
-                                                "_type": "Float",
-                                                "value_": 0.5
                                             }
                                         }
                                     ]
