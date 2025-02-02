@@ -808,7 +808,7 @@
                                                 "value": {
                                                     "_id_": 12867,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 30
                                                 }
                                             },
                                             "android:paddingVertical": {
@@ -836,7 +836,7 @@
                                                 "value": {
                                                     "_id_": 12113,
                                                     "_type": "Float",
-                                                    "value_": 45
+                                                    "value_": 10
                                                 }
                                             },
                                             "android:includeFontPadding": {
