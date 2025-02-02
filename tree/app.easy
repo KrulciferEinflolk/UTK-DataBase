@@ -781,9 +781,36 @@
                                     ]
                                 },
                                 "android:background": {
-                                    "_id_": 11998,
-                                    "_type": "Color",
-                                    "color_": -1
+                                    "_id_": 12000,
+                                    "_type": "ShapeDrawable.Rectangle",
+                                    "width": {
+                                        "_id_": 12002,
+                                        "_type": "Dimension",
+                                        "unit": {
+                                            "_id_": 12003,
+                                            "_type": "DimensionUnit",
+                                            "value_": "dp"
+                                        },
+                                        "value": {
+                                            "_id_": 12004,
+                                            "_type": "Float",
+                                            "value_": 20
+                                        }
+                                    },
+                                    "height": {
+                                        "_id_": 12006,
+                                        "_type": "Dimension",
+                                        "unit": {
+                                            "_id_": 12007,
+                                            "_type": "DimensionUnit",
+                                            "value_": "dp"
+                                        },
+                                        "value": {
+                                            "_id_": 12008,
+                                            "_type": "Float",
+                                            "value_": 5
+                                        }
+                                    }
                                 },
                                 "android:gravity": {
                                     "_id_": 11974,
