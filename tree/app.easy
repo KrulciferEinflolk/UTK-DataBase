@@ -780,15 +780,6 @@
                                         }
                                     ]
                                 },
-                                "style": {
-                                    "_id_": 11980,
-                                    "_type": "Style",
-                                    "android:background": {
-                                        "_id_": 11986,
-                                        "_type": "Color",
-                                        "color_": -1
-                                    }
-                                },
                                 "android:gravity": {
                                     "_id_": 11974,
                                     "_type": "Gravity",
