@@ -948,15 +948,24 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13393,
-                                                        "_type": "Service.Start",
-                                                        "intent": {
-                                                            "_id_": 13395,
-                                                            "_type": "Intent",
-                                                            "category": {
-                                                                "_id_": 13401,
+                                                        "_id_": 13403,
+                                                        "_type": "Spinner.SetSelection",
+                                                        "position": {
+                                                            "_id_": 13404,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 13405,
                                                                 "_type": "String",
-                                                                "value_": "CATEGORY_APP_FILES"
+                                                                "value_": "0"
+                                                            }
+                                                        },
+                                                        "spinner": {
+                                                            "_id_": 13407,
+                                                            "_type": "View.Reference",
+                                                            "ref": {
+                                                                "_id_": 13409,
+                                                                "_type": "String",
+                                                                "value_": "@id\/carpeta"
                                                             }
                                                         }
                                                     }
