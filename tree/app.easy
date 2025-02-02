@@ -797,10 +797,19 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
-                                            "android:hint": {
-                                                "_id_": 12494,
-                                                "_type": "String",
-                                                "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                                            "android:layout_marginHorizontal": {
+                                                "_id_": 12865,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 12866,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 12867,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
                                             },
                                             "android:paddingVertical": {
                                                 "_id_": 12107,
