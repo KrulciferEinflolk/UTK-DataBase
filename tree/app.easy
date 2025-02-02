@@ -758,22 +758,22 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 11911,
-                                "_type": "FrameLayout",
+                                "_id_": 11957,
+                                "_type": "LinearLayout",
                                 "id": {
-                                    "_id_": 11915,
+                                    "_id_": 11961,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "views": {
-                                    "_id_": 11913,
+                                    "_id_": 11959,
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 11941,
+                                            "_id_": 11962,
                                             "_type": "EditText",
                                             "id": {
-                                                "_id_": 11944,
+                                                "_id_": 11963,
                                                 "_type": "String",
                                                 "value_": ""
                                             }
@@ -781,12 +781,12 @@
                                     ]
                                 },
                                 "android:background": {
-                                    "_id_": 11950,
+                                    "_id_": 11966,
                                     "_type": "Color",
                                     "color_": -1
                                 },
                                 "android:scaleX": {
-                                    "_id_": 11951,
+                                    "_id_": 11967,
                                     "_type": "Float",
                                     "value_": 10
                                 }
