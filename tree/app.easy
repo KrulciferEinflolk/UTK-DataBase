@@ -797,6 +797,20 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
+                                            "app:layout_constraintCircleRadius": {
+                                                "_id_": 12491,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 12492,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 12493,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
                                             "android:paddingVertical": {
                                                 "_id_": 12107,
                                                 "_type": "Dimension",
@@ -834,6 +848,11 @@
                                                 "_id_": 12077,
                                                 "_type": "Color",
                                                 "color_": -16777216
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 12121,
+                                                "_type": "String",
+                                                "value_": "biome-ligth"
                                             }
                                         }
                                     ]
@@ -842,11 +861,6 @@
                                     "_id_": 11974,
                                     "_type": "Gravity",
                                     "value_": "fill"
-                                },
-                                "android:layout_centerHorizontal": {
-                                    "_id_": 12115,
-                                    "_type": "Boolean",
-                                    "value_": true
                                 }
                             }
                         ]
