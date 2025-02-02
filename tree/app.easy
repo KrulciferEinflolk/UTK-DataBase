@@ -1843,25 +1843,31 @@
                 "_id_": 15318,
                 "_type": "Variable",
                 "init": {
-                    "_id_": 15461,
-                    "_type": "And",
-                    "a": {
-                        "_id_": 15471,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 15474,
-                            "_type": "String",
-                            "value_": "path"
-                        }
-                    },
-                    "b": {
-                        "_id_": 15475,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 15477,
-                            "_type": "String",
-                            "value_": "id_carpeta"
-                        }
+                    "_id_": 15482,
+                    "_type": "ToString",
+                    "value": {
+                        "_id_": 15488,
+                        "_type": "Sequence",
+                        "list_": [
+                            {
+                                "_id_": 15493,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 15498,
+                                    "_type": "String",
+                                    "value_": "path"
+                                }
+                            },
+                            {
+                                "_id_": 15490,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 15500,
+                                    "_type": "String",
+                                    "value_": "id_carpeta"
+                                }
+                            }
+                        ]
                     }
                 },
                 "name": {
