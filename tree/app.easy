@@ -792,14 +792,10 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
-                                            "android:textAppearance": {
-                                                "_id_": 12073,
-                                                "_type": "StyleReference",
-                                                "ref": {
-                                                    "_id_": 12075,
-                                                    "_type": "String",
-                                                    "value_": "@style\/input"
-                                                }
+                                            "android:textColor": {
+                                                "_id_": 12077,
+                                                "_type": "Color",
+                                                "color_": -16777216
                                             }
                                         }
                                     ]
