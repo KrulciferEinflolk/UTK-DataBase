@@ -844,6 +844,11 @@
                                                 "_type": "Boolean",
                                                 "value_": true
                                             },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 12868,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
                                             "android:textColor": {
                                                 "_id_": 12077,
                                                 "_type": "Color",
@@ -853,6 +858,11 @@
                                                 "_id_": 12121,
                                                 "_type": "String",
                                                 "value_": "biome-ligth"
+                                            },
+                                            "app:layout_constraintGuide_percent": {
+                                                "_id_": 12872,
+                                                "_type": "Float",
+                                                "value_": 0.5
                                             }
                                         }
                                     ]
