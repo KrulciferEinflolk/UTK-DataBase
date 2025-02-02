@@ -953,6 +953,35 @@
                                                 "_type": "String",
                                                 "value_": "biome-ligth"
                                             }
+                                        },
+                                        {
+                                            "_id_": 15238,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 15241,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 15245,
+                                                        "_type": "Variable.Get",
+                                                        "name": {
+                                                            "_id_": 15381,
+                                                            "_type": "String",
+                                                            "value_": "directorio"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "id": {
+                                                "_id_": 15243,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 15239,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
                                         }
                                     ]
                                 },
@@ -1766,6 +1795,92 @@
                     "_id_": 14837,
                     "_type": "Boolean",
                     "value_": true
+                }
+            },
+            {
+                "_id_": 15269,
+                "_type": "Variable",
+                "init": {
+                    "_id_": 15285,
+                    "_type": "TextView.SetText",
+                    "view": {
+                        "_id_": 15287,
+                        "_type": "View.Reference",
+                        "ref": {
+                            "_id_": 15289,
+                            "_type": "String",
+                            "value_": "@id\/carpeta"
+                        }
+                    },
+                    "text": {
+                        "_id_": 15291,
+                        "_type": "String",
+                        "value_": "https:\/\/drive.google.com\/drive\/folders\/"
+                    }
+                },
+                "name": {
+                    "_id_": 15271,
+                    "_type": "String",
+                    "value_": "path"
+                }
+            },
+            {
+                "_id_": 15318,
+                "_type": "Variable",
+                "onChange": {
+                    "_id_": 15322,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 15346,
+                            "_type": "Variable.Set",
+                            "name": {
+                                "_id_": 15353,
+                                "_type": "String",
+                                "value_": "directorio"
+                            },
+                            "value": {
+                                "_id_": 15355,
+                                "_type": "And",
+                                "a": {
+                                    "_id_": 15368,
+                                    "_type": "Variable.Get",
+                                    "name": {
+                                        "_id_": 15369,
+                                        "_type": "String",
+                                        "value_": "path"
+                                    }
+                                },
+                                "b": {
+                                    "_id_": 15370,
+                                    "_type": "Variable.Get",
+                                    "name": {
+                                        "_id_": 15371,
+                                        "_type": "String",
+                                        "value_": "id_carpeta"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "_id_": 15373,
+                            "_type": "ShowToast",
+                            "message": {
+                                "_id_": 15377,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 15380,
+                                    "_type": "String",
+                                    "value_": "directorio"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "name": {
+                    "_id_": 15320,
+                    "_type": "String",
+                    "value_": "directorio"
                 }
             }
         ]
