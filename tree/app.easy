@@ -1824,17 +1824,9 @@
                 "_id_": 15269,
                 "_type": "Variable",
                 "init": {
-                    "_id_": 15423,
-                    "_type": "TextView.GetText",
-                    "view": {
-                        "_id_": 15425,
-                        "_type": "View.Reference",
-                        "ref": {
-                            "_id_": 15427,
-                            "_type": "String",
-                            "value_": "@id\/path"
-                        }
-                    }
+                    "_id_": 15454,
+                    "_type": "String",
+                    "value_": "https:\/\/drive.google.com\/drive\/folders\/"
                 },
                 "name": {
                     "_id_": 15271,
