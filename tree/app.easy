@@ -968,9 +968,9 @@
                                                             "_id_": 15415,
                                                             "_type": "Variable.Get",
                                                             "name": {
-                                                                "_id_": 15434,
+                                                                "_id_": 15478,
                                                                 "_type": "String",
-                                                                "value_": "path"
+                                                                "value_": "directorio"
                                                             }
                                                         }
                                                     }
@@ -1842,6 +1842,28 @@
             {
                 "_id_": 15318,
                 "_type": "Variable",
+                "init": {
+                    "_id_": 15461,
+                    "_type": "And",
+                    "a": {
+                        "_id_": 15471,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 15474,
+                            "_type": "String",
+                            "value_": "path"
+                        }
+                    },
+                    "b": {
+                        "_id_": 15475,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 15477,
+                            "_type": "String",
+                            "value_": "id_carpeta"
+                        }
+                    }
+                },
                 "onChange": {
                     "_id_": 15322,
                     "_type": "Sequence",
@@ -1851,6 +1873,11 @@
                     "_id_": 15320,
                     "_type": "String",
                     "value_": "directorio"
+                },
+                "persist": {
+                    "_id_": 15455,
+                    "_type": "Boolean",
+                    "value_": true
                 }
             }
         ]
