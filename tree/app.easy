@@ -834,7 +834,7 @@
                                                 "value": {
                                                     "_id_": 16124,
                                                     "_type": "Float",
-                                                    "value_": 200
+                                                    "value_": 250
                                                 }
                                             },
                                             "app:layout_constraintCircleRadius": {
@@ -848,7 +848,7 @@
                                                 "value": {
                                                     "_id_": 16148,
                                                     "_type": "Float",
-                                                    "value_": 50
+                                                    "value_": 80
                                                 }
                                             }
                                         },
