@@ -519,13 +519,22 @@
                         "_type": "String",
                         "value_": "carpetas"
                     },
+                    "urlValue": {
+                        "_id_": 18309,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 18312,
+                            "_type": "String",
+                            "value_": "url_completa"
+                        }
+                    },
                     "url": {
                         "_id_": 18287,
                         "_type": "URL",
                         "url": {
                             "_id_": 18288,
                             "_type": "String",
-                            "value_": "https:\/\/drive.google.com\/drive\/u\/0\/mobile\/folders\/1oIJXHztrl_dmP9n9PSBbNnbONdHa491X?sort=13&direction=a"
+                            "value_": ""
                         }
                     },
                     "allowAppsToHandleURLs": {
@@ -1015,12 +1024,21 @@
                                                                         }
                                                                     },
                                                                     {
+                                                                        "_id_": 18303,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 18304,
+                                                                            "_type": "String",
+                                                                            "value_": "id_carpeta"
+                                                                        }
+                                                                    },
+                                                                    {
                                                                         "_id_": 16077,
                                                                         "_type": "Variable.Get",
                                                                         "name": {
-                                                                            "_id_": 16085,
+                                                                            "_id_": 18307,
                                                                             "_type": "String",
-                                                                            "value_": "id_carpeta"
+                                                                            "value_": "?value"
                                                                         }
                                                                     }
                                                                 ]
@@ -2207,6 +2225,25 @@
                 },
                 "persist": {
                     "_id_": 14837,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 18290,
+                "_type": "Variable",
+                "init": {
+                    "_id_": 18302,
+                    "_type": "String",
+                    "value_": "?sort=13&direction=a"
+                },
+                "name": {
+                    "_id_": 18292,
+                    "_type": "String",
+                    "value_": "?value"
+                },
+                "persist": {
+                    "_id_": 18293,
                     "_type": "Boolean",
                     "value_": true
                 }
