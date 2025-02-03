@@ -793,7 +793,7 @@
                                                 "value": {
                                                     "_id_": 16127,
                                                     "_type": "Float",
-                                                    "value_": 350
+                                                    "value_": 360
                                                 }
                                             },
                                             "android:background": {
@@ -834,7 +834,7 @@
                                                 "value": {
                                                     "_id_": 16124,
                                                     "_type": "Float",
-                                                    "value_": 400
+                                                    "value_": 300
                                                 }
                                             }
                                         },
