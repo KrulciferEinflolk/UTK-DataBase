@@ -1215,7 +1215,7 @@
                                     "value": {
                                         "_id_": 16328,
                                         "_type": "Float",
-                                        "value_": 250
+                                        "value_": 800
                                     }
                                 },
                                 "app:layout_constraintCircleRadius": {
@@ -1243,7 +1243,7 @@
                                     "value": {
                                         "_id_": 16341,
                                         "_type": "Float",
-                                        "value_": 300
+                                        "value_": 270
                                     }
                                 },
                                 "android:gravity": {
