@@ -957,62 +957,6 @@
                                         {
                                             "_id_": 15238,
                                             "_type": "Button",
-                                            "onClick": {
-                                                "_id_": 15241,
-                                                "_type": "Sequence",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 15596,
-                                                        "_type": "ToString",
-                                                        "value": {
-                                                            "_id_": 15597,
-                                                            "_type": "String.Concat",
-                                                            "values": {
-                                                                "_id_": 15598,
-                                                                "_type": "List",
-                                                                "list_": [
-                                                                    {
-                                                                        "_id_": 15630,
-                                                                        "_type": "String",
-                                                                        "value_": "url"
-                                                                    },
-                                                                    {
-                                                                        "_id_": 15599,
-                                                                        "_type": "Variable.Get",
-                                                                        "name": {
-                                                                            "_id_": 15600,
-                                                                            "_type": "String",
-                                                                            "value_": "path"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "_id_": 15601,
-                                                                        "_type": "Variable.Get",
-                                                                        "name": {
-                                                                            "_id_": 15602,
-                                                                            "_type": "String",
-                                                                            "value_": "id_carpeta"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 15400,
-                                                        "_type": "ShowToast",
-                                                        "message": {
-                                                            "_id_": 15415,
-                                                            "_type": "Variable.Get",
-                                                            "name": {
-                                                                "_id_": 15501,
-                                                                "_type": "String",
-                                                                "value_": "directorio"
-                                                            }
-                                                        }
-                                                    }
-                                                ]
-                                            },
                                             "id": {
                                                 "_id_": 15243,
                                                 "_type": "String",
@@ -1855,33 +1799,6 @@
                     "_id_": 15507,
                     "_type": "Boolean",
                     "value_": true
-                }
-            },
-            {
-                "_id_": 15318,
-                "_type": "Variable",
-                "init": {
-                    "_id_": 15615,
-                    "_type": "Variable.Set",
-                    "name": {
-                        "_id_": 15624,
-                        "_type": "String",
-                        "value_": "directorio"
-                    },
-                    "value": {
-                        "_id_": 15626,
-                        "_type": "StringReference",
-                        "ref": {
-                            "_id_": 15628,
-                            "_type": "String",
-                            "value_": ""
-                        }
-                    }
-                },
-                "name": {
-                    "_id_": 15320,
-                    "_type": "String",
-                    "value_": "directorio"
                 }
             }
         ]
