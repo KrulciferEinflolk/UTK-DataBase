@@ -1040,19 +1040,6 @@
                                                                 "value_": "url_completa"
                                                             }
                                                         }
-                                                    },
-                                                    {
-                                                        "_id_": 18261,
-                                                        "_type": "ShowToast",
-                                                        "message": {
-                                                            "_id_": 18265,
-                                                            "_type": "Variable.Get",
-                                                            "name": {
-                                                                "_id_": 18268,
-                                                                "_type": "String",
-                                                                "value_": "url_completa"
-                                                            }
-                                                        }
                                                     }
                                                 ]
                                             },
@@ -2243,9 +2230,9 @@
                                 "_id_": 15929,
                                 "_type": "Variable.Get",
                                 "name": {
-                                    "_id_": 17713,
+                                    "_id_": 18269,
                                     "_type": "String",
-                                    "value_": "id_carpeta"
+                                    "value_": "url_completa"
                                 }
                             }
                         }
