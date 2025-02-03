@@ -1857,46 +1857,12 @@
                 "_id_": 15318,
                 "_type": "Variable",
                 "init": {
-                    "_id_": 15482,
-                    "_type": "ToString",
+                    "_id_": 15553,
+                    "_type": "String.Text",
                     "value": {
-                        "_id_": 15488,
-                        "_type": "Sequence",
-                        "list_": [
-                            {
-                                "_id_": 15521,
-                                "_type": "Variable.Set",
-                                "name": {
-                                    "_id_": 15537,
-                                    "_type": "String",
-                                    "value_": "directorio"
-                                },
-                                "value": {
-                                    "_id_": 15528,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 15529,
-                                            "_type": "Variable.Get",
-                                            "name": {
-                                                "_id_": 15530,
-                                                "_type": "String",
-                                                "value_": "path"
-                                            }
-                                        },
-                                        {
-                                            "_id_": 15531,
-                                            "_type": "Variable.Get",
-                                            "name": {
-                                                "_id_": 15532,
-                                                "_type": "String",
-                                                "value_": "id_carpeta"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
+                        "_id_": 15555,
+                        "_type": "String",
+                        "value_": "https:\/\/drive.google.com\/drive\/folders\/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                     }
                 },
                 "name": {
