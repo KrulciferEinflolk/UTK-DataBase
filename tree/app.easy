@@ -44,9 +44,9 @@
                             "_id_": 17172,
                             "_type": "Variable.Get",
                             "name": {
-                                "_id_": 17175,
+                                "_id_": 17715,
                                 "_type": "String",
-                                "value_": "url"
+                                "value_": "url_completa"
                             }
                         },
                         "url": {
@@ -519,15 +519,6 @@
                         "_type": "String",
                         "value_": ""
                     },
-                    "url": {
-                        "_id_": 17179,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 17181,
-                            "_type": "String",
-                            "value_": "drive\/drive.html"
-                        }
-                    },
                     "allowAppsToHandleURLs": {
                         "_id_": 17148,
                         "_type": "Boolean",
@@ -994,9 +985,9 @@
                                                         "_id_": 16034,
                                                         "_type": "Variable.Set",
                                                         "name": {
-                                                            "_id_": 16041,
+                                                            "_id_": 17712,
                                                             "_type": "String",
-                                                            "value_": "url"
+                                                            "value_": "url_completa"
                                                         },
                                                         "value": {
                                                             "_id_": 16073,
@@ -1034,6 +1025,29 @@
                                                             "_id_": 17177,
                                                             "_type": "String",
                                                             "value_": "Carpetas"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 18241,
+                                                        "_type": "WebView",
+                                                        "allowExternalURLs": {
+                                                            "_id_": 18253,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "id": {
+                                                            "_id_": 18243,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "urlValue": {
+                                                            "_id_": 18249,
+                                                            "_type": "Variable.Get",
+                                                            "name": {
+                                                                "_id_": 18252,
+                                                                "_type": "String",
+                                                                "value_": "url_completa"
+                                                            }
                                                         }
                                                     }
                                                 ]
@@ -2225,9 +2239,9 @@
                                 "_id_": 15929,
                                 "_type": "Variable.Get",
                                 "name": {
-                                    "_id_": 15934,
+                                    "_id_": 17713,
                                     "_type": "String",
-                                    "value_": "url"
+                                    "value_": "id_carpeta"
                                 }
                             }
                         }
@@ -2236,7 +2250,7 @@
                 "name": {
                     "_id_": 15921,
                     "_type": "String",
-                    "value_": "url"
+                    "value_": "url_completa"
                 }
             }
         ]
