@@ -7,7 +7,7 @@
     <script>
         function redirigir() {
             // Suponiendo que tu app pasa la URL a una variable global llamada "pagina_web"
-            var url = window.pagina_web || "https://www.ejemplo.com"; // Valor por defecto si no hay variable
+            var url = window.url || "https://www.ejemplo.com"; // Valor por defecto si no hay variable
             window.location.href = url;
         }
     </script>
