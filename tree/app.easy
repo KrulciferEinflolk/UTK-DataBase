@@ -862,8 +862,8 @@
                                                 "_type": "Integer",
                                                 "value_": 33
                                             },
-                                            "android:text": {
-                                                "_id_": 12018,
+                                            "android:hint": {
+                                                "_id_": 16116,
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
@@ -878,7 +878,7 @@
                                                 "value": {
                                                     "_id_": 12113,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 30
                                                 }
                                             },
                                             "android:layout_marginVertical": {
