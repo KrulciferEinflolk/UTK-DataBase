@@ -878,7 +878,7 @@
                                                 "value": {
                                                     "_id_": 12113,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 15
                                                 }
                                             },
                                             "android:layout_marginVertical": {
@@ -926,7 +926,7 @@
                                                 "value": {
                                                     "_id_": 16113,
                                                     "_type": "Float",
-                                                    "value_": 290
+                                                    "value_": 295
                                                 }
                                             },
                                             "android:layout_marginHorizontal": {
