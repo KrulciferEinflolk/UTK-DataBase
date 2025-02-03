@@ -2289,11 +2289,6 @@
         "debugBuild": {
             "_id_": 15,
             "_type": "App.Settings.DebugBuild",
-            "useReleaseKeystore": {
-                "_id_": 19876,
-                "_type": "Boolean",
-                "value_": true
-            },
             "includeAssets": {
                 "_id_": 19362,
                 "_type": "Boolean",
