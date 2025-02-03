@@ -528,6 +528,15 @@
                             "value_": "url_completa"
                         }
                     },
+                    "url": {
+                        "_id_": 18287,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 18288,
+                            "_type": "String",
+                            "value_": ""
+                        }
+                    },
                     "allowAppsToHandleURLs": {
                         "_id_": 17148,
                         "_type": "Boolean",
