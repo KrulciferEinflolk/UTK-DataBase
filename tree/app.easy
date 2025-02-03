@@ -748,7 +748,34 @@
                 "features": {
                     "_id_": 16965,
                     "_type": "Activity.Features",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 17096,
+                            "_type": "Activity.OnStart",
+                            "action": {
+                                "_id_": 17109,
+                                "_type": "WebView.LoadURL",
+                                "viewId": {
+                                    "_id_": 17111,
+                                    "_type": "View.Reference",
+                                    "ref": {
+                                        "_id_": 17113,
+                                        "_type": "String",
+                                        "value_": "@id\/carpeta"
+                                    }
+                                },
+                                "url": {
+                                    "_id_": 17118,
+                                    "_type": "Variable.Get",
+                                    "name": {
+                                        "_id_": 17121,
+                                        "_type": "String",
+                                        "value_": "url"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 },
                 "contentView": {
                     "_id_": 16985,
