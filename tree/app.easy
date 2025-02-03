@@ -810,11 +810,6 @@
                                                     "value_": 20
                                                 }
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 12889,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
                                             "android:fontFamily": {
                                                 "_id_": 12885,
                                                 "_type": "String",
@@ -938,11 +933,6 @@
                                                     "value_": 80
                                                 }
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 12868,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
                                             "android:textColor": {
                                                 "_id_": 12077,
                                                 "_type": "Color",
@@ -1038,11 +1028,6 @@
                                                     "value_": 10
                                                 }
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 16086,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
                                             "android:textColor": {
                                                 "_id_": 16092,
                                                 "_type": "Color",
@@ -1065,6 +1050,11 @@
                                     "_id_": 11974,
                                     "_type": "Gravity",
                                     "value_": "fill"
+                                },
+                                "android:layout_centerHorizontal": {
+                                    "_id_": 16102,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
