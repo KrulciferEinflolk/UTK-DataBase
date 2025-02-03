@@ -962,36 +962,40 @@
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 15538,
-                                                        "_type": "Variable.Set",
-                                                        "name": {
-                                                            "_id_": 15539,
-                                                            "_type": "String",
-                                                            "value_": "directorio"
-                                                        },
+                                                        "_id_": 15596,
+                                                        "_type": "ToString",
                                                         "value": {
-                                                            "_id_": 15540,
-                                                            "_type": "Sequence",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 15541,
-                                                                    "_type": "Variable.Get",
-                                                                    "name": {
-                                                                        "_id_": 15542,
+                                                            "_id_": 15597,
+                                                            "_type": "String.Concat",
+                                                            "values": {
+                                                                "_id_": 15598,
+                                                                "_type": "List",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 15630,
                                                                         "_type": "String",
-                                                                        "value_": "path"
+                                                                        "value_": "url"
+                                                                    },
+                                                                    {
+                                                                        "_id_": 15599,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 15600,
+                                                                            "_type": "String",
+                                                                            "value_": "path"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_id_": 15601,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 15602,
+                                                                            "_type": "String",
+                                                                            "value_": "id_carpeta"
+                                                                        }
                                                                     }
-                                                                },
-                                                                {
-                                                                    "_id_": 15543,
-                                                                    "_type": "Variable.Get",
-                                                                    "name": {
-                                                                        "_id_": 15544,
-                                                                        "_type": "String",
-                                                                        "value_": "id_carpeta"
-                                                                    }
-                                                                }
-                                                            ]
+                                                                ]
+                                                            }
                                                         }
                                                     },
                                                     {
@@ -1857,12 +1861,21 @@
                 "_id_": 15318,
                 "_type": "Variable",
                 "init": {
-                    "_id_": 15553,
-                    "_type": "String.Text",
-                    "value": {
-                        "_id_": 15555,
+                    "_id_": 15615,
+                    "_type": "Variable.Set",
+                    "name": {
+                        "_id_": 15624,
                         "_type": "String",
-                        "value_": "https:\/\/drive.google.com\/drive\/folders\/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                        "value_": "directorio"
+                    },
+                    "value": {
+                        "_id_": 15626,
+                        "_type": "StringReference",
+                        "ref": {
+                            "_id_": 15628,
+                            "_type": "String",
+                            "value_": ""
+                        }
                     }
                 },
                 "name": {
