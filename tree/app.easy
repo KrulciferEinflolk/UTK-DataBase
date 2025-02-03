@@ -848,7 +848,7 @@
                                                 "value": {
                                                     "_id_": 16148,
                                                     "_type": "Float",
-                                                    "value_": 80
+                                                    "value_": 200
                                                 }
                                             }
                                         },
@@ -1795,7 +1795,7 @@
                                     "color": {
                                         "_id_": 6736,
                                         "_type": "Color",
-                                        "color_": -9475159
+                                        "color_": -10856823
                                     }
                                 },
                                 "android:padding": {
