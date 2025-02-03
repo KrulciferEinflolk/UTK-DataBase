@@ -1022,7 +1022,7 @@
                                                         "_id_": 18241,
                                                         "_type": "WebView",
                                                         "allowExternalURLs": {
-                                                            "_id_": 18253,
+                                                            "_id_": 18258,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
@@ -1032,10 +1032,10 @@
                                                             "value_": ""
                                                         },
                                                         "urlValue": {
-                                                            "_id_": 18249,
+                                                            "_id_": 18255,
                                                             "_type": "Variable.Get",
                                                             "name": {
-                                                                "_id_": 18252,
+                                                                "_id_": 18259,
                                                                 "_type": "String",
                                                                 "value_": "url_completa"
                                                             }
@@ -2222,21 +2222,7 @@
                 "onChange": {
                     "_id_": 15927,
                     "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 15928,
-                            "_type": "ShowToast",
-                            "message": {
-                                "_id_": 15929,
-                                "_type": "Variable.Get",
-                                "name": {
-                                    "_id_": 17713,
-                                    "_type": "String",
-                                    "value_": "id_carpeta"
-                                }
-                            }
-                        }
-                    ]
+                    "list_": []
                 },
                 "name": {
                     "_id_": 15921,
