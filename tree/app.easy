@@ -1150,6 +1150,11 @@
                                                     "_type": "Float",
                                                     "value_": 200
                                                 }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 16275,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         }
                                     ]
