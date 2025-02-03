@@ -519,13 +519,13 @@
                         "_type": "String",
                         "value_": ""
                     },
-                    "urlValue": {
-                        "_id_": 17146,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 17147,
+                    "url": {
+                        "_id_": 17179,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 17181,
                             "_type": "String",
-                            "value_": "url"
+                            "value_": "drive\/drive.html"
                         }
                     },
                     "allowAppsToHandleURLs": {

@@ -2,39 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="color-scheme" content="dark light">
-    <title>Data Base</title>
-</head>
-<body>
-
-    <h1>Data Base</h1>
-
-    <label for="folderId">ID de la Carpeta:</label>
-    <input type="text" id="folderId" value="Ingresar ID de la carpeta">
-    
-    <button type="button" onclick="abrirCarpeta()">Buscar Archivos</button>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirección</title>
     <script>
-        // Constante para la URL base
-        const BASE_URL = "https://drive.google.com/drive/folders/";
-
-        // Función para abrir la carpeta con el ID actual
-        function abrirCarpeta() {
-            // Obtener el ID ingresado en el input
-            var folderId = document.getElementById("folderId").value;
-
-            // Construir la URL completa
-            var fullUrl = BASE_URL + folderId;
-
-            // Abrir en una nueva pestaña
-            window.open(fullUrl, "_blank");
-        }
-
-        // Función para actualizar el ID de la carpeta desde una app externa
-        function actualizarCarpeta(nuevoId) {
-            document.getElementById("folderId").value = nuevoId;
+        function redirigir() {
+            // Suponiendo que tu app pasa la URL a una variable global llamada "pagina_web"
+            var url = window.pagina_web || "https://www.ejemplo.com"; // Valor por defecto si no hay variable
+            window.location.href = url;
         }
     </script>
-
+</head>
+<body>
+    <button onclick="redirigir()">Ir a la Página</button>
 </body>
 </html>
