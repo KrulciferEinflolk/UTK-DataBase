@@ -810,6 +810,11 @@
                                                     "value_": 20
                                                 }
                                             },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 12889,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
                                             "android:fontFamily": {
                                                 "_id_": 12885,
                                                 "_type": "String",
@@ -933,6 +938,11 @@
                                                     "value_": 80
                                                 }
                                             },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 12868,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
                                             "android:textColor": {
                                                 "_id_": 12077,
                                                 "_type": "Color",
@@ -1027,6 +1037,11 @@
                                                     "_type": "Float",
                                                     "value_": 10
                                                 }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 16086,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             },
                                             "android:textColor": {
                                                 "_id_": 16092,
