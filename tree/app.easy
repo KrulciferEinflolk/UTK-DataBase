@@ -1163,6 +1163,44 @@
                                     "_type": "ViewList",
                                     "list_": [
                                         {
+                                            "_id_": 16914,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16915,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16916,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16917,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            },
+                                            "android:layout_marginBottom": {
+                                                "_id_": 16918,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16919,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16920,
+                                                    "_type": "Float",
+                                                    "value_": 20
+                                                }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 16921,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            }
+                                        },
+                                        {
                                             "_id_": 16717,
                                             "_type": "Button",
                                             "onClick": {
