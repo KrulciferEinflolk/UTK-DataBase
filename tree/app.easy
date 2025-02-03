@@ -860,12 +860,12 @@
                                             "android:maxLength": {
                                                 "_id_": 12026,
                                                 "_type": "Integer",
-                                                "value_": 32
+                                                "value_": 33
                                             },
                                             "android:text": {
                                                 "_id_": 12018,
                                                 "_type": "String",
-                                                "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                                                "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
                                             "android:paddingHorizontal": {
                                                 "_id_": 12111,
