@@ -957,6 +957,34 @@
                                         {
                                             "_id_": 15238,
                                             "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 15936,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 15945,
+                                                        "_type": "And",
+                                                        "a": {
+                                                            "_id_": 15955,
+                                                            "_type": "Variable.Get",
+                                                            "name": {
+                                                                "_id_": 15960,
+                                                                "_type": "String",
+                                                                "value_": "path"
+                                                            }
+                                                        },
+                                                        "b": {
+                                                            "_id_": 15958,
+                                                            "_type": "Variable.Get",
+                                                            "name": {
+                                                                "_id_": 15961,
+                                                                "_type": "String",
+                                                                "value_": "id_carpeta"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
                                             "id": {
                                                 "_id_": 15243,
                                                 "_type": "String",
@@ -1799,6 +1827,34 @@
                     "_id_": 15507,
                     "_type": "Boolean",
                     "value_": true
+                }
+            },
+            {
+                "_id_": 15919,
+                "_type": "Variable",
+                "onChange": {
+                    "_id_": 15927,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 15928,
+                            "_type": "ShowToast",
+                            "message": {
+                                "_id_": 15929,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 15934,
+                                    "_type": "String",
+                                    "value_": "url"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "name": {
+                    "_id_": 15921,
+                    "_type": "String",
+                    "value_": "url"
                 }
             }
         ]
