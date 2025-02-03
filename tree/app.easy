@@ -2288,7 +2288,12 @@
         "_type": "App.Settings",
         "debugBuild": {
             "_id_": 15,
-            "_type": "App.Settings.DebugBuild"
+            "_type": "App.Settings.DebugBuild",
+            "includeAssets": {
+                "_id_": 19362,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "releaseBuild": {
             "_id_": 16,
