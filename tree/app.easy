@@ -517,7 +517,7 @@
                     "id": {
                         "_id_": 17145,
                         "_type": "String",
-                        "value_": ""
+                        "value_": "carpetas"
                     },
                     "allowAppsToHandleURLs": {
                         "_id_": 17148,
@@ -1019,26 +1019,12 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 18241,
-                                                        "_type": "WebView",
-                                                        "allowExternalURLs": {
-                                                            "_id_": 18258,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "id": {
-                                                            "_id_": 18243,
+                                                        "_id_": 18271,
+                                                        "_type": "Activity.StartOwn",
+                                                        "activity": {
+                                                            "_id_": 18274,
                                                             "_type": "String",
-                                                            "value_": ""
-                                                        },
-                                                        "urlValue": {
-                                                            "_id_": 18255,
-                                                            "_type": "Variable.Get",
-                                                            "name": {
-                                                                "_id_": 18259,
-                                                                "_type": "String",
-                                                                "value_": "url_completa"
-                                                            }
+                                                            "value_": "Carpetas"
                                                         }
                                                     }
                                                 ]
