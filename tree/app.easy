@@ -834,7 +834,21 @@
                                                 "value": {
                                                     "_id_": 16124,
                                                     "_type": "Float",
-                                                    "value_": 300
+                                                    "value_": 200
+                                                }
+                                            },
+                                            "app:layout_constraintCircleRadius": {
+                                                "_id_": 16146,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16147,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16148,
+                                                    "_type": "Float",
+                                                    "value_": 50
                                                 }
                                             }
                                         },
@@ -1810,6 +1824,15 @@
                                 }
                             }
                         ]
+                    },
+                    "android:background": {
+                        "_id_": 16142,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 16144,
+                            "_type": "String",
+                            "value_": "@drawable\/background"
+                        }
                     },
                     "android:padding": {
                         "_id_": 5654,
