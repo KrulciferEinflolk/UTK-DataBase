@@ -743,6 +743,67 @@
                 }
             },
             {
+                "_id_": 16963,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 16965,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "contentView": {
+                    "_id_": 16985,
+                    "_type": "WebView",
+                    "allowExternalURLs": {
+                        "_id_": 16991,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
+                    "includeApi": {
+                        "_id_": 16994,
+                        "_type": "WebView.Api",
+                        "download": {
+                            "_id_": 16995,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "webView": {
+                            "_id_": 16998,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "viewPager": {
+                            "_id_": 16996,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
+                    "id": {
+                        "_id_": 16987,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "urlValue": {
+                        "_id_": 17000,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 17003,
+                            "_type": "String",
+                            "value_": "url"
+                        }
+                    },
+                    "allowAppsToHandleURLs": {
+                        "_id_": 16992,
+                        "_type": "Boolean",
+                        "value_": true
+                    }
+                },
+                "name": {
+                    "_id_": 16972,
+                    "_type": "String",
+                    "value_": "Carpetas"
+                }
+            },
+            {
                 "_id_": 1446,
                 "_type": "Fragment",
                 "layout": {
@@ -1011,6 +1072,15 @@
                                                                 ]
                                                             }
                                                         }
+                                                    },
+                                                    {
+                                                        "_id_": 17029,
+                                                        "_type": "Activity.StartOwn",
+                                                        "activity": {
+                                                            "_id_": 17032,
+                                                            "_type": "String",
+                                                            "value_": "Carpetas"
+                                                        }
                                                     }
                                                 ]
                                             },
@@ -1163,79 +1233,98 @@
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 16914,
-                                            "_type": "Button",
-                                            "onClick": {
-                                                "_id_": 16915,
-                                                "_type": "Sequence",
-                                                "list_": []
-                                            },
+                                            "_id_": 16931,
+                                            "_type": "RelativeLayout",
                                             "id": {
-                                                "_id_": 16916,
+                                                "_id_": 16935,
                                                 "_type": "String",
                                                 "value_": ""
                                             },
-                                            "android:text": {
-                                                "_id_": 16917,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            },
-                                            "android:layout_marginBottom": {
-                                                "_id_": 16918,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 16919,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 16920,
-                                                    "_type": "Float",
-                                                    "value_": 20
-                                                }
-                                            },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 16921,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            }
-                                        },
-                                        {
-                                            "_id_": 16717,
-                                            "_type": "Button",
-                                            "onClick": {
-                                                "_id_": 16718,
+                                            "onAttachedToWindow": {
+                                                "_id_": 16937,
                                                 "_type": "Sequence",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 16719,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "android:text": {
-                                                "_id_": 16720,
-                                                "_type": "String",
-                                                "value_": "Hello"
-                                            },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 16729,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "app:layout_goneMarginBottom": {
-                                                "_id_": 16911,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 16912,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 16913,
-                                                    "_type": "Float",
-                                                    "value_": 20
-                                                }
+                                                "list_": [
+                                                    {
+                                                        "_id_": 16938,
+                                                        "_type": "ScopeVariable",
+                                                        "name": {
+                                                            "_id_": 16939,
+                                                            "_type": "String",
+                                                            "value_": "view"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 16943,
+                                                        "_type": "Menu",
+                                                        "items": {
+                                                            "_id_": 16945,
+                                                            "_type": "List",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 16947,
+                                                                    "_type": "Menu.Group"
+                                                                },
+                                                                {
+                                                                    "_id_": 16951,
+                                                                    "_type": "Menu.Item",
+                                                                    "title": {
+                                                                        "_id_": 16961,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta 1"
+                                                                    },
+                                                                    "id": {
+                                                                        "_id_": 16955,
+                                                                        "_type": "String",
+                                                                        "value_": "Carpeta1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 17016,
+                                                                    "_type": "Menu.Item",
+                                                                    "title": {
+                                                                        "_id_": 17017,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta 2"
+                                                                    },
+                                                                    "id": {
+                                                                        "_id_": 17018,
+                                                                        "_type": "String",
+                                                                        "value_": "Carpeta2"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 17010,
+                                                                    "_type": "Menu.Item",
+                                                                    "title": {
+                                                                        "_id_": 17011,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta 3"
+                                                                    },
+                                                                    "id": {
+                                                                        "_id_": 17012,
+                                                                        "_type": "String",
+                                                                        "value_": "Carpeta3"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 17004,
+                                                                    "_type": "Menu.Item",
+                                                                    "title": {
+                                                                        "_id_": 17005,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta 4"
+                                                                    },
+                                                                    "id": {
+                                                                        "_id_": 17006,
+                                                                        "_type": "String",
+                                                                        "value_": "Carpeta4"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "elementType_": "Menu.Element"
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         }
                                     ]
