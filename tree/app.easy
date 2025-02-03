@@ -1028,6 +1028,11 @@
                                                 "_id_": 16086,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 16092,
+                                                "_type": "Color",
+                                                "color_": -1
                                             }
                                         }
                                     ]
