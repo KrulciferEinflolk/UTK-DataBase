@@ -938,11 +938,6 @@
                                                     "value_": 80
                                                 }
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 12868,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
                                             "android:textColor": {
                                                 "_id_": 12077,
                                                 "_type": "Color",
