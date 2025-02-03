@@ -1033,6 +1033,11 @@
                                                 "_id_": 16092,
                                                 "_type": "Color",
                                                 "color_": -1
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 16093,
+                                                "_type": "String",
+                                                "value_": "comic-sans"
                                             }
                                         }
                                     ]
@@ -1151,6 +1156,20 @@
                                                     "_id_": 6912,
                                                     "_type": "Float",
                                                     "value_": 25
+                                                }
+                                            },
+                                            "android:layout_marginHorizontal": {
+                                                "_id_": 16095,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16096,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16097,
+                                                    "_type": "Float",
+                                                    "value_": 80
                                                 }
                                             },
                                             "android:layout_marginBottom": {
