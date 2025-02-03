@@ -797,8 +797,31 @@
                                                 }
                                             },
                                             "android:background": {
-                                                "_id_": 16130,
-                                                "_type": "ShapeDrawable.Oval"
+                                                "_id_": 16135,
+                                                "_type": "ShapeDrawable.Rectangle",
+                                                "corners": {
+                                                    "_id_": 16136,
+                                                    "_type": "ShapeDrawable.Corners",
+                                                    "radius": {
+                                                        "_id_": 16137,
+                                                        "_type": "Dimension",
+                                                        "unit": {
+                                                            "_id_": 16138,
+                                                            "_type": "DimensionUnit",
+                                                            "value_": "dp"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 16139,
+                                                            "_type": "Float",
+                                                            "value_": 50
+                                                        }
+                                                    }
+                                                },
+                                                "color": {
+                                                    "_id_": 16140,
+                                                    "_type": "Color",
+                                                    "color_": -9475159
+                                                }
                                             },
                                             "android:layout_height": {
                                                 "_id_": 16123,
