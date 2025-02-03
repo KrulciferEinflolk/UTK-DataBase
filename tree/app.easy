@@ -1144,20 +1144,6 @@
                                     "_type": "Gravity",
                                     "value_": "fill"
                                 },
-                                "android:layout_marginBottom": {
-                                    "_id_": 16335,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 16336,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 16337,
-                                        "_type": "Float",
-                                        "value_": 400
-                                    }
-                                },
                                 "android:layout_centerHorizontal": {
                                     "_id_": 16102,
                                     "_type": "Boolean",
@@ -1244,6 +1230,20 @@
                                         "_id_": 16331,
                                         "_type": "Float",
                                         "value_": 200
+                                    }
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 16339,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 16340,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 16341,
+                                        "_type": "Float",
+                                        "value_": 300
                                     }
                                 },
                                 "android:gravity": {
