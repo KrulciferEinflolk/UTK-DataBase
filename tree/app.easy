@@ -1053,6 +1053,24 @@
                                                             "_type": "String",
                                                             "value_": "Carpetas"
                                                         }
+                                                    },
+                                                    {
+                                                        "_id_": 18314,
+                                                        "_type": "ShareFile",
+                                                        "fileProvider": {
+                                                            "_id_": 18316,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "file": {
+                                                            "_id_": 18322,
+                                                            "_type": "Variable.Get",
+                                                            "name": {
+                                                                "_id_": 18325,
+                                                                "_type": "String",
+                                                                "value_": "url_completa"
+                                                            }
+                                                        }
                                                     }
                                                 ]
                                             },
@@ -2272,6 +2290,40 @@
                 },
                 "name": {
                     "_id_": 15921,
+                    "_type": "String",
+                    "value_": "url_completa"
+                }
+            },
+            {
+                "_id_": 18327,
+                "_type": "FileProvider",
+                "paths": {
+                    "_id_": 18329,
+                    "_type": "List",
+                    "list_": [
+                        {
+                            "_id_": 18336,
+                            "_type": "FileProviderPath",
+                            "path": {
+                                "_id_": 18338,
+                                "_type": "String",
+                                "value_": "url_completa"
+                            },
+                            "root": {
+                                "_id_": 18341,
+                                "_type": "String",
+                                "value_": "files-path"
+                            }
+                        }
+                    ]
+                },
+                "name": {
+                    "_id_": 18330,
+                    "_type": "String",
+                    "value_": "FileProvider1"
+                },
+                "authorities": {
+                    "_id_": 18334,
                     "_type": "String",
                     "value_": "url_completa"
                 }
