@@ -2350,6 +2350,11 @@
     "packaging": {
         "_id_": 17,
         "_type": "App.Packaging",
+        "installLocation": {
+            "_id_": 19359,
+            "_type": "App.InstallLocation",
+            "value_": "internalOnly"
+        },
         "icon": {
             "_id_": 1745,
             "_type": "DrawableReference",
@@ -2386,7 +2391,22 @@
         },
         "permissions": {
             "_id_": 29,
-            "_type": "App.Permissions"
+            "_type": "App.Permissions",
+            "WRITE_EXTERNAL_STORAGE": {
+                "_id_": 19358,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "GET_ACCOUNTS": {
+                "_id_": 19356,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "INTERNET": {
+                "_id_": 19357,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "packageName": {
             "_id_": 1989,
