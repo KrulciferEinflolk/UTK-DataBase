@@ -815,6 +815,11 @@
                                                 "_type": "Boolean",
                                                 "value_": true
                                             },
+                                            "android:textColor": {
+                                                "_id_": 16118,
+                                                "_type": "Color",
+                                                "color_": -1
+                                            },
                                             "android:fontFamily": {
                                                 "_id_": 12885,
                                                 "_type": "String",
