@@ -938,6 +938,20 @@
                                                     "value_": 80
                                                 }
                                             },
+                                            "android:minHeight": {
+                                                "_id_": 16109,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16111,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16110,
+                                                    "_type": "Float",
+                                                    "value_": 200
+                                                }
+                                            },
                                             "android:textColor": {
                                                 "_id_": 12077,
                                                 "_type": "Color",
