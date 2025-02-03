@@ -1058,9 +1058,9 @@
                                                         "_id_": 18314,
                                                         "_type": "ShareFile",
                                                         "fileProvider": {
-                                                            "_id_": 18316,
+                                                            "_id_": 18860,
                                                             "_type": "String",
-                                                            "value_": ""
+                                                            "value_": "FileProvider1"
                                                         },
                                                         "file": {
                                                             "_id_": 18322,
