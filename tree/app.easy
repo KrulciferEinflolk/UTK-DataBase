@@ -2267,6 +2267,19 @@
                                     "value_": "url_completa"
                                 }
                             }
+                        },
+                        {
+                            "_id_": 18858,
+                            "_type": "DocumentFile.Create",
+                            "mimeType": {
+                                "_id_": 18861,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 18864,
+                                    "_type": "String",
+                                    "value_": "url_completa"
+                                }
+                            }
                         }
                     ]
                 },
@@ -2274,40 +2287,11 @@
                     "_id_": 15921,
                     "_type": "String",
                     "value_": "url_completa"
-                }
-            },
-            {
-                "_id_": 18327,
-                "_type": "FileProvider",
-                "paths": {
-                    "_id_": 18329,
-                    "_type": "List",
-                    "list_": [
-                        {
-                            "_id_": 18336,
-                            "_type": "FileProviderPath",
-                            "path": {
-                                "_id_": 18338,
-                                "_type": "String",
-                                "value_": "url_completa"
-                            },
-                            "root": {
-                                "_id_": 18341,
-                                "_type": "String",
-                                "value_": "files-path"
-                            }
-                        }
-                    ]
                 },
-                "name": {
-                    "_id_": 18330,
-                    "_type": "String",
-                    "value_": "FileProvider1"
-                },
-                "authorities": {
-                    "_id_": 18334,
-                    "_type": "String",
-                    "value_": "url_completa"
+                "persist": {
+                    "_id_": 18847,
+                    "_type": "Boolean",
+                    "value_": true
                 }
             }
         ]
