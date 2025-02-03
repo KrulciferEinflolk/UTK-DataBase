@@ -41,12 +41,12 @@
                         "_id_": 11534,
                         "_type": "WebView.LoadURL",
                         "viewId": {
-                            "_id_": 11536,
-                            "_type": "View.Reference",
-                            "ref": {
-                                "_id_": 11538,
+                            "_id_": 17172,
+                            "_type": "Variable.Get",
+                            "name": {
+                                "_id_": 17175,
                                 "_type": "String",
-                                "value_": "@id\/main"
+                                "value_": "url"
                             }
                         },
                         "url": {
@@ -480,49 +480,64 @@
                 }
             },
             {
-                "_id_": 7683,
+                "_id_": 16963,
                 "_type": "Activity",
                 "features": {
-                    "_id_": 7685,
+                    "_id_": 16965,
                     "_type": "Activity.Features",
                     "list_": []
                 },
                 "contentView": {
-                    "_id_": 10675,
+                    "_id_": 17138,
                     "_type": "WebView",
+                    "allowExternalURLs": {
+                        "_id_": 17139,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
                     "includeApi": {
-                        "_id_": 10676,
+                        "_id_": 17140,
                         "_type": "WebView.Api",
+                        "download": {
+                            "_id_": 17141,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
                         "webView": {
-                            "_id_": 10677,
+                            "_id_": 17142,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "viewPager": {
+                            "_id_": 17143,
                             "_type": "Boolean",
                             "value_": true
                         }
                     },
                     "id": {
-                        "_id_": 10678,
+                        "_id_": 17145,
                         "_type": "String",
-                        "value_": "main"
+                        "value_": ""
                     },
-                    "url": {
-                        "_id_": 10729,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 11125,
+                    "urlValue": {
+                        "_id_": 17146,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 17147,
                             "_type": "String",
-                            "value_": "drive\/drive.html"
+                            "value_": "url"
                         }
+                    },
+                    "allowAppsToHandleURLs": {
+                        "_id_": 17148,
+                        "_type": "Boolean",
+                        "value_": true
                     }
                 },
-                "launchMode": {
-                    "_id_": 8627,
-                    "_type": "Activity.LaunchMode",
-                    "value_": "standard"
-                },
                 "name": {
-                    "_id_": 7692,
+                    "_id_": 16972,
                     "_type": "String",
-                    "value_": "Drive"
+                    "value_": "Carpetas"
                 }
             },
             {
@@ -740,76 +755,6 @@
                     "_id_": 1440,
                     "_type": "String",
                     "value_": "Page1"
-                }
-            },
-            {
-                "_id_": 16963,
-                "_type": "Activity",
-                "features": {
-                    "_id_": 16965,
-                    "_type": "Activity.Features",
-                    "list_": []
-                },
-                "contentView": {
-                    "_id_": 17138,
-                    "_type": "WebView",
-                    "allowExternalURLs": {
-                        "_id_": 17139,
-                        "_type": "Boolean",
-                        "value_": true
-                    },
-                    "includeApi": {
-                        "_id_": 17140,
-                        "_type": "WebView.Api",
-                        "download": {
-                            "_id_": 17141,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "webView": {
-                            "_id_": 17142,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "viewPager": {
-                            "_id_": 17143,
-                            "_type": "Boolean",
-                            "value_": true
-                        }
-                    },
-                    "id": {
-                        "_id_": 17145,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "urlValue": {
-                        "_id_": 17146,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 17147,
-                            "_type": "String",
-                            "value_": "url"
-                        }
-                    },
-                    "url": {
-                        "_id_": 17164,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 17165,
-                            "_type": "String",
-                            "value_": "about:blank"
-                        }
-                    },
-                    "allowAppsToHandleURLs": {
-                        "_id_": 17148,
-                        "_type": "Boolean",
-                        "value_": true
-                    }
-                },
-                "name": {
-                    "_id_": 16972,
-                    "_type": "String",
-                    "value_": "Carpetas"
                 }
             },
             {
@@ -1086,9 +1031,9 @@
                                                         "_id_": 17029,
                                                         "_type": "Activity.StartOwn",
                                                         "activity": {
-                                                            "_id_": 17032,
+                                                            "_id_": 17176,
                                                             "_type": "String",
-                                                            "value_": "Carpetas"
+                                                            "value_": "Main"
                                                         }
                                                     }
                                                 ]
