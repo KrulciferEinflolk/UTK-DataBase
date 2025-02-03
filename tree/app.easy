@@ -2267,19 +2267,6 @@
                                     "value_": "url_completa"
                                 }
                             }
-                        },
-                        {
-                            "_id_": 18858,
-                            "_type": "DocumentFile.Create",
-                            "mimeType": {
-                                "_id_": 18861,
-                                "_type": "Variable.Get",
-                                "name": {
-                                    "_id_": 18864,
-                                    "_type": "String",
-                                    "value_": "url_completa"
-                                }
-                            }
                         }
                     ]
                 },
