@@ -519,6 +519,15 @@
                         "_type": "String",
                         "value_": "carpetas"
                     },
+                    "url": {
+                        "_id_": 18279,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 18280,
+                            "_type": "String",
+                            "value_": ""
+                        }
+                    },
                     "allowAppsToHandleURLs": {
                         "_id_": 17148,
                         "_type": "Boolean",
