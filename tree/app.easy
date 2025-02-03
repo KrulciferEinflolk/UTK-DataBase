@@ -1053,24 +1053,6 @@
                                                             "_type": "String",
                                                             "value_": "Carpetas"
                                                         }
-                                                    },
-                                                    {
-                                                        "_id_": 18314,
-                                                        "_type": "ShareFile",
-                                                        "fileProvider": {
-                                                            "_id_": 18860,
-                                                            "_type": "String",
-                                                            "value_": "FileProvider1"
-                                                        },
-                                                        "file": {
-                                                            "_id_": 18322,
-                                                            "_type": "Variable.Get",
-                                                            "name": {
-                                                                "_id_": 18325,
-                                                                "_type": "String",
-                                                                "value_": "url_completa"
-                                                            }
-                                                        }
                                                     }
                                                 ]
                                             },
