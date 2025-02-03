@@ -1144,6 +1144,20 @@
                                     "_type": "Gravity",
                                     "value_": "fill"
                                 },
+                                "android:layout_marginBottom": {
+                                    "_id_": 16335,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 16336,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 16337,
+                                        "_type": "Float",
+                                        "value_": 10
+                                    }
+                                },
                                 "android:layout_centerHorizontal": {
                                     "_id_": 16102,
                                     "_type": "Boolean",
