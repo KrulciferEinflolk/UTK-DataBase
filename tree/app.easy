@@ -748,150 +748,62 @@
                 "features": {
                     "_id_": 16965,
                     "_type": "Activity.Features",
-                    "list_": [
-                        {
-                            "_id_": 17096,
-                            "_type": "Activity.OnStart",
-                            "action": {
-                                "_id_": 17123,
-                                "_type": "WebView",
-                                "webChromeClient": {
-                                    "_id_": 17127,
-                                    "_type": "WebView",
-                                    "allowExternalURLs": {
-                                        "_id_": 17128,
-                                        "_type": "Boolean",
-                                        "value_": true
-                                    },
-                                    "includeApi": {
-                                        "_id_": 17129,
-                                        "_type": "WebView.Api",
-                                        "download": {
-                                            "_id_": 17130,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        },
-                                        "webView": {
-                                            "_id_": 17131,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        },
-                                        "viewPager": {
-                                            "_id_": 17132,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        }
-                                    },
-                                    "webChromeClient": {
-                                        "_id_": 17133,
-                                        "_type": "WebView.WebChromeClient"
-                                    },
-                                    "id": {
-                                        "_id_": 17134,
-                                        "_type": "String",
-                                        "value_": ""
-                                    },
-                                    "urlValue": {
-                                        "_id_": 17135,
-                                        "_type": "Variable.Get",
-                                        "name": {
-                                            "_id_": 17136,
-                                            "_type": "String",
-                                            "value_": "url"
-                                        }
-                                    },
-                                    "allowAppsToHandleURLs": {
-                                        "_id_": 17137,
-                                        "_type": "Boolean",
-                                        "value_": true
-                                    }
-                                },
-                                "id": {
-                                    "_id_": 17125,
-                                    "_type": "String",
-                                    "value_": ""
-                                }
-                            }
-                        }
-                    ]
+                    "list_": []
                 },
                 "contentView": {
-                    "_id_": 16985,
+                    "_id_": 17138,
                     "_type": "WebView",
+                    "allowExternalURLs": {
+                        "_id_": 17139,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
                     "includeApi": {
-                        "_id_": 16994,
+                        "_id_": 17140,
                         "_type": "WebView.Api",
                         "download": {
-                            "_id_": 16995,
+                            "_id_": 17141,
                             "_type": "Boolean",
                             "value_": true
                         },
                         "webView": {
-                            "_id_": 16998,
+                            "_id_": 17142,
                             "_type": "Boolean",
                             "value_": true
                         },
                         "viewPager": {
-                            "_id_": 16996,
-                            "_type": "Boolean",
-                            "value_": true
-                        }
-                    },
-                    "webChromeClient": {
-                        "_id_": 17078,
-                        "_type": "WebView",
-                        "allowExternalURLs": {
-                            "_id_": 17079,
-                            "_type": "Boolean",
-                            "value_": true
-                        },
-                        "includeApi": {
-                            "_id_": 17080,
-                            "_type": "WebView.Api",
-                            "download": {
-                                "_id_": 17081,
-                                "_type": "Boolean",
-                                "value_": true
-                            },
-                            "webView": {
-                                "_id_": 17082,
-                                "_type": "Boolean",
-                                "value_": true
-                            },
-                            "viewPager": {
-                                "_id_": 17083,
-                                "_type": "Boolean",
-                                "value_": true
-                            }
-                        },
-                        "webChromeClient": {
-                            "_id_": 17084,
-                            "_type": "WebView.WebChromeClient"
-                        },
-                        "id": {
-                            "_id_": 17085,
-                            "_type": "String",
-                            "value_": ""
-                        },
-                        "urlValue": {
-                            "_id_": 17086,
-                            "_type": "Variable.Get",
-                            "name": {
-                                "_id_": 17087,
-                                "_type": "String",
-                                "value_": "url"
-                            }
-                        },
-                        "allowAppsToHandleURLs": {
-                            "_id_": 17088,
+                            "_id_": 17143,
                             "_type": "Boolean",
                             "value_": true
                         }
                     },
                     "id": {
-                        "_id_": 16987,
+                        "_id_": 17145,
                         "_type": "String",
                         "value_": ""
+                    },
+                    "urlValue": {
+                        "_id_": 17146,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 17147,
+                            "_type": "String",
+                            "value_": "url"
+                        }
+                    },
+                    "url": {
+                        "_id_": 17164,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 17166,
+                            "_type": "String",
+                            "value_": "drive\/drive.html"
+                        }
+                    },
+                    "allowAppsToHandleURLs": {
+                        "_id_": 17148,
+                        "_type": "Boolean",
+                        "value_": true
                     }
                 },
                 "name": {
