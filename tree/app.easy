@@ -860,7 +860,7 @@
                                             "android:maxLength": {
                                                 "_id_": 12026,
                                                 "_type": "Integer",
-                                                "value_": 34
+                                                "value_": 32
                                             },
                                             "android:text": {
                                                 "_id_": 12018,
@@ -926,7 +926,7 @@
                                                 "value": {
                                                     "_id_": 16113,
                                                     "_type": "Float",
-                                                    "value_": 295
+                                                    "value_": 300
                                                 }
                                             },
                                             "android:layout_marginHorizontal": {
