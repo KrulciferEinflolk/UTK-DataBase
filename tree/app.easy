@@ -795,9 +795,9 @@
                         "_id_": 17164,
                         "_type": "URL",
                         "url": {
-                            "_id_": 17166,
+                            "_id_": 17165,
                             "_type": "String",
-                            "value_": "drive\/drive.html"
+                            "value_": "about:blank"
                         }
                     },
                     "allowAppsToHandleURLs": {
