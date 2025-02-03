@@ -1024,6 +1024,20 @@
                                                     "value_": 140
                                                 }
                                             },
+                                            "android:layout_marginBottom": {
+                                                "_id_": 16099,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16100,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16101,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 16086,
                                                 "_type": "Boolean",
@@ -1169,7 +1183,7 @@
                                                 "value": {
                                                     "_id_": 16097,
                                                     "_type": "Float",
-                                                    "value_": 80
+                                                    "value_": 85
                                                 }
                                             },
                                             "android:layout_marginBottom": {
@@ -1838,25 +1852,6 @@
             {
                 "_id_": 13842,
                 "_type": "Variable",
-                "onChange": {
-                    "_id_": 13846,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 13869,
-                            "_type": "ShowToast",
-                            "message": {
-                                "_id_": 13873,
-                                "_type": "Variable.Get",
-                                "name": {
-                                    "_id_": 13876,
-                                    "_type": "String",
-                                    "value_": "id_carpeta"
-                                }
-                            }
-                        }
-                    ]
-                },
                 "name": {
                     "_id_": 13844,
                     "_type": "String",
