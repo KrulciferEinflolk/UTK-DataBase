@@ -1040,6 +1040,19 @@
                                                                 "value_": "url_completa"
                                                             }
                                                         }
+                                                    },
+                                                    {
+                                                        "_id_": 18261,
+                                                        "_type": "ShowToast",
+                                                        "message": {
+                                                            "_id_": 18265,
+                                                            "_type": "Variable.Get",
+                                                            "name": {
+                                                                "_id_": 18268,
+                                                                "_type": "String",
+                                                                "value_": "url_completa"
+                                                            }
+                                                        }
                                                     }
                                                 ]
                                             },
@@ -2222,7 +2235,21 @@
                 "onChange": {
                     "_id_": 15927,
                     "_type": "Sequence",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 15928,
+                            "_type": "ShowToast",
+                            "message": {
+                                "_id_": 15929,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 17713,
+                                    "_type": "String",
+                                    "value_": "id_carpeta"
+                                }
+                            }
+                        }
+                    ]
                 },
                 "name": {
                     "_id_": 15921,
