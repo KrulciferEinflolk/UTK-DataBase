@@ -1008,7 +1008,12 @@
                                             "android:text": {
                                                 "_id_": 15239,
                                                 "_type": "String",
-                                                "value_": "Hello"
+                                                "value_": "Ir a carpeta"
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 16086,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         }
                                     ]
