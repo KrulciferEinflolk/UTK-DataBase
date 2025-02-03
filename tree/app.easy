@@ -770,6 +770,52 @@
                                     "_type": "ViewList",
                                     "list_": [
                                         {
+                                            "_id_": 16120,
+                                            "_type": "ClipToOutline",
+                                            "id": {
+                                                "_id_": 16132,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "views": {
+                                                "_id_": 16122,
+                                                "_type": "ViewList",
+                                                "list_": []
+                                            },
+                                            "android:layout_width": {
+                                                "_id_": 16126,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16128,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16127,
+                                                    "_type": "Float",
+                                                    "value_": 350
+                                                }
+                                            },
+                                            "android:background": {
+                                                "_id_": 16130,
+                                                "_type": "ShapeDrawable.Oval"
+                                            },
+                                            "android:layout_height": {
+                                                "_id_": 16123,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 16125,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 16124,
+                                                    "_type": "Float",
+                                                    "value_": 400
+                                                }
+                                            }
+                                        },
+                                        {
                                             "_id_": 12878,
                                             "_type": "TextView",
                                             "id": {
