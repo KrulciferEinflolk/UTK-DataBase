@@ -962,24 +962,33 @@
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 15945,
-                                                        "_type": "And",
-                                                        "a": {
-                                                            "_id_": 15955,
-                                                            "_type": "Variable.Get",
-                                                            "name": {
-                                                                "_id_": 15960,
-                                                                "_type": "String",
-                                                                "value_": "path"
-                                                            }
+                                                        "_id_": 15970,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 15992,
+                                                            "_type": "String",
+                                                            "value_": "url"
                                                         },
-                                                        "b": {
-                                                            "_id_": 15958,
-                                                            "_type": "Variable.Get",
-                                                            "name": {
-                                                                "_id_": 15961,
-                                                                "_type": "String",
-                                                                "value_": "id_carpeta"
+                                                        "value": {
+                                                            "_id_": 15987,
+                                                            "_type": "And",
+                                                            "a": {
+                                                                "_id_": 15988,
+                                                                "_type": "Variable.Get",
+                                                                "name": {
+                                                                    "_id_": 15989,
+                                                                    "_type": "String",
+                                                                    "value_": "path"
+                                                                }
+                                                            },
+                                                            "b": {
+                                                                "_id_": 15990,
+                                                                "_type": "Variable.Get",
+                                                                "name": {
+                                                                    "_id_": 15991,
+                                                                    "_type": "String",
+                                                                    "value_": "id_carpeta"
+                                                                }
                                                             }
                                                         }
                                                     }
