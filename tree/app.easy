@@ -753,25 +753,63 @@
                             "_id_": 17096,
                             "_type": "Activity.OnStart",
                             "action": {
-                                "_id_": 17109,
-                                "_type": "WebView.LoadURL",
-                                "viewId": {
-                                    "_id_": 17111,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 17113,
+                                "_id_": 17123,
+                                "_type": "WebView",
+                                "webChromeClient": {
+                                    "_id_": 17127,
+                                    "_type": "WebView",
+                                    "allowExternalURLs": {
+                                        "_id_": 17128,
+                                        "_type": "Boolean",
+                                        "value_": true
+                                    },
+                                    "includeApi": {
+                                        "_id_": 17129,
+                                        "_type": "WebView.Api",
+                                        "download": {
+                                            "_id_": 17130,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        },
+                                        "webView": {
+                                            "_id_": 17131,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        },
+                                        "viewPager": {
+                                            "_id_": 17132,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        }
+                                    },
+                                    "webChromeClient": {
+                                        "_id_": 17133,
+                                        "_type": "WebView.WebChromeClient"
+                                    },
+                                    "id": {
+                                        "_id_": 17134,
                                         "_type": "String",
-                                        "value_": "@id\/carpeta"
+                                        "value_": ""
+                                    },
+                                    "urlValue": {
+                                        "_id_": 17135,
+                                        "_type": "Variable.Get",
+                                        "name": {
+                                            "_id_": 17136,
+                                            "_type": "String",
+                                            "value_": "url"
+                                        }
+                                    },
+                                    "allowAppsToHandleURLs": {
+                                        "_id_": 17137,
+                                        "_type": "Boolean",
+                                        "value_": true
                                     }
                                 },
-                                "url": {
-                                    "_id_": 17118,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 17121,
-                                        "_type": "String",
-                                        "value_": "url"
-                                    }
+                                "id": {
+                                    "_id_": 17125,
+                                    "_type": "String",
+                                    "value_": ""
                                 }
                             }
                         }
