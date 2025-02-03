@@ -745,22 +745,6 @@
             {
                 "_id_": 1446,
                 "_type": "Fragment",
-                "onCreate": {
-                    "_id_": 16587,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 16595,
-                            "_type": "View.ScrollBars",
-                            "value_": "vertical"
-                        },
-                        {
-                            "_id_": 16603,
-                            "_type": "View.ScrollBarStyle",
-                            "value_": "insideOverlay"
-                        }
-                    ]
-                },
                 "layout": {
                     "_id_": 1447,
                     "_type": "RelativeLayout",
@@ -1177,7 +1161,293 @@
                                 "views": {
                                     "_id_": 16314,
                                     "_type": "ViewList",
-                                    "list_": []
+                                    "list_": [
+                                        {
+                                            "_id_": 16717,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16718,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16719,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16720,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16709,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16710,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16711,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16712,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16701,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16702,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16703,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16704,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16693,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16694,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16695,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16696,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16685,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16686,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16687,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16688,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16677,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16678,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16679,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16680,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16669,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16670,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16671,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16672,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16661,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16662,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16663,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16664,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16653,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16654,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16655,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16656,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16645,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16646,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16647,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16648,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16637,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16638,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16639,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16640,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16629,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16630,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16631,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16632,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16621,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16622,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16623,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16624,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16613,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16614,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16615,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16616,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 16607,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 16610,
+                                                "_type": "Sequence",
+                                                "list_": []
+                                            },
+                                            "id": {
+                                                "_id_": 16612,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 16608,
+                                                "_type": "String",
+                                                "value_": "Hello"
+                                            }
+                                        }
+                                    ]
                                 },
                                 "android:layout_width": {
                                     "_id_": 16317,
