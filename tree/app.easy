@@ -1019,15 +1019,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 17029,
-                                                        "_type": "Activity.StartOwn",
-                                                        "activity": {
-                                                            "_id_": 17177,
-                                                            "_type": "String",
-                                                            "value_": "Carpetas"
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 18241,
                                                         "_type": "WebView",
                                                         "allowExternalURLs": {
