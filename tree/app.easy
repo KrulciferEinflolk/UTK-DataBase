@@ -1268,6 +1268,11 @@
                             "value_": "@drawable\/background"
                         }
                     },
+                    "android:scrollbarAlwaysDrawVerticalTrack": {
+                        "_id_": 16349,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
                     "android:scrollbars": {
                         "_id_": 16348,
                         "_type": "View.ScrollBars",
