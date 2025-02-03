@@ -519,15 +519,6 @@
                         "_type": "String",
                         "value_": "carpetas"
                     },
-                    "urlValue": {
-                        "_id_": 18282,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 18285,
-                            "_type": "String",
-                            "value_": "url_completa"
-                        }
-                    },
                     "url": {
                         "_id_": 18287,
                         "_type": "URL",
