@@ -962,33 +962,39 @@
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 15970,
+                                                        "_id_": 16034,
                                                         "_type": "Variable.Set",
                                                         "name": {
-                                                            "_id_": 15992,
+                                                            "_id_": 16041,
                                                             "_type": "String",
                                                             "value_": "url"
                                                         },
                                                         "value": {
-                                                            "_id_": 15987,
-                                                            "_type": "And",
-                                                            "a": {
-                                                                "_id_": 15988,
-                                                                "_type": "Variable.Get",
-                                                                "name": {
-                                                                    "_id_": 15989,
-                                                                    "_type": "String",
-                                                                    "value_": "path"
-                                                                }
-                                                            },
-                                                            "b": {
-                                                                "_id_": 15990,
-                                                                "_type": "Variable.Get",
-                                                                "name": {
-                                                                    "_id_": 15991,
-                                                                    "_type": "String",
-                                                                    "value_": "id_carpeta"
-                                                                }
+                                                            "_id_": 16073,
+                                                            "_type": "String.Concat",
+                                                            "values": {
+                                                                "_id_": 16075,
+                                                                "_type": "List",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 16080,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 16084,
+                                                                            "_type": "String",
+                                                                            "value_": "path"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_id_": 16077,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 16085,
+                                                                            "_type": "String",
+                                                                            "value_": "id_carpeta"
+                                                                        }
+                                                                    }
+                                                                ]
                                                             }
                                                         }
                                                     }
