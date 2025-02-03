@@ -1256,6 +1256,49 @@
                                     "_type": "Boolean",
                                     "value_": true
                                 }
+                            },
+                            {
+                                "_id_": 16354,
+                                "_type": "DrawerLayout",
+                                "id": {
+                                    "_id_": 16358,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "views": {
+                                    "_id_": 16356,
+                                    "_type": "ViewList",
+                                    "list_": []
+                                },
+                                "android:scrollbarAlwaysDrawVerticalTrack": {
+                                    "_id_": 16359,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                },
+                                "android:scrollbars": {
+                                    "_id_": 16360,
+                                    "_type": "View.ScrollBars",
+                                    "value_": "vertical"
+                                },
+                                "android:isScrollContainer": {
+                                    "_id_": 16361,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                },
+                                "android:scrollY": {
+                                    "_id_": 16362,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 16363,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 16364,
+                                        "_type": "Float",
+                                        "value_": 1000
+                                    }
+                                }
                             }
                         ]
                     },
@@ -1266,30 +1309,6 @@
                             "_id_": 5436,
                             "_type": "String",
                             "value_": "@drawable\/background"
-                        }
-                    },
-                    "android:scrollbarAlwaysDrawVerticalTrack": {
-                        "_id_": 16349,
-                        "_type": "Boolean",
-                        "value_": true
-                    },
-                    "android:scrollbars": {
-                        "_id_": 16348,
-                        "_type": "View.ScrollBars",
-                        "value_": "vertical"
-                    },
-                    "android:scrollY": {
-                        "_id_": 16345,
-                        "_type": "Dimension",
-                        "unit": {
-                            "_id_": 16346,
-                            "_type": "DimensionUnit",
-                            "value_": "dp"
-                        },
-                        "value": {
-                            "_id_": 16347,
-                            "_type": "Float",
-                            "value_": 1000
                         }
                     },
                     "android:gravity": {
