@@ -1268,6 +1268,25 @@
                             "value_": "@drawable\/background"
                         }
                     },
+                    "android:isScrollContainer": {
+                        "_id_": 16343,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
+                    "android:scrollY": {
+                        "_id_": 16345,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 16346,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 16347,
+                            "_type": "Float",
+                            "value_": 1000
+                        }
+                    },
                     "android:gravity": {
                         "_id_": 16276,
                         "_type": "Gravity",
