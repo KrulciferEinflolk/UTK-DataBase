@@ -1268,10 +1268,10 @@
                             "value_": "@drawable\/background"
                         }
                     },
-                    "android:isScrollContainer": {
-                        "_id_": 16343,
-                        "_type": "Boolean",
-                        "value_": true
+                    "android:scrollbars": {
+                        "_id_": 16348,
+                        "_type": "View.ScrollBars",
+                        "value_": "vertical"
                     },
                     "android:scrollY": {
                         "_id_": 16345,
