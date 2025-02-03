@@ -753,11 +753,6 @@
                 "contentView": {
                     "_id_": 16985,
                     "_type": "WebView",
-                    "allowExternalURLs": {
-                        "_id_": 16991,
-                        "_type": "Boolean",
-                        "value_": true
-                    },
                     "includeApi": {
                         "_id_": 16994,
                         "_type": "WebView.Api",
@@ -777,109 +772,61 @@
                             "value_": true
                         }
                     },
-                    "webViewClient": {
-                        "_id_": 17037,
-                        "_type": "WebView.WebViewClient",
-                        "shouldOverrideUrlLoading": {
-                            "_id_": 17039,
-                            "_type": "Sequence",
-                            "list_": [
-                                {
-                                    "_id_": 17044,
-                                    "_type": "WebView",
-                                    "allowExternalURLs": {
-                                        "_id_": 17045,
-                                        "_type": "Boolean",
-                                        "value_": true
-                                    },
-                                    "includeApi": {
-                                        "_id_": 17046,
-                                        "_type": "WebView.Api",
-                                        "download": {
-                                            "_id_": 17047,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        },
-                                        "webView": {
-                                            "_id_": 17048,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        },
-                                        "viewPager": {
-                                            "_id_": 17049,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        }
-                                    },
-                                    "webViewClient": {
-                                        "_id_": 17050,
-                                        "_type": "WebView.WebViewClient",
-                                        "shouldOverrideUrlLoading": {
-                                            "_id_": 17051,
-                                            "_type": "Sequence",
-                                            "list_": [
-                                                {
-                                                    "_id_": 17052,
-                                                    "_type": "ScopeVariable",
-                                                    "name": {
-                                                        "_id_": 17053,
-                                                        "_type": "String",
-                                                        "value_": "view"
-                                                    }
-                                                },
-                                                {
-                                                    "_id_": 17054,
-                                                    "_type": "ScopeVariable",
-                                                    "name": {
-                                                        "_id_": 17055,
-                                                        "_type": "String",
-                                                        "value_": "request"
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    "id": {
-                                        "_id_": 17056,
-                                        "_type": "String",
-                                        "value_": ""
-                                    },
-                                    "urlValue": {
-                                        "_id_": 17057,
-                                        "_type": "Variable.Get",
-                                        "name": {
-                                            "_id_": 17058,
-                                            "_type": "String",
-                                            "value_": "url"
-                                        }
-                                    },
-                                    "allowAppsToHandleURLs": {
-                                        "_id_": 17059,
-                                        "_type": "Boolean",
-                                        "value_": true
-                                    }
-                                }
-                            ]
+                    "webChromeClient": {
+                        "_id_": 17078,
+                        "_type": "WebView",
+                        "allowExternalURLs": {
+                            "_id_": 17079,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "includeApi": {
+                            "_id_": 17080,
+                            "_type": "WebView.Api",
+                            "download": {
+                                "_id_": 17081,
+                                "_type": "Boolean",
+                                "value_": true
+                            },
+                            "webView": {
+                                "_id_": 17082,
+                                "_type": "Boolean",
+                                "value_": true
+                            },
+                            "viewPager": {
+                                "_id_": 17083,
+                                "_type": "Boolean",
+                                "value_": true
+                            }
+                        },
+                        "webChromeClient": {
+                            "_id_": 17084,
+                            "_type": "WebView.WebChromeClient"
+                        },
+                        "id": {
+                            "_id_": 17085,
+                            "_type": "String",
+                            "value_": ""
+                        },
+                        "urlValue": {
+                            "_id_": 17086,
+                            "_type": "Variable.Get",
+                            "name": {
+                                "_id_": 17087,
+                                "_type": "String",
+                                "value_": "url"
+                            }
+                        },
+                        "allowAppsToHandleURLs": {
+                            "_id_": 17088,
+                            "_type": "Boolean",
+                            "value_": true
                         }
                     },
                     "id": {
                         "_id_": 16987,
                         "_type": "String",
                         "value_": ""
-                    },
-                    "urlValue": {
-                        "_id_": 17000,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 17003,
-                            "_type": "String",
-                            "value_": "url"
-                        }
-                    },
-                    "allowAppsToHandleURLs": {
-                        "_id_": 16992,
-                        "_type": "Boolean",
-                        "value_": true
                     }
                 },
                 "name": {
