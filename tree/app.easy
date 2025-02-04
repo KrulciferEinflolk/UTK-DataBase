@@ -1485,9 +1485,9 @@
                                                                                     "_id_": 25734,
                                                                                     "_type": "Variable.Get",
                                                                                     "name": {
-                                                                                        "_id_": 25735,
+                                                                                        "_id_": 25736,
                                                                                         "_type": "String",
-                                                                                        "value_": "id_carpeta"
+                                                                                        "value_": "carpeta1"
                                                                                     }
                                                                                 }
                                                                             },
