@@ -1630,6 +1630,11 @@
                                                                             {
                                                                                 "_id_": 27135,
                                                                                 "_type": "ProgressBar",
+                                                                                "type": {
+                                                                                    "_id_": 27145,
+                                                                                    "_type": "ProgressBar.Type",
+                                                                                    "value_": "horizontal"
+                                                                                },
                                                                                 "id": {
                                                                                     "_id_": 27136,
                                                                                     "_type": "String",
