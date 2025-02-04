@@ -1294,6 +1294,25 @@
                                                                                 "value_": "@drawable\/carpetas"
                                                                             }
                                                                         },
+                                                                        "iconTintList": {
+                                                                            "_id_": 22923,
+                                                                            "_type": "StateListColor",
+                                                                            "items": {
+                                                                                "_id_": 22925,
+                                                                                "_type": "ColorSelectorList",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 22927,
+                                                                                        "_type": "ColorSelectorItem",
+                                                                                        "color": {
+                                                                                            "_id_": 22929,
+                                                                                            "_type": "Color",
+                                                                                            "color_": -16777216
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
                                                                         "title": {
                                                                             "_id_": 21716,
                                                                             "_type": "String",
