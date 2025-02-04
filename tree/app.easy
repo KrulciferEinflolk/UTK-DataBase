@@ -1621,7 +1621,7 @@
                                                                     "id": {
                                                                         "_id_": 25027,
                                                                         "_type": "String",
-                                                                        "value_": ""
+                                                                        "value_": "var2"
                                                                     },
                                                                     "onLongClick": {
                                                                         "_id_": 26892,
@@ -1648,7 +1648,7 @@
                                                                                                 "ref": {
                                                                                                     "_id_": 26922,
                                                                                                     "_type": "String",
-                                                                                                    "value_": "@id\/var1"
+                                                                                                    "value_": "@id\/var2"
                                                                                                 }
                                                                                             },
                                                                                             "color": {
