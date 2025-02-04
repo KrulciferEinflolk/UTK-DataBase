@@ -1416,7 +1416,7 @@
                                                                     "id": {
                                                                         "_id_": 23528,
                                                                         "_type": "String",
-                                                                        "value_": ""
+                                                                        "value_": "var1"
                                                                     },
                                                                     "onLongClick": {
                                                                         "_id_": 26013,
@@ -1519,41 +1519,62 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 26816,
-                                                                                "_type": "Animation.AlphaAnimation",
-                                                                                "duration": {
-                                                                                    "_id_": 26817,
-                                                                                    "_type": "Integer",
-                                                                                    "value_": 50
+                                                                                "_id_": 26837,
+                                                                                "_type": "View.StartAnimation",
+                                                                                "view": {
+                                                                                    "_id_": 26839,
+                                                                                    "_type": "View.Reference",
+                                                                                    "ref": {
+                                                                                        "_id_": 26841,
+                                                                                        "_type": "String",
+                                                                                        "value_": "@id\/var1"
+                                                                                    }
                                                                                 },
-                                                                                "fromAlpha": {
-                                                                                    "_id_": 26818,
-                                                                                    "_type": "Float",
-                                                                                    "value_": 0
-                                                                                },
-                                                                                "toAlpha": {
-                                                                                    "_id_": 26819,
-                                                                                    "_type": "Float",
-                                                                                    "value_": 1
-                                                                                },
-                                                                                "listener": {
-                                                                                    "_id_": 26821,
-                                                                                    "_type": "Animation.Listener",
-                                                                                    "onAnimationEnd": {
-                                                                                        "_id_": 26827,
-                                                                                        "_type": "Sequence",
-                                                                                        "list_": []
+                                                                                "animation": {
+                                                                                    "_id_": 26843,
+                                                                                    "_type": "Animation.AlphaAnimation",
+                                                                                    "duration": {
+                                                                                        "_id_": 26844,
+                                                                                        "_type": "Integer",
+                                                                                        "value_": 500
                                                                                     },
-                                                                                    "onAnimationStart": {
-                                                                                        "_id_": 26823,
-                                                                                        "_type": "Sequence",
-                                                                                        "list_": [
-                                                                                            {
-                                                                                                "_id_": 26825,
-                                                                                                "_type": "ShapeDrawable.GradientType",
-                                                                                                "value_": "linear"
-                                                                                            }
-                                                                                        ]
+                                                                                    "fromAlpha": {
+                                                                                        "_id_": 26845,
+                                                                                        "_type": "Float",
+                                                                                        "value_": 0
+                                                                                    },
+                                                                                    "toAlpha": {
+                                                                                        "_id_": 26846,
+                                                                                        "_type": "Float",
+                                                                                        "value_": 1
+                                                                                    },
+                                                                                    "listener": {
+                                                                                        "_id_": 26848,
+                                                                                        "_type": "Animation.Listener",
+                                                                                        "onAnimationStart": {
+                                                                                            "_id_": 26850,
+                                                                                            "_type": "Sequence",
+                                                                                            "list_": [
+                                                                                                {
+                                                                                                    "_id_": 26852,
+                                                                                                    "_type": "View.SetBackgroundColor",
+                                                                                                    "view": {
+                                                                                                        "_id_": 26854,
+                                                                                                        "_type": "View.Reference",
+                                                                                                        "ref": {
+                                                                                                            "_id_": 26856,
+                                                                                                            "_type": "String",
+                                                                                                            "value_": "@id\/var1"
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "color": {
+                                                                                                        "_id_": 26858,
+                                                                                                        "_type": "Color",
+                                                                                                        "color_": -6262785
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
                                                                                     }
                                                                                 }
                                                                             }
