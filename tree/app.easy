@@ -1480,6 +1480,15 @@
                                                                                         "_type": "String",
                                                                                         "value_": "id_carpeta"
                                                                                     }
+                                                                                },
+                                                                                "onNonEmptyString": {
+                                                                                    "_id_": 25574,
+                                                                                    "_type": "Expression",
+                                                                                    "text": {
+                                                                                        "_id_": 25576,
+                                                                                        "_type": "String",
+                                                                                        "value_": ""
+                                                                                    }
                                                                                 }
                                                                             },
                                                                             {
