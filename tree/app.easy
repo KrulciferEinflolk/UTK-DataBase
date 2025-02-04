@@ -1405,18 +1405,18 @@
                                                                             {
                                                                                 "_id_": 27357,
                                                                                 "_type": "CheckResult",
-                                                                                "onTrue": {
-                                                                                    "_id_": 27383,
-                                                                                    "_type": "Activity.StartOwn",
-                                                                                    "activity": {
-                                                                                        "_id_": 27384,
-                                                                                        "_type": "String",
-                                                                                        "value_": "Carpetas"
-                                                                                    }
-                                                                                },
                                                                                 "value": {
                                                                                     "_id_": 27378,
                                                                                     "_type": "Activity.Result.OK"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_id_": 27386,
+                                                                                "_type": "Activity.StartOwn",
+                                                                                "activity": {
+                                                                                    "_id_": 27389,
+                                                                                    "_type": "String",
+                                                                                    "value_": "Carpetas"
                                                                                 }
                                                                             }
                                                                         ]
