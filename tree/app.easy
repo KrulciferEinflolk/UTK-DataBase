@@ -1037,26 +1037,26 @@
                                         {
                                             "_id_": 11988,
                                             "_type": "EditText",
-                                            "onEditorAction": {
-                                                "_id_": 25643,
+                                            "onTouchUp": {
+                                                "_id_": 25671,
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 25660,
+                                                        "_id_": 25676,
                                                         "_type": "Variable.Set",
                                                         "name": {
-                                                            "_id_": 25661,
+                                                            "_id_": 25677,
                                                             "_type": "String",
                                                             "value_": "id_carpeta"
                                                         },
                                                         "value": {
-                                                            "_id_": 25662,
+                                                            "_id_": 25678,
                                                             "_type": "TextView.GetText",
                                                             "view": {
-                                                                "_id_": 25663,
+                                                                "_id_": 25679,
                                                                 "_type": "View.Reference",
                                                                 "ref": {
-                                                                    "_id_": 25664,
+                                                                    "_id_": 25680,
                                                                     "_type": "String",
                                                                     "value_": "@id\/carpeta"
                                                                 }
