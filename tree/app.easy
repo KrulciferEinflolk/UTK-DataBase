@@ -1288,6 +1288,20 @@
                                                             "_id_": 19907,
                                                             "_type": "String",
                                                             "value_": "Hello"
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 19911,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 19912,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 19913,
+                                                                "_type": "Float",
+                                                                "value_": 50
+                                                            }
                                                         }
                                                     }
                                                 ]
