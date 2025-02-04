@@ -1670,8 +1670,9 @@
                                                                                     "value_": true
                                                                                 },
                                                                                 "android:progressBackgroundTint": {
-                                                                                    "_id_": 27139,
-                                                                                    "_type": "Color.Transparent"
+                                                                                    "_id_": 27151,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             }
                                                                         ]
