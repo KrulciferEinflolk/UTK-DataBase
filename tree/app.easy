@@ -1410,13 +1410,17 @@
                                                                                     "_type": "True"
                                                                                 },
                                                                                 "onTrue": {
-                                                                                    "_id_": 27615,
-                                                                                    "_type": "Activity.StartOwn",
-                                                                                    "activity": {
-                                                                                        "_id_": 27616,
-                                                                                        "_type": "String",
-                                                                                        "value_": "Carpetas"
-                                                                                    }
+                                                                                    "_id_": 27626,
+                                                                                    "_type": "Activity.Result.OK"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_id_": 27628,
+                                                                                "_type": "Activity.StartOwn",
+                                                                                "activity": {
+                                                                                    "_id_": 27631,
+                                                                                    "_type": "String",
+                                                                                    "value_": "Carpetas"
                                                                                 }
                                                                             }
                                                                         ]
