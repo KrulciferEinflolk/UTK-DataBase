@@ -1768,6 +1768,20 @@
                                                                                 }
                                                                             }
                                                                         }
+                                                                    },
+                                                                    "app:layout_constraintWidth_max": {
+                                                                        "_id_": 31789,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 31790,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 31792,
+                                                                            "_type": "Float",
+                                                                            "value_": 300
+                                                                        }
                                                                     }
                                                                 },
                                                                 {
