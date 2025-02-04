@@ -1406,13 +1406,8 @@
                                                                                 "_id_": 27357,
                                                                                 "_type": "CheckResult",
                                                                                 "value": {
-                                                                                    "_id_": 27363,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27366,
-                                                                                        "_type": "String",
-                                                                                        "value_": "url_completa"
-                                                                                    }
+                                                                                    "_id_": 27378,
+                                                                                    "_type": "Activity.Result.OK"
                                                                                 },
                                                                                 "onFunction": {
                                                                                     "_id_": 27371,
