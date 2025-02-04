@@ -1419,6 +1419,34 @@
                                                                                     "_id_": 27577,
                                                                                     "_type": "Float",
                                                                                     "value_": 1
+                                                                                },
+                                                                                "listener": {
+                                                                                    "_id_": 27579,
+                                                                                    "_type": "Animation.Listener",
+                                                                                    "onAnimationStart": {
+                                                                                        "_id_": 27581,
+                                                                                        "_type": "Sequence",
+                                                                                        "list_": [
+                                                                                            {
+                                                                                                "_id_": 27593,
+                                                                                                "_type": "View.SetBackgroundColor",
+                                                                                                "view": {
+                                                                                                    "_id_": 27595,
+                                                                                                    "_type": "View.Reference",
+                                                                                                    "ref": {
+                                                                                                        "_id_": 27597,
+                                                                                                        "_type": "String",
+                                                                                                        "value_": "@id\/var1"
+                                                                                                    }
+                                                                                                },
+                                                                                                "color": {
+                                                                                                    "_id_": 27599,
+                                                                                                    "_type": "Color",
+                                                                                                    "color_": -5468929
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
                                                                                 }
                                                                             },
                                                                             {
@@ -1640,7 +1668,7 @@
                                                                     "id": {
                                                                         "_id_": 27277,
                                                                         "_type": "String",
-                                                                        "value_": "var1"
+                                                                        "value_": "var2"
                                                                     },
                                                                     "onLongClick": {
                                                                         "_id_": 27278,
