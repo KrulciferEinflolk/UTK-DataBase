@@ -1517,6 +1517,45 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            },
+                                                                            {
+                                                                                "_id_": 26816,
+                                                                                "_type": "Animation.AlphaAnimation",
+                                                                                "duration": {
+                                                                                    "_id_": 26817,
+                                                                                    "_type": "Integer",
+                                                                                    "value_": 50
+                                                                                },
+                                                                                "fromAlpha": {
+                                                                                    "_id_": 26818,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 0
+                                                                                },
+                                                                                "toAlpha": {
+                                                                                    "_id_": 26819,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 1
+                                                                                },
+                                                                                "listener": {
+                                                                                    "_id_": 26821,
+                                                                                    "_type": "Animation.Listener",
+                                                                                    "onAnimationEnd": {
+                                                                                        "_id_": 26827,
+                                                                                        "_type": "Sequence",
+                                                                                        "list_": []
+                                                                                    },
+                                                                                    "onAnimationStart": {
+                                                                                        "_id_": 26823,
+                                                                                        "_type": "Sequence",
+                                                                                        "list_": [
+                                                                                            {
+                                                                                                "_id_": 26825,
+                                                                                                "_type": "ShapeDrawable.GradientType",
+                                                                                                "value_": "linear"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
                                                                             }
                                                                         ]
                                                                     },
