@@ -1403,26 +1403,11 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27475,
-                                                                                "_type": "ViewAnimator",
-                                                                                "id": {
-                                                                                    "_id_": 27479,
-                                                                                    "_type": "String",
-                                                                                    "value_": ""
-                                                                                },
-                                                                                "views": {
-                                                                                    "_id_": 27477,
-                                                                                    "_type": "ViewList",
-                                                                                    "list_": []
-                                                                                },
-                                                                                "android:inAnimation": {
-                                                                                    "_id_": 27485,
-                                                                                    "_type": "ColorReference",
-                                                                                    "ref": {
-                                                                                        "_id_": 27487,
-                                                                                        "_type": "String",
-                                                                                        "value_": "@color\/primary"
-                                                                                    }
+                                                                                "_id_": 27521,
+                                                                                "_type": "Activity.SetResult",
+                                                                                "resultCode": {
+                                                                                    "_id_": 27523,
+                                                                                    "_type": "Activity.Result.OK"
                                                                                 }
                                                                             },
                                                                             {
