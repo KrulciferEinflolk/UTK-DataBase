@@ -1454,17 +1454,17 @@
                                                                                             "_id_": 26692,
                                                                                             "_type": "Variable.Set",
                                                                                             "name": {
-                                                                                                "_id_": 26693,
+                                                                                                "_id_": 26700,
                                                                                                 "_type": "String",
-                                                                                                "value_": "carpeta1"
+                                                                                                "value_": "id_carpeta"
                                                                                             },
                                                                                             "value": {
                                                                                                 "_id_": 26694,
                                                                                                 "_type": "Variable.Get",
                                                                                                 "name": {
-                                                                                                    "_id_": 26695,
+                                                                                                    "_id_": 26701,
                                                                                                     "_type": "String",
-                                                                                                    "value_": "id_carpeta"
+                                                                                                    "value_": "carpeta1"
                                                                                                 }
                                                                                             }
                                                                                         }
