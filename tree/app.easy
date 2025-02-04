@@ -1469,13 +1469,32 @@
                                                                                     }
                                                                                 },
                                                                                 "onFalse": {
-                                                                                    "_id_": 25995,
-                                                                                    "_type": "Activity.StartOwn",
-                                                                                    "activity": {
-                                                                                        "_id_": 25998,
-                                                                                        "_type": "String",
-                                                                                        "value_": "Carpetas"
-                                                                                    }
+                                                                                    "_id_": 26000,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": [
+                                                                                        {
+                                                                                            "_id_": 26002,
+                                                                                            "_type": "Activity.StartOwn",
+                                                                                            "activity": {
+                                                                                                "_id_": 26005,
+                                                                                                "_type": "String",
+                                                                                                "value_": "Carpetas"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "_id_": 26007,
+                                                                                            "_type": "ShowToast",
+                                                                                            "message": {
+                                                                                                "_id_": 26010,
+                                                                                                "_type": "Variable.Get",
+                                                                                                "name": {
+                                                                                                    "_id_": 26011,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "id_carpeta"
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    ]
                                                                                 },
                                                                                 "value": {
                                                                                     "_id_": 25975,
