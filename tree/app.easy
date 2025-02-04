@@ -896,6 +896,20 @@
                                                 "_type": "String",
                                                 "value_": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
                                             },
+                                            "android:paddingHorizontal": {
+                                                "_id_": 12111,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 12112,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 12113,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
                                             "android:layout_marginVertical": {
                                                 "_id_": 12874,
                                                 "_type": "Dimension",
@@ -953,14 +967,14 @@
                                                 "value_": "wrap_content"
                                             },
                                             "android:freezesText": {
-                                                "_id_": 19919,
+                                                "_id_": 19992,
                                                 "_type": "Boolean",
                                                 "value_": true
                                             },
                                             "android:textColorHint": {
                                                 "_id_": 19887,
                                                 "_type": "Color",
-                                                "color_": -16777216
+                                                "color_": -12500671
                                             },
                                             "android:minWidth": {
                                                 "_id_": 16112,
