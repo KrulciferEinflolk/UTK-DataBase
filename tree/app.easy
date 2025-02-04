@@ -1556,7 +1556,7 @@
                                                                                     "value": {
                                                                                         "_id_": 30325,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 5
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
@@ -1788,11 +1788,6 @@
                                                                                 }
                                                                             }
                                                                         ]
-                                                                    },
-                                                                    "android:layout_centerInParent": {
-                                                                        "_id_": 31762,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
@@ -2234,11 +2229,6 @@
                                                                                 }
                                                                             }
                                                                         ]
-                                                                    },
-                                                                    "android:layout_centerInParent": {
-                                                                        "_id_": 31763,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
@@ -2680,11 +2670,6 @@
                                                                                 }
                                                                             }
                                                                         ]
-                                                                    },
-                                                                    "android:layout_centerInParent": {
-                                                                        "_id_": 31764,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
