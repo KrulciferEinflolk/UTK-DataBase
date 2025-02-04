@@ -1540,6 +1540,11 @@
                                                                                         }
                                                                                     ]
                                                                                 },
+                                                                                "android:layout_width": {
+                                                                                    "_id_": 31793,
+                                                                                    "_type": "View.SpecialDimension",
+                                                                                    "value_": "wrap_content"
+                                                                                },
                                                                                 "android:text": {
                                                                                     "_id_": 30322,
                                                                                     "_type": "String",
@@ -1724,6 +1729,11 @@
                                                                                             }
                                                                                         }
                                                                                     ]
+                                                                                },
+                                                                                "android:layout_width": {
+                                                                                    "_id_": 31794,
+                                                                                    "_type": "View.SpecialDimension",
+                                                                                    "value_": "wrap_content"
                                                                                 },
                                                                                 "android:text": {
                                                                                     "_id_": 30368,
