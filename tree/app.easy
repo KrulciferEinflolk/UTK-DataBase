@@ -1357,6 +1357,24 @@
                                                                         "_type": "Sequence",
                                                                         "list_": [
                                                                             {
+                                                                                "_id_": 26402,
+                                                                                "_type": "Variable.Set",
+                                                                                "name": {
+                                                                                    "_id_": 26403,
+                                                                                    "_type": "String",
+                                                                                    "value_": "carpeta1"
+                                                                                },
+                                                                                "value": {
+                                                                                    "_id_": 26404,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 26405,
+                                                                                        "_type": "String",
+                                                                                        "value_": "id_carpeta"
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            {
                                                                                 "_id_": 26346,
                                                                                 "_type": "ShowToast",
                                                                                 "message": {
