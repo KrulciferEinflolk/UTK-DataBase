@@ -1410,20 +1410,6 @@
                                                                                             }
                                                                                         },
                                                                                         {
-                                                                                            "_id_": 26566,
-                                                                                            "_type": "Variable.Set",
-                                                                                            "name": {
-                                                                                                "_id_": 26675,
-                                                                                                "_type": "String",
-                                                                                                "value_": "id_carpeta"
-                                                                                            },
-                                                                                            "value": {
-                                                                                                "_id_": 26677,
-                                                                                                "_type": "String",
-                                                                                                "value_": ""
-                                                                                            }
-                                                                                        },
-                                                                                        {
                                                                                             "_id_": 26574,
                                                                                             "_type": "ShowToast",
                                                                                             "message": {
