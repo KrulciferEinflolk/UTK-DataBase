@@ -1406,13 +1406,8 @@
                                                                                 "_id_": 27603,
                                                                                 "_type": "Conditional",
                                                                                 "condition": {
-                                                                                    "_id_": 27611,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27614,
-                                                                                        "_type": "String",
-                                                                                        "value_": "url_completa"
-                                                                                    }
+                                                                                    "_id_": 27618,
+                                                                                    "_type": "True"
                                                                                 },
                                                                                 "onTrue": {
                                                                                     "_id_": 27615,
