@@ -1314,20 +1314,6 @@
                                                 "_type": "Gravity",
                                                 "value_": "fill"
                                             }
-                                        },
-                                        {
-                                            "_id_": 21662,
-                                            "_type": "ConstraintLayout.Grid",
-                                            "referencedViews": {
-                                                "_id_": 21664,
-                                                "_type": "List",
-                                                "list_": []
-                                            },
-                                            "id": {
-                                                "_id_": 21666,
-                                                "_type": "String",
-                                                "value_": ""
-                                            }
                                         }
                                     ]
                                 },
