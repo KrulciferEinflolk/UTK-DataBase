@@ -1403,19 +1403,35 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27524,
-                                                                                "_type": "Activity.SetResult",
-                                                                                "resultCode": {
-                                                                                    "_id_": 27525,
-                                                                                    "_type": "Activity.Result.OK"
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "_id_": 27521,
-                                                                                "_type": "Activity.SetResult",
-                                                                                "resultCode": {
-                                                                                    "_id_": 27523,
-                                                                                    "_type": "Activity.Result.OK"
+                                                                                "_id_": 27540,
+                                                                                "_type": "Compare",
+                                                                                "a": {
+                                                                                    "_id_": 27550,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 27555,
+                                                                                        "_type": "String",
+                                                                                        "value_": "vacio"
+                                                                                    }
+                                                                                },
+                                                                                "b": {
+                                                                                    "_id_": 27553,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 27556,
+                                                                                        "_type": "String",
+                                                                                        "value_": "vacio"
+                                                                                    }
+                                                                                },
+                                                                                "onEqual": {
+                                                                                    "_id_": 27570,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": [
+                                                                                        {
+                                                                                            "_id_": 27571,
+                                                                                            "_type": "Activity.Result.OK"
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             },
                                                                             {
