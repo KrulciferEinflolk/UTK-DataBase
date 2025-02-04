@@ -1238,27 +1238,7 @@
                                             "views": {
                                                 "_id_": 19897,
                                                 "_type": "ViewList",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 21134,
-                                                        "_type": "Button",
-                                                        "onClick": {
-                                                            "_id_": 21137,
-                                                            "_type": "Sequence",
-                                                            "list_": []
-                                                        },
-                                                        "id": {
-                                                            "_id_": 21139,
-                                                            "_type": "String",
-                                                            "value_": ""
-                                                        },
-                                                        "android:text": {
-                                                            "_id_": 21135,
-                                                            "_type": "String",
-                                                            "value_": "Hello"
-                                                        }
-                                                    }
-                                                ]
+                                                "list_": []
                                             },
                                             "android:layout_width": {
                                                 "_id_": 20066,
