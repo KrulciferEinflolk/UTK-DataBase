@@ -1253,88 +1253,41 @@
                                                 "_type": "String",
                                                 "value_": ""
                                             },
-                                            "onAttachedToWindow": {
-                                                "_id_": 16937,
-                                                "_type": "Sequence",
+                                            "views": {
+                                                "_id_": 19897,
+                                                "_type": "ViewList",
                                                 "list_": [
                                                     {
-                                                        "_id_": 16938,
-                                                        "_type": "ScopeVariable",
-                                                        "name": {
-                                                            "_id_": 16939,
+                                                        "_id_": 19899,
+                                                        "_type": "Button",
+                                                        "onClick": {
+                                                            "_id_": 19902,
+                                                            "_type": "Sequence",
+                                                            "list_": []
+                                                        },
+                                                        "id": {
+                                                            "_id_": 19904,
                                                             "_type": "String",
-                                                            "value_": "view"
+                                                            "value_": ""
+                                                        },
+                                                        "android:text": {
+                                                            "_id_": 19900,
+                                                            "_type": "String",
+                                                            "value_": "Hello"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 16943,
-                                                        "_type": "Menu",
-                                                        "items": {
-                                                            "_id_": 16945,
-                                                            "_type": "List",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 16947,
-                                                                    "_type": "Menu.Group"
-                                                                },
-                                                                {
-                                                                    "_id_": 16951,
-                                                                    "_type": "Menu.Item",
-                                                                    "title": {
-                                                                        "_id_": 16961,
-                                                                        "_type": "String",
-                                                                        "value_": "carpeta 1"
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 16955,
-                                                                        "_type": "String",
-                                                                        "value_": "Carpeta1"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "_id_": 17016,
-                                                                    "_type": "Menu.Item",
-                                                                    "title": {
-                                                                        "_id_": 17017,
-                                                                        "_type": "String",
-                                                                        "value_": "carpeta 2"
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 17018,
-                                                                        "_type": "String",
-                                                                        "value_": "Carpeta2"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "_id_": 17010,
-                                                                    "_type": "Menu.Item",
-                                                                    "title": {
-                                                                        "_id_": 17011,
-                                                                        "_type": "String",
-                                                                        "value_": "carpeta 3"
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 17012,
-                                                                        "_type": "String",
-                                                                        "value_": "Carpeta3"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "_id_": 17004,
-                                                                    "_type": "Menu.Item",
-                                                                    "title": {
-                                                                        "_id_": 17005,
-                                                                        "_type": "String",
-                                                                        "value_": "carpeta 4"
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 17006,
-                                                                        "_type": "String",
-                                                                        "value_": "Carpeta4"
-                                                                    }
-                                                                }
-                                                            ],
-                                                            "elementType_": "Menu.Element"
+                                                        "_id_": 19906,
+                                                        "_type": "EditText",
+                                                        "id": {
+                                                            "_id_": 19909,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "android:text": {
+                                                            "_id_": 19907,
+                                                            "_type": "String",
+                                                            "value_": "Hello"
                                                         }
                                                     }
                                                 ]
