@@ -1655,7 +1655,7 @@
                                                                                     "toAlpha": {
                                                                                         "_id_": 26981,
                                                                                         "_type": "Float",
-                                                                                        "value_": 1
+                                                                                        "value_": 9
                                                                                     },
                                                                                     "listener": {
                                                                                         "_id_": 26982,
@@ -1682,18 +1682,9 @@
                                                                                                         }
                                                                                                     },
                                                                                                     "color": {
-                                                                                                        "_id_": 27043,
-                                                                                                        "_type": "FrameLayout",
-                                                                                                        "id": {
-                                                                                                            "_id_": 27047,
-                                                                                                            "_type": "String",
-                                                                                                            "value_": ""
-                                                                                                        },
-                                                                                                        "android:background": {
-                                                                                                            "_id_": 27053,
-                                                                                                            "_type": "Color",
-                                                                                                            "color_": -3708929
-                                                                                                        }
+                                                                                                        "_id_": 26987,
+                                                                                                        "_type": "Color",
+                                                                                                        "color_": -6262785
                                                                                                     }
                                                                                                 }
                                                                                             ]
