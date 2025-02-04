@@ -1403,26 +1403,8 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27424,
-                                                                                "_type": "Equal",
-                                                                                "a": {
-                                                                                    "_id_": 27433,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27434,
-                                                                                        "_type": "String",
-                                                                                        "value_": "url_completa"
-                                                                                    }
-                                                                                },
-                                                                                "b": {
-                                                                                    "_id_": 27435,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27436,
-                                                                                        "_type": "String",
-                                                                                        "value_": "url_completa"
-                                                                                    }
-                                                                                }
+                                                                                "_id_": 27454,
+                                                                                "_type": "True"
                                                                             },
                                                                             {
                                                                                 "_id_": 27357,
