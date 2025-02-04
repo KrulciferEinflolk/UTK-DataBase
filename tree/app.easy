@@ -1628,36 +1628,55 @@
                                                                         "_type": "Sequence",
                                                                         "list_": [
                                                                             {
-                                                                                "_id_": 26905,
-                                                                                "_type": "Animation.Listener",
-                                                                                "onAnimationStart": {
-                                                                                    "_id_": 26907,
-                                                                                    "_type": "Sequence",
-                                                                                    "list_": [
-                                                                                        {
-                                                                                            "_id_": 26908,
-                                                                                            "_type": "View.SetBackgroundColor",
-                                                                                            "view": {
-                                                                                                "_id_": 26920,
-                                                                                                "_type": "View.Reference",
-                                                                                                "ref": {
-                                                                                                    "_id_": 26922,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "@id\/var2"
+                                                                                "_id_": 26925,
+                                                                                "_type": "Animation.AlphaAnimation",
+                                                                                "duration": {
+                                                                                    "_id_": 26926,
+                                                                                    "_type": "Integer",
+                                                                                    "value_": 500
+                                                                                },
+                                                                                "fromAlpha": {
+                                                                                    "_id_": 26927,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 0
+                                                                                },
+                                                                                "toAlpha": {
+                                                                                    "_id_": 26928,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 1
+                                                                                },
+                                                                                "listener": {
+                                                                                    "_id_": 26945,
+                                                                                    "_type": "Animation.Listener",
+                                                                                    "onAnimationStart": {
+                                                                                        "_id_": 26946,
+                                                                                        "_type": "Sequence",
+                                                                                        "list_": [
+                                                                                            {
+                                                                                                "_id_": 26947,
+                                                                                                "_type": "View.SetBackgroundColor",
+                                                                                                "view": {
+                                                                                                    "_id_": 26948,
+                                                                                                    "_type": "View.Reference",
+                                                                                                    "ref": {
+                                                                                                        "_id_": 26949,
+                                                                                                        "_type": "String",
+                                                                                                        "value_": "@id\/var2"
+                                                                                                    }
+                                                                                                },
+                                                                                                "color": {
+                                                                                                    "_id_": 26950,
+                                                                                                    "_type": "Color",
+                                                                                                    "color_": -6262785
                                                                                                 }
                                                                                             },
-                                                                                            "color": {
-                                                                                                "_id_": 26910,
-                                                                                                "_type": "Color",
-                                                                                                "color_": -6262785
+                                                                                            {
+                                                                                                "_id_": 26951,
+                                                                                                "_type": "View.LayoutDirection",
+                                                                                                "value_": "ltr"
                                                                                             }
-                                                                                        },
-                                                                                        {
-                                                                                            "_id_": 26924,
-                                                                                            "_type": "View.LayoutDirection",
-                                                                                            "value_": "ltr"
-                                                                                        }
-                                                                                    ]
+                                                                                        ]
+                                                                                    }
                                                                                 }
                                                                             }
                                                                         ]
