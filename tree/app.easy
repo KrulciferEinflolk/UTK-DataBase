@@ -1422,16 +1422,6 @@
                                                                                         "_type": "String",
                                                                                         "value_": "vacio"
                                                                                     }
-                                                                                },
-                                                                                "onEqual": {
-                                                                                    "_id_": 27570,
-                                                                                    "_type": "Sequence",
-                                                                                    "list_": [
-                                                                                        {
-                                                                                            "_id_": 27571,
-                                                                                            "_type": "Activity.Result.OK"
-                                                                                        }
-                                                                                    ]
                                                                                 }
                                                                             },
                                                                             {
