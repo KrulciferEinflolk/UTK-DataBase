@@ -1292,18 +1292,18 @@
                                                 "value": {
                                                     "_id_": 20077,
                                                     "_type": "Float",
-                                                    "value_": 1800
+                                                    "value_": 200
                                                 }
+                                            },
+                                            "android:layout_centerInParent": {
+                                                "_id_": 20098,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             },
                                             "android:gravity": {
                                                 "_id_": 20065,
                                                 "_type": "Gravity",
                                                 "value_": "fill"
-                                            },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 20064,
-                                                "_type": "Boolean",
-                                                "value_": true
                                             }
                                         }
                                     ]
