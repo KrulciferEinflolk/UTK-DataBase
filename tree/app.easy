@@ -1630,11 +1630,6 @@
                                                                             {
                                                                                 "_id_": 26905,
                                                                                 "_type": "Animation.Listener",
-                                                                                "onAnimationEnd": {
-                                                                                    "_id_": 26906,
-                                                                                    "_type": "Sequence",
-                                                                                    "list_": []
-                                                                                },
                                                                                 "onAnimationStart": {
                                                                                     "_id_": 26907,
                                                                                     "_type": "Sequence",
