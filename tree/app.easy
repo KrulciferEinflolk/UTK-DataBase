@@ -1513,89 +1513,63 @@
                                                                                 "_id_": 25865,
                                                                                 "_type": "CheckValue",
                                                                                 "onTrue": {
-                                                                                    "_id_": 26117,
-                                                                                    "_type": "Variable.Set",
-                                                                                    "name": {
-                                                                                        "_id_": 26118,
-                                                                                        "_type": "String",
-                                                                                        "value_": "carpeta1"
-                                                                                    },
-                                                                                    "value": {
-                                                                                        "_id_": 26119,
-                                                                                        "_type": "Variable.Get",
-                                                                                        "name": {
-                                                                                            "_id_": 26120,
-                                                                                            "_type": "String",
-                                                                                            "value_": "id_carpeta"
+                                                                                    "_id_": 26255,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": [
+                                                                                        {
+                                                                                            "_id_": 26256,
+                                                                                            "_type": "CheckValue",
+                                                                                            "onFalse": {
+                                                                                                "_id_": 26292,
+                                                                                                "_type": "ShowToast",
+                                                                                                "message": {
+                                                                                                    "_id_": 26300,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "Intenta en otra carpeta"
+                                                                                                }
+                                                                                            },
+                                                                                            "value": {
+                                                                                                "_id_": 26257,
+                                                                                                "_type": "Equal",
+                                                                                                "a": {
+                                                                                                    "_id_": 26258,
+                                                                                                    "_type": "Variable.Get",
+                                                                                                    "name": {
+                                                                                                        "_id_": 26259,
+                                                                                                        "_type": "String",
+                                                                                                        "value_": "id_carpeta"
+                                                                                                    }
+                                                                                                },
+                                                                                                "b": {
+                                                                                                    "_id_": 26260,
+                                                                                                    "_type": "Variable.Get",
+                                                                                                    "name": {
+                                                                                                        "_id_": 26261,
+                                                                                                        "_type": "String",
+                                                                                                        "value_": "carpeta1"
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "_id_": 26281,
+                                                                                            "_type": "ShowToast",
+                                                                                            "message": {
+                                                                                                "_id_": 26284,
+                                                                                                "_type": "Variable.Get",
+                                                                                                "name": {
+                                                                                                    "_id_": 26285,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "carpeta1"
+                                                                                                }
+                                                                                            }
                                                                                         }
-                                                                                    }
+                                                                                    ]
                                                                                 },
                                                                                 "onFalse": {
                                                                                     "_id_": 26163,
                                                                                     "_type": "Sequence",
                                                                                     "list_": [
-                                                                                        {
-                                                                                            "_id_": 26207,
-                                                                                            "_type": "Notification",
-                                                                                            "icon": {
-                                                                                                "_id_": 26208,
-                                                                                                "_type": "DrawableReference",
-                                                                                                "ref": {
-                                                                                                    "_id_": 26209,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "@drawable\/settings"
-                                                                                                }
-                                                                                            },
-                                                                                            "title": {
-                                                                                                "_id_": 26210,
-                                                                                                "_type": "String",
-                                                                                                "value_": "¿Quieres realizar esta acción? "
-                                                                                            },
-                                                                                            "text": {
-                                                                                                "_id_": 26211,
-                                                                                                "_type": "String",
-                                                                                                "value_": "¿Realmente quieres realizar esta acción? "
-                                                                                            },
-                                                                                            "subText": {
-                                                                                                "_id_": 26212,
-                                                                                                "_type": "String",
-                                                                                                "value_": ""
-                                                                                            },
-                                                                                            "contentView": {
-                                                                                                "_id_": 26213,
-                                                                                                "_type": "RelativeLayout",
-                                                                                                "id": {
-                                                                                                    "_id_": 26214,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": ""
-                                                                                                },
-                                                                                                "views": {
-                                                                                                    "_id_": 26215,
-                                                                                                    "_type": "ViewList",
-                                                                                                    "list_": [
-                                                                                                        {
-                                                                                                            "_id_": 26216,
-                                                                                                            "_type": "Button",
-                                                                                                            "onClick": {
-                                                                                                                "_id_": 26217,
-                                                                                                                "_type": "Sequence",
-                                                                                                                "list_": []
-                                                                                                            },
-                                                                                                            "id": {
-                                                                                                                "_id_": 26218,
-                                                                                                                "_type": "String",
-                                                                                                                "value_": ""
-                                                                                                            },
-                                                                                                            "android:text": {
-                                                                                                                "_id_": 26219,
-                                                                                                                "_type": "String",
-                                                                                                                "value_": "Hello"
-                                                                                                            }
-                                                                                                        }
-                                                                                                    ]
-                                                                                                }
-                                                                                            }
-                                                                                        },
                                                                                         {
                                                                                             "_id_": 26164,
                                                                                             "_type": "ShowToast",
@@ -1607,24 +1581,6 @@
                                                                                                     "_type": "String",
                                                                                                     "value_": "carpeta1"
                                                                                                 }
-                                                                                            }
-                                                                                        },
-                                                                                        {
-                                                                                            "_id_": 26175,
-                                                                                            "_type": "TextView.SetText",
-                                                                                            "view": {
-                                                                                                "_id_": 26177,
-                                                                                                "_type": "View.Reference",
-                                                                                                "ref": {
-                                                                                                    "_id_": 26179,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "@id\/carpeta"
-                                                                                                }
-                                                                                            },
-                                                                                            "text": {
-                                                                                                "_id_": 26181,
-                                                                                                "_type": "String",
-                                                                                                "value_": ""
                                                                                             }
                                                                                         }
                                                                                     ]
