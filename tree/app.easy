@@ -1544,11 +1544,6 @@
                                                                                     "_id_": 30322,
                                                                                     "_type": "String",
                                                                                     "value_": "Carpeta 1"
-                                                                                },
-                                                                                "android:layout_centerInParent": {
-                                                                                    "_id_": 31765,
-                                                                                    "_type": "Boolean",
-                                                                                    "value_": true
                                                                                 }
                                                                             },
                                                                             {
@@ -1734,11 +1729,6 @@
                                                                                     "_id_": 30368,
                                                                                     "_type": "String",
                                                                                     "value_": "Carpeta 2"
-                                                                                },
-                                                                                "android:layout_centerInParent": {
-                                                                                    "_id_": 31766,
-                                                                                    "_type": "Boolean",
-                                                                                    "value_": true
                                                                                 }
                                                                             }
                                                                         ]
@@ -1750,6 +1740,33 @@
                                                                             "_id_": 31770,
                                                                             "_type": "String",
                                                                             "value_": "@drawable\/divisor"
+                                                                        }
+                                                                    },
+                                                                    "android:background": {
+                                                                        "_id_": 31771,
+                                                                        "_type": "ShapeDrawable.Rectangle",
+                                                                        "stroke": {
+                                                                            "_id_": 31776,
+                                                                            "_type": "ShapeDrawable.Stroke",
+                                                                            "color": {
+                                                                                "_id_": 31777,
+                                                                                "_type": "Color",
+                                                                                "color_": -16777216
+                                                                            },
+                                                                            "width": {
+                                                                                "_id_": 31778,
+                                                                                "_type": "Dimension",
+                                                                                "unit": {
+                                                                                    "_id_": 31779,
+                                                                                    "_type": "DimensionUnit",
+                                                                                    "value_": "dp"
+                                                                                },
+                                                                                "value": {
+                                                                                    "_id_": 31780,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 2
+                                                                                }
+                                                                            }
                                                                         }
                                                                     }
                                                                 },
