@@ -1408,6 +1408,19 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            },
+                                                                            {
+                                                                                "_id_": 26346,
+                                                                                "_type": "ShowToast",
+                                                                                "message": {
+                                                                                    "_id_": 26349,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 26351,
+                                                                                        "_type": "String",
+                                                                                        "value_": "carpeta1"
+                                                                                    }
+                                                                                }
                                                                             }
                                                                         ]
                                                                     },
