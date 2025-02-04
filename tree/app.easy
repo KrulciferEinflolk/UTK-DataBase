@@ -1682,9 +1682,18 @@
                                                                                                         }
                                                                                                     },
                                                                                                     "color": {
-                                                                                                        "_id_": 26987,
-                                                                                                        "_type": "Color",
-                                                                                                        "color_": -6262785
+                                                                                                        "_id_": 27043,
+                                                                                                        "_type": "FrameLayout",
+                                                                                                        "id": {
+                                                                                                            "_id_": 27047,
+                                                                                                            "_type": "String",
+                                                                                                            "value_": ""
+                                                                                                        },
+                                                                                                        "android:background": {
+                                                                                                            "_id_": 27053,
+                                                                                                            "_type": "Color",
+                                                                                                            "color_": -3708929
+                                                                                                        }
                                                                                                     }
                                                                                                 }
                                                                                             ]
