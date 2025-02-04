@@ -1292,7 +1292,7 @@
                                                 "value": {
                                                     "_id_": 20077,
                                                     "_type": "Float",
-                                                    "value_": 300
+                                                    "value_": 280
                                                 }
                                             },
                                             "android:layout_marginHorizontal": {
@@ -1313,6 +1313,20 @@
                                                 "_id_": 20065,
                                                 "_type": "Gravity",
                                                 "value_": "fill"
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 21672,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 21673,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 21674,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
                                             }
                                         }
                                     ]
