@@ -1650,6 +1650,25 @@
                                                                                     "_type": "Integer",
                                                                                     "value_": 10000
                                                                                 },
+                                                                                "android:maxHeight": {
+                                                                                    "_id_": 27146,
+                                                                                    "_type": "Dimension",
+                                                                                    "unit": {
+                                                                                        "_id_": 27148,
+                                                                                        "_type": "DimensionUnit",
+                                                                                        "value_": "dp"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "_id_": 27147,
+                                                                                        "_type": "Float",
+                                                                                        "value_": 200
+                                                                                    }
+                                                                                },
+                                                                                "android:layout_centerHorizontal": {
+                                                                                    "_id_": 27149,
+                                                                                    "_type": "Boolean",
+                                                                                    "value_": true
+                                                                                },
                                                                                 "android:progressBackgroundTint": {
                                                                                     "_id_": 27139,
                                                                                     "_type": "Color.Transparent"
