@@ -1442,18 +1442,18 @@
                                                                                         }
                                                                                     },
                                                                                     "b": {
-                                                                                        "_id_": 26733,
+                                                                                        "_id_": 26739,
                                                                                         "_type": "Variable.Set",
                                                                                         "name": {
-                                                                                            "_id_": 26737,
+                                                                                            "_id_": 26740,
                                                                                             "_type": "String",
-                                                                                            "value_": "id_carpeta"
+                                                                                            "value_": "carpeta1"
                                                                                         },
                                                                                         "value": {
-                                                                                            "_id_": 26735,
+                                                                                            "_id_": 26741,
                                                                                             "_type": "Variable.Get",
                                                                                             "name": {
-                                                                                                "_id_": 26738,
+                                                                                                "_id_": 26744,
                                                                                                 "_type": "String",
                                                                                                 "value_": "vacio"
                                                                                             }
