@@ -1403,20 +1403,47 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27357,
-                                                                                "_type": "CheckResult",
-                                                                                "value": {
-                                                                                    "_id_": 27378,
-                                                                                    "_type": "Activity.Result.OK"
+                                                                                "_id_": 27424,
+                                                                                "_type": "Equal",
+                                                                                "a": {
+                                                                                    "_id_": 27433,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 27434,
+                                                                                        "_type": "String",
+                                                                                        "value_": "url_completa"
+                                                                                    }
+                                                                                },
+                                                                                "b": {
+                                                                                    "_id_": 27435,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 27436,
+                                                                                        "_type": "String",
+                                                                                        "value_": "url_completa"
+                                                                                    }
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27386,
-                                                                                "_type": "Activity.StartOwn",
-                                                                                "activity": {
-                                                                                    "_id_": 27389,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Carpetas"
+                                                                                "_id_": 27357,
+                                                                                "_type": "CheckResult",
+                                                                                "onTrue": {
+                                                                                    "_id_": 27451,
+                                                                                    "_type": "Activity.StartOwn",
+                                                                                    "activity": {
+                                                                                        "_id_": 27452,
+                                                                                        "_type": "String",
+                                                                                        "value_": "Carpetas"
+                                                                                    }
+                                                                                },
+                                                                                "value": {
+                                                                                    "_id_": 27399,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 27400,
+                                                                                        "_type": "String",
+                                                                                        "value_": "url_completa"
+                                                                                    }
                                                                                 }
                                                                             }
                                                                         ]
