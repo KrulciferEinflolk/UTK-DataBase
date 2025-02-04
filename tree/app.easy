@@ -1450,6 +1450,24 @@
                                                                             {
                                                                                 "_id_": 25865,
                                                                                 "_type": "CheckValue",
+                                                                                "onEmptyString": {
+                                                                                    "_id_": 26048,
+                                                                                    "_type": "Variable.Set",
+                                                                                    "name": {
+                                                                                        "_id_": 26055,
+                                                                                        "_type": "String",
+                                                                                        "value_": "id_carpeta"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "_id_": 26052,
+                                                                                        "_type": "Expression",
+                                                                                        "text": {
+                                                                                            "_id_": 26054,
+                                                                                            "_type": "String",
+                                                                                            "value_": ""
+                                                                                        }
+                                                                                    }
+                                                                                },
                                                                                 "onTrue": {
                                                                                     "_id_": 25989,
                                                                                     "_type": "Variable.Set",
@@ -1467,25 +1485,6 @@
                                                                                             "value_": "id_carpeta"
                                                                                         }
                                                                                     }
-                                                                                },
-                                                                                "onFalse": {
-                                                                                    "_id_": 26000,
-                                                                                    "_type": "Sequence",
-                                                                                    "list_": [
-                                                                                        {
-                                                                                            "_id_": 26007,
-                                                                                            "_type": "ShowToast",
-                                                                                            "message": {
-                                                                                                "_id_": 26010,
-                                                                                                "_type": "Variable.Get",
-                                                                                                "name": {
-                                                                                                    "_id_": 26016,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "carpeta1"
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    ]
                                                                                 },
                                                                                 "value": {
                                                                                     "_id_": 25975,
