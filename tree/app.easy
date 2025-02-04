@@ -1647,11 +1647,6 @@
                                                                                         "_type": "String",
                                                                                         "value_": ""
                                                                                     },
-                                                                                    "android:min": {
-                                                                                        "_id_": 27093,
-                                                                                        "_type": "Integer",
-                                                                                        "value_": 0
-                                                                                    },
                                                                                     "android:indeterminateTint": {
                                                                                         "_id_": 27090,
                                                                                         "_type": "Color",
@@ -1661,16 +1656,6 @@
                                                                                         "_id_": 27091,
                                                                                         "_type": "Integer",
                                                                                         "value_": 10000
-                                                                                    },
-                                                                                    "android:progress": {
-                                                                                        "_id_": 27094,
-                                                                                        "_type": "Integer",
-                                                                                        "value_": 2
-                                                                                    },
-                                                                                    "android:max": {
-                                                                                        "_id_": 27092,
-                                                                                        "_type": "Integer",
-                                                                                        "value_": 100
                                                                                     },
                                                                                     "android:progressBackgroundTint": {
                                                                                         "_id_": 27098,
