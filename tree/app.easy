@@ -1238,7 +1238,27 @@
                                             "views": {
                                                 "_id_": 19897,
                                                 "_type": "ViewList",
-                                                "list_": []
+                                                "list_": [
+                                                    {
+                                                        "_id_": 21134,
+                                                        "_type": "Button",
+                                                        "onClick": {
+                                                            "_id_": 21137,
+                                                            "_type": "Sequence",
+                                                            "list_": []
+                                                        },
+                                                        "id": {
+                                                            "_id_": 21139,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "android:text": {
+                                                            "_id_": 21135,
+                                                            "_type": "String",
+                                                            "value_": "Hello"
+                                                        }
+                                                    }
+                                                ]
                                             },
                                             "android:layout_width": {
                                                 "_id_": 20066,
@@ -1304,6 +1324,16 @@
                                                 "_id_": 20065,
                                                 "_type": "Gravity",
                                                 "value_": "fill"
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 20614,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "android:layout_centerVertical": {
+                                                "_id_": 20615,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         }
                                     ]
