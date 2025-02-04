@@ -1399,12 +1399,12 @@
                                                                                         }
                                                                                     },
                                                                                     "b": {
-                                                                                        "_id_": 26526,
-                                                                                        "_type": "Expression",
-                                                                                        "text": {
-                                                                                            "_id_": 26527,
+                                                                                        "_id_": 26561,
+                                                                                        "_type": "Variable.Get",
+                                                                                        "name": {
+                                                                                            "_id_": 26563,
                                                                                             "_type": "String",
-                                                                                            "value_": ""
+                                                                                            "value_": "vacio"
                                                                                         }
                                                                                     }
                                                                                 }
@@ -2684,6 +2684,29 @@
                 },
                 "persist": {
                     "_id_": 18847,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 26553,
+                "_type": "Variable",
+                "init": {
+                    "_id_": 26558,
+                    "_type": "Expression",
+                    "text": {
+                        "_id_": 26560,
+                        "_type": "String",
+                        "value_": ""
+                    }
+                },
+                "name": {
+                    "_id_": 26555,
+                    "_type": "String",
+                    "value_": "vacio"
+                },
+                "persist": {
+                    "_id_": 26556,
                     "_type": "Boolean",
                     "value_": true
                 }
