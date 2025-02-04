@@ -723,6 +723,161 @@
                                                     "value_": "carpeta1"
                                                 }
                                             }
+                                        },
+                                        {
+                                            "_id_": 25293,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 25294,
+                                                "_type": "String",
+                                                "value_": "carpeta2"
+                                            },
+                                            "value": {
+                                                "_id_": 25295,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 25296,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25301,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 25302,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 25303,
+                                                    "_type": "String",
+                                                    "value_": "carpeta2"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25307,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 25308,
+                                                "_type": "String",
+                                                "value_": "carpeta3"
+                                            },
+                                            "value": {
+                                                "_id_": 25309,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 25310,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25315,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 25316,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 25317,
+                                                    "_type": "String",
+                                                    "value_": "carpeta3"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25321,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 25322,
+                                                "_type": "String",
+                                                "value_": "carpeta4"
+                                            },
+                                            "value": {
+                                                "_id_": 25323,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 25324,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25329,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 25330,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 25331,
+                                                    "_type": "String",
+                                                    "value_": "carpeta4"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25335,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 25336,
+                                                "_type": "String",
+                                                "value_": "carpeta5"
+                                            },
+                                            "value": {
+                                                "_id_": 25337,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 25338,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25343,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 25344,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 25345,
+                                                    "_type": "String",
+                                                    "value_": "carpeta5"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25349,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 25350,
+                                                "_type": "String",
+                                                "value_": "carpeta6"
+                                            },
+                                            "value": {
+                                                "_id_": 25351,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 25352,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25357,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 25358,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 25359,
+                                                    "_type": "String",
+                                                    "value_": "carpeta6"
+                                                }
+                                            }
                                         }
                                     ]
                                 },
@@ -743,306 +898,6 @@
                                         "_id_": 25277,
                                         "_type": "Float",
                                         "value_": 10
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 25222,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 25223,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 25224,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25262,
-                                                "_type": "String",
-                                                "value_": "carpeta2"
-                                            },
-                                            "value": {
-                                                "_id_": 25226,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25227,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25228,
-                                            "_type": "ShowToast",
-                                            "message": {
-                                                "_id_": 25229,
-                                                "_type": "Variable.Get",
-                                                "name": {
-                                                    "_id_": 25263,
-                                                    "_type": "String",
-                                                    "value_": "carpeta2"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 25231,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 25278,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 25279,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 25280,
-                                        "_type": "Float",
-                                        "value_": 20
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 25202,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 25203,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 25204,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25264,
-                                                "_type": "String",
-                                                "value_": "carpeta3"
-                                            },
-                                            "value": {
-                                                "_id_": 25206,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25207,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25208,
-                                            "_type": "ShowToast",
-                                            "message": {
-                                                "_id_": 25209,
-                                                "_type": "Variable.Get",
-                                                "name": {
-                                                    "_id_": 25265,
-                                                    "_type": "String",
-                                                    "value_": "carpeta3"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 25211,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 25281,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 25282,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 25283,
-                                        "_type": "Float",
-                                        "value_": 30
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 25182,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 25183,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 25184,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25266,
-                                                "_type": "String",
-                                                "value_": "carpeta4"
-                                            },
-                                            "value": {
-                                                "_id_": 25186,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25187,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25188,
-                                            "_type": "ShowToast",
-                                            "message": {
-                                                "_id_": 25189,
-                                                "_type": "Variable.Get",
-                                                "name": {
-                                                    "_id_": 25267,
-                                                    "_type": "String",
-                                                    "value_": "carpeta4"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 25191,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 25284,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 25285,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 25286,
-                                        "_type": "Float",
-                                        "value_": 40
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 25162,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 25163,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 25164,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25268,
-                                                "_type": "String",
-                                                "value_": "carpeta5"
-                                            },
-                                            "value": {
-                                                "_id_": 25166,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25167,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25168,
-                                            "_type": "ShowToast",
-                                            "message": {
-                                                "_id_": 25169,
-                                                "_type": "Variable.Get",
-                                                "name": {
-                                                    "_id_": 25269,
-                                                    "_type": "String",
-                                                    "value_": "carpeta5"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 25171,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 25287,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 25288,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 25289,
-                                        "_type": "Float",
-                                        "value_": 50
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 8645,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 8646,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 25121,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25272,
-                                                "_type": "String",
-                                                "value_": "carpeta6"
-                                            },
-                                            "value": {
-                                                "_id_": 25125,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25127,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25154,
-                                            "_type": "ShowToast",
-                                            "message": {
-                                                "_id_": 25158,
-                                                "_type": "Variable.Get",
-                                                "name": {
-                                                    "_id_": 25273,
-                                                    "_type": "String",
-                                                    "value_": "carpeta6"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 8649,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 25290,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 25291,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 25292,
-                                        "_type": "Float",
-                                        "value_": 60
                                     }
                                 }
                             }
