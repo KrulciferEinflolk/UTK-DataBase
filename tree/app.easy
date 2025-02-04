@@ -2222,30 +2222,6 @@
             {
                 "_id_": 13842,
                 "_type": "Variable",
-                "onChange": {
-                    "_id_": 20053,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 20055,
-                            "_type": "Variable.Set",
-                            "name": {
-                                "_id_": 20062,
-                                "_type": "String",
-                                "value_": "id_carpeta"
-                            },
-                            "value": {
-                                "_id_": 20059,
-                                "_type": "Expression",
-                                "text": {
-                                    "_id_": 20061,
-                                    "_type": "String",
-                                    "value_": ""
-                                }
-                            }
-                        }
-                    ]
-                },
                 "name": {
                     "_id_": 13844,
                     "_type": "String",
