@@ -1359,6 +1359,15 @@
                                                                             {
                                                                                 "_id_": 25865,
                                                                                 "_type": "CheckValue",
+                                                                                "onEmptyString": {
+                                                                                    "_id_": 26356,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 26357,
+                                                                                        "_type": "String",
+                                                                                        "value_": "id_carpeta"
+                                                                                    }
+                                                                                },
                                                                                 "onTrue": {
                                                                                     "_id_": 26329,
                                                                                     "_type": "Variable.Set",
