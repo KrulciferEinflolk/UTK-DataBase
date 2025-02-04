@@ -1238,7 +1238,60 @@
                                             "views": {
                                                 "_id_": 19897,
                                                 "_type": "ViewList",
-                                                "list_": []
+                                                "list_": [
+                                                    {
+                                                        "_id_": 21676,
+                                                        "_type": "Drawer.NativeMenu",
+                                                        "id": {
+                                                            "_id_": 21684,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "views": {
+                                                            "_id_": 21682,
+                                                            "_type": "ViewList",
+                                                            "list_": []
+                                                        },
+                                                        "menu": {
+                                                            "_id_": 21678,
+                                                            "_type": "Menu",
+                                                            "items": {
+                                                                "_id_": 21680,
+                                                                "_type": "List",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 21696,
+                                                                        "_type": "Menu.Item",
+                                                                        "title": {
+                                                                            "_id_": 21712,
+                                                                            "_type": "StringReference",
+                                                                            "ref": {
+                                                                                "_id_": 21714,
+                                                                                "_type": "String",
+                                                                                "value_": ""
+                                                                            }
+                                                                        },
+                                                                        "id": {
+                                                                            "_id_": 21700,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        },
+                                                                        "titleValue": {
+                                                                            "_id_": 21706,
+                                                                            "_type": "Variable.Get",
+                                                                            "name": {
+                                                                                "_id_": 21710,
+                                                                                "_type": "String",
+                                                                                "value_": "id_carpeta"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "elementType_": "Menu.Element"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
                                             },
                                             "android:layout_width": {
                                                 "_id_": 20066,
