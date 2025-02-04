@@ -1592,12 +1592,12 @@
                                                                                             "_id_": 26164,
                                                                                             "_type": "ShowToast",
                                                                                             "message": {
-                                                                                                "_id_": 26165,
-                                                                                                "_type": "Variable.Get",
-                                                                                                "name": {
-                                                                                                    "_id_": 26166,
+                                                                                                "_id_": 26321,
+                                                                                                "_type": "Expression",
+                                                                                                "text": {
+                                                                                                    "_id_": 26323,
                                                                                                     "_type": "String",
-                                                                                                    "value_": "carpeta1"
+                                                                                                    "value_": "xd"
                                                                                                 }
                                                                                             }
                                                                                         }
