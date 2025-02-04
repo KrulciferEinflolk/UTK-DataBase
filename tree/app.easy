@@ -1359,15 +1359,6 @@
                                                                             {
                                                                                 "_id_": 25865,
                                                                                 "_type": "CheckValue",
-                                                                                "onEmptyString": {
-                                                                                    "_id_": 26356,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 26357,
-                                                                                        "_type": "String",
-                                                                                        "value_": "id_carpeta"
-                                                                                    }
-                                                                                },
                                                                                 "onTrue": {
                                                                                     "_id_": 26329,
                                                                                     "_type": "Variable.Set",
@@ -1416,6 +1407,30 @@
                                                                                             "value_": "carpeta1"
                                                                                         }
                                                                                     }
+                                                                                },
+                                                                                "onNonEmptyString": {
+                                                                                    "_id_": 26363,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": [
+                                                                                        {
+                                                                                            "_id_": 26364,
+                                                                                            "_type": "Variable.Set",
+                                                                                            "name": {
+                                                                                                "_id_": 26365,
+                                                                                                "_type": "String",
+                                                                                                "value_": "carpeta1"
+                                                                                            },
+                                                                                            "value": {
+                                                                                                "_id_": 26366,
+                                                                                                "_type": "Variable.Get",
+                                                                                                "name": {
+                                                                                                    "_id_": 26367,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "id_carpeta"
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             },
                                                                             {
