@@ -1661,9 +1661,23 @@
                                                                                         "_id_": 26982,
                                                                                         "_type": "Animation.Listener",
                                                                                         "onAnimationEnd": {
-                                                                                            "_id_": 27074,
-                                                                                            "_type": "Color",
-                                                                                            "color_": -6262785
+                                                                                            "_id_": 27076,
+                                                                                            "_type": "ProgressBar",
+                                                                                            "id": {
+                                                                                                "_id_": 27078,
+                                                                                                "_type": "String",
+                                                                                                "value_": ""
+                                                                                            },
+                                                                                            "android:indeterminateTint": {
+                                                                                                "_id_": 27083,
+                                                                                                "_type": "Color",
+                                                                                                "color_": -2586625
+                                                                                            },
+                                                                                            "android:animationResolution": {
+                                                                                                "_id_": 27079,
+                                                                                                "_type": "Integer",
+                                                                                                "value_": 10000
+                                                                                            }
                                                                                         },
                                                                                         "onAnimationStart": {
                                                                                             "_id_": 27063,
