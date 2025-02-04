@@ -1259,12 +1259,88 @@
                                                                         "_type": "Sequence",
                                                                         "list_": [
                                                                             {
-                                                                                "_id_": 23552,
-                                                                                "_type": "Activity.StartOwn",
-                                                                                "activity": {
-                                                                                    "_id_": 23555,
+                                                                                "_id_": 24167,
+                                                                                "_type": "Conditional",
+                                                                                "condition": {
+                                                                                    "_id_": 24217,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 24220,
+                                                                                        "_type": "String",
+                                                                                        "value_": "id_carpeta"
+                                                                                    }
+                                                                                },
+                                                                                "onTrue": {
+                                                                                    "_id_": 24222,
+                                                                                    "_type": "Switch",
+                                                                                    "onClick": {
+                                                                                        "_id_": 24225,
+                                                                                        "_type": "Sequence",
+                                                                                        "list_": []
+                                                                                    },
+                                                                                    "requestFocus": {
+                                                                                        "_id_": 24348,
+                                                                                        "_type": "Boolean",
+                                                                                        "value_": true
+                                                                                    },
+                                                                                    "id": {
+                                                                                        "_id_": 24227,
+                                                                                        "_type": "String",
+                                                                                        "value_": ""
+                                                                                    },
+                                                                                    "android:text": {
+                                                                                        "_id_": 24223,
+                                                                                        "_type": "String",
+                                                                                        "value_": "Hello"
+                                                                                    },
+                                                                                    "android:textOn": {
+                                                                                        "_id_": 24380,
+                                                                                        "_type": "String",
+                                                                                        "value_": ""
+                                                                                    }
+                                                                                },
+                                                                                "onFalse": {
+                                                                                    "_id_": 24187,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": []
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_id_": 24352,
+                                                                                "_type": "Switch",
+                                                                                "onClick": {
+                                                                                    "_id_": 24355,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": []
+                                                                                },
+                                                                                "id": {
+                                                                                    "_id_": 24357,
                                                                                     "_type": "String",
-                                                                                    "value_": "Carpetas"
+                                                                                    "value_": ""
+                                                                                },
+                                                                                "android:text": {
+                                                                                    "_id_": 24353,
+                                                                                    "_type": "String",
+                                                                                    "value_": "Hello"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_id_": 24382,
+                                                                                "_type": "Switch",
+                                                                                "onClick": {
+                                                                                    "_id_": 24385,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": []
+                                                                                },
+                                                                                "id": {
+                                                                                    "_id_": 24387,
+                                                                                    "_type": "String",
+                                                                                    "value_": ""
+                                                                                },
+                                                                                "android:text": {
+                                                                                    "_id_": 24383,
+                                                                                    "_type": "String",
+                                                                                    "value_": "Hello"
                                                                                 }
                                                                             }
                                                                         ]
@@ -1306,6 +1382,15 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "clickableValue": {
+                                                                        "_id_": 24359,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 24362,
+                                                                            "_type": "String",
+                                                                            "value_": "id_carpeta"
+                                                                        }
                                                                     },
                                                                     "android:text": {
                                                                         "_id_": 23524,
@@ -2397,13 +2482,40 @@
                     "_type": "Sequence",
                     "list_": [
                         {
-                            "_id_": 22933,
-                            "_type": "ShowToast",
-                            "message": {
-                                "_id_": 22937,
+                            "_id_": 24297,
+                            "_type": "CheckValue",
+                            "onTrue": {
+                                "_id_": 24314,
+                                "_type": "ShowToast",
+                                "message": {
+                                    "_id_": 24316,
+                                    "_type": "String",
+                                    "value_": "Se estableció correctamente"
+                                }
+                            },
+                            "onFalse": {
+                                "_id_": 24334,
+                                "_type": "Variable.Set",
+                                "name": {
+                                    "_id_": 24341,
+                                    "_type": "String",
+                                    "value_": "carpeta1"
+                                },
+                                "value": {
+                                    "_id_": 24343,
+                                    "_type": "Variable.Get",
+                                    "name": {
+                                        "_id_": 24347,
+                                        "_type": "String",
+                                        "value_": "id_carpeta"
+                                    }
+                                }
+                            },
+                            "value": {
+                                "_id_": 24302,
                                 "_type": "Variable.Get",
                                 "name": {
-                                    "_id_": 22940,
+                                    "_id_": 24312,
                                     "_type": "String",
                                     "value_": "carpeta1"
                                 }
