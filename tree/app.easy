@@ -1640,50 +1640,41 @@
                                                                                     }
                                                                                 },
                                                                                 "animation": {
-                                                                                    "_id_": 26978,
-                                                                                    "_type": "Animation.AlphaAnimation",
-                                                                                    "duration": {
-                                                                                        "_id_": 26979,
+                                                                                    "_id_": 27088,
+                                                                                    "_type": "ProgressBar",
+                                                                                    "id": {
+                                                                                        "_id_": 27089,
+                                                                                        "_type": "String",
+                                                                                        "value_": ""
+                                                                                    },
+                                                                                    "android:min": {
+                                                                                        "_id_": 27093,
+                                                                                        "_type": "Integer",
+                                                                                        "value_": 0
+                                                                                    },
+                                                                                    "android:indeterminateTint": {
+                                                                                        "_id_": 27090,
+                                                                                        "_type": "Color",
+                                                                                        "color_": -2586625
+                                                                                    },
+                                                                                    "android:animationResolution": {
+                                                                                        "_id_": 27091,
                                                                                         "_type": "Integer",
                                                                                         "value_": 10000
                                                                                     },
-                                                                                    "fromAlpha": {
-                                                                                        "_id_": 26980,
-                                                                                        "_type": "Float",
-                                                                                        "value_": 0
+                                                                                    "android:progress": {
+                                                                                        "_id_": 27094,
+                                                                                        "_type": "Integer",
+                                                                                        "value_": 2
                                                                                     },
-                                                                                    "toAlpha": {
-                                                                                        "_id_": 26981,
-                                                                                        "_type": "Float",
-                                                                                        "value_": 9
+                                                                                    "android:max": {
+                                                                                        "_id_": 27092,
+                                                                                        "_type": "Integer",
+                                                                                        "value_": 100
                                                                                     },
-                                                                                    "listener": {
-                                                                                        "_id_": 26982,
-                                                                                        "_type": "Animation.Listener",
-                                                                                        "onAnimationEnd": {
-                                                                                            "_id_": 27076,
-                                                                                            "_type": "ProgressBar",
-                                                                                            "id": {
-                                                                                                "_id_": 27078,
-                                                                                                "_type": "String",
-                                                                                                "value_": ""
-                                                                                            },
-                                                                                            "android:indeterminateTint": {
-                                                                                                "_id_": 27083,
-                                                                                                "_type": "Color",
-                                                                                                "color_": -2586625
-                                                                                            },
-                                                                                            "android:animationResolution": {
-                                                                                                "_id_": 27079,
-                                                                                                "_type": "Integer",
-                                                                                                "value_": 10000
-                                                                                            }
-                                                                                        },
-                                                                                        "onAnimationStart": {
-                                                                                            "_id_": 27063,
-                                                                                            "_type": "View.LayoutDirection",
-                                                                                            "value_": "ltr"
-                                                                                        }
+                                                                                    "android:progressBackgroundTint": {
+                                                                                        "_id_": 27098,
+                                                                                        "_type": "Color.Transparent"
                                                                                     }
                                                                                 }
                                                                             }
