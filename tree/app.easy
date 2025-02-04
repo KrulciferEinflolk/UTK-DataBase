@@ -1403,29 +1403,35 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27454,
-                                                                                "_type": "True"
+                                                                                "_id_": 27475,
+                                                                                "_type": "ViewAnimator",
+                                                                                "id": {
+                                                                                    "_id_": 27479,
+                                                                                    "_type": "String",
+                                                                                    "value_": ""
+                                                                                },
+                                                                                "views": {
+                                                                                    "_id_": 27477,
+                                                                                    "_type": "ViewList",
+                                                                                    "list_": []
+                                                                                },
+                                                                                "android:inAnimation": {
+                                                                                    "_id_": 27485,
+                                                                                    "_type": "ColorReference",
+                                                                                    "ref": {
+                                                                                        "_id_": 27487,
+                                                                                        "_type": "String",
+                                                                                        "value_": "@color\/primary"
+                                                                                    }
+                                                                                }
                                                                             },
                                                                             {
-                                                                                "_id_": 27357,
-                                                                                "_type": "CheckResult",
-                                                                                "onTrue": {
-                                                                                    "_id_": 27451,
-                                                                                    "_type": "Activity.StartOwn",
-                                                                                    "activity": {
-                                                                                        "_id_": 27452,
-                                                                                        "_type": "String",
-                                                                                        "value_": "Carpetas"
-                                                                                    }
-                                                                                },
-                                                                                "value": {
-                                                                                    "_id_": 27399,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27400,
-                                                                                        "_type": "String",
-                                                                                        "value_": "url_completa"
-                                                                                    }
+                                                                                "_id_": 27489,
+                                                                                "_type": "Activity.StartOwn",
+                                                                                "activity": {
+                                                                                    "_id_": 27492,
+                                                                                    "_type": "String",
+                                                                                    "value_": "Carpetas"
                                                                                 }
                                                                             }
                                                                         ]
