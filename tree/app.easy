@@ -1403,25 +1403,22 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27540,
-                                                                                "_type": "Compare",
-                                                                                "a": {
-                                                                                    "_id_": 27550,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27555,
-                                                                                        "_type": "String",
-                                                                                        "value_": "vacio"
-                                                                                    }
+                                                                                "_id_": 27574,
+                                                                                "_type": "Animation.AlphaAnimation",
+                                                                                "duration": {
+                                                                                    "_id_": 27575,
+                                                                                    "_type": "Integer",
+                                                                                    "value_": 1000
                                                                                 },
-                                                                                "b": {
-                                                                                    "_id_": 27553,
-                                                                                    "_type": "Variable.Get",
-                                                                                    "name": {
-                                                                                        "_id_": 27556,
-                                                                                        "_type": "String",
-                                                                                        "value_": "vacio"
-                                                                                    }
+                                                                                "fromAlpha": {
+                                                                                    "_id_": 27576,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 0
+                                                                                },
+                                                                                "toAlpha": {
+                                                                                    "_id_": 27577,
+                                                                                    "_type": "Float",
+                                                                                    "value_": 1
                                                                                 }
                                                                             },
                                                                             {
