@@ -1431,18 +1431,18 @@
                                                                                         "_id_": 26650,
                                                                                         "_type": "Variable.Get",
                                                                                         "name": {
-                                                                                            "_id_": 26651,
+                                                                                            "_id_": 26678,
                                                                                             "_type": "String",
-                                                                                            "value_": "carpeta1"
+                                                                                            "value_": "id_carpeta"
                                                                                         }
                                                                                     },
                                                                                     "b": {
                                                                                         "_id_": 26652,
                                                                                         "_type": "Variable.Get",
                                                                                         "name": {
-                                                                                            "_id_": 26654,
+                                                                                            "_id_": 26679,
                                                                                             "_type": "String",
-                                                                                            "value_": "id_carpeta"
+                                                                                            "value_": "carpeta1"
                                                                                         }
                                                                                     }
                                                                                 }
