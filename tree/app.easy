@@ -1788,6 +1788,11 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "android:layout_centerInParent": {
+                                                                        "_id_": 31762,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
@@ -2229,6 +2234,11 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "android:layout_centerInParent": {
+                                                                        "_id_": 31763,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
@@ -2670,6 +2680,11 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "android:layout_centerInParent": {
+                                                                        "_id_": 31764,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
