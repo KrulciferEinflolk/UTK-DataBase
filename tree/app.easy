@@ -1469,15 +1469,20 @@
                                                                                     }
                                                                                 },
                                                                                 "onFalse": {
-                                                                                    "_id_": 26074,
-                                                                                    "_type": "ShowToast",
-                                                                                    "message": {
-                                                                                        "_id_": 26078,
+                                                                                    "_id_": 26090,
+                                                                                    "_type": "Variable.Set",
+                                                                                    "name": {
+                                                                                        "_id_": 26091,
+                                                                                        "_type": "String",
+                                                                                        "value_": "carpeta1"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "_id_": 26092,
                                                                                         "_type": "Variable.Get",
                                                                                         "name": {
-                                                                                            "_id_": 26081,
+                                                                                            "_id_": 26093,
                                                                                             "_type": "String",
-                                                                                            "value_": "carpeta1"
+                                                                                            "value_": "id_carpeta"
                                                                                         }
                                                                                     }
                                                                                 },
