@@ -1403,59 +1403,25 @@
                                                                                 }
                                                                             },
                                                                             {
-                                                                                "_id_": 27574,
-                                                                                "_type": "Animation.AlphaAnimation",
-                                                                                "duration": {
-                                                                                    "_id_": 27575,
-                                                                                    "_type": "Integer",
-                                                                                    "value_": 100000
-                                                                                },
-                                                                                "fromAlpha": {
-                                                                                    "_id_": 27576,
-                                                                                    "_type": "Float",
-                                                                                    "value_": 0
-                                                                                },
-                                                                                "toAlpha": {
-                                                                                    "_id_": 27577,
-                                                                                    "_type": "Float",
-                                                                                    "value_": 1
-                                                                                },
-                                                                                "listener": {
-                                                                                    "_id_": 27579,
-                                                                                    "_type": "Animation.Listener",
-                                                                                    "onAnimationStart": {
-                                                                                        "_id_": 27581,
-                                                                                        "_type": "Sequence",
-                                                                                        "list_": [
-                                                                                            {
-                                                                                                "_id_": 27593,
-                                                                                                "_type": "View.SetBackgroundColor",
-                                                                                                "view": {
-                                                                                                    "_id_": 27595,
-                                                                                                    "_type": "View.Reference",
-                                                                                                    "ref": {
-                                                                                                        "_id_": 27597,
-                                                                                                        "_type": "String",
-                                                                                                        "value_": "@id\/var1"
-                                                                                                    }
-                                                                                                },
-                                                                                                "color": {
-                                                                                                    "_id_": 27599,
-                                                                                                    "_type": "Color",
-                                                                                                    "color_": -5468929
-                                                                                                }
-                                                                                            }
-                                                                                        ]
+                                                                                "_id_": 27603,
+                                                                                "_type": "Conditional",
+                                                                                "condition": {
+                                                                                    "_id_": 27611,
+                                                                                    "_type": "Variable.Get",
+                                                                                    "name": {
+                                                                                        "_id_": 27614,
+                                                                                        "_type": "String",
+                                                                                        "value_": "url_completa"
                                                                                     }
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "_id_": 27489,
-                                                                                "_type": "Activity.StartOwn",
-                                                                                "activity": {
-                                                                                    "_id_": 27492,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Carpetas"
+                                                                                },
+                                                                                "onTrue": {
+                                                                                    "_id_": 27615,
+                                                                                    "_type": "Activity.StartOwn",
+                                                                                    "activity": {
+                                                                                        "_id_": 27616,
+                                                                                        "_type": "String",
+                                                                                        "value_": "Carpetas"
+                                                                                    }
                                                                                 }
                                                                             }
                                                                         ]
