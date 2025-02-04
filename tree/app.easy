@@ -1443,11 +1443,6 @@
                                                                 {
                                                                     "_id_": 23523,
                                                                     "_type": "Button",
-                                                                    "requestFocus": {
-                                                                        "_id_": 25821,
-                                                                        "_type": "Boolean",
-                                                                        "value_": false
-                                                                    },
                                                                     "onFocusLoss": {
                                                                         "_id_": 25786,
                                                                         "_type": "Sequence",
