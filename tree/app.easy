@@ -1535,6 +1535,68 @@
                                                                                     "_type": "Sequence",
                                                                                     "list_": [
                                                                                         {
+                                                                                            "_id_": 26207,
+                                                                                            "_type": "Notification",
+                                                                                            "icon": {
+                                                                                                "_id_": 26208,
+                                                                                                "_type": "DrawableReference",
+                                                                                                "ref": {
+                                                                                                    "_id_": 26209,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "@drawable\/settings"
+                                                                                                }
+                                                                                            },
+                                                                                            "title": {
+                                                                                                "_id_": 26210,
+                                                                                                "_type": "String",
+                                                                                                "value_": "¿Quieres realizar esta acción? "
+                                                                                            },
+                                                                                            "text": {
+                                                                                                "_id_": 26211,
+                                                                                                "_type": "String",
+                                                                                                "value_": "¿Realmente quieres realizar esta acción? "
+                                                                                            },
+                                                                                            "subText": {
+                                                                                                "_id_": 26212,
+                                                                                                "_type": "String",
+                                                                                                "value_": ""
+                                                                                            },
+                                                                                            "contentView": {
+                                                                                                "_id_": 26213,
+                                                                                                "_type": "RelativeLayout",
+                                                                                                "id": {
+                                                                                                    "_id_": 26214,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": ""
+                                                                                                },
+                                                                                                "views": {
+                                                                                                    "_id_": 26215,
+                                                                                                    "_type": "ViewList",
+                                                                                                    "list_": [
+                                                                                                        {
+                                                                                                            "_id_": 26216,
+                                                                                                            "_type": "Button",
+                                                                                                            "onClick": {
+                                                                                                                "_id_": 26217,
+                                                                                                                "_type": "Sequence",
+                                                                                                                "list_": []
+                                                                                                            },
+                                                                                                            "id": {
+                                                                                                                "_id_": 26218,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": ""
+                                                                                                            },
+                                                                                                            "android:text": {
+                                                                                                                "_id_": 26219,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "Hello"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        {
                                                                                             "_id_": 26164,
                                                                                             "_type": "ShowToast",
                                                                                             "message": {
