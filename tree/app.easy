@@ -1517,6 +1517,24 @@
                                                                                     "_type": "Sequence",
                                                                                     "list_": [
                                                                                         {
+                                                                                            "_id_": 26302,
+                                                                                            "_type": "Variable.Set",
+                                                                                            "name": {
+                                                                                                "_id_": 26309,
+                                                                                                "_type": "String",
+                                                                                                "value_": "carpeta1"
+                                                                                            },
+                                                                                            "value": {
+                                                                                                "_id_": 26310,
+                                                                                                "_type": "Variable.Get",
+                                                                                                "name": {
+                                                                                                    "_id_": 26311,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "id_carpeta"
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        {
                                                                                             "_id_": 26256,
                                                                                             "_type": "CheckValue",
                                                                                             "onFalse": {
