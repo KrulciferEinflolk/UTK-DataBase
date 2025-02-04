@@ -1643,15 +1643,24 @@
                                                                                             "_id_": 26908,
                                                                                             "_type": "View.SetBackgroundColor",
                                                                                             "view": {
-                                                                                                "_id_": 26909,
-                                                                                                "_type": "View.LayoutDirection",
-                                                                                                "value_": "ltr"
+                                                                                                "_id_": 26920,
+                                                                                                "_type": "View.Reference",
+                                                                                                "ref": {
+                                                                                                    "_id_": 26922,
+                                                                                                    "_type": "String",
+                                                                                                    "value_": "@id\/var1"
+                                                                                                }
                                                                                             },
                                                                                             "color": {
                                                                                                 "_id_": 26910,
                                                                                                 "_type": "Color",
                                                                                                 "color_": -6262785
                                                                                             }
+                                                                                        },
+                                                                                        {
+                                                                                            "_id_": 26924,
+                                                                                            "_type": "View.LayoutDirection",
+                                                                                            "value_": "ltr"
                                                                                         }
                                                                                     ]
                                                                                 }
