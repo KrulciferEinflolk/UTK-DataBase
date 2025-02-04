@@ -694,6 +694,37 @@
                                     "_type": "Sequence",
                                     "list_": [
                                         {
+                                            "_id_": 25363,
+                                            "_type": "Variable.Set",
+                                            "name": {
+                                                "_id_": 25371,
+                                                "_type": "String",
+                                                "value_": "id_carpeta"
+                                            },
+                                            "value": {
+                                                "_id_": 25365,
+                                                "_type": "Expression",
+                                                "text": {
+                                                    "_id_": 25366,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 25372,
+                                            "_type": "ShowToast",
+                                            "message": {
+                                                "_id_": 25373,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 25378,
+                                                    "_type": "String",
+                                                    "value_": "id_carpeta"
+                                                }
+                                            }
+                                        },
+                                        {
                                             "_id_": 25244,
                                             "_type": "Variable.Set",
                                             "name": {
