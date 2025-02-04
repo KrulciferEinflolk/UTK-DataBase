@@ -1485,19 +1485,23 @@
                                                                                     "_id_": 25975,
                                                                                     "_type": "Equal",
                                                                                     "a": {
-                                                                                        "_id_": 25976,
-                                                                                        "_type": "Variable.Get",
-                                                                                        "name": {
-                                                                                            "_id_": 26063,
-                                                                                            "_type": "String",
-                                                                                            "value_": "id_carpeta"
+                                                                                        "_id_": 26083,
+                                                                                        "_type": "TextView.GetText",
+                                                                                        "view": {
+                                                                                            "_id_": 26085,
+                                                                                            "_type": "View.Reference",
+                                                                                            "ref": {
+                                                                                                "_id_": 26087,
+                                                                                                "_type": "String",
+                                                                                                "value_": "@id\/carpeta"
+                                                                                            }
                                                                                         }
                                                                                     },
                                                                                     "b": {
                                                                                         "_id_": 25978,
                                                                                         "_type": "Variable.Get",
                                                                                         "name": {
-                                                                                            "_id_": 26064,
+                                                                                            "_id_": 26089,
                                                                                             "_type": "String",
                                                                                             "value_": "carpeta1"
                                                                                         }
