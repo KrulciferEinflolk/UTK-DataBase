@@ -1285,34 +1285,6 @@
                                                                                 }
                                                                             }
                                                                         },
-                                                                        "icon": {
-                                                                            "_id_": 21790,
-                                                                            "_type": "DrawableReference",
-                                                                            "ref": {
-                                                                                "_id_": 21792,
-                                                                                "_type": "String",
-                                                                                "value_": "@drawable\/carpetas"
-                                                                            }
-                                                                        },
-                                                                        "iconTintList": {
-                                                                            "_id_": 22923,
-                                                                            "_type": "StateListColor",
-                                                                            "items": {
-                                                                                "_id_": 22925,
-                                                                                "_type": "ColorSelectorList",
-                                                                                "list_": [
-                                                                                    {
-                                                                                        "_id_": 22927,
-                                                                                        "_type": "ColorSelectorItem",
-                                                                                        "color": {
-                                                                                            "_id_": 22929,
-                                                                                            "_type": "Color",
-                                                                                            "color_": -16777216
-                                                                                        }
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        },
                                                                         "title": {
                                                                             "_id_": 21716,
                                                                             "_type": "String",
@@ -2438,6 +2410,25 @@
             {
                 "_id_": 21768,
                 "_type": "Variable",
+                "onChange": {
+                    "_id_": 22931,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 22933,
+                            "_type": "ShowToast",
+                            "message": {
+                                "_id_": 22937,
+                                "_type": "Variable.Get",
+                                "name": {
+                                    "_id_": 22940,
+                                    "_type": "String",
+                                    "value_": "carpeta1"
+                                }
+                            }
+                        }
+                    ]
+                },
                 "name": {
                     "_id_": 21769,
                     "_type": "String",
