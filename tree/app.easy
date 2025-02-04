@@ -1292,7 +1292,7 @@
                                                 "value": {
                                                     "_id_": 20077,
                                                     "_type": "Float",
-                                                    "value_": 200
+                                                    "value_": 300
                                                 }
                                             },
                                             "android:layout_marginHorizontal": {
