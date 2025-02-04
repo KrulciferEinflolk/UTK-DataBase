@@ -1415,21 +1415,12 @@
                                                                                         "_id_": 26460,
                                                                                         "_type": "Equal",
                                                                                         "a": {
-                                                                                            "_id_": 26478,
-                                                                                            "_type": "Variable.Set",
+                                                                                            "_id_": 26517,
+                                                                                            "_type": "Variable.Get",
                                                                                             "name": {
-                                                                                                "_id_": 26485,
+                                                                                                "_id_": 26518,
                                                                                                 "_type": "String",
-                                                                                                "value_": "carpeta1"
-                                                                                            },
-                                                                                            "value": {
-                                                                                                "_id_": 26486,
-                                                                                                "_type": "Variable.Get",
-                                                                                                "name": {
-                                                                                                    "_id_": 26487,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "id_carpeta"
-                                                                                                }
+                                                                                                "value_": "id_carpeta"
                                                                                             }
                                                                                         },
                                                                                         "b": {
