@@ -1624,55 +1624,36 @@
                                                                         "value_": ""
                                                                     },
                                                                     "onLongClick": {
-                                                                        "_id_": 26864,
+                                                                        "_id_": 26892,
                                                                         "_type": "Sequence",
                                                                         "list_": [
                                                                             {
-                                                                                "_id_": 26867,
-                                                                                "_type": "Animation.AlphaAnimation",
-                                                                                "duration": {
-                                                                                    "_id_": 26868,
-                                                                                    "_type": "Integer",
-                                                                                    "value_": 500
+                                                                                "_id_": 26905,
+                                                                                "_type": "Animation.Listener",
+                                                                                "onAnimationEnd": {
+                                                                                    "_id_": 26906,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": []
                                                                                 },
-                                                                                "fromAlpha": {
-                                                                                    "_id_": 26869,
-                                                                                    "_type": "Float",
-                                                                                    "value_": 0
-                                                                                },
-                                                                                "toAlpha": {
-                                                                                    "_id_": 26870,
-                                                                                    "_type": "Float",
-                                                                                    "value_": 1
-                                                                                },
-                                                                                "listener": {
-                                                                                    "_id_": 26871,
-                                                                                    "_type": "Animation.Listener",
-                                                                                    "onAnimationEnd": {
-                                                                                        "_id_": 26872,
-                                                                                        "_type": "Sequence",
-                                                                                        "list_": []
-                                                                                    },
-                                                                                    "onAnimationStart": {
-                                                                                        "_id_": 26873,
-                                                                                        "_type": "Sequence",
-                                                                                        "list_": [
-                                                                                            {
-                                                                                                "_id_": 26874,
-                                                                                                "_type": "View.SetBackgroundColor",
-                                                                                                "view": {
-                                                                                                    "_id_": 26875,
-                                                                                                    "_type": "View.LayoutDirection",
-                                                                                                    "value_": "ltr"
-                                                                                                },
-                                                                                                "color": {
-                                                                                                    "_id_": 26876,
-                                                                                                    "_type": "Color",
-                                                                                                    "color_": -6262785
-                                                                                                }
+                                                                                "onAnimationStart": {
+                                                                                    "_id_": 26907,
+                                                                                    "_type": "Sequence",
+                                                                                    "list_": [
+                                                                                        {
+                                                                                            "_id_": 26908,
+                                                                                            "_type": "View.SetBackgroundColor",
+                                                                                            "view": {
+                                                                                                "_id_": 26909,
+                                                                                                "_type": "View.LayoutDirection",
+                                                                                                "value_": "ltr"
+                                                                                            },
+                                                                                            "color": {
+                                                                                                "_id_": 26910,
+                                                                                                "_type": "Color",
+                                                                                                "color_": -6262785
                                                                                             }
-                                                                                        ]
-                                                                                    }
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             }
                                                                         ]
