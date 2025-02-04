@@ -1262,19 +1262,48 @@
                                                                     {
                                                                         "_id_": 21696,
                                                                         "_type": "Menu.Item",
-                                                                        "title": {
-                                                                            "_id_": 21712,
-                                                                            "_type": "StringReference",
+                                                                        "icon": {
+                                                                            "_id_": 21790,
+                                                                            "_type": "DrawableReference",
                                                                             "ref": {
-                                                                                "_id_": 21714,
+                                                                                "_id_": 21792,
                                                                                 "_type": "String",
                                                                                 "value_": ""
                                                                             }
                                                                         },
+                                                                        "title": {
+                                                                            "_id_": 21716,
+                                                                            "_type": "String",
+                                                                            "value_": "carpeta 1"
+                                                                        },
+                                                                        "action": {
+                                                                            "_id_": 21720,
+                                                                            "_type": "Sequence",
+                                                                            "list_": [
+                                                                                {
+                                                                                    "_id_": 21775,
+                                                                                    "_type": "Variable.Set",
+                                                                                    "name": {
+                                                                                        "_id_": 21782,
+                                                                                        "_type": "String",
+                                                                                        "value_": "carpeta1"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "_id_": 21783,
+                                                                                        "_type": "Variable.Get",
+                                                                                        "name": {
+                                                                                            "_id_": 21784,
+                                                                                            "_type": "String",
+                                                                                            "value_": "id_carpeta"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
                                                                         "id": {
                                                                             "_id_": 21700,
                                                                             "_type": "String",
-                                                                            "value_": ""
+                                                                            "value_": "carpeta1"
                                                                         },
                                                                         "titleValue": {
                                                                             "_id_": 21706,
@@ -2360,6 +2389,90 @@
                 },
                 "persist": {
                     "_id_": 18847,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 21768,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 21769,
+                    "_type": "String",
+                    "value_": "carpeta1"
+                },
+                "persist": {
+                    "_id_": 21770,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 21762,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 21763,
+                    "_type": "String",
+                    "value_": "carpeta2"
+                },
+                "persist": {
+                    "_id_": 21764,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 21756,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 21757,
+                    "_type": "String",
+                    "value_": "carpeta3"
+                },
+                "persist": {
+                    "_id_": 21758,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 21750,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 21751,
+                    "_type": "String",
+                    "value_": "carpeta4"
+                },
+                "persist": {
+                    "_id_": 21752,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 21744,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 21745,
+                    "_type": "String",
+                    "value_": "carpeta5"
+                },
+                "persist": {
+                    "_id_": 21746,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 21736,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 21738,
+                    "_type": "String",
+                    "value_": "carpeta6"
+                },
+                "persist": {
+                    "_id_": 21739,
                     "_type": "Boolean",
                     "value_": true
                 }
