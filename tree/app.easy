@@ -1645,7 +1645,7 @@
                                                                                     "duration": {
                                                                                         "_id_": 26979,
                                                                                         "_type": "Integer",
-                                                                                        "value_": 500
+                                                                                        "value_": 5000
                                                                                     },
                                                                                     "fromAlpha": {
                                                                                         "_id_": 26980,
