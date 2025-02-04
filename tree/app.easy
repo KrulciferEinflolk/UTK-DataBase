@@ -1251,7 +1251,7 @@
                                                 "value": {
                                                     "_id_": 20068,
                                                     "_type": "Float",
-                                                    "value_": 300
+                                                    "value_": 340
                                                 }
                                             },
                                             "android:background": {
@@ -1295,25 +1295,38 @@
                                                     "value_": 200
                                                 }
                                             },
-                                            "android:layout_centerInParent": {
-                                                "_id_": 20098,
-                                                "_type": "Boolean",
-                                                "value_": true
+                                            "android:layout_marginHorizontal": {
+                                                "_id_": 21668,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 21669,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 21670,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
                                             },
                                             "android:gravity": {
                                                 "_id_": 20065,
                                                 "_type": "Gravity",
                                                 "value_": "fill"
+                                            }
+                                        },
+                                        {
+                                            "_id_": 21662,
+                                            "_type": "ConstraintLayout.Grid",
+                                            "referencedViews": {
+                                                "_id_": 21664,
+                                                "_type": "List",
+                                                "list_": []
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 20614,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
-                                            "android:layout_centerVertical": {
-                                                "_id_": 20615,
-                                                "_type": "Boolean",
-                                                "value_": true
+                                            "id": {
+                                                "_id_": 21666,
+                                                "_type": "String",
+                                                "value_": ""
                                             }
                                         }
                                     ]
