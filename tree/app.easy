@@ -1645,7 +1645,7 @@
                                                                                     "duration": {
                                                                                         "_id_": 26979,
                                                                                         "_type": "Integer",
-                                                                                        "value_": 20000
+                                                                                        "value_": 10000
                                                                                     },
                                                                                     "fromAlpha": {
                                                                                         "_id_": 26980,
@@ -1660,34 +1660,39 @@
                                                                                     "listener": {
                                                                                         "_id_": 26982,
                                                                                         "_type": "Animation.Listener",
-                                                                                        "onAnimationStart": {
-                                                                                            "_id_": 26983,
+                                                                                        "onAnimationEnd": {
+                                                                                            "_id_": 27066,
                                                                                             "_type": "Sequence",
                                                                                             "list_": [
                                                                                                 {
-                                                                                                    "_id_": 26988,
+                                                                                                    "_id_": 27067,
                                                                                                     "_type": "View.LayoutDirection",
                                                                                                     "value_": "ltr"
                                                                                                 },
                                                                                                 {
-                                                                                                    "_id_": 26984,
+                                                                                                    "_id_": 27068,
                                                                                                     "_type": "View.SetBackgroundColor",
                                                                                                     "view": {
-                                                                                                        "_id_": 26985,
+                                                                                                        "_id_": 27069,
                                                                                                         "_type": "View.Reference",
                                                                                                         "ref": {
-                                                                                                            "_id_": 26986,
+                                                                                                            "_id_": 27070,
                                                                                                             "_type": "String",
                                                                                                             "value_": "@id\/var2"
                                                                                                         }
                                                                                                     },
                                                                                                     "color": {
-                                                                                                        "_id_": 26987,
+                                                                                                        "_id_": 27071,
                                                                                                         "_type": "Color",
                                                                                                         "color_": -6262785
                                                                                                     }
                                                                                                 }
                                                                                             ]
+                                                                                        },
+                                                                                        "onAnimationStart": {
+                                                                                            "_id_": 27063,
+                                                                                            "_type": "View.LayoutDirection",
+                                                                                            "value_": "ltr"
                                                                                         }
                                                                                     }
                                                                                 }
