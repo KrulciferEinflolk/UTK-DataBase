@@ -887,9 +887,31 @@
                                                 ]
                                             },
                                             "android:background": {
-                                                "_id_": 12017,
-                                                "_type": "Color",
-                                                "color_": -8355712
+                                                "_id_": 19876,
+                                                "_type": "ShapeDrawable.Rectangle",
+                                                "corners": {
+                                                    "_id_": 19877,
+                                                    "_type": "ShapeDrawable.Corners",
+                                                    "radius": {
+                                                        "_id_": 19878,
+                                                        "_type": "Dimension",
+                                                        "unit": {
+                                                            "_id_": 19879,
+                                                            "_type": "DimensionUnit",
+                                                            "value_": "dp"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 19880,
+                                                            "_type": "Float",
+                                                            "value_": 50
+                                                        }
+                                                    }
+                                                },
+                                                "color": {
+                                                    "_id_": 19881,
+                                                    "_type": "Color",
+                                                    "color_": -1
+                                                }
                                             },
                                             "android:layout_width": {
                                                 "_id_": 12092,
