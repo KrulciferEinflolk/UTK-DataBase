@@ -1262,13 +1262,36 @@
                                                                     {
                                                                         "_id_": 21696,
                                                                         "_type": "Menu.Item",
+                                                                        "checkable": {
+                                                                            "_id_": 22348,
+                                                                            "_type": "Boolean",
+                                                                            "value_": true
+                                                                        },
+                                                                        "checkedValue": {
+                                                                            "_id_": 22354,
+                                                                            "_type": "Variable.Set",
+                                                                            "name": {
+                                                                                "_id_": 22361,
+                                                                                "_type": "String",
+                                                                                "value_": "carpeta1"
+                                                                            },
+                                                                            "value": {
+                                                                                "_id_": 22358,
+                                                                                "_type": "Expression",
+                                                                                "text": {
+                                                                                    "_id_": 22360,
+                                                                                    "_type": "String",
+                                                                                    "value_": ""
+                                                                                }
+                                                                            }
+                                                                        },
                                                                         "icon": {
                                                                             "_id_": 21790,
                                                                             "_type": "DrawableReference",
                                                                             "ref": {
                                                                                 "_id_": 21792,
                                                                                 "_type": "String",
-                                                                                "value_": ""
+                                                                                "value_": "@drawable\/carpeta"
                                                                             }
                                                                         },
                                                                         "title": {
