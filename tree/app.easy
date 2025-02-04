@@ -1410,17 +1410,13 @@
                                                                                     "_type": "True"
                                                                                 },
                                                                                 "onTrue": {
-                                                                                    "_id_": 27626,
-                                                                                    "_type": "Activity.Result.OK"
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "_id_": 27628,
-                                                                                "_type": "Activity.StartOwn",
-                                                                                "activity": {
-                                                                                    "_id_": 27631,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Carpetas"
+                                                                                    "_id_": 27632,
+                                                                                    "_type": "Activity.StartOwn",
+                                                                                    "activity": {
+                                                                                        "_id_": 27633,
+                                                                                        "_type": "String",
+                                                                                        "value_": "Carpetas"
+                                                                                    }
                                                                                 }
                                                                             }
                                                                         ]
@@ -1767,7 +1763,7 @@
                                                                         "value": {
                                                                             "_id_": 27306,
                                                                             "_type": "Float",
-                                                                            "value_": 20
+                                                                            "value_": 10
                                                                         }
                                                                     }
                                                                 }
