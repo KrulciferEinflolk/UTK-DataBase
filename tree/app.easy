@@ -1037,31 +1037,26 @@
                                         {
                                             "_id_": 11988,
                                             "_type": "EditText",
-                                            "id": {
-                                                "_id_": 11991,
-                                                "_type": "String",
-                                                "value_": "carpeta"
-                                            },
-                                            "onTouch": {
-                                                "_id_": 25687,
+                                            "onLayoutChange": {
+                                                "_id_": 25703,
                                                 "_type": "Sequence",
                                                 "list_": [
                                                     {
-                                                        "_id_": 25692,
+                                                        "_id_": 25710,
                                                         "_type": "Variable.Set",
                                                         "name": {
-                                                            "_id_": 25693,
+                                                            "_id_": 25711,
                                                             "_type": "String",
                                                             "value_": "id_carpeta"
                                                         },
                                                         "value": {
-                                                            "_id_": 25694,
+                                                            "_id_": 25712,
                                                             "_type": "TextView.GetText",
                                                             "view": {
-                                                                "_id_": 25695,
+                                                                "_id_": 25713,
                                                                 "_type": "View.Reference",
                                                                 "ref": {
-                                                                    "_id_": 25696,
+                                                                    "_id_": 25714,
                                                                     "_type": "String",
                                                                     "value_": "@id\/carpeta"
                                                                 }
@@ -1069,6 +1064,11 @@
                                                         }
                                                     }
                                                 ]
+                                            },
+                                            "id": {
+                                                "_id_": 11991,
+                                                "_type": "String",
+                                                "value_": "carpeta"
                                             },
                                             "android:maxLength": {
                                                 "_id_": 12026,
