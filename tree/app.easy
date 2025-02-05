@@ -925,11 +925,6 @@
                                                     "value_": 10
                                                 }
                                             },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 35578,
-                                                "_type": "Boolean",
-                                                "value_": true
-                                            },
                                             "android:textColor": {
                                                 "_id_": 35599,
                                                 "_type": "Color",
@@ -986,6 +981,11 @@
                                                 "_id_": 35583,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:textAlignment": {
+                                                "_id_": 35608,
+                                                "_type": "View.TextAlignment",
+                                                "value_": "center"
                                             },
                                             "android:textColor": {
                                                 "_id_": 35600,
