@@ -929,6 +929,11 @@
                                                 "_id_": 35578,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 35599,
+                                                "_type": "Color",
+                                                "color_": -1
                                             }
                                         },
                                         {
@@ -958,6 +963,11 @@
                                                     "value_": 15
                                                 }
                                             },
+                                            "android:justificationMode": {
+                                                "_id_": 35606,
+                                                "_type": "TextView.JustificationMode",
+                                                "value_": "inter_word"
+                                            },
                                             "android:maxWidth": {
                                                 "_id_": 35588,
                                                 "_type": "Dimension",
@@ -976,6 +986,11 @@
                                                 "_id_": 35583,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 35600,
+                                                "_type": "Color",
+                                                "color_": -1
                                             }
                                         }
                                     ]
@@ -3657,6 +3672,11 @@
                                                 "_id_": 7243,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 35601,
+                                                "_type": "Color",
+                                                "color_": -1
                                             },
                                             "android:fontFamily": {
                                                 "_id_": 6910,
