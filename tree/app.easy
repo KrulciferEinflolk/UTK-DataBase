@@ -718,20 +718,6 @@
                                                                 "_type": "Float",
                                                                 "value_": 20
                                                             }
-                                                        },
-                                                        "android:layout_marginBottom": {
-                                                            "_id_": 38997,
-                                                            "_type": "Dimension",
-                                                            "unit": {
-                                                                "_id_": 38998,
-                                                                "_type": "DimensionUnit",
-                                                                "value_": "dp"
-                                                            },
-                                                            "value": {
-                                                                "_id_": 38999,
-                                                                "_type": "Float",
-                                                                "value_": 10
-                                                            }
                                                         }
                                                     },
                                                     {
@@ -822,7 +808,7 @@
                                                                         "value": {
                                                                             "_id_": 39193,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 90
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -888,19 +874,941 @@
                                                                 "_type": "Float",
                                                                 "value_": 20
                                                             }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 39576,
+                                                        "_type": "TableRow",
+                                                        "id": {
+                                                            "_id_": 39577,
+                                                            "_type": "String",
+                                                            "value_": "imagen3"
                                                         },
-                                                        "android:layout_marginBottom": {
-                                                            "_id_": 39207,
+                                                        "views": {
+                                                            "_id_": 39578,
+                                                            "_type": "ViewList",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 39579,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 39580,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 39581,
+                                                                        "_type": "String",
+                                                                        "value_": "Paso 3:"
+                                                                    },
+                                                                    "android:textSize": {
+                                                                        "_id_": 39582,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39583,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39584,
+                                                                            "_type": "Float",
+                                                                            "value_": 15
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39585,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
+                                                                    "android:textColor": {
+                                                                        "_id_": 39586,
+                                                                        "_type": "Color",
+                                                                        "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39587,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 39588,
+                                                                    "_type": "ImageView",
+                                                                    "id": {
+                                                                        "_id_": 39589,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:layout_width": {
+                                                                        "_id_": 39590,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39591,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39592,
+                                                                            "_type": "Float",
+                                                                            "value_": 200
+                                                                        }
+                                                                    },
+                                                                    "android:layout_height": {
+                                                                        "_id_": 39593,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39594,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39595,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
+                                                                    },
+                                                                    "android:scaleType": {
+                                                                        "_id_": 39596,
+                                                                        "_type": "ImageView.ScaleType",
+                                                                        "value_": "fitXY"
+                                                                    },
+                                                                    "android:layout_marginVertical": {
+                                                                        "_id_": 39597,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39598,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39599,
+                                                                            "_type": "Float",
+                                                                            "value_": 20
+                                                                        }
+                                                                    },
+                                                                    "android:src": {
+                                                                        "_id_": 39600,
+                                                                        "_type": "DrawableReference",
+                                                                        "ref": {
+                                                                            "_id_": 39601,
+                                                                            "_type": "String",
+                                                                            "value_": "@drawable\/paso3"
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39602,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 39603,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 39208,
+                                                                "_id_": 39604,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 39209,
+                                                                "_id_": 39605,
                                                                 "_type": "Float",
-                                                                "value_": 10
+                                                                "value_": 40
+                                                            }
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 39606,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39607,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39608,
+                                                                "_type": "Float",
+                                                                "value_": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 39510,
+                                                        "_type": "TableRow",
+                                                        "id": {
+                                                            "_id_": 39511,
+                                                            "_type": "String",
+                                                            "value_": "imagen4"
+                                                        },
+                                                        "views": {
+                                                            "_id_": 39512,
+                                                            "_type": "ViewList",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 39513,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 39514,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 39515,
+                                                                        "_type": "String",
+                                                                        "value_": "Paso 2:"
+                                                                    },
+                                                                    "android:textSize": {
+                                                                        "_id_": 39516,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39517,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39518,
+                                                                            "_type": "Float",
+                                                                            "value_": 15
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39519,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
+                                                                    "android:textColor": {
+                                                                        "_id_": 39520,
+                                                                        "_type": "Color",
+                                                                        "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39521,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 39522,
+                                                                    "_type": "ImageView",
+                                                                    "id": {
+                                                                        "_id_": 39523,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:layout_width": {
+                                                                        "_id_": 39524,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39525,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39526,
+                                                                            "_type": "Float",
+                                                                            "value_": 200
+                                                                        }
+                                                                    },
+                                                                    "android:layout_height": {
+                                                                        "_id_": 39527,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39528,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39529,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
+                                                                    },
+                                                                    "android:scaleType": {
+                                                                        "_id_": 39530,
+                                                                        "_type": "ImageView.ScaleType",
+                                                                        "value_": "fitXY"
+                                                                    },
+                                                                    "android:layout_marginVertical": {
+                                                                        "_id_": 39531,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39532,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39533,
+                                                                            "_type": "Float",
+                                                                            "value_": 20
+                                                                        }
+                                                                    },
+                                                                    "android:src": {
+                                                                        "_id_": 39534,
+                                                                        "_type": "DrawableReference",
+                                                                        "ref": {
+                                                                            "_id_": 39535,
+                                                                            "_type": "String",
+                                                                            "value_": "@drawable\/paso2"
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39536,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 39537,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39538,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39539,
+                                                                "_type": "Float",
+                                                                "value_": 40
+                                                            }
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 39540,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39541,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39542,
+                                                                "_type": "Float",
+                                                                "value_": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 39444,
+                                                        "_type": "TableRow",
+                                                        "id": {
+                                                            "_id_": 39445,
+                                                            "_type": "String",
+                                                            "value_": "imagen5"
+                                                        },
+                                                        "views": {
+                                                            "_id_": 39446,
+                                                            "_type": "ViewList",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 39447,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 39448,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 39449,
+                                                                        "_type": "String",
+                                                                        "value_": "Paso 2:"
+                                                                    },
+                                                                    "android:textSize": {
+                                                                        "_id_": 39450,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39451,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39452,
+                                                                            "_type": "Float",
+                                                                            "value_": 15
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39453,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
+                                                                    "android:textColor": {
+                                                                        "_id_": 39454,
+                                                                        "_type": "Color",
+                                                                        "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39455,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 39456,
+                                                                    "_type": "ImageView",
+                                                                    "id": {
+                                                                        "_id_": 39457,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:layout_width": {
+                                                                        "_id_": 39458,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39459,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39460,
+                                                                            "_type": "Float",
+                                                                            "value_": 200
+                                                                        }
+                                                                    },
+                                                                    "android:layout_height": {
+                                                                        "_id_": 39461,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39462,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39463,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
+                                                                    },
+                                                                    "android:scaleType": {
+                                                                        "_id_": 39464,
+                                                                        "_type": "ImageView.ScaleType",
+                                                                        "value_": "fitXY"
+                                                                    },
+                                                                    "android:layout_marginVertical": {
+                                                                        "_id_": 39465,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39466,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39467,
+                                                                            "_type": "Float",
+                                                                            "value_": 20
+                                                                        }
+                                                                    },
+                                                                    "android:src": {
+                                                                        "_id_": 39468,
+                                                                        "_type": "DrawableReference",
+                                                                        "ref": {
+                                                                            "_id_": 39469,
+                                                                            "_type": "String",
+                                                                            "value_": "@drawable\/paso2"
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39470,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 39471,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39472,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39473,
+                                                                "_type": "Float",
+                                                                "value_": 40
+                                                            }
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 39474,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39475,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39476,
+                                                                "_type": "Float",
+                                                                "value_": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 39378,
+                                                        "_type": "TableRow",
+                                                        "id": {
+                                                            "_id_": 39379,
+                                                            "_type": "String",
+                                                            "value_": "imagen6"
+                                                        },
+                                                        "views": {
+                                                            "_id_": 39380,
+                                                            "_type": "ViewList",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 39381,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 39382,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 39383,
+                                                                        "_type": "String",
+                                                                        "value_": "Paso 2:"
+                                                                    },
+                                                                    "android:textSize": {
+                                                                        "_id_": 39384,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39385,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39386,
+                                                                            "_type": "Float",
+                                                                            "value_": 15
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39387,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
+                                                                    "android:textColor": {
+                                                                        "_id_": 39388,
+                                                                        "_type": "Color",
+                                                                        "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39389,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 39390,
+                                                                    "_type": "ImageView",
+                                                                    "id": {
+                                                                        "_id_": 39391,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:layout_width": {
+                                                                        "_id_": 39392,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39393,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39394,
+                                                                            "_type": "Float",
+                                                                            "value_": 200
+                                                                        }
+                                                                    },
+                                                                    "android:layout_height": {
+                                                                        "_id_": 39395,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39396,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39397,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
+                                                                    },
+                                                                    "android:scaleType": {
+                                                                        "_id_": 39398,
+                                                                        "_type": "ImageView.ScaleType",
+                                                                        "value_": "fitXY"
+                                                                    },
+                                                                    "android:layout_marginVertical": {
+                                                                        "_id_": 39399,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39400,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39401,
+                                                                            "_type": "Float",
+                                                                            "value_": 20
+                                                                        }
+                                                                    },
+                                                                    "android:src": {
+                                                                        "_id_": 39402,
+                                                                        "_type": "DrawableReference",
+                                                                        "ref": {
+                                                                            "_id_": 39403,
+                                                                            "_type": "String",
+                                                                            "value_": "@drawable\/paso2"
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39404,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 39405,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39406,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39407,
+                                                                "_type": "Float",
+                                                                "value_": 40
+                                                            }
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 39408,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39409,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39410,
+                                                                "_type": "Float",
+                                                                "value_": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 39312,
+                                                        "_type": "TableRow",
+                                                        "id": {
+                                                            "_id_": 39313,
+                                                            "_type": "String",
+                                                            "value_": "imagen7"
+                                                        },
+                                                        "views": {
+                                                            "_id_": 39314,
+                                                            "_type": "ViewList",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 39315,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 39316,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 39317,
+                                                                        "_type": "String",
+                                                                        "value_": "Paso 2:"
+                                                                    },
+                                                                    "android:textSize": {
+                                                                        "_id_": 39318,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39319,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39320,
+                                                                            "_type": "Float",
+                                                                            "value_": 15
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39321,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
+                                                                    "android:textColor": {
+                                                                        "_id_": 39322,
+                                                                        "_type": "Color",
+                                                                        "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39323,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 39324,
+                                                                    "_type": "ImageView",
+                                                                    "id": {
+                                                                        "_id_": 39325,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:layout_width": {
+                                                                        "_id_": 39326,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39327,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39328,
+                                                                            "_type": "Float",
+                                                                            "value_": 200
+                                                                        }
+                                                                    },
+                                                                    "android:layout_height": {
+                                                                        "_id_": 39329,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39330,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39331,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
+                                                                    },
+                                                                    "android:scaleType": {
+                                                                        "_id_": 39332,
+                                                                        "_type": "ImageView.ScaleType",
+                                                                        "value_": "fitXY"
+                                                                    },
+                                                                    "android:layout_marginVertical": {
+                                                                        "_id_": 39333,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39334,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39335,
+                                                                            "_type": "Float",
+                                                                            "value_": 20
+                                                                        }
+                                                                    },
+                                                                    "android:src": {
+                                                                        "_id_": 39336,
+                                                                        "_type": "DrawableReference",
+                                                                        "ref": {
+                                                                            "_id_": 39337,
+                                                                            "_type": "String",
+                                                                            "value_": "@drawable\/paso2"
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39338,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 39339,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39340,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39341,
+                                                                "_type": "Float",
+                                                                "value_": 40
+                                                            }
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 39342,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39343,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39344,
+                                                                "_type": "Float",
+                                                                "value_": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 39246,
+                                                        "_type": "TableRow",
+                                                        "id": {
+                                                            "_id_": 39247,
+                                                            "_type": "String",
+                                                            "value_": "imagen8"
+                                                        },
+                                                        "views": {
+                                                            "_id_": 39248,
+                                                            "_type": "ViewList",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 39249,
+                                                                    "_type": "TextView",
+                                                                    "id": {
+                                                                        "_id_": 39250,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:text": {
+                                                                        "_id_": 39251,
+                                                                        "_type": "String",
+                                                                        "value_": "Paso 2:"
+                                                                    },
+                                                                    "android:textSize": {
+                                                                        "_id_": 39252,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39253,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39254,
+                                                                            "_type": "Float",
+                                                                            "value_": 15
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39255,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
+                                                                    "android:textColor": {
+                                                                        "_id_": 39256,
+                                                                        "_type": "Color",
+                                                                        "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39257,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 39258,
+                                                                    "_type": "ImageView",
+                                                                    "id": {
+                                                                        "_id_": 39259,
+                                                                        "_type": "String",
+                                                                        "value_": ""
+                                                                    },
+                                                                    "android:layout_width": {
+                                                                        "_id_": 39260,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39261,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39262,
+                                                                            "_type": "Float",
+                                                                            "value_": 200
+                                                                        }
+                                                                    },
+                                                                    "android:layout_height": {
+                                                                        "_id_": 39263,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39264,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39265,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
+                                                                    },
+                                                                    "android:scaleType": {
+                                                                        "_id_": 39266,
+                                                                        "_type": "ImageView.ScaleType",
+                                                                        "value_": "fitXY"
+                                                                    },
+                                                                    "android:layout_marginVertical": {
+                                                                        "_id_": 39267,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 39268,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 39269,
+                                                                            "_type": "Float",
+                                                                            "value_": 20
+                                                                        }
+                                                                    },
+                                                                    "android:src": {
+                                                                        "_id_": 39270,
+                                                                        "_type": "DrawableReference",
+                                                                        "ref": {
+                                                                            "_id_": 39271,
+                                                                            "_type": "String",
+                                                                            "value_": "@drawable\/paso2"
+                                                                        }
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 39272,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 39273,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39274,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39275,
+                                                                "_type": "Float",
+                                                                "value_": 40
+                                                            }
+                                                        },
+                                                        "android:layout_marginTop": {
+                                                            "_id_": 39276,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 39277,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 39278,
+                                                                "_type": "Float",
+                                                                "value_": 20
                                                             }
                                                         }
                                                     }
