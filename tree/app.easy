@@ -1246,7 +1246,7 @@
                                             "android:textColorLink": {
                                                 "_id_": 37956,
                                                 "_type": "Color",
-                                                "color_": -4737097
+                                                "color_": -9671572
                                             },
                                             "android:textStyle": {
                                                 "_id_": 37953,
@@ -1270,6 +1270,15 @@
                                                     "_id_": 37897,
                                                     "_type": "Float",
                                                     "value_": 15
+                                                }
+                                            },
+                                            "android:drawableBottom": {
+                                                "_id_": 37980,
+                                                "_type": "ShapeDrawable.Line",
+                                                "color": {
+                                                    "_id_": 37983,
+                                                    "_type": "Color",
+                                                    "color_": -9671572
                                                 }
                                             },
                                             "android:clickable": {
