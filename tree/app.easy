@@ -712,15 +712,15 @@
                                                 "value_": "Data Base"
                                             },
                                             "android:layout_marginVertical": {
-                                                "_id_": 33873,
+                                                "_id_": 33892,
                                                 "_type": "Dimension",
                                                 "unit": {
-                                                    "_id_": 33874,
+                                                    "_id_": 33893,
                                                     "_type": "DimensionUnit",
                                                     "value_": "dp"
                                                 },
                                                 "value": {
-                                                    "_id_": 33875,
+                                                    "_id_": 33894,
                                                     "_type": "Float",
                                                     "value_": 10
                                                 }
@@ -744,20 +744,6 @@
                                                 "_type": "String",
                                                 "value_": "for"
                                             },
-                                            "android:layout_marginVertical": {
-                                                "_id_": 33876,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 33877,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 33878,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 33888,
                                                 "_type": "Boolean",
@@ -776,20 +762,6 @@
                                                 "_id_": 33867,
                                                 "_type": "String",
                                                 "value_": "UTK Project"
-                                            },
-                                            "android:layout_marginVertical": {
-                                                "_id_": 33879,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 33880,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 33881,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
                                             },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 33889,
@@ -953,6 +925,11 @@
                                         "_type": "Float",
                                         "value_": 10
                                     }
+                                },
+                                "android:layout_centerHorizontal": {
+                                    "_id_": 33890,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
