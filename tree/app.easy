@@ -897,6 +897,20 @@
                                                 "_type": "String",
                                                 "value_": "Base de datos para el proyecto UTK. "
                                             },
+                                            "android:textSize": {
+                                                "_id_": 35592,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 35594,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 35593,
+                                                    "_type": "Float",
+                                                    "value_": 18
+                                                }
+                                            },
                                             "android:layout_marginVertical": {
                                                 "_id_": 35580,
                                                 "_type": "Dimension",
@@ -930,6 +944,20 @@
                                                 "_type": "String",
                                                 "value_": "Lugar donde podras encontrar una forma mas facil de almacenar tus carpetas de google drive y compartirlas con tus amigos! "
                                             },
+                                            "android:textSize": {
+                                                "_id_": 35595,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 35596,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 35597,
+                                                    "_type": "Float",
+                                                    "value_": 15
+                                                }
+                                            },
                                             "android:maxWidth": {
                                                 "_id_": 35588,
                                                 "_type": "Dimension",
@@ -941,7 +969,7 @@
                                                 "value": {
                                                     "_id_": 35591,
                                                     "_type": "Float",
-                                                    "value_": 340
+                                                    "value_": 300
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
