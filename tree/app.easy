@@ -1244,6 +1244,25 @@
                                                 "_type": "String",
                                                 "value_": "comic-sans"
                                             }
+                                        },
+                                        {
+                                            "_id_": 32822,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 32825,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 32823,
+                                                "_type": "String",
+                                                "value_": "Para guardar variables manten el botón presionando."
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 32827,
+                                                "_type": "Color",
+                                                "color_": -1
+                                            }
                                         }
                                     ]
                                 },
