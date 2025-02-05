@@ -1816,6 +1816,11 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 32765,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
@@ -2285,6 +2290,11 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 32764,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
@@ -2754,6 +2764,11 @@
                                                                                 }
                                                                             }
                                                                         ]
+                                                                    },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 32763,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
