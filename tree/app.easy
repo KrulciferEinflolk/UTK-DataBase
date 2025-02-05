@@ -985,7 +985,7 @@
                                             "android:textAlignment": {
                                                 "_id_": 35608,
                                                 "_type": "View.TextAlignment",
-                                                "value_": "center"
+                                                "value_": "inherit"
                                             },
                                             "android:textColor": {
                                                 "_id_": 35600,
