@@ -629,6 +629,20 @@
                                     "_type": "ImageView.ScaleType",
                                     "value_": "fitXY"
                                 },
+                                "android:layout_marginVertical": {
+                                    "_id_": 37972,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 37973,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 37974,
+                                        "_type": "Float",
+                                        "value_": 10
+                                    }
+                                },
                                 "android:src": {
                                     "_id_": 36760,
                                     "_type": "DrawableReference",
