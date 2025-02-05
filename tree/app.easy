@@ -909,7 +909,7 @@
                                     "color": {
                                         "_id_": 35344,
                                         "_type": "Color",
-                                        "color_": -10067557
+                                        "color_": -10791287
                                     }
                                 },
                                 "android:layout_width": {
@@ -937,7 +937,7 @@
                                     "value": {
                                         "_id_": 35555,
                                         "_type": "Float",
-                                        "value_": 500
+                                        "value_": 400
                                     }
                                 },
                                 "android:layout_marginTop": {
