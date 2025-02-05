@@ -840,7 +840,7 @@
                                                 "value": {
                                                     "_id_": 33901,
                                                     "_type": "Float",
-                                                    "value_": 80
+                                                    "value_": 75
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
@@ -855,171 +855,6 @@
                                             }
                                         }
                                     ]
-                                }
-                            },
-                            {
-                                "_id_": 25242,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 25243,
-                                    "_type": "Sequence",
-                                    "list_": [
-                                        {
-                                            "_id_": 25363,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25371,
-                                                "_type": "String",
-                                                "value_": "id_carpeta"
-                                            },
-                                            "value": {
-                                                "_id_": 25365,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25366,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25244,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25245,
-                                                "_type": "String",
-                                                "value_": "carpeta1"
-                                            },
-                                            "value": {
-                                                "_id_": 25246,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25247,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25293,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25294,
-                                                "_type": "String",
-                                                "value_": "carpeta2"
-                                            },
-                                            "value": {
-                                                "_id_": 25295,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25296,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25307,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25308,
-                                                "_type": "String",
-                                                "value_": "carpeta3"
-                                            },
-                                            "value": {
-                                                "_id_": 25309,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25310,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25321,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25322,
-                                                "_type": "String",
-                                                "value_": "carpeta4"
-                                            },
-                                            "value": {
-                                                "_id_": 25323,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25324,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25335,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25336,
-                                                "_type": "String",
-                                                "value_": "carpeta5"
-                                            },
-                                            "value": {
-                                                "_id_": 25337,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25338,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "_id_": 25349,
-                                            "_type": "Variable.Set",
-                                            "name": {
-                                                "_id_": 25350,
-                                                "_type": "String",
-                                                "value_": "carpeta6"
-                                            },
-                                            "value": {
-                                                "_id_": 25351,
-                                                "_type": "Expression",
-                                                "text": {
-                                                    "_id_": 25352,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        }
-                                    ]
-                                },
-                                "id": {
-                                    "_id_": 25251,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 25275,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 25276,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 25277,
-                                        "_type": "Float",
-                                        "value_": 10
-                                    }
-                                },
-                                "android:layout_centerHorizontal": {
-                                    "_id_": 33890,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                },
-                                "android:layout_centerVertical": {
-                                    "_id_": 33895,
-                                    "_type": "Boolean",
-                                    "value_": true
                                 }
                             }
                         ]
@@ -4024,9 +3859,136 @@
                                             "_id_": 7043,
                                             "_type": "Button",
                                             "onClick": {
-                                                "_id_": 7044,
+                                                "_id_": 33917,
                                                 "_type": "Sequence",
-                                                "list_": []
+                                                "list_": [
+                                                    {
+                                                        "_id_": 33918,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33919,
+                                                            "_type": "String",
+                                                            "value_": "id_carpeta"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33920,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33921,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 33922,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33923,
+                                                            "_type": "String",
+                                                            "value_": "carpeta1"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33924,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33925,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 33926,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33927,
+                                                            "_type": "String",
+                                                            "value_": "carpeta2"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33928,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33929,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 33930,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33931,
+                                                            "_type": "String",
+                                                            "value_": "carpeta3"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33932,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33933,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 33934,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33935,
+                                                            "_type": "String",
+                                                            "value_": "carpeta4"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33936,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33937,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 33938,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33939,
+                                                            "_type": "String",
+                                                            "value_": "carpeta5"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33940,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33941,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 33942,
+                                                        "_type": "Variable.Set",
+                                                        "name": {
+                                                            "_id_": 33943,
+                                                            "_type": "String",
+                                                            "value_": "carpeta6"
+                                                        },
+                                                        "value": {
+                                                            "_id_": 33944,
+                                                            "_type": "Expression",
+                                                            "text": {
+                                                                "_id_": 33945,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            }
+                                                        }
+                                                    }
+                                                ]
                                             },
                                             "id": {
                                                 "_id_": 7045,
@@ -4041,7 +4003,7 @@
                                             "android:text": {
                                                 "_id_": 7047,
                                                 "_type": "String",
-                                                "value_": "Rellenar() "
+                                                "value_": "Reiniciar variables"
                                             },
                                             "android:textSize": {
                                                 "_id_": 7048,
