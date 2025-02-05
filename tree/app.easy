@@ -658,7 +658,7 @@
                                                                     "value": {
                                                                         "_id_": 38039,
                                                                         "_type": "Float",
-                                                                        "value_": 35
+                                                                        "value_": 50
                                                                     }
                                                                 },
                                                                 "android:src": {
@@ -714,7 +714,7 @@
                                                                     "value": {
                                                                         "_id_": 38498,
                                                                         "_type": "Float",
-                                                                        "value_": 60
+                                                                        "value_": 130
                                                                     }
                                                                 },
                                                                 "android:layout_centerHorizontal": {
@@ -780,7 +780,7 @@
                                                                     "value": {
                                                                         "_id_": 38523,
                                                                         "_type": "Float",
-                                                                        "value_": 85
+                                                                        "value_": 160
                                                                     }
                                                                 },
                                                                 "android:src": {
