@@ -1010,7 +1010,7 @@
                                 "android:gravity": {
                                     "_id_": 35348,
                                     "_type": "Gravity",
-                                    "value_": "left|center_horizontal"
+                                    "value_": "center_horizontal"
                                 },
                                 "android:orientation": {
                                     "_id_": 35349,
