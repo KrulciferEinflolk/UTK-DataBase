@@ -658,7 +658,7 @@
                                                                     "value": {
                                                                         "_id_": 38039,
                                                                         "_type": "Float",
-                                                                        "value_": 30
+                                                                        "value_": 35
                                                                     }
                                                                 },
                                                                 "android:src": {
@@ -714,7 +714,7 @@
                                                                     "value": {
                                                                         "_id_": 38498,
                                                                         "_type": "Float",
-                                                                        "value_": 10
+                                                                        "value_": 60
                                                                     }
                                                                 },
                                                                 "android:layout_centerHorizontal": {
@@ -804,20 +804,6 @@
                                                         "_id_": 38043,
                                                         "_type": "Color",
                                                         "color_": -1
-                                                    },
-                                                    "android:paddingVertical": {
-                                                        "_id_": 38543,
-                                                        "_type": "Dimension",
-                                                        "unit": {
-                                                            "_id_": 38544,
-                                                            "_type": "DimensionUnit",
-                                                            "value_": "dp"
-                                                        },
-                                                        "value": {
-                                                            "_id_": 38545,
-                                                            "_type": "Float",
-                                                            "value_": 10
-                                                        }
                                                     }
                                                 }
                                             ]
