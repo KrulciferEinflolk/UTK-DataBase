@@ -603,11 +603,6 @@
                                                                             "value_": 15
                                                                         }
                                                                     },
-                                                                    "android:layout_centerInParent": {
-                                                                        "_id_": 39002,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    },
                                                                     "android:layout_marginVertical": {
                                                                         "_id_": 38986,
                                                                         "_type": "Dimension",
@@ -631,6 +626,11 @@
                                                                         "_id_": 38990,
                                                                         "_type": "Color",
                                                                         "color_": -16777216
+                                                                    },
+                                                                    "android:layout_centerVertical": {
+                                                                        "_id_": 39101,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
                                                                     }
                                                                 },
                                                                 {
