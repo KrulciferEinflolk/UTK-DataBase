@@ -687,6 +687,48 @@
                         "_type": "ViewList",
                         "list_": [
                             {
+                                "_id_": 33833,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 33836,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 33834,
+                                    "_type": "String",
+                                    "value_": "Data Base"
+                                }
+                            },
+                            {
+                                "_id_": 33838,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 33841,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 33839,
+                                    "_type": "String",
+                                    "value_": "for"
+                                }
+                            },
+                            {
+                                "_id_": 33843,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 33846,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 33844,
+                                    "_type": "String",
+                                    "value_": "UTK Project"
+                                }
+                            },
+                            {
                                 "_id_": 25242,
                                 "_type": "Button",
                                 "onClick": {
@@ -4399,12 +4441,12 @@
         "versionName": {
             "_id_": 26,
             "_type": "String",
-            "value_": "v1.1"
+            "value_": "v1.2"
         },
         "versionCode": {
             "_id_": 27,
             "_type": "Integer",
-            "value_": 1
+            "value_": 2
         },
         "minSdk": {
             "_id_": 28,
