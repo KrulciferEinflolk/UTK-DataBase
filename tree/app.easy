@@ -1592,6 +1592,33 @@
                                                                                         "value_": 100
                                                                                     }
                                                                                 },
+                                                                                "android:background": {
+                                                                                    "_id_": 32844,
+                                                                                    "_type": "ShapeDrawable.Rectangle",
+                                                                                    "corners": {
+                                                                                        "_id_": 32845,
+                                                                                        "_type": "ShapeDrawable.Corners",
+                                                                                        "radius": {
+                                                                                            "_id_": 32846,
+                                                                                            "_type": "Dimension",
+                                                                                            "unit": {
+                                                                                                "_id_": 32847,
+                                                                                                "_type": "DimensionUnit",
+                                                                                                "value_": "dp"
+                                                                                            },
+                                                                                            "value": {
+                                                                                                "_id_": 32848,
+                                                                                                "_type": "Float",
+                                                                                                "value_": 70
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    "color": {
+                                                                                        "_id_": 32852,
+                                                                                        "_type": "Color",
+                                                                                        "color_": -11654024
+                                                                                    }
+                                                                                },
                                                                                 "android:text": {
                                                                                     "_id_": 30322,
                                                                                     "_type": "String",
