@@ -747,7 +747,7 @@
                                             "android:fontFamily": {
                                                 "_id_": 33911,
                                                 "_type": "String",
-                                                "value_": "cursive"
+                                                "value_": "courier"
                                             }
                                         },
                                         {
@@ -788,7 +788,7 @@
                                                 "value": {
                                                     "_id_": 33898,
                                                     "_type": "Float",
-                                                    "value_": 50
+                                                    "value_": 45
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
@@ -797,9 +797,9 @@
                                                 "value_": true
                                             },
                                             "android:fontFamily": {
-                                                "_id_": 33912,
+                                                "_id_": 33914,
                                                 "_type": "String",
-                                                "value_": "cursive"
+                                                "value_": "courier"
                                             }
                                         },
                                         {
@@ -849,9 +849,9 @@
                                                 "value_": true
                                             },
                                             "android:fontFamily": {
-                                                "_id_": 33913,
+                                                "_id_": 33915,
                                                 "_type": "String",
-                                                "value_": "cursive"
+                                                "value_": "courier"
                                             }
                                         }
                                     ]
