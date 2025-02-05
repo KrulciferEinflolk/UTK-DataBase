@@ -907,9 +907,9 @@
                                         }
                                     },
                                     "color": {
-                                        "_id_": 35344,
+                                        "_id_": 35566,
                                         "_type": "Color",
-                                        "color_": -10791287
+                                        "color_": -9475159
                                     }
                                 },
                                 "android:layout_width": {
@@ -937,7 +937,7 @@
                                     "value": {
                                         "_id_": 35555,
                                         "_type": "Float",
-                                        "value_": 420
+                                        "value_": 430
                                     }
                                 },
                                 "android:layout_marginTop": {
@@ -951,7 +951,7 @@
                                     "value": {
                                         "_id_": 35549,
                                         "_type": "Float",
-                                        "value_": 120
+                                        "value_": 130
                                     }
                                 },
                                 "android:gravity": {
