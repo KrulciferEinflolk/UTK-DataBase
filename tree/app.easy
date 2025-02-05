@@ -930,6 +930,11 @@
                                     "_id_": 33890,
                                     "_type": "Boolean",
                                     "value_": true
+                                },
+                                "android:layout_centerVertical": {
+                                    "_id_": 33895,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
