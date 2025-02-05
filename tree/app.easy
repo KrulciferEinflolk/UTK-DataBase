@@ -583,14 +583,32 @@
                                     "value_": ""
                                 },
                                 "android:layout_width": {
-                                    "_id_": 36759,
-                                    "_type": "View.SpecialDimension",
-                                    "value_": "wrap_content"
+                                    "_id_": 37959,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 37960,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 37961,
+                                        "_type": "Float",
+                                        "value_": 360
+                                    }
                                 },
                                 "android:layout_height": {
-                                    "_id_": 36758,
-                                    "_type": "View.SpecialDimension",
-                                    "value_": "wrap_content"
+                                    "_id_": 37963,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 37964,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 37965,
+                                        "_type": "Float",
+                                        "value_": 140
+                                    }
                                 },
                                 "android:scaleType": {
                                     "_id_": 36762,
@@ -1191,6 +1209,16 @@
                                                 "_id_": 37893,
                                                 "_type": "String",
                                                 "value_": ""
+                                            },
+                                            "android:textColorLink": {
+                                                "_id_": 37956,
+                                                "_type": "Color",
+                                                "color_": -4737097
+                                            },
+                                            "android:textStyle": {
+                                                "_id_": 37953,
+                                                "_type": "TextView.TextStyle",
+                                                "value_": "italic"
                                             },
                                             "android:text": {
                                                 "_id_": 37894,
