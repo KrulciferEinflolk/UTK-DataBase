@@ -547,7 +547,7 @@
                                 "android:text": {
                                     "_id_": 36751,
                                     "_type": "String",
-                                    "value_": "Hello"
+                                    "value_": "Paso 1:"
                                 },
                                 "android:textSize": {
                                     "_id_": 36753,
@@ -560,18 +560,32 @@
                                     "value": {
                                         "_id_": 36754,
                                         "_type": "Float",
-                                        "value_": 50
+                                        "value_": 10
                                     }
                                 },
-                                "android:layout_centerInParent": {
-                                    "_id_": 36750,
+                                "android:layout_marginVertical": {
+                                    "_id_": 37969,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 37970,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 37971,
+                                        "_type": "Float",
+                                        "value_": 10
+                                    }
+                                },
+                                "android:layout_centerHorizontal": {
+                                    "_id_": 37967,
                                     "_type": "Boolean",
                                     "value_": true
                                 },
                                 "android:textColor": {
                                     "_id_": 36752,
                                     "_type": "Color",
-                                    "color_": -65536
+                                    "color_": -16777216
                                 }
                             },
                             {
@@ -623,6 +637,11 @@
                                         "_type": "String",
                                         "value_": "@drawable\/paso1"
                                     }
+                                },
+                                "android:layout_centerHorizontal": {
+                                    "_id_": 37966,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             }
                         ]
