@@ -896,6 +896,25 @@
                                                 "_id_": 35570,
                                                 "_type": "String",
                                                 "value_": "Base de datos para el proyecto UTK. "
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 35580,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 35581,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 35582,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 35578,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         },
                                         {
@@ -910,6 +929,11 @@
                                                 "_id_": 35575,
                                                 "_type": "String",
                                                 "value_": "Lugar donde podras encontrar una forma mas facil de almacenar tus carpetas de google drive y compartirlas con tus amigos! "
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 35583,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         }
                                     ]
