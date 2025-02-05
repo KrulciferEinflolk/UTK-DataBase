@@ -1739,11 +1739,6 @@
                                                                                         }
                                                                                     ]
                                                                                 },
-                                                                                "android:layout_width": {
-                                                                                    "_id_": 31794,
-                                                                                    "_type": "View.SpecialDimension",
-                                                                                    "value_": "wrap_content"
-                                                                                },
                                                                                 "android:text": {
                                                                                     "_id_": 30368,
                                                                                     "_type": "String",
