@@ -1814,7 +1814,7 @@
                                                                         "value": {
                                                                             "_id_": 32783,
                                                                             "_type": "Float",
-                                                                            "value_": 20
+                                                                            "value_": 10
                                                                         }
                                                                     }
                                                                 },
@@ -2273,17 +2273,17 @@
                                                                         }
                                                                     },
                                                                     "android:layout_marginVertical": {
-                                                                        "_id_": 32784,
+                                                                        "_id_": 32790,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 32785,
+                                                                            "_id_": 32791,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 32786,
+                                                                            "_id_": 32792,
                                                                             "_type": "Float",
-                                                                            "value_": 20
+                                                                            "value_": 10
                                                                         }
                                                                     }
                                                                 },
@@ -2742,17 +2742,17 @@
                                                                         }
                                                                     },
                                                                     "android:layout_marginVertical": {
-                                                                        "_id_": 32787,
+                                                                        "_id_": 32793,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 32788,
+                                                                            "_id_": 32794,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 32789,
+                                                                            "_id_": 32795,
                                                                             "_type": "Float",
-                                                                            "value_": 20
+                                                                            "value_": 10
                                                                         }
                                                                     }
                                                                 }
