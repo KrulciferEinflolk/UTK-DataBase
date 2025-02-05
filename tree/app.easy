@@ -1285,11 +1285,6 @@
                                                 "_id_": 37912,
                                                 "_type": "Boolean",
                                                 "value_": true
-                                            },
-                                            "android:textColor": {
-                                                "_id_": 37901,
-                                                "_type": "Color",
-                                                "color_": -1
                                             }
                                         }
                                     ]
