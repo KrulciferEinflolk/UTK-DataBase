@@ -1817,16 +1817,16 @@
                                                                             "value_": 50
                                                                         }
                                                                     },
-                                                                    "android:layout_marginVertical": {
-                                                                        "_id_": 32781,
+                                                                    "android:layout_marginBottom": {
+                                                                        "_id_": 32805,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 32782,
+                                                                            "_id_": 32806,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 32783,
+                                                                            "_id_": 32807,
                                                                             "_type": "Float",
                                                                             "value_": 10
                                                                         }
