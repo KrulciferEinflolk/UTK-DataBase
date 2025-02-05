@@ -1572,6 +1572,11 @@
                                                                                         "_type": "Float",
                                                                                         "value_": 10
                                                                                     }
+                                                                                },
+                                                                                "android:textColor": {
+                                                                                    "_id_": 32815,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             },
                                                                             {
@@ -1785,6 +1790,11 @@
                                                                                         "_type": "Float",
                                                                                         "value_": 10
                                                                                     }
+                                                                                },
+                                                                                "android:textColor": {
+                                                                                    "_id_": 32816,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             }
                                                                         ]
@@ -2055,6 +2065,11 @@
                                                                                         "_type": "Float",
                                                                                         "value_": 10
                                                                                     }
+                                                                                },
+                                                                                "android:textColor": {
+                                                                                    "_id_": 32817,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             },
                                                                             {
@@ -2268,6 +2283,11 @@
                                                                                         "_type": "Float",
                                                                                         "value_": 10
                                                                                     }
+                                                                                },
+                                                                                "android:textColor": {
+                                                                                    "_id_": 32818,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             }
                                                                         ]
@@ -2524,6 +2544,11 @@
                                                                                         "_type": "Float",
                                                                                         "value_": 10
                                                                                     }
+                                                                                },
+                                                                                "android:textColor": {
+                                                                                    "_id_": 32819,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             },
                                                                             {
@@ -2737,6 +2762,11 @@
                                                                                         "_type": "Float",
                                                                                         "value_": 10
                                                                                     }
+                                                                                },
+                                                                                "android:textColor": {
+                                                                                    "_id_": 32820,
+                                                                                    "_type": "Color",
+                                                                                    "color_": -1
                                                                                 }
                                                                             }
                                                                         ]
