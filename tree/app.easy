@@ -757,6 +757,11 @@
                                                     "_type": "Float",
                                                     "value_": 10
                                                 }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 33888,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         },
                                         {
@@ -785,6 +790,11 @@
                                                     "_type": "Float",
                                                     "value_": 10
                                                 }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 33889,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         }
                                     ]
