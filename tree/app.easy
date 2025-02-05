@@ -1570,7 +1570,7 @@
                                                                                     "value": {
                                                                                         "_id_": 32723,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 10
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
@@ -1584,7 +1584,7 @@
                                                                                     "value": {
                                                                                         "_id_": 32726,
                                                                                         "_type": "Float",
-                                                                                        "value_": 10
+                                                                                        "value_": 20
                                                                                     }
                                                                                 }
                                                                             },
@@ -1787,31 +1787,31 @@
                                                                                     "value_": "Carpeta 2"
                                                                                 },
                                                                                 "android:layout_marginHorizontal": {
-                                                                                    "_id_": 32730,
+                                                                                    "_id_": 32733,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 32731,
+                                                                                        "_id_": 32734,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 32732,
+                                                                                        "_id_": 32735,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 10
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
-                                                                                    "_id_": 32727,
+                                                                                    "_id_": 32736,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 32728,
+                                                                                        "_id_": 32737,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 32729,
+                                                                                        "_id_": 32738,
                                                                                         "_type": "Float",
-                                                                                        "value_": 10
+                                                                                        "value_": 20
                                                                                     }
                                                                                 }
                                                                             }
@@ -2029,31 +2029,31 @@
                                                                                     "value_": "Carpeta 3"
                                                                                 },
                                                                                 "android:layout_marginHorizontal": {
-                                                                                    "_id_": 30418,
+                                                                                    "_id_": 32742,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30419,
+                                                                                        "_id_": 32743,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30420,
+                                                                                        "_id_": 32744,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 10
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
-                                                                                    "_id_": 30421,
+                                                                                    "_id_": 32739,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30422,
+                                                                                        "_id_": 32740,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30423,
+                                                                                        "_id_": 32741,
                                                                                         "_type": "Float",
-                                                                                        "value_": 10
+                                                                                        "value_": 20
                                                                                     }
                                                                                 }
                                                                             },
@@ -2256,31 +2256,31 @@
                                                                                     "value_": "Carpeta 4"
                                                                                 },
                                                                                 "android:layout_marginHorizontal": {
-                                                                                    "_id_": 30464,
+                                                                                    "_id_": 32745,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30465,
+                                                                                        "_id_": 32746,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30466,
+                                                                                        "_id_": 32747,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 10
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
-                                                                                    "_id_": 30467,
+                                                                                    "_id_": 32748,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30468,
+                                                                                        "_id_": 32749,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30469,
+                                                                                        "_id_": 32750,
                                                                                         "_type": "Float",
-                                                                                        "value_": 10
+                                                                                        "value_": 20
                                                                                     }
                                                                                 }
                                                                             }
@@ -2498,31 +2498,31 @@
                                                                                     "value_": "Carpeta 5"
                                                                                 },
                                                                                 "android:layout_marginHorizontal": {
-                                                                                    "_id_": 30513,
+                                                                                    "_id_": 32754,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30514,
+                                                                                        "_id_": 32755,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30515,
+                                                                                        "_id_": 32756,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 10
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
-                                                                                    "_id_": 30516,
+                                                                                    "_id_": 32751,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30517,
+                                                                                        "_id_": 32752,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30518,
+                                                                                        "_id_": 32753,
                                                                                         "_type": "Float",
-                                                                                        "value_": 10
+                                                                                        "value_": 20
                                                                                     }
                                                                                 }
                                                                             },
@@ -2725,31 +2725,31 @@
                                                                                     "value_": "Carpeta 6"
                                                                                 },
                                                                                 "android:layout_marginHorizontal": {
-                                                                                    "_id_": 30559,
+                                                                                    "_id_": 32757,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30560,
+                                                                                        "_id_": 32758,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30561,
+                                                                                        "_id_": 32759,
                                                                                         "_type": "Float",
-                                                                                        "value_": 50
+                                                                                        "value_": 10
                                                                                     }
                                                                                 },
                                                                                 "android:layout_marginVertical": {
-                                                                                    "_id_": 30562,
+                                                                                    "_id_": 32760,
                                                                                     "_type": "Dimension",
                                                                                     "unit": {
-                                                                                        "_id_": 30563,
+                                                                                        "_id_": 32761,
                                                                                         "_type": "DimensionUnit",
                                                                                         "value_": "dp"
                                                                                     },
                                                                                     "value": {
-                                                                                        "_id_": 30564,
+                                                                                        "_id_": 32762,
                                                                                         "_type": "Float",
-                                                                                        "value_": 10
+                                                                                        "value_": 20
                                                                                     }
                                                                                 }
                                                                             }
