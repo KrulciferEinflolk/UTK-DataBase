@@ -930,16 +930,16 @@
                                                 "_type": "String",
                                                 "value_": "Lugar donde podras encontrar una forma mas facil de almacenar tus carpetas de google drive y compartirlas con tus amigos! "
                                             },
-                                            "app:layout_constraintWidth_max": {
-                                                "_id_": 35585,
+                                            "android:maxWidth": {
+                                                "_id_": 35588,
                                                 "_type": "Dimension",
                                                 "unit": {
-                                                    "_id_": 35586,
+                                                    "_id_": 35590,
                                                     "_type": "DimensionUnit",
                                                     "value_": "dp"
                                                 },
                                                 "value": {
-                                                    "_id_": 35587,
+                                                    "_id_": 35591,
                                                     "_type": "Float",
                                                     "value_": 340
                                                 }
