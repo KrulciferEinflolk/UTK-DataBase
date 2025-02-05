@@ -1828,7 +1828,7 @@
                                                                         "value": {
                                                                             "_id_": 32768,
                                                                             "_type": "Float",
-                                                                            "value_": 50
+                                                                            "value_": 40
                                                                         }
                                                                     }
                                                                 },
@@ -2301,17 +2301,17 @@
                                                                         ]
                                                                     },
                                                                     "android:layout_marginHorizontal": {
-                                                                        "_id_": 32769,
+                                                                        "_id_": 32775,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 32770,
+                                                                            "_id_": 32776,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 32771,
+                                                                            "_id_": 32777,
                                                                             "_type": "Float",
-                                                                            "value_": 50
+                                                                            "value_": 40
                                                                         }
                                                                     }
                                                                 },
@@ -2784,17 +2784,17 @@
                                                                         ]
                                                                     },
                                                                     "android:layout_marginHorizontal": {
-                                                                        "_id_": 32772,
+                                                                        "_id_": 32778,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 32773,
+                                                                            "_id_": 32779,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 32774,
+                                                                            "_id_": 32780,
                                                                             "_type": "Float",
-                                                                            "value_": 50
+                                                                            "value_": 40
                                                                         }
                                                                     }
                                                                 }
