@@ -744,6 +744,20 @@
                                                 "_type": "String",
                                                 "value_": "for"
                                             },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 33896,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33897,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33898,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 33888,
                                                 "_type": "Boolean",
@@ -762,6 +776,20 @@
                                                 "_id_": 33867,
                                                 "_type": "String",
                                                 "value_": "UTK Project"
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 33899,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33900,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33901,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
                                             },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 33889,
