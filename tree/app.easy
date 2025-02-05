@@ -711,6 +711,20 @@
                                                 "_type": "String",
                                                 "value_": "Data Base"
                                             },
+                                            "android:textSize": {
+                                                "_id_": 33902,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33904,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33903,
+                                                    "_type": "Float",
+                                                    "value_": 20
+                                                }
+                                            },
                                             "android:layout_marginVertical": {
                                                 "_id_": 33892,
                                                 "_type": "Dimension",
@@ -744,6 +758,20 @@
                                                 "_type": "String",
                                                 "value_": "for"
                                             },
+                                            "android:textSize": {
+                                                "_id_": 33905,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33906,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33907,
+                                                    "_type": "Float",
+                                                    "value_": 15
+                                                }
+                                            },
                                             "android:layout_marginVertical": {
                                                 "_id_": 33896,
                                                 "_type": "Dimension",
@@ -755,7 +783,7 @@
                                                 "value": {
                                                     "_id_": 33898,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 20
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
@@ -777,6 +805,20 @@
                                                 "_type": "String",
                                                 "value_": "UTK Project"
                                             },
+                                            "android:textSize": {
+                                                "_id_": 33908,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33909,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33910,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
                                             "android:layout_marginVertical": {
                                                 "_id_": 33899,
                                                 "_type": "Dimension",
@@ -788,7 +830,7 @@
                                                 "value": {
                                                     "_id_": 33901,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 30
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
