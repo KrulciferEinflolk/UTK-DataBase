@@ -1817,10 +1817,19 @@
                                                                             }
                                                                         ]
                                                                     },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 32765,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
+                                                                    "android:layout_marginHorizontal": {
+                                                                        "_id_": 32766,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 32767,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 32768,
+                                                                            "_type": "Float",
+                                                                            "value_": 50
+                                                                        }
                                                                     }
                                                                 },
                                                                 {
@@ -2291,10 +2300,19 @@
                                                                             }
                                                                         ]
                                                                     },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 32764,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
+                                                                    "android:layout_marginHorizontal": {
+                                                                        "_id_": 32769,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 32770,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 32771,
+                                                                            "_type": "Float",
+                                                                            "value_": 50
+                                                                        }
                                                                     }
                                                                 },
                                                                 {
@@ -2765,10 +2783,19 @@
                                                                             }
                                                                         ]
                                                                     },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 32763,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
+                                                                    "android:layout_marginHorizontal": {
+                                                                        "_id_": 32772,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 32773,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 32774,
+                                                                            "_type": "Float",
+                                                                            "value_": 50
+                                                                        }
                                                                     }
                                                                 }
                                                             ]
