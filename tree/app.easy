@@ -687,45 +687,107 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 33833,
-                                "_type": "TextView",
+                                "_id_": 33848,
+                                "_type": "RelativeLayout",
                                 "id": {
-                                    "_id_": 33836,
+                                    "_id_": 33852,
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "android:text": {
-                                    "_id_": 33834,
-                                    "_type": "String",
-                                    "value_": "Data Base"
-                                }
-                            },
-                            {
-                                "_id_": 33838,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 33841,
-                                    "_type": "String",
-                                    "value_": ""
+                                "views": {
+                                    "_id_": 33850,
+                                    "_type": "ViewList",
+                                    "list_": [
+                                        {
+                                            "_id_": 33853,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 33854,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 33855,
+                                                "_type": "String",
+                                                "value_": "Data Base"
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 33873,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33874,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33875,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 33859,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 33860,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 33861,
+                                                "_type": "String",
+                                                "value_": "for"
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 33876,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33877,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33878,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 33865,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 33866,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 33867,
+                                                "_type": "String",
+                                                "value_": "UTK Project"
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 33879,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 33880,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 33881,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            }
+                                        }
+                                    ]
                                 },
-                                "android:text": {
-                                    "_id_": 33839,
-                                    "_type": "String",
-                                    "value_": "for"
-                                }
-                            },
-                            {
-                                "_id_": 33843,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 33846,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 33844,
-                                    "_type": "String",
-                                    "value_": "UTK Project"
+                                "android:layout_centerHorizontal": {
+                                    "_id_": 33871,
+                                    "_type": "Boolean",
+                                    "value_": true
                                 }
                             },
                             {
