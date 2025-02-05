@@ -593,7 +593,7 @@
                                     "value": {
                                         "_id_": 37961,
                                         "_type": "Float",
-                                        "value_": 300
+                                        "value_": 200
                                     }
                                 },
                                 "android:layout_height": {
