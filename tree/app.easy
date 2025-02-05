@@ -985,10 +985,57 @@
                                             "android:textAlignment": {
                                                 "_id_": 35608,
                                                 "_type": "View.TextAlignment",
-                                                "value_": "viewStart"
+                                                "value_": "center"
                                             },
                                             "android:textColor": {
                                                 "_id_": 35600,
+                                                "_type": "Color",
+                                                "color_": -1
+                                            }
+                                        },
+                                        {
+                                            "_id_": 35635,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 35636,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 35637,
+                                                "_type": "String",
+                                                "value_": "¿Tienes dudas sobre como acceder a las carpetas de tus amigos? "
+                                            },
+                                            "android:textSize": {
+                                                "_id_": 35638,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 35639,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "sp"
+                                                },
+                                                "value": {
+                                                    "_id_": 35640,
+                                                    "_type": "Float",
+                                                    "value_": 18
+                                                }
+                                            },
+                                            "android:layout_marginVertical": {
+                                                "_id_": 35641,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 35642,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 35643,
+                                                    "_type": "Float",
+                                                    "value_": 10
+                                                }
+                                            },
+                                            "android:textColor": {
+                                                "_id_": 35644,
                                                 "_type": "Color",
                                                 "color_": -1
                                             }
