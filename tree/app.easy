@@ -1020,6 +1020,20 @@
                                                     "value_": 18
                                                 }
                                             },
+                                            "android:maxWidth": {
+                                                "_id_": 35657,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 35658,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 35659,
+                                                    "_type": "Float",
+                                                    "value_": 300
+                                                }
+                                            },
                                             "android:layout_marginVertical": {
                                                 "_id_": 35641,
                                                 "_type": "Dimension",
@@ -1033,6 +1047,16 @@
                                                     "_type": "Float",
                                                     "value_": 10
                                                 }
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 35655,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            },
+                                            "android:textAlignment": {
+                                                "_id_": 35656,
+                                                "_type": "View.TextAlignment",
+                                                "value_": "center"
                                             },
                                             "android:textColor": {
                                                 "_id_": 35644,
