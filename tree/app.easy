@@ -722,7 +722,7 @@
                                                 "value": {
                                                     "_id_": 33903,
                                                     "_type": "Float",
-                                                    "value_": 20
+                                                    "value_": 40
                                                 }
                                             },
                                             "android:layout_marginVertical": {
@@ -743,6 +743,11 @@
                                                 "_id_": 33887,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 33911,
+                                                "_type": "String",
+                                                "value_": "cursive"
                                             }
                                         },
                                         {
@@ -769,7 +774,7 @@
                                                 "value": {
                                                     "_id_": 33907,
                                                     "_type": "Float",
-                                                    "value_": 15
+                                                    "value_": 30
                                                 }
                                             },
                                             "android:layout_marginVertical": {
@@ -783,13 +788,18 @@
                                                 "value": {
                                                     "_id_": 33898,
                                                     "_type": "Float",
-                                                    "value_": 20
+                                                    "value_": 50
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 33888,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 33912,
+                                                "_type": "String",
+                                                "value_": "cursive"
                                             }
                                         },
                                         {
@@ -816,7 +826,7 @@
                                                 "value": {
                                                     "_id_": 33910,
                                                     "_type": "Float",
-                                                    "value_": 10
+                                                    "value_": 35
                                                 }
                                             },
                                             "android:layout_marginVertical": {
@@ -830,13 +840,18 @@
                                                 "value": {
                                                     "_id_": 33901,
                                                     "_type": "Float",
-                                                    "value_": 30
+                                                    "value_": 80
                                                 }
                                             },
                                             "android:layout_centerHorizontal": {
                                                 "_id_": 33889,
                                                 "_type": "Boolean",
                                                 "value_": true
+                                            },
+                                            "android:fontFamily": {
+                                                "_id_": 33913,
+                                                "_type": "String",
+                                                "value_": "cursive"
                                             }
                                         }
                                     ]
