@@ -4882,6 +4882,111 @@
                     "_type": "Boolean",
                     "value_": true
                 }
+            },
+            {
+                "_id_": 36735,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 36737,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "contentView": {
+                    "_id_": 36739,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 36743,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 36741,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 36746,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 36749,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 36751,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                },
+                                "android:textSize": {
+                                    "_id_": 36753,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 36755,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 36754,
+                                        "_type": "Float",
+                                        "value_": 50
+                                    }
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 36750,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                },
+                                "android:textColor": {
+                                    "_id_": 36752,
+                                    "_type": "Color",
+                                    "color_": -65536
+                                }
+                            },
+                            {
+                                "_id_": 36757,
+                                "_type": "ImageView",
+                                "id": {
+                                    "_id_": 36764,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:layout_width": {
+                                    "_id_": 36759,
+                                    "_type": "View.SpecialDimension",
+                                    "value_": "wrap_content"
+                                },
+                                "android:layout_height": {
+                                    "_id_": 36758,
+                                    "_type": "View.SpecialDimension",
+                                    "value_": "wrap_content"
+                                },
+                                "android:scaleType": {
+                                    "_id_": 36762,
+                                    "_type": "ImageView.ScaleType",
+                                    "value_": "fitXY"
+                                },
+                                "android:src": {
+                                    "_id_": 36760,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 36761,
+                                        "_type": "String",
+                                        "value_": "@drawable\/"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "android:background": {
+                        "_id_": 36770,
+                        "_type": "Color",
+                        "color_": -1
+                    }
+                },
+                "name": {
+                    "_id_": 36744,
+                    "_type": "String",
+                    "value_": "fotos"
+                }
             }
         ]
     },
