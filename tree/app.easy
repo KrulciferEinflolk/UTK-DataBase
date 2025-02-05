@@ -808,7 +808,7 @@
                                                                         "value": {
                                                                             "_id_": 39193,
                                                                             "_type": "Float",
-                                                                            "value_": 90
+                                                                            "value_": 80
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -899,7 +899,7 @@
                                                                     "android:text": {
                                                                         "_id_": 39581,
                                                                         "_type": "String",
-                                                                        "value_": "Paso 3:"
+                                                                        "value_": "Paso 4:"
                                                                     },
                                                                     "android:textSize": {
                                                                         "_id_": 39582,
@@ -954,17 +954,17 @@
                                                                         }
                                                                     },
                                                                     "android:layout_height": {
-                                                                        "_id_": 39593,
+                                                                        "_id_": 39642,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 39594,
+                                                                            "_id_": 39643,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 39595,
+                                                                            "_id_": 39644,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 80
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -1055,7 +1055,7 @@
                                                                     "android:text": {
                                                                         "_id_": 39515,
                                                                         "_type": "String",
-                                                                        "value_": "Paso 2:"
+                                                                        "value_": "Paso 4:"
                                                                     },
                                                                     "android:textSize": {
                                                                         "_id_": 39516,
@@ -1110,17 +1110,17 @@
                                                                         }
                                                                     },
                                                                     "android:layout_height": {
-                                                                        "_id_": 39527,
+                                                                        "_id_": 39645,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 39528,
+                                                                            "_id_": 39646,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 39529,
+                                                                            "_id_": 39647,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 80
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -1148,7 +1148,7 @@
                                                                         "ref": {
                                                                             "_id_": 39535,
                                                                             "_type": "String",
-                                                                            "value_": "@drawable\/paso2"
+                                                                            "value_": "@drawable\/paso4"
                                                                         }
                                                                     },
                                                                     "android:layout_centerHorizontal": {
@@ -1211,7 +1211,7 @@
                                                                     "android:text": {
                                                                         "_id_": 39449,
                                                                         "_type": "String",
-                                                                        "value_": "Paso 2:"
+                                                                        "value_": "Paso 5:"
                                                                     },
                                                                     "android:textSize": {
                                                                         "_id_": 39450,
@@ -1266,17 +1266,17 @@
                                                                         }
                                                                     },
                                                                     "android:layout_height": {
-                                                                        "_id_": 39461,
+                                                                        "_id_": 39648,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 39462,
+                                                                            "_id_": 39649,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 39463,
+                                                                            "_id_": 39650,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 80
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -1304,7 +1304,7 @@
                                                                         "ref": {
                                                                             "_id_": 39469,
                                                                             "_type": "String",
-                                                                            "value_": "@drawable\/paso2"
+                                                                            "value_": "@drawable\/paso5"
                                                                         }
                                                                     },
                                                                     "android:layout_centerHorizontal": {
@@ -1367,7 +1367,7 @@
                                                                     "android:text": {
                                                                         "_id_": 39383,
                                                                         "_type": "String",
-                                                                        "value_": "Paso 2:"
+                                                                        "value_": "Paso 6:"
                                                                     },
                                                                     "android:textSize": {
                                                                         "_id_": 39384,
@@ -1422,17 +1422,17 @@
                                                                         }
                                                                     },
                                                                     "android:layout_height": {
-                                                                        "_id_": 39395,
+                                                                        "_id_": 39651,
                                                                         "_type": "Dimension",
                                                                         "unit": {
-                                                                            "_id_": 39396,
+                                                                            "_id_": 39652,
                                                                             "_type": "DimensionUnit",
                                                                             "value_": "dp"
                                                                         },
                                                                         "value": {
-                                                                            "_id_": 39397,
+                                                                            "_id_": 39653,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 110
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -1460,7 +1460,7 @@
                                                                         "ref": {
                                                                             "_id_": 39403,
                                                                             "_type": "String",
-                                                                            "value_": "@drawable\/paso2"
+                                                                            "value_": "@drawable\/paso6"
                                                                         }
                                                                     },
                                                                     "android:layout_centerHorizontal": {
@@ -1523,7 +1523,7 @@
                                                                     "android:text": {
                                                                         "_id_": 39317,
                                                                         "_type": "String",
-                                                                        "value_": "Paso 2:"
+                                                                        "value_": "Paso 7:"
                                                                     },
                                                                     "android:textSize": {
                                                                         "_id_": 39318,
@@ -1588,7 +1588,7 @@
                                                                         "value": {
                                                                             "_id_": 39331,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 110
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -1616,7 +1616,7 @@
                                                                         "ref": {
                                                                             "_id_": 39337,
                                                                             "_type": "String",
-                                                                            "value_": "@drawable\/paso2"
+                                                                            "value_": "@drawable\/paso7"
                                                                         }
                                                                     },
                                                                     "android:layout_centerHorizontal": {
@@ -1679,7 +1679,7 @@
                                                                     "android:text": {
                                                                         "_id_": 39251,
                                                                         "_type": "String",
-                                                                        "value_": "Paso 2:"
+                                                                        "value_": "Paso 8:"
                                                                     },
                                                                     "android:textSize": {
                                                                         "_id_": 39252,
@@ -1730,7 +1730,7 @@
                                                                         "value": {
                                                                             "_id_": 39262,
                                                                             "_type": "Float",
-                                                                            "value_": 200
+                                                                            "value_": 250
                                                                         }
                                                                     },
                                                                     "android:layout_height": {
@@ -1744,7 +1744,7 @@
                                                                         "value": {
                                                                             "_id_": 39265,
                                                                             "_type": "Float",
-                                                                            "value_": 100
+                                                                            "value_": 60
                                                                         }
                                                                     },
                                                                     "android:scaleType": {
@@ -1772,7 +1772,7 @@
                                                                         "ref": {
                                                                             "_id_": 39271,
                                                                             "_type": "String",
-                                                                            "value_": "@drawable\/paso2"
+                                                                            "value_": "@drawable\/paso8"
                                                                         }
                                                                     },
                                                                     "android:layout_centerHorizontal": {
