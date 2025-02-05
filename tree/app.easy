@@ -955,6 +955,11 @@
                             "_type": "String",
                             "value_": "@drawable\/background"
                         }
+                    },
+                    "android:layout_centerHorizontal": {
+                        "_id_": 33882,
+                        "_type": "Boolean",
+                        "value_": true
                     }
                 },
                 "name": {
