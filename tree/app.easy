@@ -883,7 +883,36 @@
                                 "views": {
                                     "_id_": 35160,
                                     "_type": "ViewList",
-                                    "list_": []
+                                    "list_": [
+                                        {
+                                            "_id_": 35569,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 35572,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 35570,
+                                                "_type": "String",
+                                                "value_": "Base de datos para el proyecto UTK. "
+                                            }
+                                        },
+                                        {
+                                            "_id_": 35574,
+                                            "_type": "TextView",
+                                            "id": {
+                                                "_id_": 35577,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 35575,
+                                                "_type": "String",
+                                                "value_": "Lugar donde podras encontrar una forma mas facil de almacenar tus carpetas de google drive y compartirlas con tus amigos! "
+                                            }
+                                        }
+                                    ]
                                 },
                                 "android:background": {
                                     "_id_": 35339,
