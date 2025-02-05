@@ -4877,7 +4877,7 @@
                                                             "value": {
                                                                 "_id_": 40432,
                                                                 "_type": "Float",
-                                                                "value_": 1780
+                                                                "value_": 1380
                                                             }
                                                         },
                                                         "android:layout_marginHorizontal": {
@@ -4947,7 +4947,7 @@
                                                         "value": {
                                                             "_id_": 40447,
                                                             "_type": "Float",
-                                                            "value_": 50
+                                                            "value_": 70
                                                         }
                                                     }
                                                 },
@@ -4968,7 +4968,7 @@
                                                 "value": {
                                                     "_id_": 40451,
                                                     "_type": "Float",
-                                                    "value_": 1800
+                                                    "value_": 1400
                                                 }
                                             },
                                             "app:layout_constraintCircleRadius": {
