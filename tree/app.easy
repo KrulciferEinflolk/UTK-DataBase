@@ -9448,9 +9448,18 @@
                                                 }
                                             },
                                             "android:layout_height": {
-                                                "_id_": 57601,
-                                                "_type": "View.SpecialDimension",
-                                                "value_": "wrap_content"
+                                                "_id_": 58017,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 58018,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 58019,
+                                                    "_type": "Float",
+                                                    "value_": 1000
+                                                }
                                             },
                                             "android:padding": {
                                                 "_id_": 56954,
