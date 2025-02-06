@@ -9482,53 +9482,53 @@
                 "_id_": 46272,
                 "_type": "Fragment",
                 "layout": {
-                    "_id_": 46273,
+                    "_id_": 48001,
                     "_type": "FrameLayout",
                     "id": {
-                        "_id_": 46274,
+                        "_id_": 48002,
                         "_type": "String",
                         "value_": ""
                     },
                     "views": {
-                        "_id_": 46275,
+                        "_id_": 48003,
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 46786,
+                                "_id_": 48004,
                                 "_type": "TableLayout",
                                 "id": {
-                                    "_id_": 46787,
+                                    "_id_": 48005,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "views": {
-                                    "_id_": 46788,
+                                    "_id_": 48006,
                                     "_type": "ViewList",
                                     "list_": [
                                         {
-                                            "_id_": 47398,
+                                            "_id_": 48007,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47399,
+                                                "_id_": 48008,
                                                 "_type": "String",
                                                 "value_": "carpeta1"
                                             },
                                             "views": {
-                                                "_id_": 47400,
+                                                "_id_": 48009,
                                                 "_type": "ViewList",
                                                 "list_": [
                                                     {
-                                                        "_id_": 47687,
+                                                        "_id_": 48010,
                                                         "_type": "Button",
                                                         "onClick": {
-                                                            "_id_": 47695,
+                                                            "_id_": 48011,
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 47706,
+                                                                    "_id_": 48012,
                                                                     "_type": "ShowToast",
                                                                     "message": {
-                                                                        "_id_": 47707,
+                                                                        "_id_": 48013,
                                                                         "_type": "String",
                                                                         "value_": "Nombre cambiado con exito! "
                                                                     }
@@ -9536,49 +9536,49 @@
                                                             ]
                                                         },
                                                         "id": {
-                                                            "_id_": 47692,
+                                                            "_id_": 48014,
                                                             "_type": "String",
                                                             "value_": ""
                                                         },
                                                         "android:layout_width": {
-                                                            "_id_": 47694,
+                                                            "_id_": 48015,
                                                             "_type": "View.SpecialDimension",
                                                             "value_": "match_parent"
                                                         },
                                                         "android:text": {
-                                                            "_id_": 47688,
+                                                            "_id_": 48016,
                                                             "_type": "String",
                                                             "value_": ""
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 47411,
+                                                        "_id_": 48017,
                                                         "_type": "EditText",
                                                         "id": {
-                                                            "_id_": 47414,
+                                                            "_id_": 48018,
                                                             "_type": "String",
                                                             "value_": "rename1"
                                                         },
                                                         "onTextChange": {
-                                                            "_id_": 47768,
+                                                            "_id_": 48019,
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 47769,
+                                                                    "_id_": 48020,
                                                                     "_type": "Variable.Set",
                                                                     "name": {
-                                                                        "_id_": 47770,
+                                                                        "_id_": 48021,
                                                                         "_type": "String",
                                                                         "value_": "name1"
                                                                     },
                                                                     "value": {
-                                                                        "_id_": 47771,
+                                                                        "_id_": 48022,
                                                                         "_type": "TextView.GetText",
                                                                         "view": {
-                                                                            "_id_": 47772,
+                                                                            "_id_": 48023,
                                                                             "_type": "View.Reference",
                                                                             "ref": {
-                                                                                "_id_": 47773,
+                                                                                "_id_": 48024,
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/rename1"
                                                                             }
@@ -9588,139 +9588,139 @@
                                                             ]
                                                         },
                                                         "android:maxLength": {
-                                                            "_id_": 47523,
+                                                            "_id_": 48025,
                                                             "_type": "Integer",
                                                             "value_": 33
                                                         },
                                                         "android:text": {
-                                                            "_id_": 47412,
+                                                            "_id_": 48026,
                                                             "_type": "String",
                                                             "value_": ""
                                                         },
                                                         "android:hint": {
-                                                            "_id_": 47423,
+                                                            "_id_": 48027,
                                                             "_type": "String",
                                                             "value_": "ingresa el nombre de: Folder 1"
                                                         },
                                                         "android:paddingHorizontal": {
-                                                            "_id_": 47516,
+                                                            "_id_": 48028,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47517,
+                                                                "_id_": 48029,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47518,
+                                                                "_id_": 48030,
                                                                 "_type": "Float",
                                                                 "value_": 10
                                                             }
                                                         },
                                                         "android:layout_marginVertical": {
-                                                            "_id_": 47519,
+                                                            "_id_": 48031,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47520,
+                                                                "_id_": 48032,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47521,
+                                                                "_id_": 48033,
                                                                 "_type": "Float",
                                                                 "value_": 50
                                                             }
                                                         },
                                                         "android:textColor": {
-                                                            "_id_": 47522,
+                                                            "_id_": 48034,
                                                             "_type": "Color",
                                                             "color_": -16777216
                                                         },
                                                         "android:background": {
-                                                            "_id_": 47524,
+                                                            "_id_": 48035,
                                                             "_type": "ShapeDrawable.Rectangle",
                                                             "corners": {
-                                                                "_id_": 47525,
+                                                                "_id_": 48036,
                                                                 "_type": "ShapeDrawable.Corners",
                                                                 "radius": {
-                                                                    "_id_": 47526,
+                                                                    "_id_": 48037,
                                                                     "_type": "Dimension",
                                                                     "unit": {
-                                                                        "_id_": 47527,
+                                                                        "_id_": 48038,
                                                                         "_type": "DimensionUnit",
                                                                         "value_": "dp"
                                                                     },
                                                                     "value": {
-                                                                        "_id_": 47528,
+                                                                        "_id_": 48039,
                                                                         "_type": "Float",
                                                                         "value_": 50
                                                                     }
                                                                 }
                                                             },
                                                             "color": {
-                                                                "_id_": 47529,
+                                                                "_id_": 48040,
                                                                 "_type": "Color",
                                                                 "color_": -1
                                                             }
                                                         },
                                                         "android:layout_width": {
-                                                            "_id_": 47530,
+                                                            "_id_": 48041,
                                                             "_type": "View.SpecialDimension",
                                                             "value_": "wrap_content"
                                                         },
                                                         "android:textColorHint": {
-                                                            "_id_": 47531,
+                                                            "_id_": 48042,
                                                             "_type": "Color",
                                                             "color_": -10724260
                                                         },
                                                         "android:minWidth": {
-                                                            "_id_": 47532,
+                                                            "_id_": 48043,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47533,
+                                                                "_id_": 48044,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47534,
+                                                                "_id_": 48045,
                                                                 "_type": "Float",
                                                                 "value_": 295
                                                             }
                                                         },
                                                         "android:layout_marginHorizontal": {
-                                                            "_id_": 47535,
+                                                            "_id_": 48046,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47536,
+                                                                "_id_": 48047,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47537,
+                                                                "_id_": 48048,
                                                                 "_type": "Float",
                                                                 "value_": 15
                                                             }
                                                         },
                                                         "android:paddingVertical": {
-                                                            "_id_": 47538,
+                                                            "_id_": 48049,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47539,
+                                                                "_id_": 48050,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47540,
+                                                                "_id_": 48051,
                                                                 "_type": "Float",
                                                                 "value_": 8
                                                             }
                                                         },
                                                         "android:includeFontPadding": {
-                                                            "_id_": 47541,
+                                                            "_id_": 48052,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "android:textAlignment": {
-                                                            "_id_": 47542,
+                                                            "_id_": 48053,
                                                             "_type": "View.TextAlignment",
                                                             "value_": "center"
                                                         }
@@ -9729,29 +9729,29 @@
                                             }
                                         },
                                         {
-                                            "_id_": 47392,
+                                            "_id_": 48054,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47393,
+                                                "_id_": 48055,
                                                 "_type": "String",
                                                 "value_": "carpeta2"
                                             },
                                             "views": {
-                                                "_id_": 47575,
+                                                "_id_": 48056,
                                                 "_type": "ViewList",
                                                 "list_": [
                                                     {
-                                                        "_id_": 47708,
+                                                        "_id_": 48057,
                                                         "_type": "Button",
                                                         "onClick": {
-                                                            "_id_": 47709,
+                                                            "_id_": 48058,
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 47720,
+                                                                    "_id_": 48059,
                                                                     "_type": "ShowToast",
                                                                     "message": {
-                                                                        "_id_": 47721,
+                                                                        "_id_": 48060,
                                                                         "_type": "String",
                                                                         "value_": "Nombre cambiado con exito! "
                                                                     }
@@ -9759,49 +9759,49 @@
                                                             ]
                                                         },
                                                         "id": {
-                                                            "_id_": 47722,
+                                                            "_id_": 48061,
                                                             "_type": "String",
                                                             "value_": ""
                                                         },
                                                         "android:layout_width": {
-                                                            "_id_": 47723,
+                                                            "_id_": 48062,
                                                             "_type": "View.SpecialDimension",
                                                             "value_": "match_parent"
                                                         },
                                                         "android:text": {
-                                                            "_id_": 47724,
+                                                            "_id_": 48063,
                                                             "_type": "String",
                                                             "value_": ""
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 47593,
+                                                        "_id_": 48064,
                                                         "_type": "EditText",
                                                         "id": {
-                                                            "_id_": 47594,
+                                                            "_id_": 48065,
                                                             "_type": "String",
                                                             "value_": "rename2"
                                                         },
                                                         "onTextChange": {
-                                                            "_id_": 47797,
+                                                            "_id_": 48066,
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 47798,
+                                                                    "_id_": 48067,
                                                                     "_type": "Variable.Set",
                                                                     "name": {
-                                                                        "_id_": 47799,
+                                                                        "_id_": 48068,
                                                                         "_type": "String",
                                                                         "value_": "name2"
                                                                     },
                                                                     "value": {
-                                                                        "_id_": 47800,
+                                                                        "_id_": 48069,
                                                                         "_type": "TextView.GetText",
                                                                         "view": {
-                                                                            "_id_": 47801,
+                                                                            "_id_": 48070,
                                                                             "_type": "View.Reference",
                                                                             "ref": {
-                                                                                "_id_": 47802,
+                                                                                "_id_": 48071,
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/rename2"
                                                                             }
@@ -9811,139 +9811,139 @@
                                                             ]
                                                         },
                                                         "android:maxLength": {
-                                                            "_id_": 47595,
+                                                            "_id_": 48072,
                                                             "_type": "Integer",
                                                             "value_": 33
                                                         },
                                                         "android:text": {
-                                                            "_id_": 47596,
+                                                            "_id_": 48073,
                                                             "_type": "String",
                                                             "value_": ""
                                                         },
                                                         "android:hint": {
-                                                            "_id_": 47597,
+                                                            "_id_": 48074,
                                                             "_type": "String",
                                                             "value_": "ingresa el nombre de: Folder 1"
                                                         },
                                                         "android:paddingHorizontal": {
-                                                            "_id_": 47598,
+                                                            "_id_": 48075,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47599,
+                                                                "_id_": 48076,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47600,
+                                                                "_id_": 48077,
                                                                 "_type": "Float",
                                                                 "value_": 10
                                                             }
                                                         },
                                                         "android:layout_marginVertical": {
-                                                            "_id_": 47601,
+                                                            "_id_": 48078,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47602,
+                                                                "_id_": 48079,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47603,
+                                                                "_id_": 48080,
                                                                 "_type": "Float",
                                                                 "value_": 50
                                                             }
                                                         },
                                                         "android:textColor": {
-                                                            "_id_": 47604,
+                                                            "_id_": 48081,
                                                             "_type": "Color",
                                                             "color_": -16777216
                                                         },
                                                         "android:background": {
-                                                            "_id_": 47605,
+                                                            "_id_": 48082,
                                                             "_type": "ShapeDrawable.Rectangle",
                                                             "corners": {
-                                                                "_id_": 47606,
+                                                                "_id_": 48083,
                                                                 "_type": "ShapeDrawable.Corners",
                                                                 "radius": {
-                                                                    "_id_": 47607,
+                                                                    "_id_": 48084,
                                                                     "_type": "Dimension",
                                                                     "unit": {
-                                                                        "_id_": 47608,
+                                                                        "_id_": 48085,
                                                                         "_type": "DimensionUnit",
                                                                         "value_": "dp"
                                                                     },
                                                                     "value": {
-                                                                        "_id_": 47609,
+                                                                        "_id_": 48086,
                                                                         "_type": "Float",
                                                                         "value_": 50
                                                                     }
                                                                 }
                                                             },
                                                             "color": {
-                                                                "_id_": 47610,
+                                                                "_id_": 48087,
                                                                 "_type": "Color",
                                                                 "color_": -1
                                                             }
                                                         },
                                                         "android:layout_width": {
-                                                            "_id_": 47611,
+                                                            "_id_": 48088,
                                                             "_type": "View.SpecialDimension",
                                                             "value_": "wrap_content"
                                                         },
                                                         "android:textColorHint": {
-                                                            "_id_": 47612,
+                                                            "_id_": 48089,
                                                             "_type": "Color",
                                                             "color_": -10724260
                                                         },
                                                         "android:minWidth": {
-                                                            "_id_": 47613,
+                                                            "_id_": 48090,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47614,
+                                                                "_id_": 48091,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47615,
+                                                                "_id_": 48092,
                                                                 "_type": "Float",
                                                                 "value_": 295
                                                             }
                                                         },
                                                         "android:layout_marginHorizontal": {
-                                                            "_id_": 47616,
+                                                            "_id_": 48093,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47617,
+                                                                "_id_": 48094,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47618,
+                                                                "_id_": 48095,
                                                                 "_type": "Float",
                                                                 "value_": 15
                                                             }
                                                         },
                                                         "android:paddingVertical": {
-                                                            "_id_": 47619,
+                                                            "_id_": 48096,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 47620,
+                                                                "_id_": 48097,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 47621,
+                                                                "_id_": 48098,
                                                                 "_type": "Float",
                                                                 "value_": 8
                                                             }
                                                         },
                                                         "android:includeFontPadding": {
-                                                            "_id_": 47622,
+                                                            "_id_": 48099,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "android:textAlignment": {
-                                                            "_id_": 47623,
+                                                            "_id_": 48100,
                                                             "_type": "View.TextAlignment",
                                                             "value_": "center"
                                                         }
@@ -9952,197 +9952,197 @@
                                             }
                                         },
                                         {
-                                            "_id_": 47386,
+                                            "_id_": 48101,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47387,
+                                                "_id_": 48102,
                                                 "_type": "String",
                                                 "value_": "carpeta3"
                                             },
                                             "views": {
-                                                "_id_": 47388,
+                                                "_id_": 48103,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47380,
+                                            "_id_": 48104,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47381,
+                                                "_id_": 48105,
                                                 "_type": "String",
                                                 "value_": "carpeta4"
                                             },
                                             "views": {
-                                                "_id_": 47382,
+                                                "_id_": 48106,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47374,
+                                            "_id_": 48107,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47375,
+                                                "_id_": 48108,
                                                 "_type": "String",
                                                 "value_": "carpeta5"
                                             },
                                             "views": {
-                                                "_id_": 47376,
+                                                "_id_": 48109,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47368,
+                                            "_id_": 48110,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47369,
+                                                "_id_": 48111,
                                                 "_type": "String",
                                                 "value_": "carpeta6"
                                             },
                                             "views": {
-                                                "_id_": 47370,
+                                                "_id_": 48112,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47362,
+                                            "_id_": 48113,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47363,
+                                                "_id_": 48114,
                                                 "_type": "String",
                                                 "value_": "carpeta7"
                                             },
                                             "views": {
-                                                "_id_": 47364,
+                                                "_id_": 48115,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47356,
+                                            "_id_": 48116,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47357,
+                                                "_id_": 48117,
                                                 "_type": "String",
                                                 "value_": "carpeta8"
                                             },
                                             "views": {
-                                                "_id_": 47358,
+                                                "_id_": 48118,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47350,
+                                            "_id_": 48119,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47351,
+                                                "_id_": 48120,
                                                 "_type": "String",
                                                 "value_": "carpeta9"
                                             },
                                             "views": {
-                                                "_id_": 47352,
+                                                "_id_": 48121,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47344,
+                                            "_id_": 48122,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47345,
+                                                "_id_": 48123,
                                                 "_type": "String",
                                                 "value_": "carpeta10"
                                             },
                                             "views": {
-                                                "_id_": 47346,
+                                                "_id_": 48124,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47338,
+                                            "_id_": 48125,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47339,
+                                                "_id_": 48126,
                                                 "_type": "String",
                                                 "value_": "carpeta11"
                                             },
                                             "views": {
-                                                "_id_": 47340,
+                                                "_id_": 48127,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47332,
+                                            "_id_": 48128,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47333,
+                                                "_id_": 48129,
                                                 "_type": "String",
                                                 "value_": "carpeta12"
                                             },
                                             "views": {
-                                                "_id_": 47334,
+                                                "_id_": 48130,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47326,
+                                            "_id_": 48131,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47327,
+                                                "_id_": 48132,
                                                 "_type": "String",
                                                 "value_": "carpeta13"
                                             },
                                             "views": {
-                                                "_id_": 47328,
+                                                "_id_": 48133,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47320,
+                                            "_id_": 48134,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47321,
+                                                "_id_": 48135,
                                                 "_type": "String",
                                                 "value_": "carpeta14"
                                             },
                                             "views": {
-                                                "_id_": 47322,
+                                                "_id_": 48136,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 47404,
+                                            "_id_": 48137,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 47405,
+                                                "_id_": 48138,
                                                 "_type": "String",
                                                 "value_": "carpeta15"
                                             },
                                             "views": {
-                                                "_id_": 47406,
+                                                "_id_": 48139,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
                                         },
                                         {
-                                            "_id_": 46789,
+                                            "_id_": 48140,
                                             "_type": "TableRow",
                                             "id": {
-                                                "_id_": 46790,
+                                                "_id_": 48141,
                                                 "_type": "String",
                                                 "value_": "carpeta16"
                                             },
                                             "views": {
-                                                "_id_": 46791,
+                                                "_id_": 48142,
                                                 "_type": "ViewList",
                                                 "list_": []
                                             }
@@ -10153,10 +10153,10 @@
                         ]
                     },
                     "android:background": {
-                        "_id_": 46469,
+                        "_id_": 48143,
                         "_type": "DrawableReference",
                         "ref": {
-                            "_id_": 46470,
+                            "_id_": 48144,
                             "_type": "String",
                             "value_": "@drawable\/background"
                         }
