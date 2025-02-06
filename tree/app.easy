@@ -3280,26 +3280,26 @@
                                                                                                                 }
                                                                                                             }
                                                                                                         }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "_id_": 42735,
+                                                                                                        "_type": "Variable.Set",
+                                                                                                        "name": {
+                                                                                                            "_id_": 42736,
+                                                                                                            "_type": "String",
+                                                                                                            "value_": "name1"
+                                                                                                        },
+                                                                                                        "value": {
+                                                                                                            "_id_": 42737,
+                                                                                                            "_type": "Variable.Get",
+                                                                                                            "name": {
+                                                                                                                "_id_": 42738,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "carpeta1"
+                                                                                                            }
+                                                                                                        }
                                                                                                     }
                                                                                                 ]
-                                                                                            },
-                                                                                            "onTextChange": {
-                                                                                                "_id_": 42716,
-                                                                                                "_type": "Variable.Set",
-                                                                                                "name": {
-                                                                                                    "_id_": 42717,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "name1"
-                                                                                                },
-                                                                                                "value": {
-                                                                                                    "_id_": 42718,
-                                                                                                    "_type": "Variable.Get",
-                                                                                                    "name": {
-                                                                                                        "_id_": 42719,
-                                                                                                        "_type": "String",
-                                                                                                        "value_": "carpeta1"
-                                                                                                    }
-                                                                                                }
                                                                                             },
                                                                                             "android:layout_width": {
                                                                                                 "_id_": 40090,
@@ -3365,11 +3365,6 @@
                                                                                                 "_id_": 40103,
                                                                                                 "_type": "Color",
                                                                                                 "color_": -1
-                                                                                            },
-                                                                                            "android:editable": {
-                                                                                                "_id_": 42651,
-                                                                                                "_type": "Boolean",
-                                                                                                "value_": true
                                                                                             }
                                                                                         },
                                                                                         {
@@ -3548,26 +3543,26 @@
                                                                                                                 }
                                                                                                             }
                                                                                                         }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "_id_": 42743,
+                                                                                                        "_type": "Variable.Set",
+                                                                                                        "name": {
+                                                                                                            "_id_": 42744,
+                                                                                                            "_type": "String",
+                                                                                                            "value_": "name2"
+                                                                                                        },
+                                                                                                        "value": {
+                                                                                                            "_id_": 42745,
+                                                                                                            "_type": "Variable.Get",
+                                                                                                            "name": {
+                                                                                                                "_id_": 42746,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "carpeta2"
+                                                                                                            }
+                                                                                                        }
                                                                                                     }
                                                                                                 ]
-                                                                                            },
-                                                                                            "onTextChange": {
-                                                                                                "_id_": 42721,
-                                                                                                "_type": "Variable.Set",
-                                                                                                "name": {
-                                                                                                    "_id_": 42732,
-                                                                                                    "_type": "String",
-                                                                                                    "value_": "name2"
-                                                                                                },
-                                                                                                "value": {
-                                                                                                    "_id_": 42723,
-                                                                                                    "_type": "Variable.Get",
-                                                                                                    "name": {
-                                                                                                        "_id_": 42734,
-                                                                                                        "_type": "String",
-                                                                                                        "value_": "carpeta2"
-                                                                                                    }
-                                                                                                }
                                                                                             },
                                                                                             "android:layout_width": {
                                                                                                 "_id_": 40143,
@@ -3633,11 +3628,6 @@
                                                                                                 "_id_": 40156,
                                                                                                 "_type": "Color",
                                                                                                 "color_": -1
-                                                                                            },
-                                                                                            "android:editable": {
-                                                                                                "_id_": 42720,
-                                                                                                "_type": "Boolean",
-                                                                                                "value_": true
                                                                                             }
                                                                                         }
                                                                                     ]
