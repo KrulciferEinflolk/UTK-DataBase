@@ -2411,7 +2411,7 @@
                                             "android:textColorLink": {
                                                 "_id_": 37956,
                                                 "_type": "Color",
-                                                "color_": -4420865
+                                                "color_": -16667994
                                             },
                                             "android:textStyle": {
                                                 "_id_": 37953,
@@ -9453,6 +9453,38 @@
                     "_id_": 1394,
                     "_type": "String",
                     "value_": "config"
+                }
+            },
+            {
+                "_id_": 46272,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 46273,
+                    "_type": "FrameLayout",
+                    "id": {
+                        "_id_": 46274,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 46275,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "android:background": {
+                        "_id_": 46469,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 46470,
+                            "_type": "String",
+                            "value_": "@drawable\/background"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 46474,
+                    "_type": "String",
+                    "value_": "editable"
                 }
             },
             {
