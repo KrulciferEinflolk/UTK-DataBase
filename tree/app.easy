@@ -8172,7 +8172,7 @@
                                                                         "value": {
                                                                             "_id_": 40414,
                                                                             "_type": "Float",
-                                                                            "value_": 960
+                                                                            "value_": 860
                                                                         }
                                                                     },
                                                                     "android:layout_marginHorizontal": {
@@ -8258,7 +8258,7 @@
                                                             "value": {
                                                                 "_id_": 40432,
                                                                 "_type": "Float",
-                                                                "value_": 980
+                                                                "value_": 880
                                                             }
                                                         },
                                                         "android:layout_marginHorizontal": {
@@ -8292,6 +8292,20 @@
                                                                 "_id_": 40439,
                                                                 "_type": "Float",
                                                                 "value_": 10
+                                                            }
+                                                        },
+                                                        "android:minHeight": {
+                                                            "_id_": 46138,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 46139,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 46140,
+                                                                "_type": "Float",
+                                                                "value_": 0
                                                             }
                                                         }
                                                     }
