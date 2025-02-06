@@ -8359,6 +8359,11 @@
                                                                 "color_": -5725441
                                                             }
                                                         },
+                                                        "android:layout_height": {
+                                                            "_id_": 46258,
+                                                            "_type": "View.SpecialDimension",
+                                                            "value_": "wrap_content"
+                                                        },
                                                         "android:layout_marginHorizontal": {
                                                             "_id_": 40433,
                                                             "_type": "Dimension",
@@ -8371,20 +8376,6 @@
                                                                 "_id_": 40435,
                                                                 "_type": "Float",
                                                                 "value_": 10
-                                                            }
-                                                        },
-                                                        "app:layout_constraintHeight_max": {
-                                                            "_id_": 46248,
-                                                            "_type": "Dimension",
-                                                            "unit": {
-                                                                "_id_": 46249,
-                                                                "_type": "DimensionUnit",
-                                                                "value_": "dp"
-                                                            },
-                                                            "value": {
-                                                                "_id_": 46250,
-                                                                "_type": "Float",
-                                                                "value_": 900
                                                             }
                                                         },
                                                         "android:gravity": {
@@ -8404,20 +8395,6 @@
                                                                 "_id_": 40439,
                                                                 "_type": "Float",
                                                                 "value_": 10
-                                                            }
-                                                        },
-                                                        "app:layout_constraintHeight_min": {
-                                                            "_id_": 46255,
-                                                            "_type": "Dimension",
-                                                            "unit": {
-                                                                "_id_": 46256,
-                                                                "_type": "DimensionUnit",
-                                                                "value_": "dp"
-                                                            },
-                                                            "value": {
-                                                                "_id_": 46257,
-                                                                "_type": "Float",
-                                                                "value_": 420
                                                             }
                                                         }
                                                     }
