@@ -9167,28 +9167,6 @@
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 47701,
-                                                                    "_type": "TextView.SetText",
-                                                                    "view": {
-                                                                        "_id_": 47702,
-                                                                        "_type": "View.Reference",
-                                                                        "ref": {
-                                                                            "_id_": 47703,
-                                                                            "_type": "String",
-                                                                            "value_": "@id\/var1"
-                                                                        }
-                                                                    },
-                                                                    "text": {
-                                                                        "_id_": 47704,
-                                                                        "_type": "Variable.Get",
-                                                                        "name": {
-                                                                            "_id_": 47705,
-                                                                            "_type": "String",
-                                                                            "value_": "name1"
-                                                                        }
-                                                                    }
-                                                                },
-                                                                {
                                                                     "_id_": 47696,
                                                                     "_type": "Variable.Set",
                                                                     "name": {
@@ -9207,6 +9185,28 @@
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/rename1"
                                                                             }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 47701,
+                                                                    "_type": "TextView.SetText",
+                                                                    "view": {
+                                                                        "_id_": 47702,
+                                                                        "_type": "View.Reference",
+                                                                        "ref": {
+                                                                            "_id_": 47703,
+                                                                            "_type": "String",
+                                                                            "value_": "@id\/var1"
+                                                                        }
+                                                                    },
+                                                                    "text": {
+                                                                        "_id_": 47704,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 47705,
+                                                                            "_type": "String",
+                                                                            "value_": "name1"
                                                                         }
                                                                     }
                                                                 },
@@ -9406,28 +9406,6 @@
                                                             "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 47715,
-                                                                    "_type": "TextView.SetText",
-                                                                    "view": {
-                                                                        "_id_": 47716,
-                                                                        "_type": "View.Reference",
-                                                                        "ref": {
-                                                                            "_id_": 47717,
-                                                                            "_type": "String",
-                                                                            "value_": "@id\/var1"
-                                                                        }
-                                                                    },
-                                                                    "text": {
-                                                                        "_id_": 47718,
-                                                                        "_type": "Variable.Get",
-                                                                        "name": {
-                                                                            "_id_": 47719,
-                                                                            "_type": "String",
-                                                                            "value_": "name1"
-                                                                        }
-                                                                    }
-                                                                },
-                                                                {
                                                                     "_id_": 47710,
                                                                     "_type": "Variable.Set",
                                                                     "name": {
@@ -9446,6 +9424,28 @@
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/rename2"
                                                                             }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 47715,
+                                                                    "_type": "TextView.SetText",
+                                                                    "view": {
+                                                                        "_id_": 47716,
+                                                                        "_type": "View.Reference",
+                                                                        "ref": {
+                                                                            "_id_": 47717,
+                                                                            "_type": "String",
+                                                                            "value_": "@id\/var1"
+                                                                        }
+                                                                    },
+                                                                    "text": {
+                                                                        "_id_": 47718,
+                                                                        "_type": "Variable.Get",
+                                                                        "name": {
+                                                                            "_id_": 47719,
+                                                                            "_type": "String",
+                                                                            "value_": "name1"
                                                                         }
                                                                     }
                                                                 },
