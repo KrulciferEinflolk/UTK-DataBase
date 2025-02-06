@@ -8300,6 +8300,20 @@
                                                                             "_type": "Float",
                                                                             "value_": 10
                                                                         }
+                                                                    },
+                                                                    "android:minHeight": {
+                                                                        "_id_": 46232,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 46233,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 46234,
+                                                                            "_type": "Float",
+                                                                            "value_": 500
+                                                                        }
                                                                     }
                                                                 }
                                                             ]
