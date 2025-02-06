@@ -9433,11 +9433,6 @@
                                                     "color_": -10856823
                                                 }
                                             },
-                                            "android:layout_height": {
-                                                "_id_": 57185,
-                                                "_type": "View.SpecialDimension",
-                                                "value_": "wrap_content"
-                                            },
                                             "android:padding": {
                                                 "_id_": 56954,
                                                 "_type": "Dimension",
@@ -9464,18 +9459,18 @@
                                             }
                                         }
                                     ]
-                                },
-                                "android:background": {
-                                    "_id_": 56959,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 56960,
-                                        "_type": "String",
-                                        "value_": "@drawable\/background"
-                                    }
                                 }
                             }
                         ]
+                    },
+                    "android:background": {
+                        "_id_": 57598,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 57599,
+                            "_type": "String",
+                            "value_": "@drawable\/background"
+                        }
                     }
                 },
                 "name": {
