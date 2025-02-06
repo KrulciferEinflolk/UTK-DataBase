@@ -3298,6 +3298,28 @@
                                                                                                                 "value_": "carpeta1"
                                                                                                             }
                                                                                                         }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "_id_": 42770,
+                                                                                                        "_type": "TextView.SetText",
+                                                                                                        "view": {
+                                                                                                            "_id_": 42771,
+                                                                                                            "_type": "View.Reference",
+                                                                                                            "ref": {
+                                                                                                                "_id_": 42772,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "@id\/var1"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "text": {
+                                                                                                            "_id_": 42773,
+                                                                                                            "_type": "Variable.Get",
+                                                                                                            "name": {
+                                                                                                                "_id_": 42780,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "carpeta1"
+                                                                                                            }
+                                                                                                        }
                                                                                                     }
                                                                                                 ]
                                                                                             },
@@ -3557,6 +3579,28 @@
                                                                                                             "_type": "Variable.Get",
                                                                                                             "name": {
                                                                                                                 "_id_": 42746,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "carpeta2"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "_id_": 42752,
+                                                                                                        "_type": "TextView.SetText",
+                                                                                                        "view": {
+                                                                                                            "_id_": 42754,
+                                                                                                            "_type": "View.Reference",
+                                                                                                            "ref": {
+                                                                                                                "_id_": 42756,
+                                                                                                                "_type": "String",
+                                                                                                                "value_": "@id\/var2"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "text": {
+                                                                                                            "_id_": 42760,
+                                                                                                            "_type": "Variable.Get",
+                                                                                                            "name": {
+                                                                                                                "_id_": 42764,
                                                                                                                 "_type": "String",
                                                                                                                 "value_": "carpeta2"
                                                                                                             }
