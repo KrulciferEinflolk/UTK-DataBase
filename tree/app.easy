@@ -9175,13 +9175,13 @@
                                                                         "value_": "name1"
                                                                     },
                                                                     "value": {
-                                                                        "_id_": 47698,
+                                                                        "_id_": 47747,
                                                                         "_type": "TextView.GetText",
                                                                         "view": {
-                                                                            "_id_": 47699,
+                                                                            "_id_": 47748,
                                                                             "_type": "View.Reference",
                                                                             "ref": {
-                                                                                "_id_": 47700,
+                                                                                "_id_": 47749,
                                                                                 "_type": "String",
                                                                                 "value_": "@id\/rename1"
                                                                             }
@@ -9436,16 +9436,16 @@
                                                                         "ref": {
                                                                             "_id_": 47717,
                                                                             "_type": "String",
-                                                                            "value_": "@id\/var1"
+                                                                            "value_": "@id\/var2"
                                                                         }
                                                                     },
                                                                     "text": {
                                                                         "_id_": 47718,
                                                                         "_type": "Variable.Get",
                                                                         "name": {
-                                                                            "_id_": 47719,
+                                                                            "_id_": 47746,
                                                                             "_type": "String",
-                                                                            "value_": "name1"
+                                                                            "value_": "name2"
                                                                         }
                                                                     }
                                                                 },
