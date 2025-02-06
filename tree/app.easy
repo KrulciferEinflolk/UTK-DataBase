@@ -9713,6 +9713,20 @@
                                                             "_id_": 55141,
                                                             "_type": "String",
                                                             "value_": "Establecer nombre"
+                                                        },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 55143,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 55144,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 55145,
+                                                                "_type": "Float",
+                                                                "value_": 50
+                                                            }
                                                         }
                                                     },
                                                     {
