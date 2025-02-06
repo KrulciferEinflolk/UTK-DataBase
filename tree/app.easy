@@ -9518,6 +9518,44 @@
                                                 "_type": "ViewList",
                                                 "list_": [
                                                     {
+                                                        "_id_": 56665,
+                                                        "_type": "TextView",
+                                                        "id": {
+                                                            "_id_": 56666,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "android:layout_width": {
+                                                            "_id_": 56676,
+                                                            "_type": "View.SpecialDimension",
+                                                            "value_": "wrap_content"
+                                                        },
+                                                        "android:text": {
+                                                            "_id_": 56667,
+                                                            "_type": "String",
+                                                            "value_": "Nombres para carpetas"
+                                                        },
+                                                        "android:textSize": {
+                                                            "_id_": 56673,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 56675,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "sp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 56674,
+                                                                "_type": "Float",
+                                                                "value_": 25
+                                                            }
+                                                        },
+                                                        "android:textColor": {
+                                                            "_id_": 56672,
+                                                            "_type": "Color",
+                                                            "color_": -1
+                                                        }
+                                                    },
+                                                    {
                                                         "_id_": 54946,
                                                         "_type": "EditText",
                                                         "id": {
