@@ -2411,7 +2411,7 @@
                                             "android:textColorLink": {
                                                 "_id_": 37956,
                                                 "_type": "Color",
-                                                "color_": -9671572
+                                                "color_": -4420865
                                             },
                                             "android:textStyle": {
                                                 "_id_": 37953,
@@ -2421,7 +2421,7 @@
                                             "android:text": {
                                                 "_id_": 37894,
                                                 "_type": "String",
-                                                "value_": "Click aqui para ver una guía"
+                                                "value_": ">Click aqui para ver una guía<"
                                             },
                                             "android:textSize": {
                                                 "_id_": 37895,
@@ -8433,18 +8433,9 @@
                                                 }
                                             },
                                             "android:layout_height": {
-                                                "_id_": 40449,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 40450,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 40451,
-                                                    "_type": "Float",
-                                                    "value_": 1400
-                                                }
+                                                "_id_": 46267,
+                                                "_type": "View.SpecialDimension",
+                                                "value_": "wrap_content"
                                             },
                                             "app:layout_constraintCircleRadius": {
                                                 "_id_": 40452,
