@@ -9747,9 +9747,18 @@
                                                                         "value_": ""
                                                                     },
                                                                     "android:layout_width": {
-                                                                        "_id_": 52884,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
+                                                                        "_id_": 54884,
+                                                                        "_type": "Dimension",
+                                                                        "unit": {
+                                                                            "_id_": 54885,
+                                                                            "_type": "DimensionUnit",
+                                                                            "value_": "dp"
+                                                                        },
+                                                                        "value": {
+                                                                            "_id_": 54886,
+                                                                            "_type": "Float",
+                                                                            "value_": 100
+                                                                        }
                                                                     },
                                                                     "android:text": {
                                                                         "_id_": 52885,
