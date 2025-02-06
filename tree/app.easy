@@ -13056,6 +13056,11 @@
                                                         }
                                                     }
                                                 ]
+                                            },
+                                            "android:layout_centerHorizontal": {
+                                                "_id_": 56686,
+                                                "_type": "Boolean",
+                                                "value_": true
                                             }
                                         }
                                     ]
