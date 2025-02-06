@@ -9525,11 +9525,6 @@
                                                             "_type": "String",
                                                             "value_": ""
                                                         },
-                                                        "android:layout_width": {
-                                                            "_id_": 56676,
-                                                            "_type": "View.SpecialDimension",
-                                                            "value_": "wrap_content"
-                                                        },
                                                         "android:text": {
                                                             "_id_": 56667,
                                                             "_type": "String",
@@ -9546,7 +9541,7 @@
                                                             "value": {
                                                                 "_id_": 56674,
                                                                 "_type": "Float",
-                                                                "value_": 20
+                                                                "value_": 25
                                                             }
                                                         },
                                                         "android:layout_marginTop": {
@@ -9560,7 +9555,7 @@
                                                             "value": {
                                                                 "_id_": 56681,
                                                                 "_type": "Float",
-                                                                "value_": 10
+                                                                "value_": 20
                                                             }
                                                         },
                                                         "android:layout_centerHorizontal": {
