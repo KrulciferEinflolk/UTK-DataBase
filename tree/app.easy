@@ -5928,6 +5928,20 @@
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 10"
                                                                                             },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46141,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46143,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46142,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
+                                                                                            },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 45209,
                                                                                                 "_type": "Dimension",
@@ -6248,6 +6262,20 @@
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 11"
                                                                                             },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46144,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46145,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46146,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
+                                                                                            },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 44900,
                                                                                                 "_type": "Dimension",
@@ -6510,6 +6538,20 @@
                                                                                                 "_id_": 44956,
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 12"
+                                                                                            },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46147,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46148,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46149,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
                                                                                             },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 44957,
@@ -6831,6 +6873,20 @@
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 13"
                                                                                             },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46150,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46151,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46152,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
+                                                                                            },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 44648,
                                                                                                 "_type": "Dimension",
@@ -7093,6 +7149,20 @@
                                                                                                 "_id_": 44704,
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 14"
+                                                                                            },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46153,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46154,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46155,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
                                                                                             },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 44705,
@@ -7414,6 +7484,20 @@
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 15"
                                                                                             },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46156,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46157,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46158,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
+                                                                                            },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 40333,
                                                                                                 "_type": "Dimension",
@@ -7676,6 +7760,20 @@
                                                                                                 "_id_": 40385,
                                                                                                 "_type": "String",
                                                                                                 "value_": "Carpeta 16"
+                                                                                            },
+                                                                                            "android:textSize": {
+                                                                                                "_id_": 46159,
+                                                                                                "_type": "Dimension",
+                                                                                                "unit": {
+                                                                                                    "_id_": 46160,
+                                                                                                    "_type": "DimensionUnit",
+                                                                                                    "value_": "sp"
+                                                                                                },
+                                                                                                "value": {
+                                                                                                    "_id_": 46161,
+                                                                                                    "_type": "Float",
+                                                                                                    "value_": 15
+                                                                                                }
                                                                                             },
                                                                                             "android:layout_marginHorizontal": {
                                                                                                 "_id_": 40386,
