@@ -9555,7 +9555,7 @@
                                                             "value": {
                                                                 "_id_": 56685,
                                                                 "_type": "Float",
-                                                                "value_": 60
+                                                                "value_": 65
                                                             }
                                                         },
                                                         "android:layout_marginTop": {
@@ -9962,9 +9962,9 @@
                                                                     "_id_": 55178,
                                                                     "_type": "Variable.Set",
                                                                     "name": {
-                                                                        "_id_": 55179,
+                                                                        "_id_": 56687,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name2"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 55180,
@@ -9975,7 +9975,7 @@
                                                                             "ref": {
                                                                                 "_id_": 55182,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename2"
                                                                             }
                                                                         }
                                                                     }
@@ -10181,7 +10181,7 @@
                                                                     "name": {
                                                                         "_id_": 56271,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name3"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56272,
@@ -10192,7 +10192,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56274,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename3"
                                                                             }
                                                                         }
                                                                     }
@@ -10398,7 +10398,7 @@
                                                                     "name": {
                                                                         "_id_": 56299,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name4"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56300,
@@ -10409,7 +10409,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56302,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename4"
                                                                             }
                                                                         }
                                                                     }
@@ -10615,7 +10615,7 @@
                                                                     "name": {
                                                                         "_id_": 56327,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name5"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56328,
@@ -10626,7 +10626,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56330,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename5"
                                                                             }
                                                                         }
                                                                     }
@@ -10832,7 +10832,7 @@
                                                                     "name": {
                                                                         "_id_": 56355,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name6"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56356,
@@ -10843,7 +10843,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56358,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename6"
                                                                             }
                                                                         }
                                                                     }
@@ -11049,7 +11049,7 @@
                                                                     "name": {
                                                                         "_id_": 56383,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name7"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56384,
@@ -11060,7 +11060,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56386,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename7"
                                                                             }
                                                                         }
                                                                     }
@@ -11266,7 +11266,7 @@
                                                                     "name": {
                                                                         "_id_": 56411,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name8"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56412,
@@ -11277,7 +11277,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56414,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename8"
                                                                             }
                                                                         }
                                                                     }
@@ -11483,7 +11483,7 @@
                                                                     "name": {
                                                                         "_id_": 56439,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name9"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56440,
@@ -11494,7 +11494,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56442,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename9"
                                                                             }
                                                                         }
                                                                     }
@@ -11700,7 +11700,7 @@
                                                                     "name": {
                                                                         "_id_": 56467,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name10"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56468,
@@ -11711,7 +11711,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56470,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename10"
                                                                             }
                                                                         }
                                                                     }
@@ -11917,7 +11917,7 @@
                                                                     "name": {
                                                                         "_id_": 56495,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name11"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56496,
@@ -11928,7 +11928,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56498,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename11"
                                                                             }
                                                                         }
                                                                     }
@@ -12134,7 +12134,7 @@
                                                                     "name": {
                                                                         "_id_": 56523,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name12"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56524,
@@ -12145,7 +12145,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56526,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename12"
                                                                             }
                                                                         }
                                                                     }
@@ -12351,7 +12351,7 @@
                                                                     "name": {
                                                                         "_id_": 56551,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name13"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56552,
@@ -12362,7 +12362,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56554,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename13"
                                                                             }
                                                                         }
                                                                     }
@@ -12568,7 +12568,7 @@
                                                                     "name": {
                                                                         "_id_": 56579,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name14"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56580,
@@ -12579,7 +12579,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56582,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename14"
                                                                             }
                                                                         }
                                                                     }
@@ -12785,7 +12785,7 @@
                                                                     "name": {
                                                                         "_id_": 56607,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name15"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56608,
@@ -12796,7 +12796,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56610,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename15"
                                                                             }
                                                                         }
                                                                     }
@@ -13002,7 +13002,7 @@
                                                                     "name": {
                                                                         "_id_": 56635,
                                                                         "_type": "String",
-                                                                        "value_": "name1"
+                                                                        "value_": "name16"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56636,
@@ -13013,7 +13013,7 @@
                                                                             "ref": {
                                                                                 "_id_": 56638,
                                                                                 "_type": "String",
-                                                                                "value_": "@id\/rename1"
+                                                                                "value_": "@id\/rename16"
                                                                             }
                                                                         }
                                                                     }
@@ -13056,11 +13056,6 @@
                                                         }
                                                     }
                                                 ]
-                                            },
-                                            "android:layout_centerHorizontal": {
-                                                "_id_": 56686,
-                                                "_type": "Boolean",
-                                                "value_": true
                                             }
                                         }
                                     ]
