@@ -9466,6 +9466,20 @@
                                                     "value_": 10
                                                 }
                                             },
+                                            "android:paddingBottom": {
+                                                "_id_": 58009,
+                                                "_type": "Dimension",
+                                                "unit": {
+                                                    "_id_": 58010,
+                                                    "_type": "DimensionUnit",
+                                                    "value_": "dp"
+                                                },
+                                                "value": {
+                                                    "_id_": 58011,
+                                                    "_type": "Float",
+                                                    "value_": 30
+                                                }
+                                            },
                                             "android:gravity": {
                                                 "_id_": 56957,
                                                 "_type": "Gravity",
