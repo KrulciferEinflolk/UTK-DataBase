@@ -9544,6 +9544,20 @@
                                                                 "value_": 25
                                                             }
                                                         },
+                                                        "android:layout_marginHorizontal": {
+                                                            "_id_": 56683,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 56684,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 56685,
+                                                                "_type": "Float",
+                                                                "value_": 50
+                                                            }
+                                                        },
                                                         "android:layout_marginTop": {
                                                             "_id_": 56679,
                                                             "_type": "Dimension",
