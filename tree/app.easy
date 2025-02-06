@@ -8172,7 +8172,7 @@
                                                                         "value": {
                                                                             "_id_": 40414,
                                                                             "_type": "Float",
-                                                                            "value_": 860
+                                                                            "value_": 880
                                                                         }
                                                                     },
                                                                     "android:layout_marginHorizontal": {
@@ -8258,7 +8258,7 @@
                                                             "value": {
                                                                 "_id_": 40432,
                                                                 "_type": "Float",
-                                                                "value_": 880
+                                                                "value_": 900
                                                             }
                                                         },
                                                         "android:layout_marginHorizontal": {
