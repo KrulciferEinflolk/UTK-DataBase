@@ -9402,6 +9402,20 @@
                                                             "_id_": 56947,
                                                             "_type": "String",
                                                             "value_": "comic_sans_ms"
+                                                        },
+                                                        "app:layout_goneMarginBottom": {
+                                                            "_id_": 58005,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 58006,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 58007,
+                                                                "_type": "Float",
+                                                                "value_": 20
+                                                            }
                                                         }
                                                     }
                                                 ]
