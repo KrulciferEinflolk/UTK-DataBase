@@ -9712,66 +9712,51 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 52876,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 52877,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 52878,
-                                                            "_type": "ViewList",
+                                                        "_id_": 54917,
+                                                        "_type": "Button",
+                                                        "onClick": {
+                                                            "_id_": 54918,
+                                                            "_type": "Sequence",
                                                             "list_": [
                                                                 {
-                                                                    "_id_": 52879,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 52880,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 52881,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 52882,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 52883,
+                                                                    "_id_": 54919,
+                                                                    "_type": "ShowToast",
+                                                                    "message": {
+                                                                        "_id_": 54920,
                                                                         "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54884,
-                                                                        "_type": "Dimension",
-                                                                        "unit": {
-                                                                            "_id_": 54885,
-                                                                            "_type": "DimensionUnit",
-                                                                            "value_": "dp"
-                                                                        },
-                                                                        "value": {
-                                                                            "_id_": 54886,
-                                                                            "_type": "Float",
-                                                                            "value_": 100
-                                                                        }
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 52885,
-                                                                        "_type": "String",
-                                                                        "value_": "Establecer nombre"
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54495,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
+                                                                        "value_": "Nombre cambiado con exito! "
                                                                     }
                                                                 }
                                                             ]
+                                                        },
+                                                        "id": {
+                                                            "_id_": 54921,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "android:layout_width": {
+                                                            "_id_": 54922,
+                                                            "_type": "Dimension",
+                                                            "unit": {
+                                                                "_id_": 54923,
+                                                                "_type": "DimensionUnit",
+                                                                "value_": "dp"
+                                                            },
+                                                            "value": {
+                                                                "_id_": 54924,
+                                                                "_type": "Float",
+                                                                "value_": 100
+                                                            }
+                                                        },
+                                                        "android:text": {
+                                                            "_id_": 54925,
+                                                            "_type": "String",
+                                                            "value_": "Establecer nombre"
+                                                        },
+                                                        "android:layout_centerHorizontal": {
+                                                            "_id_": 54926,
+                                                            "_type": "Boolean",
+                                                            "value_": true
                                                         }
                                                     },
                                                     {
