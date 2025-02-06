@@ -8120,6 +8120,364 @@
                                         }
                                     ]
                                 },
+                                "onTouch": {
+                                    "_id_": 47910,
+                                    "_type": "Sequence",
+                                    "list_": [
+                                        {
+                                            "_id_": 47911,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47912,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47913,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var1"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47914,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47915,
+                                                    "_type": "String",
+                                                    "value_": "name1"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47916,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47917,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47918,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var2"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47919,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47920,
+                                                    "_type": "String",
+                                                    "value_": "name2"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47921,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47922,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47923,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var3"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47924,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47925,
+                                                    "_type": "String",
+                                                    "value_": "name3"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47926,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47927,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47928,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var4"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47929,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47930,
+                                                    "_type": "String",
+                                                    "value_": "carpeta4"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47931,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47932,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47933,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var5"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47934,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47935,
+                                                    "_type": "String",
+                                                    "value_": "name5"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47936,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47937,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47938,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var6"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47939,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47940,
+                                                    "_type": "String",
+                                                    "value_": "name6"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47941,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47942,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47943,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var7"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47944,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47945,
+                                                    "_type": "String",
+                                                    "value_": "name7"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47946,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47947,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47948,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var8"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47949,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47950,
+                                                    "_type": "String",
+                                                    "value_": "name8"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47951,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47952,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47953,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var9"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47954,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47955,
+                                                    "_type": "String",
+                                                    "value_": "name9"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47956,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47957,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47958,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var10"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47959,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47960,
+                                                    "_type": "String",
+                                                    "value_": "name10"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47961,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47962,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47963,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var11"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47964,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47965,
+                                                    "_type": "String",
+                                                    "value_": "name11"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47966,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47967,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47968,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var12"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47969,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47970,
+                                                    "_type": "String",
+                                                    "value_": "name12"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47971,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47972,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47973,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var13"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47974,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47975,
+                                                    "_type": "String",
+                                                    "value_": "name13"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47976,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47977,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47978,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var14"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47979,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47980,
+                                                    "_type": "String",
+                                                    "value_": "name14"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47981,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47982,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47983,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var15"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47984,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47985,
+                                                    "_type": "String",
+                                                    "value_": "name15"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "_id_": 47986,
+                                            "_type": "TextView.SetText",
+                                            "view": {
+                                                "_id_": 47987,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 47988,
+                                                    "_type": "String",
+                                                    "value_": "@id\/var16"
+                                                }
+                                            },
+                                            "text": {
+                                                "_id_": 47989,
+                                                "_type": "Variable.Get",
+                                                "name": {
+                                                    "_id_": 47990,
+                                                    "_type": "String",
+                                                    "value_": "name16"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
                                 "android:background": {
                                     "_id_": 40460,
                                     "_type": "DrawableReference",
@@ -8138,364 +8496,6 @@
                                     "_id_": 40463,
                                     "_type": "Boolean",
                                     "value_": true
-                                }
-                            }
-                        ]
-                    },
-                    "onTouch": {
-                        "_id_": 47813,
-                        "_type": "Sequence",
-                        "list_": [
-                            {
-                                "_id_": 47814,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47815,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47816,
-                                        "_type": "String",
-                                        "value_": "@id\/var1"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47817,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47818,
-                                        "_type": "String",
-                                        "value_": "name1"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47819,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47820,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47821,
-                                        "_type": "String",
-                                        "value_": "@id\/var2"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47822,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47894,
-                                        "_type": "String",
-                                        "value_": "name2"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47824,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47825,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47826,
-                                        "_type": "String",
-                                        "value_": "@id\/var3"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47827,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47895,
-                                        "_type": "String",
-                                        "value_": "name3"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47829,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47830,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47831,
-                                        "_type": "String",
-                                        "value_": "@id\/var4"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47832,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47896,
-                                        "_type": "String",
-                                        "value_": "carpeta4"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47834,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47835,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47836,
-                                        "_type": "String",
-                                        "value_": "@id\/var5"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47837,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47897,
-                                        "_type": "String",
-                                        "value_": "name5"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47839,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47840,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47841,
-                                        "_type": "String",
-                                        "value_": "@id\/var6"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47842,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47898,
-                                        "_type": "String",
-                                        "value_": "name6"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47844,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47845,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47846,
-                                        "_type": "String",
-                                        "value_": "@id\/var7"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47847,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47899,
-                                        "_type": "String",
-                                        "value_": "name7"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47849,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47850,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47851,
-                                        "_type": "String",
-                                        "value_": "@id\/var8"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47852,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47900,
-                                        "_type": "String",
-                                        "value_": "name8"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47854,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47855,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47856,
-                                        "_type": "String",
-                                        "value_": "@id\/var9"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47857,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47901,
-                                        "_type": "String",
-                                        "value_": "name9"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47859,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47860,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47861,
-                                        "_type": "String",
-                                        "value_": "@id\/var10"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47862,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47902,
-                                        "_type": "String",
-                                        "value_": "name10"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47864,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47865,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47866,
-                                        "_type": "String",
-                                        "value_": "@id\/var11"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47867,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47903,
-                                        "_type": "String",
-                                        "value_": "name11"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47869,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47870,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47871,
-                                        "_type": "String",
-                                        "value_": "@id\/var12"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47872,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47904,
-                                        "_type": "String",
-                                        "value_": "name12"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47874,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47875,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47876,
-                                        "_type": "String",
-                                        "value_": "@id\/var13"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47877,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47905,
-                                        "_type": "String",
-                                        "value_": "name13"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47879,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47880,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47881,
-                                        "_type": "String",
-                                        "value_": "@id\/var14"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47882,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47906,
-                                        "_type": "String",
-                                        "value_": "name14"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47884,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47885,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47886,
-                                        "_type": "String",
-                                        "value_": "@id\/var15"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47887,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47908,
-                                        "_type": "String",
-                                        "value_": "name15"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 47889,
-                                "_type": "TextView.SetText",
-                                "view": {
-                                    "_id_": 47890,
-                                    "_type": "View.Reference",
-                                    "ref": {
-                                        "_id_": 47891,
-                                        "_type": "String",
-                                        "value_": "@id\/var16"
-                                    }
-                                },
-                                "text": {
-                                    "_id_": 47892,
-                                    "_type": "Variable.Get",
-                                    "name": {
-                                        "_id_": 47909,
-                                        "_type": "String",
-                                        "value_": "name16"
-                                    }
                                 }
                             }
                         ]
