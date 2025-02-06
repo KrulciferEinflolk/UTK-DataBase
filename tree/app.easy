@@ -9546,8 +9546,13 @@
                                                             "value": {
                                                                 "_id_": 56674,
                                                                 "_type": "Float",
-                                                                "value_": 25
+                                                                "value_": 20
                                                             }
+                                                        },
+                                                        "android:layout_centerHorizontal": {
+                                                            "_id_": 56677,
+                                                            "_type": "Boolean",
+                                                            "value_": true
                                                         },
                                                         "android:textColor": {
                                                             "_id_": 56672,
