@@ -9468,20 +9468,6 @@
                                         "_type": "String",
                                         "value_": "@drawable\/background"
                                     }
-                                },
-                                "android:padding": {
-                                    "_id_": 56961,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 56962,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 56963,
-                                        "_type": "Float",
-                                        "value_": 10
-                                    }
                                 }
                             }
                         ]
