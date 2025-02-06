@@ -9239,9 +9239,9 @@
                                                                     "_id_": 56912,
                                                                     "_type": "Variable.Set",
                                                                     "name": {
-                                                                        "_id_": 56913,
+                                                                        "_id_": 58108,
                                                                         "_type": "String",
-                                                                        "value_": "carpeta3"
+                                                                        "value_": "carpeta13"
                                                                     },
                                                                     "value": {
                                                                         "_id_": 56914,
@@ -9306,6 +9306,428 @@
                                                                             "value_": ""
                                                                         }
                                                                     }
+                                                                },
+                                                                {
+                                                                    "_id_": 58028,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58036,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta7"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58030,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58031,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58021,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58037,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta8"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58025,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58027,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58094,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58103,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta9"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58096,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58097,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58086,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58104,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta10"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58088,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58089,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58078,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58105,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta11"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58080,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58081,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58070,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58106,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta11"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58072,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58073,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58062,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58107,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta12"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58064,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58065,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58054,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58109,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta13"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58056,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58057,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58046,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58110,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta14"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58048,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58049,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58038,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58111,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta15"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58040,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58041,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58112,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58120,
+                                                                        "_type": "String",
+                                                                        "value_": "carpeta16"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58114,
+                                                                        "_type": "Expression",
+                                                                        "text": {
+                                                                            "_id_": 58115,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58121,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58129,
+                                                                        "_type": "String",
+                                                                        "value_": "name1"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58276,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58250,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58258,
+                                                                        "_type": "String",
+                                                                        "value_": "name2"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58277,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 2"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58242,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58259,
+                                                                        "_type": "String",
+                                                                        "value_": "name3"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58278,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 3"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58234,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58260,
+                                                                        "_type": "String",
+                                                                        "value_": "name4"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58279,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 4"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58226,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58261,
+                                                                        "_type": "String",
+                                                                        "value_": "name5"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58280,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 5"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58218,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58262,
+                                                                        "_type": "String",
+                                                                        "value_": "name6"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58281,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 6"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58210,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58263,
+                                                                        "_type": "String",
+                                                                        "value_": "name7"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58282,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 7"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58202,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58264,
+                                                                        "_type": "String",
+                                                                        "value_": "name8"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58283,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 8"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58194,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58265,
+                                                                        "_type": "String",
+                                                                        "value_": "name9"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58284,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 9"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58186,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58267,
+                                                                        "_type": "String",
+                                                                        "value_": "name10"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58285,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 10"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58178,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58268,
+                                                                        "_type": "String",
+                                                                        "value_": "name11"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58286,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 11"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58170,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58269,
+                                                                        "_type": "String",
+                                                                        "value_": "name12"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58287,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 12"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58162,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58270,
+                                                                        "_type": "String",
+                                                                        "value_": "name13"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58288,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 13"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58154,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58271,
+                                                                        "_type": "String",
+                                                                        "value_": "name14"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58289,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 14"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58138,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58273,
+                                                                        "_type": "String",
+                                                                        "value_": "name15"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58291,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 15"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "_id_": 58130,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 58274,
+                                                                        "_type": "String",
+                                                                        "value_": "name16"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 58292,
+                                                                        "_type": "String",
+                                                                        "value_": "CARPETA 16"
+                                                                    }
                                                                 }
                                                             ]
                                                         },
@@ -9349,7 +9771,7 @@
                                                         "android:text": {
                                                             "_id_": 56936,
                                                             "_type": "String",
-                                                            "value_": "Reiniciar variables"
+                                                            "value_": "Reiniciar Carpetas & Nombres"
                                                         },
                                                         "android:textSize": {
                                                             "_id_": 56937,
