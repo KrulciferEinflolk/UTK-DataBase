@@ -9754,7 +9754,7 @@
                                                                     "android:text": {
                                                                         "_id_": 52885,
                                                                         "_type": "String",
-                                                                        "value_": ""
+                                                                        "value_": "Establecer nombre"
                                                                     },
                                                                     "android:layout_centerHorizontal": {
                                                                         "_id_": 54495,
@@ -9960,60 +9960,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54860,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54861,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54862,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54863,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54864,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54865,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54866,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54867,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54868,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54869,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54870,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 52986,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -10202,60 +10148,6 @@
                                                                         "_id_": 53025,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54838,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54839,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54840,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54841,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54842,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54843,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54844,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54845,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54846,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54847,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54848,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
@@ -10456,60 +10348,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54816,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54817,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54818,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54819,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54820,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54821,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54822,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54823,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54824,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54825,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54826,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53086,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -10698,60 +10536,6 @@
                                                                         "_id_": 53125,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54794,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54795,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54796,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54797,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54798,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54799,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54800,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54801,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54802,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54803,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54804,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
@@ -10952,60 +10736,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54772,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54773,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54774,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54775,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54776,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54777,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54778,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54779,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54780,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54781,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54782,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53186,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -11194,60 +10924,6 @@
                                                                         "_id_": 53225,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54750,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54751,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54752,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54753,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54754,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54755,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54756,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54757,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54758,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54759,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54760,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
@@ -11448,60 +11124,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54728,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54729,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54730,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54731,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54732,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54733,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54734,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54735,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54736,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54737,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54738,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53286,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -11690,60 +11312,6 @@
                                                                         "_id_": 53325,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54706,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54707,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54708,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54709,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54710,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54711,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54712,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54713,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54714,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54715,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54716,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
@@ -11944,60 +11512,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54684,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54685,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54686,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54687,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54688,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54689,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54690,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54691,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54692,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54693,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54694,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53386,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -12186,60 +11700,6 @@
                                                                         "_id_": 53425,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54662,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54663,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54664,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54665,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54666,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54667,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54668,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54669,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54670,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54671,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54672,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
@@ -12440,60 +11900,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54640,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54641,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54642,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54643,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54644,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54645,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54646,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54647,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54648,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54649,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54650,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53486,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -12682,60 +12088,6 @@
                                                                         "_id_": 53525,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54618,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54619,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54620,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54621,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54622,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54623,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54624,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54625,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54626,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54627,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54628,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
@@ -12936,60 +12288,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54596,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54597,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54598,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54599,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54600,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54601,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54602,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54603,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54604,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54605,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54606,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53586,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -13184,60 +12482,6 @@
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 54574,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54575,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54576,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54577,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54578,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54579,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54580,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54581,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54582,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54583,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54584,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
                                                         "_id_": 53636,
                                                         "_type": "TableRow",
                                                         "id": {
@@ -13426,60 +12670,6 @@
                                                                         "_id_": 53675,
                                                                         "_type": "View.TextAlignment",
                                                                         "value_": "center"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 54552,
-                                                        "_type": "TableRow",
-                                                        "id": {
-                                                            "_id_": 54553,
-                                                            "_type": "String",
-                                                            "value_": "botton"
-                                                        },
-                                                        "views": {
-                                                            "_id_": 54554,
-                                                            "_type": "ViewList",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54555,
-                                                                    "_type": "Button",
-                                                                    "onClick": {
-                                                                        "_id_": 54556,
-                                                                        "_type": "Sequence",
-                                                                        "list_": [
-                                                                            {
-                                                                                "_id_": 54557,
-                                                                                "_type": "ShowToast",
-                                                                                "message": {
-                                                                                    "_id_": 54558,
-                                                                                    "_type": "String",
-                                                                                    "value_": "Nombre cambiado con exito! "
-                                                                                }
-                                                                            }
-                                                                        ]
-                                                                    },
-                                                                    "id": {
-                                                                        "_id_": 54559,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_width": {
-                                                                        "_id_": 54560,
-                                                                        "_type": "View.SpecialDimension",
-                                                                        "value_": "wrap_content"
-                                                                    },
-                                                                    "android:text": {
-                                                                        "_id_": 54561,
-                                                                        "_type": "String",
-                                                                        "value_": ""
-                                                                    },
-                                                                    "android:layout_centerHorizontal": {
-                                                                        "_id_": 54562,
-                                                                        "_type": "Boolean",
-                                                                        "value_": true
                                                                     }
                                                                 }
                                                             ]
