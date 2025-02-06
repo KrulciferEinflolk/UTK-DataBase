@@ -9525,34 +9525,6 @@
                                                             "_type": "String",
                                                             "value_": "rename1"
                                                         },
-                                                        "onTextChange": {
-                                                            "_id_": 54948,
-                                                            "_type": "Sequence",
-                                                            "list_": [
-                                                                {
-                                                                    "_id_": 54949,
-                                                                    "_type": "Variable.Set",
-                                                                    "name": {
-                                                                        "_id_": 54950,
-                                                                        "_type": "String",
-                                                                        "value_": "name1"
-                                                                    },
-                                                                    "value": {
-                                                                        "_id_": 54951,
-                                                                        "_type": "TextView.GetText",
-                                                                        "view": {
-                                                                            "_id_": 54952,
-                                                                            "_type": "View.Reference",
-                                                                            "ref": {
-                                                                                "_id_": 54953,
-                                                                                "_type": "String",
-                                                                                "value_": "@id\/rename1"
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
                                                         "android:maxLength": {
                                                             "_id_": 54954,
                                                             "_type": "Integer",
@@ -9694,6 +9666,43 @@
                                                             "_id_": 54983,
                                                             "_type": "View.TextAlignment",
                                                             "value_": "center"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 55123,
+                                                        "_type": "Button",
+                                                        "onClick": {
+                                                            "_id_": 55135,
+                                                            "_type": "Sequence",
+                                                            "list_": [
+                                                                {
+                                                                    "_id_": 55136,
+                                                                    "_type": "Variable.Set",
+                                                                    "name": {
+                                                                        "_id_": 55137,
+                                                                        "_type": "String",
+                                                                        "value_": "name1"
+                                                                    },
+                                                                    "value": {
+                                                                        "_id_": 55138,
+                                                                        "_type": "TextView.GetText",
+                                                                        "view": {
+                                                                            "_id_": 55139,
+                                                                            "_type": "View.Reference",
+                                                                            "ref": {
+                                                                                "_id_": 55140,
+                                                                                "_type": "String",
+                                                                                "value_": "@id\/rename1"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": {
+                                                            "_id_": 55128,
+                                                            "_type": "String",
+                                                            "value_": ""
                                                         }
                                                     },
                                                     {
