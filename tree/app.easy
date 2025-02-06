@@ -3555,17 +3555,17 @@
                                                                                                 "_id_": 42721,
                                                                                                 "_type": "Variable.Set",
                                                                                                 "name": {
-                                                                                                    "_id_": 42722,
+                                                                                                    "_id_": 42732,
                                                                                                     "_type": "String",
-                                                                                                    "value_": "name1"
+                                                                                                    "value_": "name2"
                                                                                                 },
                                                                                                 "value": {
                                                                                                     "_id_": 42723,
                                                                                                     "_type": "Variable.Get",
                                                                                                     "name": {
-                                                                                                        "_id_": 42724,
+                                                                                                        "_id_": 42734,
                                                                                                         "_type": "String",
-                                                                                                        "value_": "carpeta1"
+                                                                                                        "value_": "carpeta2"
                                                                                                     }
                                                                                                 }
                                                                                             },
@@ -6249,42 +6249,6 @@
                 }
             },
             {
-                "_id_": 42660,
-                "_type": "Variable",
-                "init": {
-                    "_id_": 42677,
-                    "_type": "TextView.SetText",
-                    "view": {
-                        "_id_": 42679,
-                        "_type": "View.Reference",
-                        "ref": {
-                            "_id_": 42681,
-                            "_type": "String",
-                            "value_": "@id\/var1"
-                        }
-                    },
-                    "text": {
-                        "_id_": 42685,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 42688,
-                            "_type": "String",
-                            "value_": "carpeta1"
-                        }
-                    }
-                },
-                "name": {
-                    "_id_": 42661,
-                    "_type": "String",
-                    "value_": "name1"
-                },
-                "persist": {
-                    "_id_": 42662,
-                    "_type": "Boolean",
-                    "value_": true
-                }
-            },
-            {
                 "_id_": 21768,
                 "_type": "Variable",
                 "name": {
@@ -6299,6 +6263,20 @@
                 }
             },
             {
+                "_id_": 42660,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 42661,
+                    "_type": "String",
+                    "value_": "name1"
+                },
+                "persist": {
+                    "_id_": 42662,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
                 "_id_": 21762,
                 "_type": "Variable",
                 "name": {
@@ -6308,6 +6286,20 @@
                 },
                 "persist": {
                     "_id_": 21764,
+                    "_type": "Boolean",
+                    "value_": true
+                }
+            },
+            {
+                "_id_": 42725,
+                "_type": "Variable",
+                "name": {
+                    "_id_": 42726,
+                    "_type": "String",
+                    "value_": "name2"
+                },
+                "persist": {
+                    "_id_": 42727,
                     "_type": "Boolean",
                     "value_": true
                 }
