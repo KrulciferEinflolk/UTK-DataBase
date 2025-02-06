@@ -9433,6 +9433,11 @@
                                                     "color_": -10856823
                                                 }
                                             },
+                                            "android:layout_height": {
+                                                "_id_": 57601,
+                                                "_type": "View.SpecialDimension",
+                                                "value_": "wrap_content"
+                                            },
                                             "android:padding": {
                                                 "_id_": 56954,
                                                 "_type": "Dimension",
