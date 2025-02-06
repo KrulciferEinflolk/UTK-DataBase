@@ -7811,6 +7811,20 @@
                                                                                         "value_": 40
                                                                                     }
                                                                                 },
+                                                                                "android:layout_marginTop": {
+                                                                                    "_id_": 46264,
+                                                                                    "_type": "Dimension",
+                                                                                    "unit": {
+                                                                                        "_id_": 46265,
+                                                                                        "_type": "DimensionUnit",
+                                                                                        "value_": "dp"
+                                                                                    },
+                                                                                    "value": {
+                                                                                        "_id_": 46266,
+                                                                                        "_type": "Float",
+                                                                                        "value_": 10
+                                                                                    }
+                                                                                },
                                                                                 "android:layout_marginBottom": {
                                                                                     "_id_": 40393,
                                                                                     "_type": "Dimension",
@@ -7823,20 +7837,6 @@
                                                                                         "_id_": 40395,
                                                                                         "_type": "Float",
                                                                                         "value_": 30
-                                                                                    }
-                                                                                },
-                                                                                "android:layout_marginVertical": {
-                                                                                    "_id_": 40396,
-                                                                                    "_type": "Dimension",
-                                                                                    "unit": {
-                                                                                        "_id_": 40397,
-                                                                                        "_type": "DimensionUnit",
-                                                                                        "value_": "dp"
-                                                                                    },
-                                                                                    "value": {
-                                                                                        "_id_": 40398,
-                                                                                        "_type": "Float",
-                                                                                        "value_": 10
                                                                                     }
                                                                                 }
                                                                             }
