@@ -8407,17 +8407,17 @@
                                                             }
                                                         },
                                                         "android:minHeight": {
-                                                            "_id_": 46138,
+                                                            "_id_": 46239,
                                                             "_type": "Dimension",
                                                             "unit": {
-                                                                "_id_": 46139,
+                                                                "_id_": 46240,
                                                                 "_type": "DimensionUnit",
                                                                 "value_": "dp"
                                                             },
                                                             "value": {
-                                                                "_id_": 46140,
+                                                                "_id_": 46241,
                                                                 "_type": "Float",
-                                                                "value_": 0
+                                                                "value_": 420
                                                             }
                                                         }
                                                     }
