@@ -9703,6 +9703,16 @@
                                                             "_id_": 55128,
                                                             "_type": "String",
                                                             "value_": ""
+                                                        },
+                                                        "android:layout_width": {
+                                                            "_id_": 55142,
+                                                            "_type": "View.SpecialDimension",
+                                                            "value_": "wrap_content"
+                                                        },
+                                                        "android:text": {
+                                                            "_id_": 55141,
+                                                            "_type": "String",
+                                                            "value_": "Establecer nombre"
                                                         }
                                                     },
                                                     {
