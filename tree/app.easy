@@ -9697,6 +9697,11 @@
                                                                         "_type": "Boolean",
                                                                         "value_": true
                                                                     },
+                                                                    "android:layout_centerHorizontal": {
+                                                                        "_id_": 54494,
+                                                                        "_type": "Boolean",
+                                                                        "value_": true
+                                                                    },
                                                                     "android:textAlignment": {
                                                                         "_id_": 52925,
                                                                         "_type": "View.TextAlignment",
